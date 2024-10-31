@@ -1,0 +1,35 @@
+{
+    "total_func": 219924,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Cisco-Talos@@clamav-clamav-1.0.0-rc2/cli_scandmg@@@libclamav@#@dmg.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-20052_CWE-XXXX-XXXX_e835e2f9d1277ccdc1c90167f4240ef439c9ac3c_CVE-2023-20052_e835e2f9d1277ccdc1c90167f4240ef439c9ac3c_dmg.c_1.1_cli_scandmg_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Cisco-Talos@@clamav-clamav-1.0.0-rc2/hfsplus_check_attribute@@@libclamav@#@hfsplus.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-20032_CWE-XXXX-XXXX_0ecaf8fc059660c6db7f3ebb30b22c4210833244_CVE-2023-20032_0ecaf8fc059660c6db7f3ebb30b22c4210833244_hfsplus.c_1.1_hfsplus_check_attribute_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/Cisco-Talos@@clamav-clamav-1.0.0-rc2/hfsplus_fetch_node@@@libclamav@#@hfsplus.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-20032_CWE-XXXX-XXXX_0ecaf8fc059660c6db7f3ebb30b22c4210833244_CVE-2023-20032_0ecaf8fc059660c6db7f3ebb30b22c4210833244_hfsplus.c_1.1_hfsplus_fetch_node_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/Cisco-Talos@@clamav-clamav-1.0.0-rc2/hfsplus_walk_catalog@@@libclamav@#@hfsplus.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-20032_CWE-XXXX-XXXX_0ecaf8fc059660c6db7f3ebb30b22c4210833244_CVE-2023-20032_0ecaf8fc059660c6db7f3ebb30b22c4210833244_hfsplus.c_1.1_hfsplus_walk_catalog_OLD.vul"
+            ]
+        }
+    ]
+}

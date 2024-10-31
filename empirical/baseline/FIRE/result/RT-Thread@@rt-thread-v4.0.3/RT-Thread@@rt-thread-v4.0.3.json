@@ -1,0 +1,28 @@
+{
+    "total_func": 404536,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.0.3/dfs_win32_getdents@@@bsp@#@simulator@#@drivers@#@dfs_win32.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs_win32.c_1.1_dfs_win32_getdents_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.0.3/directory_delete_for_msh@@@components@#@finsh@#@msh_file.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_msh_file.c_1.1_directory_delete_for_msh_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.0.3/dfs_normalize_path@@@components@#@dfs@#@src@#@dfs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs.c_1.1_dfs_normalize_path_OLD.vul"
+            ]
+        }
+    ]
+}

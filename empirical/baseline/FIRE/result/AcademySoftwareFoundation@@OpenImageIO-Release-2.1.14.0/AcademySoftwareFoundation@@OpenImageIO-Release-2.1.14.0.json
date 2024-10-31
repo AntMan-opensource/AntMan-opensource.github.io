@@ -1,0 +1,21 @@
+{
+    "total_func": 223483,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AcademySoftwareFoundation@@OpenImageIO-Release-2.1.14.0/read_subimage_data@@@src@#@gif.imageio@#@gifinput.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-42299_CWE-XXXX-XXXX_5ff2c56dd28e96f67ed8f80d8a3d1235e51f9957_CVE-2023-42299_5ff2c56dd28e96f67ed8f80d8a3d1235e51f9957_gifinput.cpp_1.1_GIFInput :: read_subimage_data_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/AcademySoftwareFoundation@@OpenImageIO-Release-2.1.14.0/readimg@@@src@#@ico.imageio@#@icoinput.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36183_CWE-XXXX-XXXX_749a557b5eed75a1b1c728e6287e4ca8e2e0be1e_CVE-2023-36183_749a557b5eed75a1b1c728e6287e4ca8e2e0be1e_icoinput.cpp_1.1_ICOInput :: readimg_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "total_func": 1555,
+    "cnt": 11,
+    "all": 11,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/gif_read_image@@@htmldoc@#@image.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0534_CWE-XXXX-XXXX_312f0f9c12f26fbe015cd0e6cefa40e4b99017d9_CVE-2022-0534_312f0f9c12f26fbe015cd0e6cefa40e4b99017d9_image.cxx_1.1_gif_read_image_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/render_table_row@@@htmldoc@#@ps-pdf.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-23206_CWE-XXXX-XXXX_ba61a3ece382389ae4482c7027af8b32e8ab4cc8_CVE-2021-23206_ba61a3ece382389ae4482c7027af8b32e8ab4cc8_ps-pdf.cxx_1.1_render_table_row_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/file_rlookup@@@htmldoc@#@file.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-23191_CWE-XXXX-XXXX_369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc_CVE-2021-23191_369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc_file.c_1.1_file_rlookup_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/parse_table@@@htmldoc@#@ps-pdf.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-23206_CWE-XXXX-XXXX_ba61a3ece382389ae4482c7027af8b32e8ab4cc8_CVE-2021-23206_ba61a3ece382389ae4482c7027af8b32e8ab4cc8_ps-pdf.cxx_1.1_parse_table_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/image_set_mask@@@htmldoc@#@image.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0137_CWE-XXXX-XXXX_71fe87878c9cbc3db429f5e5c70f28e4b3d96e3b_CVE-2022-0137_71fe87878c9cbc3db429f5e5c70f28e4b3d96e3b_image.cxx_1.1_image_set_mask_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/pspdf_prepare_page@@@htmldoc@#@ps-pdf.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-23191_CWE-XXXX-XXXX_369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc_CVE-2021-23191_369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc_ps-pdf.cxx_1.1_pspdf_prepare_page_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/file_extension@@@htmldoc@#@file.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-23180_CWE-XXXX-XXXX_19c582fb32eac74b57e155cffbb529377a9e751a_CVE-2021-23180_19c582fb32eac74b57e155cffbb529377a9e751a_file.c_1.1_file_extension_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/httpAddrListen@@@htmldoc@#@http-addr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-35235_CWE-XXXX-XXXX_ff1f8a623e090dee8a8aadf12a6a4b25efac143d_CVE-2024-35235_ff1f8a623e090dee8a8aadf12a6a4b25efac143d_http-addr.c_1.1_httpAddrListen_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/pdf_write_names@@@htmldoc@#@ps-pdf.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28085_CWE-XXXX-XXXX_46c8ec2b9bccb8ccabff52d998c5eee77a228348_CVE-2022-28085_46c8ec2b9bccb8ccabff52d998c5eee77a228348_ps-pdf.cxx_1.1_pdf_write_names_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/image_load_png@@@htmldoc@#@image.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-27114_CWE-XXXX-XXXX_31f780487e5ddc426888638786cdc47631687275_CVE-2022-27114_31f780487e5ddc426888638786cdc47631687275_image.cxx_1.1_image_load_png_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.11/write_trailer@@@htmldoc@#@ps-pdf.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-23191_CWE-XXXX-XXXX_369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc_CVE-2021-23191_369b2ea1fd0d0537ba707f20a2f047b6afd2fbdc_ps-pdf.cxx_1.1_write_trailer_OLD.vul"
+            ]
+        }
+    ]
+}

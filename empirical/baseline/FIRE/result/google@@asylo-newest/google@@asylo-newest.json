@@ -1,0 +1,28 @@
+{
+    "total_func": 7455,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/google@@asylo-newest/enc_untrusted_syscall@@@asylo@#@platform@#@system_call@#@system_call.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22552_CWE-XXXX-XXXX_90d7619e9dd99bcdb6cd28c7649d741d254d9a1a_CVE-2021-22552_90d7619e9dd99bcdb6cd28c7649d741d254d9a1a_system_call.cc_1.1_enc_untrusted_syscall_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/google@@asylo-newest/UntrustedCall@@@asylo@#@platform@#@primitives@#@sgx@#@trusted_sgx.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22548_CWE-XXXX-XXXX_53ed5d8fd8118ced1466e509606dd2f473707a5c_CVE-2021-22548_53ed5d8fd8118ced1466e509606dd2f473707a5c_trusted_sgx.cc_1.1_TrustedPrimitives :: UntrustedCall_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/google@@asylo-newest/GetBuffer@@@asylo@#@platform@#@primitives@#@sgx@#@untrusted_cache_malloc.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22550_CWE-XXXX-XXXX_a47ef55db2337d29de19c50cd29b0deb2871d31c_CVE-2021-22550_a47ef55db2337d29de19c50cd29b0deb2871d31c_untrusted_cache_malloc.cc_1.1_UntrustedCacheMalloc :: GetBuffer_OLD.vul"
+            ]
+        }
+    ]
+}

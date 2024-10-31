@@ -1,0 +1,35 @@
+{
+    "total_func": 9206,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/antirez@@redis-7.2.4/quicklistPushHead@@@src@#@quicklist.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32628_CWE-XXXX-XXXX_f6a40570fa63d5afdd596c78083d754081d80ae3_CVE-2021-32628_f6a40570fa63d5afdd596c78083d754081d80ae3_quicklist.c_1.1_quicklistPushHead_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/antirez@@redis-7.2.4/pushGenericCommand@@@src@#@t_list.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32628_CWE-XXXX-XXXX_f6a40570fa63d5afdd596c78083d754081d80ae3_CVE-2021-32628_f6a40570fa63d5afdd596c78083d754081d80ae3_t_list.c_1.1_pushGenericCommand_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/antirez@@redis-7.2.4/hi_sdsnewlen@@@deps@#@hiredis@#@sds.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-21309_CWE-XXXX-XXXX_c992857618db99776917f10bf4f2345a5fdc78b0_CVE-2021-21309_c992857618db99776917f10bf4f2345a5fdc78b0_sds.c_1.1_sdsnewlen_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/antirez@@redis-7.2.4/lremCommand@@@src@#@t_list.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32628_CWE-XXXX-XXXX_f6a40570fa63d5afdd596c78083d754081d80ae3_CVE-2021-32628_f6a40570fa63d5afdd596c78083d754081d80ae3_t_list.c_1.1_lremCommand_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "total_func": 530,
+    "cnt": 10,
+    "all": 10,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_parse_huff@@@src@#@read.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3889_CWE-XXXX-XXXX_bec783e6212439a335ba6e8df7ab8ed610ca9a21_CVE-2021-3889_bec783e6212439a335ba6e8df7ab8ed610ca9a21_read.c_1.1_mobi_parse_huff_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_search_links_kf7@@@src@#@parse_rawml.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1908_CWE-XXXX-XXXX_1e0378e6f9e4ae415cedc9eb10850888897c5dba_CVE-2022-1908_1e0378e6f9e4ae415cedc9eb10850888897c5dba_parse_rawml.c_1.1_mobi_search_links_kf7_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_get_attribute_value@@@src@#@parse_rawml.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1908_CWE-XXXX-XXXX_1e0378e6f9e4ae415cedc9eb10850888897c5dba_CVE-2022-1908_1e0378e6f9e4ae415cedc9eb10850888897c5dba_parse_rawml.c_1.1_mobi_get_attribute_value_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_trie_insert_infl@@@src@#@index.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29788_CWE-XXXX-XXXX_ce0ab6586069791b1e8e2a42f44318e581c39939_CVE-2022-29788_ce0ab6586069791b1e8e2a42f44318e581c39939_index.c_1.1_mobi_trie_insert_infl_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_parse_index_entry@@@src@#@index.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1987_CWE-XXXX-XXXX_612562bc1ea38f1708b044e7a079c47a05b1291d_CVE-2022-1987_612562bc1ea38f1708b044e7a079c47a05b1291d_index.c_1.1_mobi_parse_index_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_find_attrvalue@@@src@#@parse_rawml.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1908_CWE-XXXX-XXXX_1e0378e6f9e4ae415cedc9eb10850888897c5dba_CVE-2022-1908_1e0378e6f9e4ae415cedc9eb10850888897c5dba_parse_rawml.c_1.1_mobi_find_attrvalue_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_parse_huffdic@@@src@#@read.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3888_CWE-XXXX-XXXX_c78e186739b50d156cb3da5d08d70294f0490853_CVE-2021-3888_c78e186739b50d156cb3da5d08d70294f0490853_read.c_1.1_mobi_parse_huffdic_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_decompress_huffman_internal@@@src@#@compression.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3889_CWE-XXXX-XXXX_bec783e6212439a335ba6e8df7ab8ed610ca9a21_CVE-2021-3889_bec783e6212439a335ba6e8df7ab8ed610ca9a21_compression.c_1.1_mobi_decompress_huffman_internal_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/mobi_decode_infl@@@src@#@index.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1533_CWE-XXXX-XXXX_eafc415bc6067e72577f70d6dd5acbf057ce6e6f_CVE-2022-1533_eafc415bc6067e72577f70d6dd5acbf057ce6e6f_index.c_1.1_mobi_decode_infl_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/bfabiszewski@@libmobi-v0.5/buffer_move@@@src@#@buffer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3751_CWE-XXXX-XXXX_ab5bf0e37e540eac682a14e628853b918626e72b_CVE-2021-3751_ab5bf0e37e540eac682a14e628853b918626e72b_buffer.c_1.1_mobi_buffer_move_OLD.vul"
+            ]
+        }
+    ]
+}

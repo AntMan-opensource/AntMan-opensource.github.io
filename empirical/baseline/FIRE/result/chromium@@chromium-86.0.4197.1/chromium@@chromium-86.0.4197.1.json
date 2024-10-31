@@ -1,0 +1,49 @@
+{
+    "total_func": 909711,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/chromium@@chromium-86.0.4197.1/xmlValidNormalizeAttributeValue@@@third_party@#@libxml@#@src@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlValidNormalizeAttributeValue_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/chromium@@chromium-86.0.4197.1/xmlTextReaderRemoveID@@@third_party@#@libxml@#@src@#@xmlreader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/chromium@@chromium-86.0.4197.1/xmlRemoveID@@@third_party@#@libxml@#@src@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/chromium@@chromium-86.0.4197.1/xmlAddRef@@@third_party@#@libxml@#@src@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlAddRef_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/chromium@@chromium-86.0.4197.1/xmlValidCtxtNormalizeAttributeValue@@@third_party@#@libxml@#@src@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlValidCtxtNormalizeAttributeValue_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/chromium@@chromium-86.0.4197.1/xmlAddID@@@third_party@#@libxml@#@src@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlAddID_OLD.vul"
+            ]
+        }
+    ]
+}

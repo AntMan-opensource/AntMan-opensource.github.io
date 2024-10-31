@@ -1,0 +1,14 @@
+{
+    "total_func": 217015,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Meituan-Dianping@@Logan-1.2.8/mbedtls_x509_set_extension@@@Logan@#@mbedtls@#@library@#@x509_create.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23775_CWE-XXXX-XXXX_e90cbc3d1260901efc879178a15f2d90a5e17612_CVE-2024-23775_e90cbc3d1260901efc879178a15f2d90a5e17612_x509_create.c_1.1_mbedtls_x509_set_extension_OLD.vul"
+            ]
+        }
+    ]
+}

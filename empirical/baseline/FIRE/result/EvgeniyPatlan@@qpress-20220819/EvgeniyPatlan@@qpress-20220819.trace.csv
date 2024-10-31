@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/EvgeniyPatlan@@qpress-20220819/decompress_directory@@@qpress.cpp,./cache/old_new_funcs/vul/sample/CVE-2022-45866_CWE-XXXX-XXXX_ddb312090ebd5794e81bc6fb1dfb4e79eda48761_CVE-2022-45866_ddb312090ebd5794e81bc6fb1dfb4e79eda48761_qpress.cpp_1.1_decompress_directory_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-45866_CWE-XXXX-XXXX_ddb312090ebd5794e81bc6fb1dfb4e79eda48761_CVE-2022-45866_ddb312090ebd5794e81bc6fb1dfb4e79eda48761_qpress.cpp_1.1_decompress_directory_NEW.vul,"[True, 'no del line', False]",False

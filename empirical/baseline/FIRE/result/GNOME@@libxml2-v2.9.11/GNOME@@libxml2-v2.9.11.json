@@ -1,0 +1,56 @@
+{
+    "total_func": 5683,
+    "cnt": 7,
+    "all": 7,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/GNOME@@libxml2-v2.9.11/xmlValidNormalizeAttributeValue@@@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlValidNormalizeAttributeValue_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/GNOME@@libxml2-v2.9.11/xmlRemoveID@@@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/GNOME@@libxml2-v2.9.11/xmlTextReaderRemoveID@@@xmlreader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/GNOME@@libxml2-v2.9.11/xmlTextReaderRemoveRef@@@xmlreader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/GNOME@@libxml2-v2.9.11/xmlAddID@@@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlAddID_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/GNOME@@libxml2-v2.9.11/xmlAddRef@@@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlAddRef_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/GNOME@@libxml2-v2.9.11/xmlValidCtxtNormalizeAttributeValue@@@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlValidCtxtNormalizeAttributeValue_OLD.vul"
+            ]
+        }
+    ]
+}

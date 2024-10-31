@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/TigerVNC@@tigervnc-v1.12.90/setParam@@@common@#@rfb@#@CSecurityTLS.cxx,./cache/old_new_funcs/vul/sample/CVE-2020-26117_CWE-XXXX-XXXX_7399eab79a4365434d26494fa1628ce1eb91562b_CVE-2020-26117_7399eab79a4365434d26494fa1628ce1eb91562b_CSecurityTLS.cxx_1.1_CSecurityTLS :: setParam_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-26117_CWE-XXXX-XXXX_7399eab79a4365434d26494fa1628ce1eb91562b_CVE-2020-26117_7399eab79a4365434d26494fa1628ce1eb91562b_CSecurityTLS.cxx_1.1_CSecurityTLS :: setParam_NEW.vul,[False],False

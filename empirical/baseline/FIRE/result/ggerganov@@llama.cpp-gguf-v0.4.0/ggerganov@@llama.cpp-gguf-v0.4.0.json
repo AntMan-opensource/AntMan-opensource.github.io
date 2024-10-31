@@ -1,0 +1,14 @@
+{
+    "total_func": 3403,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ggerganov@@llama.cpp-gguf-v0.4.0/gguf_ex_read_0@@@examples@#@gguf@#@gguf.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-41130_CWE-XXXX-XXXX_07283b1a90e1320aae4762c7e03c879043910252_CVE-2024-41130_07283b1a90e1320aae4762c7e03c879043910252_gguf.cpp_1.1_gguf_ex_read_0_OLD.vul"
+            ]
+        }
+    ]
+}

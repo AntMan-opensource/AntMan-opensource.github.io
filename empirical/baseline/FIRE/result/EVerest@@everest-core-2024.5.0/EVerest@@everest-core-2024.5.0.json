@@ -1,0 +1,14 @@
+{
+    "total_func": 2780,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/EVerest@@everest-core-2024.5.0/v2g_incoming_v2gtp@@@modules@#@EvseV2G@#@v2g_server.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37310_CWE-XXXX-XXXX_f73620c4c0f626e1097068a47e10cc27b369ad8e_CVE-2024-37310_f73620c4c0f626e1097068a47e10cc27b369ad8e_v2g_server.cpp_1.1_v2g_incoming_v2gtp_OLD.vul"
+            ]
+        }
+    ]
+}

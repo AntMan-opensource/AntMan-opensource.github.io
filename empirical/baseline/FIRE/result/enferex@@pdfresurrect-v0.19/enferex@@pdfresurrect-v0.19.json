@@ -1,0 +1,21 @@
+{
+    "total_func": 37,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/enferex@@pdfresurrect-v0.19/pdf_is_pdf@@@pdf.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-20740_CWE-XXXX-XXXX_1b422459f07353adce2878806d5247d9e91fb397_CVE-2020-20740_1b422459f07353adce2878806d5247d9e91fb397_pdf.c_1.1_pdf_is_pdf_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/enferex@@pdfresurrect-v0.19/pdf_get_version@@@pdf.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-20740_CWE-XXXX-XXXX_1b422459f07353adce2878806d5247d9e91fb397_CVE-2020-20740_1b422459f07353adce2878806d5247d9e91fb397_pdf.c_1.1_pdf_get_version_OLD.vul"
+            ]
+        }
+    ]
+}

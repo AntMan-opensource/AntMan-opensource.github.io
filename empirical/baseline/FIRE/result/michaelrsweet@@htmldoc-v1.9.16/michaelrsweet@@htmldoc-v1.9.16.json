@@ -1,0 +1,21 @@
+{
+    "total_func": 612,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.16/httpAddrListen@@@htmldoc@#@http-addr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-35235_CWE-XXXX-XXXX_ff1f8a623e090dee8a8aadf12a6a4b25efac143d_CVE-2024-35235_ff1f8a623e090dee8a8aadf12a6a4b25efac143d_http-addr.c_1.1_httpAddrListen_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/michaelrsweet@@htmldoc-v1.9.16/image_load_gif@@@htmldoc@#@image.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0137_CWE-XXXX-XXXX_71fe87878c9cbc3db429f5e5c70f28e4b3d96e3b_CVE-2022-0137_71fe87878c9cbc3db429f5e5c70f28e4b3d96e3b_image.cxx_1.1_image_load_gif_OLD.vul"
+            ]
+        }
+    ]
+}

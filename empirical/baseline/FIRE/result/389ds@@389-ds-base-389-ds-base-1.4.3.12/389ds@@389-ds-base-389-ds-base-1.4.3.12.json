@@ -1,0 +1,21 @@
+{
+    "total_func": 9759,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/389ds@@389-ds-base-389-ds-base-1.4.3.12/ldbm_back_bind@@@ldap@#@servers@#@slapd@#@back-ldbm@#@ldbm_bind.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-35518_CWE-XXXX-XXXX_b6aae4d8e7c8a6ddd21646f94fef1bf7f22c3f32_CVE-2020-35518_b6aae4d8e7c8a6ddd21646f94fef1bf7f22c3f32_ldbm_bind.c_1.1_ldbm_back_bind_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/389ds@@389-ds-base-389-ds-base-1.4.3.12/dse_bind@@@ldap@#@servers@#@slapd@#@dse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-35518_CWE-XXXX-XXXX_b6aae4d8e7c8a6ddd21646f94fef1bf7f22c3f32_CVE-2020-35518_b6aae4d8e7c8a6ddd21646f94fef1bf7f22c3f32_dse.c_1.1_dse_bind_OLD.vul"
+            ]
+        }
+    ]
+}

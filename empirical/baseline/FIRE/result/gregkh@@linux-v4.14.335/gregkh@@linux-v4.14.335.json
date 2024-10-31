@@ -1,0 +1,294 @@
+{
+    "total_func": 501339,
+    "cnt": 41,
+    "all": 41,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_se_removed@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/gregkh@@linux-v4.14.335/bt_sock_recvmsg@@@net@#@bluetooth@#@af_bluetooth.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-51779_CWE-XXXX-XXXX_2e07e8348ea454615e268222ae3fc240421be768_CVE-2023-51779_2e07e8348ea454615e268222ae3fc240421be768_af_bluetooth.c_1.1_bt_sock_recvmsg_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/gregkh@@linux-v4.14.335/elo_probe@@@drivers@#@hid@#@hid-elo.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-27950_CWE-XXXX-XXXX_817b8b9c5396d2b2d92311b46719aad5d3339dbe_CVE-2022-27950_817b8b9c5396d2b2d92311b46719aad5d3339dbe_hid-elo.c_1.1_elo_probe_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_target_lost@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/gregkh@@linux-v4.14.335/llcp_sock_bind@@@net@#@nfc@#@llcp_sock.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_sock.c_1.1_llcp_sock_bind_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/gregkh@@linux-v4.14.335/sanitize_ptr_alu@@@kernel@#@bpf@#@verifier.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-33624_CWE-XXXX-XXXX_9183671af6dbf60a1219371d4ed73e23f43b49db_CVE-2021-33624_9183671af6dbf60a1219371d4ed73e23f43b49db_verifier.c_1.1_sanitize_ptr_alu_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_set_remote_gb@@@net@#@nfc@#@llcp_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_set_remote_gb_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_se_connectivity@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/gregkh@@linux-v4.14.335/__close_fd@@@fs@#@file.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-21504_CWE-XXXX-XXXX_49c68f5f892d8c2be00e0a89ff2a035422c03b59_CVE-2022-21504_49c68f5f892d8c2be00e0a89ff2a035422c03b59_file.c_1.1___close_fd_get_file_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_llc_get_params@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_netlink.c_1.1_nfc_genl_llc_get_params_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nouveau_drm_unload@@@drivers@#@gpu@#@drm@#@nouveau@#@nouveau_drm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27820_CWE-XXXX-XXXX_c3d06f6067bf4a6bb3e988251e1b718a295bb60b_CVE-2020-27820_c3d06f6067bf4a6bb3e988251e1b718a295bb60b_nouveau_drm.c_1.1_nouveau_drm_device_fini_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_find_local@@@net@#@nfc@#@llcp_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_find_local_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/gregkh@@linux-v4.14.335/fib6_rule_suppress@@@net@#@ipv6@#@fib6_rules.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3022_CWE-XXXX-XXXX_a65120bae4b7_CVE-2023-3022_a65120bae4b7_fib6_rules.c_1.1_fib6_rule_suppress_OLD.vul"
+            ]
+        },
+        {
+            "id": 14,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_general_bytes@@@net@#@nfc@#@llcp_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_general_bytes_OLD.vul"
+            ]
+        },
+        {
+            "id": 15,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_data_received@@@net@#@nfc@#@llcp_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_data_received_OLD.vul"
+            ]
+        },
+        {
+            "id": 16,
+            "dst": "./processed/gregkh@@linux-v4.14.335/bq24190_remove@@@drivers@#@power@#@supply@#@bq24190_charger.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33288_CWE-XXXX-XXXX_47c29d69212911f50bdcdd0564b5999a559010d4_CVE-2023-33288_47c29d69212911f50bdcdd0564b5999a559010d4_bq24190_charger.c_1.1_bq24190_remove_OLD.vul"
+            ]
+        },
+        {
+            "id": 17,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_mac_is_up@@@net@#@nfc@#@llcp_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_mac_is_up_OLD.vul"
+            ]
+        },
+        {
+            "id": 18,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nouveau_drm_postclose@@@drivers@#@gpu@#@drm@#@nouveau@#@nouveau_drm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27820_CWE-XXXX-XXXX_c3d06f6067bf4a6bb3e988251e1b718a295bb60b_CVE-2020-27820_c3d06f6067bf4a6bb3e988251e1b718a295bb60b_nouveau_drm.c_1.1_nouveau_drm_postclose_OLD.vul"
+            ]
+        },
+        {
+            "id": 19,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_device_added@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 20,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_se_added@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 21,
+            "dst": "./processed/gregkh@@linux-v4.14.335/snd_ctl_elem_read_user@@@sound@#@core@#@control.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-0266_CWE-XXXX-XXXX_56b88b50565cd8b946a2d00b0c83927b7ebb055e_CVE-2023-0266_56b88b50565cd8b946a2d00b0c83927b7ebb055e_control.c_1.1_snd_ctl_elem_read_user_OLD.vul"
+            ]
+        },
+        {
+            "id": 22,
+            "dst": "./processed/gregkh@@linux-v4.14.335/tcp_mtu_probe@@@net@#@ipv4@#@tcp_output.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1678_CWE-XXXX-XXXX_0a70f118475e037732557796accd0878a00fc25a_CVE-2022-1678_0a70f118475e037732557796accd0878a00fc25a_tcp_output.c_1.1_tcp_mtu_probe_OLD.vul"
+            ]
+        },
+        {
+            "id": 23,
+            "dst": "./processed/gregkh@@linux-v4.14.335/llcp_raw_sock_bind@@@net@#@nfc@#@llcp_sock.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_sock.c_1.1_llcp_raw_sock_bind_OLD.vul"
+            ]
+        },
+        {
+            "id": 24,
+            "dst": "./processed/gregkh@@linux-v4.14.335/cifs_put_tcp_session@@@fs@#@cifs@#@connect.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-1195_CWE-XXXX-XXXX_153695d36ead0ccc4d0256953c751cabf673e621_CVE-2023-1195_153695d36ead0ccc4d0256953c751cabf673e621_connect.c_1.1_cifs_put_tcp_session_OLD.vul"
+            ]
+        },
+        {
+            "id": 25,
+            "dst": "./processed/gregkh@@linux-v4.14.335/tcp_internal_pacing@@@net@#@ipv4@#@tcp_output.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1678_CWE-XXXX-XXXX_0a70f118475e037732557796accd0878a00fc25a_CVE-2022-1678_0a70f118475e037732557796accd0878a00fc25a_tcp_output.c_1.1_tcp_internal_pacing_OLD.vul"
+            ]
+        },
+        {
+            "id": 26,
+            "dst": "./processed/gregkh@@linux-v4.14.335/sixpack_close@@@drivers@#@net@#@hamradio@#@6pack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1198_CWE-XXXX-XXXX_efe4186e6a1b54bf38b9e05450d43b0da1fd7739_CVE-2022-1198_efe4186e6a1b54bf38b9e05450d43b0da1fd7739_6pack.c_1.1_sixpack_close_OLD.vul"
+            ]
+        },
+        {
+            "id": 27,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_tm_activated@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 28,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_tm_deactivated@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 29,
+            "dst": "./processed/gregkh@@linux-v4.14.335/tegra_xusb_find_port_node@@@drivers@#@phy@#@tegra@#@xusb.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-23000_CWE-XXXX-XXXX_045a31b95509c8f25f5f04ec5e0dec5cd09f2c5f_CVE-2023-23000_045a31b95509c8f25f5f04ec5e0dec5cd09f2c5f_xusb.c_1.1_tegra_xusb_find_port_node_OLD.vul"
+            ]
+        },
+        {
+            "id": 30,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_mac_is_down@@@net@#@nfc@#@llcp_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_mac_is_down_OLD.vul"
+            ]
+        },
+        {
+            "id": 31,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_unregister_device@@@net@#@nfc@#@llcp_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_unregister_device_OLD.vul"
+            ]
+        },
+        {
+            "id": 32,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_device_removed@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1975_CWE-XXXX-XXXX_4071bf121d59944d5cd2238de0642f3d7995a997_CVE-2022-1975_4071bf121d59944d5cd2238de0642f3d7995a997_netlink.c_1.1_nfc_genl_fw_download_done_OLD.vul"
+            ]
+        },
+        {
+            "id": 33,
+            "dst": "./processed/gregkh@@linux-v4.14.335/x86_decode_insn@@@arch@#@x86@#@kvm@#@emulate.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8481_CWE-XXXX-XXXX_a430c9166312e1aa3d80bce32374233bdbfeba32_CVE-2014-8481_a430c9166312e1aa3d80bce32374233bdbfeba32_emulate.c_1.1_x86_decode_insn_OLD.vul"
+            ]
+        },
+        {
+            "id": 34,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_genl_llc_set_params@@@net@#@nfc@#@netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_netlink.c_1.1_nfc_genl_llc_set_params_OLD.vul"
+            ]
+        },
+        {
+            "id": 35,
+            "dst": "./processed/gregkh@@linux-v4.14.335/nfc_llcp_send_symm@@@net@#@nfc@#@llcp_commands.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_commands.c_1.1_nfc_llcp_send_symm_OLD.vul"
+            ]
+        },
+        {
+            "id": 36,
+            "dst": "./processed/gregkh@@linux-v4.14.335/save_all@@@arch@#@powerpc@#@kernel@#@process.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-15030_CWE-XXXX-XXXX_8205d5d98ef7f155de211f5e2eb6ca03d95a5a60_CVE-2019-15030_8205d5d98ef7f155de211f5e2eb6ca03d95a5a60_process.c_1.1_giveup_all_OLD.vul"
+            ]
+        },
+        {
+            "id": 37,
+            "dst": "./processed/gregkh@@linux-v4.14.335/skb_segment@@@net@#@core@#@skbuff.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-52435_CWE-XXXX-XXXX_23d05d563b7e7b0314e65c8e882bc27eac2da8e7_CVE-2023-52435_23d05d563b7e7b0314e65c8e882bc27eac2da8e7_skbuff.c_1.1_skb_segment_OLD.vul"
+            ]
+        },
+        {
+            "id": 38,
+            "dst": "./processed/gregkh@@linux-v4.14.335/__drm_atomic_state_free@@@drivers@#@gpu@#@drm@#@drm_atomic.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-51043_CWE-XXXX-XXXX_4e076c73e4f6e90816b30fcd4a0d7ab365087255_CVE-2023-51043_4e076c73e4f6e90816b30fcd4a0d7ab365087255_drm_atomic.c_1.1___drm_atomic_state_free_OLD.vul"
+            ]
+        },
+        {
+            "id": 39,
+            "dst": "./processed/gregkh@@linux-v4.14.335/fib6_rule_lookup@@@net@#@ipv6@#@fib6_rules.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3022_CWE-XXXX-XXXX_a65120bae4b7_CVE-2023-3022_a65120bae4b7_fib6_rules.c_1.1_fib6_rule_lookup_OLD.vul"
+            ]
+        },
+        {
+            "id": 40,
+            "dst": "./processed/gregkh@@linux-v4.14.335/__rds_conn_create@@@net@#@rds@#@connection.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-45480_CWE-XXXX-XXXX_5f9562ebe710c307adc5f666bf1a2162ee7977c0_CVE-2021-45480_5f9562ebe710c307adc5f666bf1a2162ee7977c0_connection.c_1.1___rds_conn_create_OLD.vul"
+            ]
+        },
+        {
+            "id": 41,
+            "dst": "./processed/gregkh@@linux-v4.14.335/put_ucounts@@@kernel@#@ucount.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24122_CWE-XXXX-XXXX_f9d87929d451d3e649699d0f1d74f71f77ad38f5_CVE-2022-24122_f9d87929d451d3e649699d0f1d74f71f77ad38f5_ucount.c_1.1_put_ucounts_OLD.vul"
+            ]
+        }
+    ]
+}

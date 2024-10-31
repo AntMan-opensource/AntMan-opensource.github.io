@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/ilanschnell@@bsdiff4-1.2.3/patch@@@bsdiff4@#@core.c,./cache/old_new_funcs/vul/sample/CVE-2020-15904_CWE-XXXX-XXXX_49a4cee2feef7deaf9d89e5e793a8824930284d7_CVE-2020-15904_49a4cee2feef7deaf9d89e5e793a8824930284d7_core.c_1.1_patch_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-15904_CWE-XXXX-XXXX_49a4cee2feef7deaf9d89e5e793a8824930284d7_CVE-2020-15904_49a4cee2feef7deaf9d89e5e793a8824930284d7_core.c_1.1_patch_NEW.vul,[False],False

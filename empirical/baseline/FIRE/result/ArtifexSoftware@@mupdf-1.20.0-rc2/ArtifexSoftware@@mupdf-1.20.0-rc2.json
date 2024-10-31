@@ -1,0 +1,21 @@
+{
+    "total_func": 222668,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ArtifexSoftware@@mupdf-1.20.0-rc2/pdf_mark_list_push@@@source@#@pdf@#@pdf-object.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-31794_CWE-XXXX-XXXX_c0015401693b58e2deb5d75c39f27bc1216e47c6_CVE-2023-31794_c0015401693b58e2deb5d75c39f27bc1216e47c6_pdf-object.c_1.1_pdf_mark_list_push_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ArtifexSoftware@@mupdf-1.20.0-rc2/gatherresourceinfo@@@source@#@tools@#@pdfinfo.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-31794_CWE-XXXX-XXXX_c0015401693b58e2deb5d75c39f27bc1216e47c6_CVE-2023-31794_c0015401693b58e2deb5d75c39f27bc1216e47c6_pdfinfo.c_1.1_gatherresourceinfo_OLD.vul"
+            ]
+        }
+    ]
+}

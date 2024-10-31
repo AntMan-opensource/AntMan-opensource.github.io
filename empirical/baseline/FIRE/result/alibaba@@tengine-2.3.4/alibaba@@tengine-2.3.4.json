@@ -1,0 +1,28 @@
+{
+    "total_func": 220084,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/alibaba@@tengine-2.3.4/ngx_mail_core_create_srv_conf@@@src@#@mail@#@ngx_mail_core_module.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3618_CWE-XXXX-XXXX_173f16f736c10eae46cd15dd861b04b82d91a37a_CVE-2021-3618_173f16f736c10eae46cd15dd861b04b82d91a37a_ngx_mail_core_module.c_1.1_ngx_mail_core_create_srv_conf_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/alibaba@@tengine-2.3.4/ngx_mail_read_command@@@src@#@mail@#@ngx_mail_handler.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3618_CWE-XXXX-XXXX_173f16f736c10eae46cd15dd861b04b82d91a37a_CVE-2021-3618_173f16f736c10eae46cd15dd861b04b82d91a37a_ngx_mail_handler.c_1.1_ngx_mail_read_command_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/alibaba@@tengine-2.3.4/ngx_http_lua_adjust_subrequest@@@modules@#@ngx_http_lua_module@#@src@#@ngx_http_lua_subrequest.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11724_CWE-XXXX-XXXX_9ab38e8ee35fc08a57636b1b6190dca70b0076fa_CVE-2020-11724_9ab38e8ee35fc08a57636b1b6190dca70b0076fa_ngx_http_lua_subrequest.c_1.1_ngx_http_lua_adjust_subrequest_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "total_func": 20421,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/gpac@@gpac-v2.4.0/SFS_FunctionCall@@@src@#@bifs@#@script_dec.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-3222_CWE-XXXX-XXXX_4e7736d7ec7bf64026daa611da951993bb42fdaf_CVE-2022-3222_4e7736d7ec7bf64026daa611da951993bb42fdaf_script_dec.c_1.1_SFS_ObjectMethodCall_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/gpac@@gpac-v2.4.0/SFS_NewObject@@@src@#@bifs@#@script_dec.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-3222_CWE-XXXX-XXXX_4e7736d7ec7bf64026daa611da951993bb42fdaf_CVE-2022-3222_4e7736d7ec7bf64026daa611da951993bb42fdaf_script_dec.c_1.1_SFS_ObjectMethodCall_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/gpac@@gpac-v2.4.0/add_eval_variables@@@src@#@quickjs@#@quickjs.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-48183_CWE-XXXX-XXXX_c4cdd61a3ed284cd760faf6b00bbf0cb908da077_CVE-2023-48183_c4cdd61a3ed284cd760faf6b00bbf0cb908da077_quickjs.c_1.1_add_eval_variables_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/gpac@@gpac-v2.4.0/swf_svg_add_iso_sample@@@src@#@filters@#@load_text.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-6062_CWE-XXXX-XXXX_31e499d310a48bd17c8b055a0bfe0fe35887a7cd_CVE-2024-6062_31e499d310a48bd17c8b055a0bfe0fe35887a7cd_load_text.c_1.1_swf_svg_add_iso_sample_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/gpac@@gpac-v2.4.0/gf_odf_read_descriptor_internal@@@src@#@odf@#@desc_private.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-38530_CWE-XXXX-XXXX_4e56ad72ac1afb4e049a10f2d99e7512d7141f9d_CVE-2022-38530_4e56ad72ac1afb4e049a10f2d99e7512d7141f9d_desc_private.c_1.1_gf_odf_read_descriptor_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/gpac@@gpac-v2.4.0/isoffin_process@@@src@#@filters@#@isoffin_read.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-6061_CWE-XXXX-XXXX_20c0f29139a82779b86453ce7f68d0681ec7624c_CVE-2024-6061_20c0f29139a82779b86453ce7f68d0681ec7624c_isoffin_read.c_1.1_isoffin_process_OLD.vul"
+            ]
+        }
+    ]
+}

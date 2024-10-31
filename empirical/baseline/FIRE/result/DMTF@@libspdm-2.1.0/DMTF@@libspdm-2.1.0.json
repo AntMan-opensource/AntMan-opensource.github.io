@@ -1,0 +1,14 @@
+{
+    "total_func": 2515,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/DMTF@@libspdm-2.1.0/libspdm_get_response_psk_finish@@@library@#@spdm_responder_lib@#@libspdm_rsp_psk_finish.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-31127_CWE-XXXX-XXXX_3167bcaba6a4d8662e13741c0f06699def0ff635_CVE-2023-31127_3167bcaba6a4d8662e13741c0f06699def0ff635_libspdm_rsp_psk_finish.c_1.1_libspdm_get_response_psk_finish_OLD.vul"
+            ]
+        }
+    ]
+}

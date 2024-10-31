@@ -1,0 +1,49 @@
+{
+    "total_func": 221913,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.0.7-25/RegisterStaticModules@@@MagickCore@#@static.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-39212_CWE-XXXX-XXXX_35893e7cad78ce461fcaffa56076c11700ba5e4e_CVE-2021-39212_35893e7cad78ce461fcaffa56076c11700ba5e4e_static.c_1.1_RegisterStaticModules_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.0.7-25/UnregisterStaticModules@@@MagickCore@#@static.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-39212_CWE-XXXX-XXXX_35893e7cad78ce461fcaffa56076c11700ba5e4e_CVE-2021-39212_35893e7cad78ce461fcaffa56076c11700ba5e4e_static.c_1.1_RegisterStaticModules_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.0.7-25/ReadEnhMetaFile@@@coders@#@emf.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32545_CWE-XXXX-XXXX_450949ed017f009b399c937cf362f0058eacc5fa_CVE-2022-32545_450949ed017f009b399c937cf362f0058eacc5fa_emf.c_1.1_ReadEnhMetaFile_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.0.7-25/ReadPCLImage@@@coders@#@pcl.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32546_CWE-XXXX-XXXX_29c8abce0da56b536542f76a9ddfebdaab5b2943_CVE-2022-32546_29c8abce0da56b536542f76a9ddfebdaab5b2943_pcl.c_1.1_ReadPCLImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.0.7-25/WritePICONImage@@@coders@#@xpm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0284_CWE-XXXX-XXXX_e50f19fd73c792ebe912df8ab83aa51a243a3da7_CVE-2022-0284_e50f19fd73c792ebe912df8ab83aa51a243a3da7_xpm.c_1.1_WritePICONImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.0.7-25/OptimizeLayerFrames@@@MagickCore@#@layer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27560_CWE-XXXX-XXXX_ef59bd764f88d893f1219fee8ba696a5d3f8c1c4_CVE-2020-27560_ef59bd764f88d893f1219fee8ba696a5d3f8c1c4_layer.c_1.1_OptimizeLayerFrames_OLD.vul"
+            ]
+        }
+    ]
+}

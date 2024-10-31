@@ -1,0 +1,21 @@
+{
+    "total_func": 3704,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Exiv2@@exiv2-v0.27.3-RC1/encodeJp2Header@@@src@#@jp2image.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-29464_CWE-XXXX-XXXX_f9308839198aca5e68a65194f151a1de92398f54_CVE-2021-29464_f9308839198aca5e68a65194f151a1de92398f54_jp2image.cpp_1.1_Jp2Image :: encodeJp2Header_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Exiv2@@exiv2-v0.27.3-RC1/doWriteMetadata@@@src@#@webpimage.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-29463_CWE-XXXX-XXXX_783b3a6ff15ed6f82a8f8e6c8a6f3b84a9b04d4b_CVE-2021-29463_783b3a6ff15ed6f82a8f8e6c8a6f3b84a9b04d4b_webpimage.cpp_1.1_WebPImage :: doWriteMetadata_OLD.vul"
+            ]
+        }
+    ]
+}

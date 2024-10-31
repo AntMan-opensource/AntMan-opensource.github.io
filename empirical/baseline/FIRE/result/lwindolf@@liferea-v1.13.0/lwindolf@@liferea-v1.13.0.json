@@ -1,0 +1,14 @@
+{
+    "total_func": 1405,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/lwindolf@@liferea-v1.13.0/update_job_run@@@src@#@update.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-1350_CWE-XXXX-XXXX_8d8b5b963fa64c7a2122d1bbfbb0bed46e813e59_CVE-2023-1350_8d8b5b963fa64c7a2122d1bbfbb0bed46e813e59_update.c_1.1_update_job_run_OLD.vul"
+            ]
+        }
+    ]
+}

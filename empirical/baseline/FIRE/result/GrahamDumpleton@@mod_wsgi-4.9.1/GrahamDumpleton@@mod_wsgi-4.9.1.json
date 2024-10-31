@@ -1,0 +1,14 @@
+{
+    "total_func": 254,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/GrahamDumpleton@@mod_wsgi-4.9.1/wsgi_process_proxy_headers@@@src@#@server@#@mod_wsgi.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-2255_CWE-XXXX-XXXX_af3c0c2736bc0b0b01fa0f0aad3c904b7fa9c751_CVE-2022-2255_af3c0c2736bc0b0b01fa0f0aad3c904b7fa9c751_mod_wsgi.c_1.1_wsgi_process_proxy_headers_OLD.vul"
+            ]
+        }
+    ]
+}

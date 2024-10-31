@@ -1,0 +1,42 @@
+{
+    "total_func": 237269,
+    "cnt": 5,
+    "all": 5,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/espruino@@Espruino-RELEASE_2V17/mbedtls_x509_set_extension@@@libs@#@crypto@#@mbedtls@#@library@#@x509_create.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23775_CWE-XXXX-XXXX_e90cbc3d1260901efc879178a15f2d90a5e17612_CVE-2024-23775_e90cbc3d1260901efc879178a15f2d90a5e17612_x509_create.c_1.1_mbedtls_x509_set_extension_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/espruino@@Espruino-RELEASE_2V17/decode_static_field@@@targetlibs@#@nrf5x_12@#@external@#@nano-pb@#@pb_decode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26243_CWE-XXXX-XXXX_4fe23595732b6f1254cfc11a9b8d6da900b55b0c_CVE-2020-26243_4fe23595732b6f1254cfc11a9b8d6da900b55b0c_pb_decode.c_1.1_decode_static_field_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/espruino@@Espruino-RELEASE_2V17/decode_pointer_field@@@targetlibs@#@nrf5x_12@#@external@#@nano-pb@#@pb_decode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-5235_CWE-XXXX-XXXX_aa9d0d1ca78d6adec3adfeecf3a706c7f9df81f2_CVE-2020-5235_aa9d0d1ca78d6adec3adfeecf3a706c7f9df81f2_pb_decode.c_1.1_decode_pointer_field_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/espruino@@Espruino-RELEASE_2V17/uECC_sign_with_k@@@targetlibs@#@nrf5x_15@#@external@#@micro-ecc@#@uECC.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27209_CWE-XXXX-XXXX_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_CVE-2020-27209_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_uECC.c_1.1_uECC_sign_with_k_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/espruino@@Espruino-RELEASE_2V17/uECC_sign_with_k@@@targetlibs@#@nrf5x_12@#@external@#@micro-ecc@#@uECC.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27209_CWE-XXXX-XXXX_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_CVE-2020-27209_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_uECC.c_1.1_uECC_sign_with_k_OLD.vul"
+            ]
+        }
+    ]
+}

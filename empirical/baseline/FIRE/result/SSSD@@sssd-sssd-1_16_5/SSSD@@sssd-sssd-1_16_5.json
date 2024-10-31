@@ -1,0 +1,35 @@
+{
+    "total_func": 8186,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/SSSD@@sssd-sssd-1_16_5/get_cert_prompt@@@src@#@responder@#@pam@#@pamsrv_p11.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-4254_CWE-XXXX-XXXX_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_CVE-2022-4254_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_pamsrv_p11.c_1.1_get_cert_prompt_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/SSSD@@sssd-sssd-1_16_5/expand_template@@@src@#@lib@#@certmap@#@sss_certmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-4254_CWE-XXXX-XXXX_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_CVE-2022-4254_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_sss_certmap.c_1.1_expand_template_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/SSSD@@sssd-sssd-1_16_5/get_filter@@@src@#@lib@#@certmap@#@sss_certmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-4254_CWE-XXXX-XXXX_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_CVE-2022-4254_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_sss_certmap.c_1.1_get_filter_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/SSSD@@sssd-sssd-1_16_5/test_sss_certmap_get_search_filter@@@src@#@tests@#@cmocka@#@test_certmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-4254_CWE-XXXX-XXXX_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_CVE-2022-4254_a2b9a84460429181f2a4fa7e2bb5ab49fd561274_test_certmap.c_1.1_test_sss_certmap_get_search_filter_OLD.vul"
+            ]
+        }
+    ]
+}

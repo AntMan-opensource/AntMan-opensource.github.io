@@ -1,0 +1,38 @@
+{
+    "total_func": 2477,
+    "cnt": 4,
+    "all": 7,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/davea42@@libdwarf-code-v0.8.0/_dwarf_error_destructor@@@src@#@lib@#@libdwarf@#@dwarf_alloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31745_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-31745_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_error_destructor_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2002_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-2002_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_error_destructor_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/davea42@@libdwarf-code-v0.8.0/_dwarf_add_to_static_err_list@@@src@#@lib@#@libdwarf@#@dwarf_alloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31745_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-31745_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_add_to_static_err_list_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2002_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-2002_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_add_to_static_err_list_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/davea42@@libdwarf-code-v0.8.0/_dwarf_get_alloc@@@src@#@lib@#@libdwarf@#@dwarf_alloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2002_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-2002_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_get_alloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/davea42@@libdwarf-code-v0.8.0/dwarf_dealloc@@@src@#@lib@#@libdwarf@#@dwarf_alloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2002_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-2002_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1_dwarf_dealloc_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31745_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-31745_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1_dwarf_dealloc_OLD.vul"
+            ]
+        }
+    ]
+}

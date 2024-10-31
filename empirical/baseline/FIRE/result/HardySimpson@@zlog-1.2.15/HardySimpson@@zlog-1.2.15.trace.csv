@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/HardySimpson@@zlog-1.2.15/zlog_rule_new@@@src@#@rule.c,./cache/old_new_funcs/vul/sample/CVE-2024-22857_CWE-XXXX-XXXX_c47f781a9f1e9604f5201e27d046d925d0d48ac4_CVE-2024-22857_c47f781a9f1e9604f5201e27d046d925d0d48ac4_rule.c_1.1_zlog_rule_new_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2024-22857_CWE-XXXX-XXXX_c47f781a9f1e9604f5201e27d046d925d0d48ac4_CVE-2024-22857_c47f781a9f1e9604f5201e27d046d925d0d48ac4_rule.c_1.1_zlog_rule_new_NEW.vul,"[True, True, True, 0.9848535846516324, 0.9756016042780749]",True

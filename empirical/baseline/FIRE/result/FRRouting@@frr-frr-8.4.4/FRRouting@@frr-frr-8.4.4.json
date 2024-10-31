@@ -1,0 +1,63 @@
+{
+    "total_func": 234106,
+    "cnt": 8,
+    "all": 8,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/parse_packet@@@babeld@#@message.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3748_CWE-XXXX-XXXX_0a95d121ca8e1f43d41d952d6c82d111ca850085_CVE-2023-3748_0a95d121ca8e1f43d41d952d6c82d111ca850085_message.c_1.1_parse_packet_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/bgp_attr_malformed@@@bgpd@#@bgp_attr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31948_CWE-XXXX-XXXX_ba6a8f1a31e1a88df2de69ea46068e8bd9b97138_CVE-2024-31948_ba6a8f1a31e1a88df2de69ea46068e8bd9b97138_bgp_attr.c_1.1_bgp_attr_malformed_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/bgp_attr_prefix_sid@@@bgpd@#@bgp_attr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31948_CWE-XXXX-XXXX_ba6a8f1a31e1a88df2de69ea46068e8bd9b97138_CVE-2024-31948_ba6a8f1a31e1a88df2de69ea46068e8bd9b97138_bgp_attr.c_1.1_bgp_attr_prefix_sid_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/bgp_attr_check@@@bgpd@#@bgp_attr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-47235_CWE-XXXX-XXXX_6814f2e0138a6ea5e1f83bdd9085d9a77999900b_CVE-2023-47235_6814f2e0138a6ea5e1f83bdd9085d9a77999900b_bgp_attr.c_1.1_bgp_attr_check_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/bgp_mp_reach_parse@@@bgpd@#@bgp_attr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46752_CWE-XXXX-XXXX_b08afc81c60607a4f736f418f2e3eb06087f1a35_CVE-2023-46752_b08afc81c60607a4f736f418f2e3eb06087f1a35_bgp_attr.c_1.1_bgp_mp_reach_parse_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/bgp_attr_parse@@@bgpd@#@bgp_attr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46753_CWE-XXXX-XXXX_d8482bf011cb2b173e85b65b4bf3d5061250cdb9_CVE-2023-46753_d8482bf011cb2b173e85b65b4bf3d5061250cdb9_bgp_attr.c_1.1_bgp_attr_parse_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/bgp_update_receive@@@bgpd@#@bgp_packet.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46752_CWE-XXXX-XXXX_b08afc81c60607a4f736f418f2e3eb06087f1a35_CVE-2023-46752_b08afc81c60607a4f736f418f2e3eb06087f1a35_bgp_packet.c_1.1_bgp_update_receive_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/FRRouting@@frr-frr-8.4.4/ospf_te_parse_te@@@ospfd@#@ospf_te.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-27913_CWE-XXXX-XXXX_541503eecd302d2cc8456167d130014cd2cf1134_CVE-2024-27913_541503eecd302d2cc8456167d130014cd2cf1134_ospf_te.c_1.1_ospf_te_parse_te_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "total_func": 215671,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OpenIDC@@cjose-v0.6.2/_cjose_jwe_decrypt_dat_aes_gcm@@@src@#@jwe.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37464_CWE-XXXX-XXXX_7325e9a5e71e2fc0e350487ecac7d84acdf0ed5e_CVE-2023-37464_7325e9a5e71e2fc0e350487ecac7d84acdf0ed5e_jwe.c_1.1__cjose_jwe_decrypt_dat_aes_gcm_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OpenIDC@@cjose-v0.6.2/cjose_jwe_suite@@@test@#@check_jwe.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37464_CWE-XXXX-XXXX_7325e9a5e71e2fc0e350487ecac7d84acdf0ed5e_CVE-2023-37464_7325e9a5e71e2fc0e350487ecac7d84acdf0ed5e_check_jwe.c_1.1_cjose_jwe_suite_OLD.vul"
+            ]
+        }
+    ]
+}

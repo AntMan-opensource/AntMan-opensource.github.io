@@ -1,0 +1,21 @@
+{
+    "total_func": 2295,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OpenPrinting@@cups-v2.4.0/httpAddrListen@@@cups@#@http-addr.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-35235_CWE-XXXX-XXXX_ff1f8a623e090dee8a8aadf12a6a4b25efac143d_CVE-2024-35235_ff1f8a623e090dee8a8aadf12a6a4b25efac143d_http-addr.c_1.1_httpAddrListen_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OpenPrinting@@cups-v2.4.0/cupsdAcceptClient@@@scheduler@#@client.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-34241_CWE-XXXX-XXXX_9809947a959e18409dcf562a3466ef246cb90cb2_CVE-2023-34241_9809947a959e18409dcf562a3466ef246cb90cb2_client.c_1.1_cupsdAcceptClient_OLD.vul"
+            ]
+        }
+    ]
+}

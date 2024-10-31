@@ -1,0 +1,14 @@
+{
+    "total_func": 48,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/editorconfig@@editorconfig-core-c-v0.12.5/ec_glob@@@src@#@lib@#@ec_glob.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-0341_CWE-XXXX-XXXX_41281ea82fbf24b060a9f69b9c5369350fb0529e_CVE-2023-0341_41281ea82fbf24b060a9f69b9c5369350fb0529e_ec_glob.c_1.1_ec_glob_OLD.vul"
+            ]
+        }
+    ]
+}

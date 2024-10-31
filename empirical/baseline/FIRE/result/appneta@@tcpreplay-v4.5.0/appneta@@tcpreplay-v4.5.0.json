@@ -1,0 +1,28 @@
+{
+    "total_func": 929,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/appneta@@tcpreplay-v4.5.0/dlt_pppserial_cleanup@@@src@#@tcpedit@#@plugins@#@dlt_pppserial@#@pppserial.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-27783_CWE-XXXX-XXXX_e831aad6d48874abab6efa37d4460da2be3ac765_CVE-2023-27783_e831aad6d48874abab6efa37d4460da2be3ac765_jnpr_ether.c_1.1_dlt_jnpr_ether_cleanup_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/appneta@@tcpreplay-v4.5.0/dlt_en10mb_cleanup@@@src@#@tcpedit@#@plugins@#@dlt_en10mb@#@en10mb.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-27783_CWE-XXXX-XXXX_e831aad6d48874abab6efa37d4460da2be3ac765_CVE-2023-27783_e831aad6d48874abab6efa37d4460da2be3ac765_jnpr_ether.c_1.1_dlt_jnpr_ether_cleanup_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/appneta@@tcpreplay-v4.5.0/dlt_linuxsll2_cleanup@@@src@#@tcpedit@#@plugins@#@dlt_linuxsll2@#@linuxsll2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-27783_CWE-XXXX-XXXX_e831aad6d48874abab6efa37d4460da2be3ac765_CVE-2023-27783_e831aad6d48874abab6efa37d4460da2be3ac765_jnpr_ether.c_1.1_dlt_jnpr_ether_cleanup_OLD.vul"
+            ]
+        }
+    ]
+}

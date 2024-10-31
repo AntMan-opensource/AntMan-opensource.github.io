@@ -1,0 +1,14 @@
+{
+    "total_func": 38712,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/juce-framework@@JUCE-6.1.0/deleteTemporaryFile@@@modules@#@juce_core@#@files@#@juce_TemporaryFile.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-23521_CWE-XXXX-XXXX_2e874e80cba0152201aff6a4d0dc407997d10a7f_CVE-2021-23521_2e874e80cba0152201aff6a4d0dc407997d10a7f_juce_TemporaryFile.cpp_1.1_TemporaryFile :: deleteTemporaryFile_OLD.vul"
+            ]
+        }
+    ]
+}

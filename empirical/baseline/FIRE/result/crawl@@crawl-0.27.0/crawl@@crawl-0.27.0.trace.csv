@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/crawl@@crawl-0.27.0/init_libraries@@@crawl-ref@#@source@#@clua.cc,./cache/old_new_funcs/vul/sample/CVE-2020-11722_CWE-XXXX-XXXX_768f60da87a3fa0b5561da5ade9309577c176d04_CVE-2020-11722_768f60da87a3fa0b5561da5ade9309577c176d04_clua.cc_1.1_CLua :: init_libraries_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-11722_CWE-XXXX-XXXX_768f60da87a3fa0b5561da5ade9309577c176d04_CVE-2020-11722_768f60da87a3fa0b5561da5ade9309577c176d04_clua.cc_1.1_CLua :: init_libraries_NEW.vul,"[True, 'no del line', False]",False

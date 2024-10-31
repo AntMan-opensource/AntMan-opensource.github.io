@@ -1,0 +1,14 @@
+{
+    "total_func": 3229,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.0.1/setFrameBuffer@@@src@#@lib@#@OpenEXR@#@ImfCompositeDeepScanLine.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-45942_CWE-XXXX-XXXX_11cad77da87c4fa2aab7d58dd5339e254db7937e_CVE-2021-45942_11cad77da87c4fa2aab7d58dd5339e254db7937e_ImfCompositeDeepScanLine.cpp_1.1_CompositeDeepScanLine :: setFrameBuffer_OLD.vul"
+            ]
+        }
+    ]
+}

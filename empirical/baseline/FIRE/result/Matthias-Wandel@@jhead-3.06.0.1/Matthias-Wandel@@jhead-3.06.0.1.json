@@ -1,0 +1,21 @@
+{
+    "total_func": 66,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Matthias-Wandel@@jhead-3.06.0.1/RegenerateThumbnail@@@jhead.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-41751_CWE-XXXX-XXXX_6985da52c9ad4f5f6c247269cb5508fae34a971c_CVE-2022-41751_6985da52c9ad4f5f6c247269cb5508fae34a971c_jhead.c_1.1_RegenerateThumbnail_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Matthias-Wandel@@jhead-3.06.0.1/DoCommand@@@jhead.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-28550_CWE-XXXX-XXXX_64894dbc7d8e1e232e85f1cab25c64290b2fc167_CVE-2022-28550_64894dbc7d8e1e232e85f1cab25c64290b2fc167_jhead.c_1.1_DoCommand_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/davidmoreno@@onion-newest/onion_response_flush@@@src@#@onion@#@response.c,.//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-4066_CWE-XXXX-XXXX_de8ea938342b36c28024fd8393ebc27b8442a161_CVE-2022-4066_de8ea938342b36c28024fd8393ebc27b8442a161_response.c_1.1_onion_response_flush_OLD.vul,.//3.FIRE/cache/old_new_funcs/no_vul/CVE-2022-4066_CWE-XXXX-XXXX_de8ea938342b36c28024fd8393ebc27b8442a161_CVE-2022-4066_de8ea938342b36c28024fd8393ebc27b8442a161_response.c_1.1_onion_response_flush_NEW.vul,[False],False

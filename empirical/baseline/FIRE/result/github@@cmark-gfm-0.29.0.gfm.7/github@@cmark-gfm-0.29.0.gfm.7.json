@@ -1,0 +1,106 @@
+{
+    "total_func": 566,
+    "cnt": 14,
+    "all": 15,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/add_child@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_add_child_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/S_ends_with_blank_line@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_S_ends_with_blank_line_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/main@@@api_test@#@main.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_main.c_1.1_main_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/S_process_line@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_S_process_line_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/S_can_contain@@@src@#@node.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_node.c_1.1_S_can_contain_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/cmark_syntax_extension_add_node@@@src@#@syntax_extension.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_syntax_extension.c_1.1_cmark_syntax_extension_add_node_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/xml_attr@@@extensions@#@table.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37463_CWE-XXXX-XXXX_38d1cfeba3ce457da53e77f9712dfbce95d8558c_CVE-2023-37463_38d1cfeba3ce457da53e77f9712dfbce95d8558c_table.c_1.1_xml_attr_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/check_open_blocks@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_check_open_blocks_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/cmark_parser_reset@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_cmark_parser_reset_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/add_text_to_container@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_add_text_to_container_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/finalize@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_finalize_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/html_render@@@extensions@#@table.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37463_CWE-XXXX-XXXX_38d1cfeba3ce457da53e77f9712dfbce95d8558c_CVE-2023-37463_38d1cfeba3ce457da53e77f9712dfbce95d8558c_table.c_1.1_html_render_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/try_opening_table_header@@@extensions@#@table.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_table.c_1.1_try_opening_table_header_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37463_CWE-XXXX-XXXX_38d1cfeba3ce457da53e77f9712dfbce95d8558c_CVE-2023-37463_38d1cfeba3ce457da53e77f9712dfbce95d8558c_table.c_1.1_try_opening_table_header_OLD.vul"
+            ]
+        },
+        {
+            "id": 14,
+            "dst": "./processed/github@@cmark-gfm-0.29.0.gfm.7/open_new_blocks@@@src@#@blocks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24824_CWE-XXXX-XXXX_2300c1bd2c8226108885bf019655c4159cf26b59_CVE-2023-24824_2300c1bd2c8226108885bf019655c4159cf26b59_blocks.c_1.1_open_new_blocks_OLD.vul"
+            ]
+        }
+    ]
+}

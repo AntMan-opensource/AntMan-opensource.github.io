@@ -1,0 +1,140 @@
+{
+    "total_func": 12514,
+    "cnt": 9,
+    "all": 79,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/dump_table@@@tools@#@lib@#@h5tools_utils.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29162_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29162_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33877_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-33877_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_h5tools_utils.c_1.1_dump_table_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5G__verify_cached_stabs_test@@@src@#@H5Gtest.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29162_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29162_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33877_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-33877_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gtest.c_1.1_H5G__verify_cached_stabs_test_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5G__stab_remove_by_idx@@@src@#@H5Gstab.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_by_idx_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_by_idx_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5O__sdspace_decode@@@src@#@H5Osdspace.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29162_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29162_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33877_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-33877_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Osdspace.c_1.1_H5O__sdspace_decode_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5O__stab_post_copy_file@@@src@#@H5Ostab.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29162_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29162_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33877_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-33877_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Ostab.c_1.1_H5O__stab_post_copy_file_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5G__stab_lookup@@@src@#@H5Gstab.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33877_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-33877_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_lookup_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5HL__fl_deserialize@@@src@#@H5HLcache.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5HLcache.c_1.1_H5HL__fl_deserialize_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5HLcache.c_1.1_H5HL__fl_deserialize_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5G__stab_remove@@@src@#@H5Gstab.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29162_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29162_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gstab.c_1.1_H5G__stab_remove_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_12_1/H5G_node_debug@@@src@#@H5Gnode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29162_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29162_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33877_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-33877_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul"
+            ]
+        }
+    ]
+}

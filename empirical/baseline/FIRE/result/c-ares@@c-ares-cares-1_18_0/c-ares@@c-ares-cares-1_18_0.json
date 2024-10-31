@@ -1,0 +1,14 @@
+{
+    "total_func": 2956,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/c-ares@@c-ares-cares-1_18_0/ares__read_line@@@src@#@lib@#@ares__read_line.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-25629_CWE-XXXX-XXXX_a804c04ddc8245fc8adf0e92368709639125e183_CVE-2024-25629_a804c04ddc8245fc8adf0e92368709639125e183_ares__read_line.c_1.1_ares__read_line_OLD.vul"
+            ]
+        }
+    ]
+}

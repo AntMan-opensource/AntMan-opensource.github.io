@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/TicklishHoneyBee@@nodau-newest/edit_ext@@@src@#@edit.c,./cache/old_new_funcs/vul/sample/CVE-2022-4399_CWE-XXXX-XXXX_7a7d737a3929f335b9717ddbd31db91151b69ad2_CVE-2022-4399_7a7d737a3929f335b9717ddbd31db91151b69ad2_edit.c_1.1_edit_ext_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-4399_CWE-XXXX-XXXX_7a7d737a3929f335b9717ddbd31db91151b69ad2_CVE-2022-4399_7a7d737a3929f335b9717ddbd31db91151b69ad2_edit.c_1.1_edit_ext_NEW.vul,[False],False

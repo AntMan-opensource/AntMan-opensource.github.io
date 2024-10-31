@@ -1,0 +1,21 @@
+{
+    "total_func": 2586,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/apache@@pulsar-v2.6.2-candidate-1/initialize@@@pulsar-client-cpp@#@lib@#@auth@#@AuthOauth2.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-33684_CWE-XXXX-XXXX_8eae5b8d572861e49c40d456b1f3cbc5d414afe1_CVE-2022-33684_8eae5b8d572861e49c40d456b1f3cbc5d414afe1_AuthOauth2.cc_1.1_ClientCredentialFlow :: initialize_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/apache@@pulsar-v2.6.2-candidate-1/authenticate@@@pulsar-client-cpp@#@lib@#@auth@#@AuthOauth2.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-33684_CWE-XXXX-XXXX_8eae5b8d572861e49c40d456b1f3cbc5d414afe1_CVE-2022-33684_8eae5b8d572861e49c40d456b1f3cbc5d414afe1_AuthOauth2.cc_1.1_ClientCredentialFlow :: authenticate_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "total_func": 233172,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/CauldronDevelopmentLLC@@cbang-1.6.1/extract@@@src@#@cbang@#@tar@#@TarFileReader.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-31483_CWE-XXXX-XXXX_ac8bbdd5bb93c01679a881f5962fed800bf29e58_CVE-2023-31483_ac8bbdd5bb93c01679a881f5962fed800bf29e58_TarFileReader.cpp_1.1_TarFileReader :: extract_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/CauldronDevelopmentLLC@@cbang-1.6.1/doProlog@@@src@#@expat@#@xmlparse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2009-3720_CWE-XXXX-XXXX_82c0fd73d4da6f33596f0c9f231566242fd20d01_CVE-2009-3720_82c0fd73d4da6f33596f0c9f231566242fd20d01_xmlparse.c_1.1_doProlog_OLD.vul"
+            ]
+        }
+    ]
+}

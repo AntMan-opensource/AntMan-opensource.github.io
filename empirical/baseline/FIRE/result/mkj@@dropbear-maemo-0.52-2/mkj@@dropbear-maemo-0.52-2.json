@@ -1,0 +1,35 @@
+{
+    "total_func": 1656,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/mkj@@dropbear-maemo-0.52-2/s_mp_mul_high_digs@@@libtommath@#@bn_s_mp_mul_high_digs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_high_digs.c_1.1_s_mp_mul_high_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/mkj@@dropbear-maemo-0.52-2/s_mp_mul_high_digs@@@libtommath@#@pre_gen@#@mpi.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_high_digs.c_1.1_s_mp_mul_high_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/mkj@@dropbear-maemo-0.52-2/s_mp_mul_digs@@@libtommath@#@pre_gen@#@mpi.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_digs.c_1.1_s_mp_mul_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/mkj@@dropbear-maemo-0.52-2/s_mp_mul_digs@@@libtommath@#@bn_s_mp_mul_digs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_digs.c_1.1_s_mp_mul_digs_OLD.vul"
+            ]
+        }
+    ]
+}

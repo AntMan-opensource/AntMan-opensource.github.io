@@ -1,0 +1,21 @@
+{
+    "total_func": 203,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/afichet@@openexr-viewer-v0.4.1/load@@@src@#@model@#@FramebufferModel.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50245_CWE-XXXX-XXXX_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_CVE-2023-50245_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_YFramebufferModel.cpp_1.1_YFramebufferModel :: load_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/afichet@@openexr-viewer-v0.4.1/__anon18a910080102@@@src@#@model@#@FramebufferModel.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50245_CWE-XXXX-XXXX_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_CVE-2023-50245_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_YFramebufferModel.cpp_1.1_YFramebufferModel :: load_OLD.vul"
+            ]
+        }
+    ]
+}

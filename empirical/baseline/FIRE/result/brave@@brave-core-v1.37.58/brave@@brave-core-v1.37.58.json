@@ -1,0 +1,14 @@
+{
+    "total_func": 22063,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/brave@@brave-core-v1.37.58/OnBeforeURLRequest_IPFSRedirectWork@@@browser@#@net@#@ipfs_redirect_network_delegate_helper.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-47933_CWE-XXXX-XXXX_7ef8cb2f232abdf59ec9c3c99a086a14b972bc56_CVE-2022-47933_7ef8cb2f232abdf59ec9c3c99a086a14b972bc56_ipfs_redirect_network_delegate_helper.cc_1.1_OnBeforeURLRequest_IPFSRedirectWork_OLD.vul"
+            ]
+        }
+    ]
+}

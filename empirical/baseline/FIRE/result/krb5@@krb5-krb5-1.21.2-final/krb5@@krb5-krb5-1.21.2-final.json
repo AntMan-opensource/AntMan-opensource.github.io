@@ -1,0 +1,83 @@
+{
+    "total_func": 8149,
+    "cnt": 10,
+    "all": 16,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/k5_asn1_full_decode@@@src@#@lib@#@krb5@#@asn.1@#@asn1_encode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-28196_CWE-XXXX-XXXX_57415dda6cf04e73ffc3723be518eddfae599bfd_CVE-2020-28196_57415dda6cf04e73ffc3723be518eddfae599bfd_asn1_encode.c_1.1_k5_asn1_full_decode_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/try_accept@@@src@#@tests@#@gssapi@#@t_invalid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37371_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37371_55fbf435edbe2e92dd8101669b1ce7144bc96fef_t_invalid.c_1.1_try_accept_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37370_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37370_55fbf435edbe2e92dd8101669b1ce7144bc96fef_t_invalid.c_1.1_try_accept_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/decode_sequence_of@@@src@#@lib@#@krb5@#@asn.1@#@asn1_encode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-28196_CWE-XXXX-XXXX_57415dda6cf04e73ffc3723be518eddfae599bfd_CVE-2020-28196_57415dda6cf04e73ffc3723be518eddfae599bfd_asn1_encode.c_1.1_decode_sequence_of_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/make_fake_context@@@src@#@tests@#@gssapi@#@t_invalid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37371_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37371_55fbf435edbe2e92dd8101669b1ce7144bc96fef_t_invalid.c_1.1_make_fake_context_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/make_token@@@src@#@tests@#@gssapi@#@t_invalid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37371_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37371_55fbf435edbe2e92dd8101669b1ce7144bc96fef_t_invalid.c_1.1_make_token_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37370_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37370_55fbf435edbe2e92dd8101669b1ce7144bc96fef_t_invalid.c_1.1_make_token_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/decode_sequence@@@src@#@lib@#@krb5@#@asn.1@#@asn1_encode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-28196_CWE-XXXX-XXXX_57415dda6cf04e73ffc3723be518eddfae599bfd_CVE-2020-28196_57415dda6cf04e73ffc3723be518eddfae599bfd_asn1_encode.c_1.1_decode_sequence_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/main@@@src@#@tests@#@gssapi@#@t_invalid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37371_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37371_55fbf435edbe2e92dd8101669b1ce7144bc96fef_t_invalid.c_1.1_main_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37370_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37370_55fbf435edbe2e92dd8101669b1ce7144bc96fef_t_invalid.c_1.1_main_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/kg_unseal_iov_token@@@src@#@lib@#@gssapi@#@krb5@#@k5unsealiov.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37371_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37371_55fbf435edbe2e92dd8101669b1ce7144bc96fef_k5unsealiov.c_1.1_kg_unseal_iov_token_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37370_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37370_55fbf435edbe2e92dd8101669b1ce7144bc96fef_k5unsealiov.c_1.1_kg_unseal_iov_token_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/gss_krb5int_unseal_v3_iov@@@src@#@lib@#@gssapi@#@krb5@#@k5sealv3iov.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37371_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37371_55fbf435edbe2e92dd8101669b1ce7144bc96fef_k5sealv3iov.c_1.1_gss_krb5int_unseal_v3_iov_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37370_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37370_55fbf435edbe2e92dd8101669b1ce7144bc96fef_k5sealv3iov.c_1.1_gss_krb5int_unseal_v3_iov_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/krb5@@krb5-krb5-1.21.2-final/gss_krb5int_unseal_token_v3@@@src@#@lib@#@gssapi@#@krb5@#@k5sealv3.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37370_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37370_55fbf435edbe2e92dd8101669b1ce7144bc96fef_k5sealv3.c_1.1_gss_krb5int_unseal_token_v3_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37371_CWE-XXXX-XXXX_55fbf435edbe2e92dd8101669b1ce7144bc96fef_CVE-2024-37371_55fbf435edbe2e92dd8101669b1ce7144bc96fef_k5sealv3.c_1.1_gss_krb5int_unseal_token_v3_OLD.vul"
+            ]
+        }
+    ]
+}

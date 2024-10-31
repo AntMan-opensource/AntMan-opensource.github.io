@@ -1,0 +1,21 @@
+{
+    "total_func": 137,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/michaelforney@@samurai-1.2/writefile@@@util.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-30218_CWE-XXXX-XXXX_e84b6d99c85043fa1ba54851ee500540ec206918_CVE-2021-30218_e84b6d99c85043fa1ba54851ee500540ec206918_util.c_1.1_writefile_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/michaelforney@@samurai-1.2/parserule@@@parse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-30219_CWE-XXXX-XXXX_d2af3bc375e2a77139c3a28d6128c60cd8d08655_CVE-2021-30219_d2af3bc375e2a77139c3a28d6128c60cd8d08655_parse.c_1.1_parserule_OLD.vul"
+            ]
+        }
+    ]
+}

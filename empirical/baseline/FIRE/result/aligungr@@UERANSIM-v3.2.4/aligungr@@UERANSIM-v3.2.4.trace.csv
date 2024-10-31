@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/aligungr@@UERANSIM-v3.2.4/DecodeRlsMessage@@@src@#@lib@#@rls@#@rls_pdu.cpp,./cache/old_new_funcs/vul/sample/CVE-2024-37877_CWE-XXXX-XXXX_b68de9b52a856b1f632b6cb6d38928e16163b00a_CVE-2024-37877_b68de9b52a856b1f632b6cb6d38928e16163b00a_rls_pdu.cpp_1.1_DecodeRlsMessage_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2024-37877_CWE-XXXX-XXXX_b68de9b52a856b1f632b6cb6d38928e16163b00a_CVE-2024-37877_b68de9b52a856b1f632b6cb6d38928e16163b00a_rls_pdu.cpp_1.1_DecodeRlsMessage_NEW.vul,"[True, True, True, 1.0, 0.9225700164744646]",True

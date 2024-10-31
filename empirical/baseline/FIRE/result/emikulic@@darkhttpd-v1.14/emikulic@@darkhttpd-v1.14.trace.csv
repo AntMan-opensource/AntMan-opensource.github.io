@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/emikulic@@darkhttpd-v1.14/usage@@@darkhttpd.c,./cache/old_new_funcs/vul/sample/CVE-2024-23770_CWE-XXXX-XXXX_2b339828b2a42a5fda105ea84934957a7d23e35d_CVE-2024-23770_2b339828b2a42a5fda105ea84934957a7d23e35d_darkhttpd.c_1.1_usage_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2024-23770_CWE-XXXX-XXXX_2b339828b2a42a5fda105ea84934957a7d23e35d_CVE-2024-23770_2b339828b2a42a5fda105ea84934957a7d23e35d_darkhttpd.c_1.1_usage_NEW.vul,"[True, True, True, 0.9340329835082459, 0.8981077147016011]",True

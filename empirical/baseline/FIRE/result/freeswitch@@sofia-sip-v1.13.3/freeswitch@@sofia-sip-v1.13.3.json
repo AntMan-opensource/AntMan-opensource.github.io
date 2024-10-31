@@ -1,0 +1,42 @@
+{
+    "total_func": 4602,
+    "cnt": 5,
+    "all": 5,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/freeswitch@@sofia-sip-v1.13.3/parse_descs@@@libsofia-sip-ua@#@sdp@#@sdp_parse.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-31003_CWE-XXXX-XXXX_907f2ac0ee504c93ebfefd676b4632a3575908c9_CVE-2022-31003_907f2ac0ee504c93ebfefd676b4632a3575908c9_sdp_parse.c_1.1_parse_descs_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/freeswitch@@sofia-sip-v1.13.3/stun_parse_message@@@libsofia-sip-ua@#@stun@#@stun_common.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-22741_CWE-XXXX-XXXX_da53e4fbcb138b080a75576dd49c1fff2ada2764_CVE-2023-22741_da53e4fbcb138b080a75576dd49c1fff2ada2764_stun_common.c_1.1_stun_parse_message_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/freeswitch@@sofia-sip-v1.13.3/stun_parse_attribute@@@libsofia-sip-ua@#@stun@#@stun_common.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-22741_CWE-XXXX-XXXX_da53e4fbcb138b080a75576dd49c1fff2ada2764_CVE-2023-22741_da53e4fbcb138b080a75576dd49c1fff2ada2764_stun_common.c_1.1_stun_parse_attribute_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/freeswitch@@sofia-sip-v1.13.3/sip_method_d@@@libsofia-sip-ua@#@sip@#@sip_parser.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-31001_CWE-XXXX-XXXX_a99804b336d0e16d26ab7119d56184d2d7110a36_CVE-2022-31001_a99804b336d0e16d26ab7119d56184d2d7110a36_sip_parser.c_1.1_sip_method_d_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/freeswitch@@sofia-sip-v1.13.3/parse_message@@@libsofia-sip-ua@#@sdp@#@sdp_parse.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-31003_CWE-XXXX-XXXX_907f2ac0ee504c93ebfefd676b4632a3575908c9_CVE-2022-31003_907f2ac0ee504c93ebfefd676b4632a3575908c9_sdp_parse.c_1.1_parse_message_OLD.vul"
+            ]
+        }
+    ]
+}

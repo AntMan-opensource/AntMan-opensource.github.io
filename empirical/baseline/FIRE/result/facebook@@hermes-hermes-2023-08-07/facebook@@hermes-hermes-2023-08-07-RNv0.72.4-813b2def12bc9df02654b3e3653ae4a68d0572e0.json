@@ -1,0 +1,63 @@
+{
+    "total_func": 32524,
+    "cnt": 8,
+    "all": 8,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/inferBinaryBitwise@@@lib@#@Optimizer@#@Scalar@#@TypeInference.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-28081_CWE-XXXX-XXXX_e6ed9c1a4b02dc219de1648f44cd808a56171b81_CVE-2023-28081_e6ed9c1a4b02dc219de1648f44cd808a56171b81_TypeInference.cpp_1.1_inferBinaryBitwise_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/uv__utf8_decode1_slow@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__utf8_decode1_slow_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/uv__utf8_decode1@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__utf8_decode1_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/genES5Function@@@lib@#@IRGen@#@ESTreeIRGen-func.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-1912_CWE-XXXX-XXXX_091835377369c8fd5917d9b87acffa721ad2a168_CVE-2020-1912_091835377369c8fd5917d9b87acffa721ad2a168_ESTreeIRGen-func.cpp_1.1_ESTreeIRGen :: genES5Function_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/inferBinaryInst@@@lib@#@Optimizer@#@Scalar@#@TypeInference.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-28081_CWE-XXXX-XXXX_e6ed9c1a4b02dc219de1648f44cd808a56171b81_CVE-2023-28081_e6ed9c1a4b02dc219de1648f44cd808a56171b81_TypeInference.cpp_1.1_inferBinaryInst_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/inferUnaryArith@@@lib@#@Optimizer@#@Scalar@#@TypeInference.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-28081_CWE-XXXX-XXXX_e6ed9c1a4b02dc219de1648f44cd808a56171b81_CVE-2023-28081_e6ed9c1a4b02dc219de1648f44cd808a56171b81_TypeInference.cpp_1.1_inferUnaryArith_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/uv__idna_toascii@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__idna_toascii_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/facebook@@hermes-hermes-2023-08-07-RNv0.72.4-813b2def12bc9df02654b3e3653ae4a68d0572e0/uv__idna_toascii_label@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__idna_toascii_label_OLD.vul"
+            ]
+        }
+    ]
+}

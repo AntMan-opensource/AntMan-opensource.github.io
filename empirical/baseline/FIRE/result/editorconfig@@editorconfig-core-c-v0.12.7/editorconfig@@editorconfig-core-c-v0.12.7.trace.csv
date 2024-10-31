@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/editorconfig@@editorconfig-core-c-v0.12.7/ec_glob@@@src@#@lib@#@ec_glob.c,./cache/old_new_funcs/vul/sample/CVE-2023-0341_CWE-XXXX-XXXX_41281ea82fbf24b060a9f69b9c5369350fb0529e_CVE-2023-0341_41281ea82fbf24b060a9f69b9c5369350fb0529e_ec_glob.c_1.1_ec_glob_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2023-0341_CWE-XXXX-XXXX_41281ea82fbf24b060a9f69b9c5369350fb0529e_CVE-2023-0341_41281ea82fbf24b060a9f69b9c5369350fb0529e_ec_glob.c_1.1_ec_glob_NEW.vul,[False],False

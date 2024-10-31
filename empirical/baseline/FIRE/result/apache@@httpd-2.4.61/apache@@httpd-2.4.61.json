@@ -1,0 +1,28 @@
+{
+    "total_func": 222005,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/apache@@httpd-2.4.61/ap_internal_fast_redirect@@@modules@#@http@#@http_request.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-40725_CWE-XXXX-XXXX_a7d24b4ea9a6ea35878fd33075365328caafcf91_CVE-2024-40725_a7d24b4ea9a6ea35878fd33075365328caafcf91_http_request.c_1.1_ap_internal_fast_redirect_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/apache@@httpd-2.4.61/make_fake_req@@@modules@#@proxy@#@mod_proxy_uwsgi.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-5704_CWE-XXXX-XXXX_8cc5e00f9ead2e8f915a567aeb756c5cca357188_CVE-2013-5704_8cc5e00f9ead2e8f915a567aeb756c5cca357188_mod_proxy_http.c_1.1_make_fake_req_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/apache@@httpd-2.4.61/ap_proxy_clear_connection@@@modules@#@proxy@#@proxy_util.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-0117_CWE-XXXX-XXXX_bb2749fd6e18dd1682bd1da89b160ca4175c2ec1_CVE-2014-0117_bb2749fd6e18dd1682bd1da89b160ca4175c2ec1_proxy_util.c_1.1_ap_proxy_clear_connection_OLD.vul"
+            ]
+        }
+    ]
+}

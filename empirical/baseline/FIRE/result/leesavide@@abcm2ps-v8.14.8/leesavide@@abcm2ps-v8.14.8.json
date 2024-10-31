@@ -1,0 +1,28 @@
+{
+    "total_func": 390,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/leesavide@@abcm2ps-v8.14.8/get_over@@@parse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32436_CWE-XXXX-XXXX_2f56e1179cab6affeb8afa9d6c324008fe40d8e3_CVE-2021-32436_2f56e1179cab6affeb8afa9d6c324008fe40d8e3_parse.c_1.1_get_over_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/leesavide@@abcm2ps-v8.14.8/parse_note@@@abcparse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32435_CWE-XXXX-XXXX_3169ace6d63f6f517a64e8df0298f44a490c4a15_CVE-2021-32435_3169ace6d63f6f517a64e8df0298f44a490c4a15_abcparse.c_1.1_parse_note_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/leesavide@@abcm2ps-v8.14.8/parse_line@@@abcparse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32435_CWE-XXXX-XXXX_3169ace6d63f6f517a64e8df0298f44a490c4a15_CVE-2021-32435_3169ace6d63f6f517a64e8df0298f44a490c4a15_abcparse.c_1.1_parse_line_OLD.vul"
+            ]
+        }
+    ]
+}

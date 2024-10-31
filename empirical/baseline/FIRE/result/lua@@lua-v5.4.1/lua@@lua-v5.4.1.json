@@ -1,0 +1,21 @@
+{
+    "total_func": 216573,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/lua@@lua-v5.4.1/luaG_runerror@@@ldebug.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-33099_CWE-XXXX-XXXX_42d40581dd919fb134c07027ca1ce0844c670daf_CVE-2022-33099_42d40581dd919fb134c07027ca1ce0844c670daf_ldebug.c_1.1_luaG_runerror_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/lua@@lua-v5.4.1/singlevar@@@lparser.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28805_CWE-XXXX-XXXX_1f3c6f4534c6411313361697d98d1145a1f030fa_CVE-2022-28805_1f3c6f4534c6411313361697d98d1145a1f030fa_lparser.c_1.1_singlevar_OLD.vul"
+            ]
+        }
+    ]
+}

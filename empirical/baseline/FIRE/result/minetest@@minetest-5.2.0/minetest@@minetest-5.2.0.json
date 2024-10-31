@@ -1,0 +1,14 @@
+{
+    "total_func": 7986,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/minetest@@minetest-5.2.0/handleCommand_InventoryAction@@@src@#@network@#@serverpackethandler.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24301_CWE-XXXX-XXXX_3693b6871eba268ecc79b3f52d00d3cefe761131_CVE-2022-24301_3693b6871eba268ecc79b3f52d00d3cefe761131_serverpackethandler.cpp_1.1_Server :: handleCommand_InventoryAction_OLD.vul"
+            ]
+        }
+    ]
+}

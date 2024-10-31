@@ -1,0 +1,23 @@
+{
+    "total_func": 34842,
+    "cnt": 2,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/DCMTK@@dcmtk-DCMTK-3.6.8/getString@@@dcmnet@#@libsrc@#@dimcmd.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-34508_CWE-XXXX-XXXX_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_CVE-2024-34508_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_dimcmd.cc_1.1_getString_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-34509_CWE-XXXX-XXXX_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_CVE-2024-34509_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_dimcmd.cc_1.1_getString_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/DCMTK@@dcmtk-DCMTK-3.6.8/loadValue@@@dcmdata@#@libsrc@#@dcelem.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-34509_CWE-XXXX-XXXX_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_CVE-2024-34509_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_dcelem.cc_1.1_DcmElement :: loadValue_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-34508_CWE-XXXX-XXXX_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_CVE-2024-34508_c78e434c0c5f9d932874f0b17a8b4ce305ca01f5_dcelem.cc_1.1_DcmElement :: loadValue_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 216250,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/albertodemichelis@@squirrel-v3.2/thread_call@@@squirrel@#@sqbaselib.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30292_CWE-XXXX-XXXX_a6413aa690e0bdfef648c68693349a7b878fe60d_CVE-2022-30292_a6413aa690e0bdfef648c68693349a7b878fe60d_sqbaselib.cpp_1.1_thread_call_OLD.vul"
+            ]
+        }
+    ]
+}

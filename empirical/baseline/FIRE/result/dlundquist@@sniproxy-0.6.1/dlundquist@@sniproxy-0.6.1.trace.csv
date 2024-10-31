@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/dlundquist@@sniproxy-0.6.1/new_address@@@src@#@address.c,./cache/old_new_funcs/vul/sample/CVE-2023-25076_CWE-XXXX-XXXX_f8d9a433fe22ab2fa15c00179048ab02ae23d583_CVE-2023-25076_f8d9a433fe22ab2fa15c00179048ab02ae23d583_address.c_1.1_new_address_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2023-25076_CWE-XXXX-XXXX_f8d9a433fe22ab2fa15c00179048ab02ae23d583_CVE-2023-25076_f8d9a433fe22ab2fa15c00179048ab02ae23d583_address.c_1.1_new_address_NEW.vul,"[True, 'no del line', False]",False

@@ -1,0 +1,91 @@
+{
+    "total_func": 225875,
+    "cnt": 12,
+    "all": 12,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest06@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest02@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest03@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest06a@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest01@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest03a@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest02a@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest04@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest04a@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest01a@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest05@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/OISF@@suricata-suricata-6.0.12/LuaMatchTest05a@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        }
+    ]
+}

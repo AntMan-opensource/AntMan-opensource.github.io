@@ -1,0 +1,21 @@
+{
+    "total_func": 442,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OpenRC@@openrc-0.43.1/main@@@src@#@rc@#@checkpath.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42341_CWE-XXXX-XXXX_63db2d99e730547339d1bdd28e8437999c380cae_CVE-2021-42341_63db2d99e730547339d1bdd28e8437999c380cae_checkpath.c_1.1_main_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OpenRC@@openrc-0.43.1/get_dirfd@@@src@#@rc@#@checkpath.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42341_CWE-XXXX-XXXX_63db2d99e730547339d1bdd28e8437999c380cae_CVE-2021-42341_63db2d99e730547339d1bdd28e8437999c380cae_checkpath.c_1.1_get_dirfd_OLD.vul"
+            ]
+        }
+    ]
+}

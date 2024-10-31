@@ -1,0 +1,14 @@
+{
+    "total_func": 5956,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v2.5.1/initialize@@@OpenEXR@#@IlmImf@#@ImfMultiPartInputFile.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-20299_CWE-XXXX-XXXX_25e9515b06a6bc293d871622b8cafaee7af84e0f_CVE-2021-20299_25e9515b06a6bc293d871622b8cafaee7af84e0f_ImfMultiPartInputFile.cpp_1.1_MultiPartInputFile :: initialize_OLD.vul"
+            ]
+        }
+    ]
+}

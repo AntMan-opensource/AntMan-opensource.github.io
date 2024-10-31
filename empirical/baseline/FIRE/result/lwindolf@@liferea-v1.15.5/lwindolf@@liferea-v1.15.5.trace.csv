@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/lwindolf@@liferea-v1.15.5/subscription_update@@@src@#@subscription.c,./cache/old_new_funcs/vul/sample/CVE-2023-1350_CWE-XXXX-XXXX_8d8b5b963fa64c7a2122d1bbfbb0bed46e813e59_CVE-2023-1350_8d8b5b963fa64c7a2122d1bbfbb0bed46e813e59_subscription.c_1.1_subscription_update_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2023-1350_CWE-XXXX-XXXX_8d8b5b963fa64c7a2122d1bbfbb0bed46e813e59_CVE-2023-1350_8d8b5b963fa64c7a2122d1bbfbb0bed46e813e59_subscription.c_1.1_subscription_update_NEW.vul,"[True, 'no del line', False]",False

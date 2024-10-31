@@ -1,0 +1,21 @@
+{
+    "total_func": 2661,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/awesomized@@libmemcached-1.1.0-beta3/_read_one_response@@@src@#@libmemcached@#@response.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-27478_CWE-XXXX-XXXX_48dcc61a_CVE-2023-27478_48dcc61a_response.cc_1.1__read_one_response_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/awesomized@@libmemcached-1.1.0-beta3/memcached_purge@@@src@#@libmemcached@#@purge.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-27478_CWE-XXXX-XXXX_48dcc61a_CVE-2023-27478_48dcc61a_purge.cc_1.1_memcached_purge_OLD.vul"
+            ]
+        }
+    ]
+}

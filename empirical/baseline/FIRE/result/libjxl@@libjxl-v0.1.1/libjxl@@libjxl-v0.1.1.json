@@ -1,0 +1,14 @@
+{
+    "total_func": 3369,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/libjxl@@libjxl-v0.1.1/DecodeImageAPNG@@@lib@#@extras@#@codec_apng.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-36692_CWE-XXXX-XXXX_7dfa400ded53919d986c5d3d23446a09e0cf481b_CVE-2021-36692_7dfa400ded53919d986c5d3d23446a09e0cf481b_codec_apng.cc_1.1_DecodeImageAPNG_OLD.vul"
+            ]
+        }
+    ]
+}

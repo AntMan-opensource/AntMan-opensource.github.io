@@ -1,0 +1,56 @@
+{
+    "total_func": 5306,
+    "cnt": 7,
+    "all": 7,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/antirez@@redis-5.0.14/_anetTcpServer@@@src@#@anet.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-45145_CWE-XXXX-XXXX_03345ddc7faf7af079485f2cbe5d17a1611cbce1_CVE-2023-45145_03345ddc7faf7af079485f2cbe5d17a1611cbce1_anet.c_1.1__anetTcpServer_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/antirez@@redis-5.0.14/anetUnixServer@@@src@#@anet.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-45145_CWE-XXXX-XXXX_03345ddc7faf7af079485f2cbe5d17a1611cbce1_CVE-2023-45145_03345ddc7faf7af079485f2cbe5d17a1611cbce1_anet.c_1.1_anetUnixServer_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/antirez@@redis-5.0.14/appendCommand@@@src@#@t_string.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-35977_CWE-XXXX-XXXX_1ec82e6e97e1db06a72ca505f9fbf6b981f31ef7_CVE-2022-35977_1ec82e6e97e1db06a72ca505f9fbf6b981f31ef7_t_string.c_1.1_appendCommand_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/antirez@@redis-5.0.14/setrangeCommand@@@src@#@t_string.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-35977_CWE-XXXX-XXXX_1ec82e6e97e1db06a72ca505f9fbf6b981f31ef7_CVE-2022-35977_1ec82e6e97e1db06a72ca505f9fbf6b981f31ef7_t_string.c_1.1_setrangeCommand_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/antirez@@redis-5.0.14/sdsnewlen@@@deps@#@hiredis@#@sds.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-21309_CWE-XXXX-XXXX_c992857618db99776917f10bf4f2345a5fdc78b0_CVE-2021-21309_c992857618db99776917f10bf4f2345a5fdc78b0_sds.c_1.1_sdsnewlen_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/antirez@@redis-5.0.14/hincrbyfloatCommand@@@src@#@t_hash.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-28856_CWE-XXXX-XXXX_bc7fe41e5857a0854d524e2a63a028e9394d2a5c_CVE-2023-28856_bc7fe41e5857a0854d524e2a63a028e9394d2a5c_t_hash.c_1.1_hincrbyfloatCommand_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/antirez@@redis-5.0.14/sdsMakeRoomFor@@@deps@#@hiredis@#@sds.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-21309_CWE-XXXX-XXXX_c992857618db99776917f10bf4f2345a5fdc78b0_CVE-2021-21309_c992857618db99776917f10bf4f2345a5fdc78b0_sds.c_1.1_sdsMakeRoomFor_OLD.vul"
+            ]
+        }
+    ]
+}

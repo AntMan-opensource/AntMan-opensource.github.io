@@ -1,0 +1,14 @@
+{
+    "total_func": 1172,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OpenPrinting@@cups-filters-release-1-26-2/sigterm_handler@@@backend@#@beh.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24805_CWE-XXXX-XXXX_8f274035756c04efeb77eb654e9d4c4447287d65_CVE-2023-24805_8f274035756c04efeb77eb654e9d4c4447287d65_beh.c_1.1_sigterm_handler_OLD.vul"
+            ]
+        }
+    ]
+}

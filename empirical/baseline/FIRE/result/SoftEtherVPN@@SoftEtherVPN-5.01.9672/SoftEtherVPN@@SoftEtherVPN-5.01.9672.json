@@ -1,0 +1,49 @@
+{
+    "total_func": 223027,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/SoftEtherVPN@@SoftEtherVPN-5.01.9672/AdjustBufSize@@@src@#@Mayaqua@#@Memory.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-22325_CWE-XXXX-XXXX_c49e462ed1e7df813bc14022896bb26fa75546de_CVE-2023-22325_c49e462ed1e7df813bc14022896bb26fa75546de_Memory.c_1.1_AdjustBufSize_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/SoftEtherVPN@@SoftEtherVPN-5.01.9672/WpcDataEntryToBuf@@@src@#@Cedar@#@Wpc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-27395_CWE-XXXX-XXXX_b8e542105f748b88e518a969c2189eca2e92f7dd_CVE-2023-27395_b8e542105f748b88e518a969c2189eca2e92f7dd_Wpc.c_1.1_WpcDataEntryToBuf_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/SoftEtherVPN@@SoftEtherVPN-5.01.9672/EnSafeHttpHeaderValueStr@@@src@#@Mayaqua@#@Str.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-23581_CWE-XXXX-XXXX_8fc27da7807910355c4bb140dd25d6894b71a056_CVE-2023-23581_8fc27da7807910355c4bb140dd25d6894b71a056_Str.c_1.1_EnSafeHttpHeaderValueStr_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/SoftEtherVPN@@SoftEtherVPN-5.01.9672/OvsProcessData@@@src@#@Cedar@#@Proto_OpenVPN.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-22308_CWE-XXXX-XXXX_82ce34fccbccb9d0d03b17a5f924e81277667cdc_CVE-2023-22308_82ce34fccbccb9d0d03b17a5f924e81277667cdc_Proto_OpenVPN.c_1.1_OvsProcessData_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/SoftEtherVPN@@SoftEtherVPN-5.01.9672/ProcIPsecEspPacketRecv@@@src@#@Cedar@#@Proto_IKE.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-38520_CWE-XXXX-XXXX_c2a7aa548137dc80c6aafdc645cf4dc34e0dc764_CVE-2024-38520_c2a7aa548137dc80c6aafdc645cf4dc34e0dc764_Proto_IKE.c_1.1_ProcIPsecEspPacketRecv_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/SoftEtherVPN@@SoftEtherVPN-5.01.9672/DCRegister@@@src@#@Cedar@#@DDNS.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-27395_CWE-XXXX-XXXX_b8e542105f748b88e518a969c2189eca2e92f7dd_CVE-2023-27395_b8e542105f748b88e518a969c2189eca2e92f7dd_DDNS.c_1.1_DCRegister_OLD.vul"
+            ]
+        }
+    ]
+}

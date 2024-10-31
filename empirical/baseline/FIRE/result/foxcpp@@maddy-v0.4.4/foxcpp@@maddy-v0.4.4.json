@@ -1,0 +1,21 @@
+{
+    "total_func": 82,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/foxcpp@@maddy-v0.4.4/run_pam_auth@@@internal@#@auth@#@pam@#@pam.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24732_CWE-XXXX-XXXX_7ee6a39c6a1939b376545f030a5efd6f90913583_CVE-2022-24732_7ee6a39c6a1939b376545f030a5efd6f90913583_pam.c_1.1_run_pam_auth_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/foxcpp@@maddy-v0.4.4/run_pam_auth@@@cmd@#@maddy-pam-helper@#@pam.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24732_CWE-XXXX-XXXX_7ee6a39c6a1939b376545f030a5efd6f90913583_CVE-2022-24732_7ee6a39c6a1939b376545f030a5efd6f90913583_pam.c_1.1_run_pam_auth_OLD.vul"
+            ]
+        }
+    ]
+}

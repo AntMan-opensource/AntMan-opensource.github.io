@@ -1,0 +1,21 @@
+{
+    "total_func": 221921,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/apache@@httpd-candidate-2.4.52-rc1/ap_proxy_clear_connection@@@modules@#@proxy@#@proxy_util.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-0117_CWE-XXXX-XXXX_bb2749fd6e18dd1682bd1da89b160ca4175c2ec1_CVE-2014-0117_bb2749fd6e18dd1682bd1da89b160ca4175c2ec1_proxy_util.c_1.1_ap_proxy_clear_connection_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/apache@@httpd-candidate-2.4.52-rc1/make_fake_req@@@modules@#@proxy@#@mod_proxy_uwsgi.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-5704_CWE-XXXX-XXXX_8cc5e00f9ead2e8f915a567aeb756c5cca357188_CVE-2013-5704_8cc5e00f9ead2e8f915a567aeb756c5cca357188_mod_proxy_http.c_1.1_make_fake_req_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/anope@@anope-2.1.0/BF_crypt@@@vendor@#@bcrypt@#@crypt_blowfish.c,./cache/old_new_funcs/vul/sample/CVE-2020-1916_CWE-XXXX-XXXX_abe0b29e4d3a610f9bc920b8be4ad8403364c2d4_CVE-2020-1916_abe0b29e4d3a610f9bc920b8be4ad8403364c2d4_crypt-blowfish.cpp_1.1_BF_crypt_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-1916_CWE-XXXX-XXXX_abe0b29e4d3a610f9bc920b8be4ad8403364c2d4_CVE-2020-1916_abe0b29e4d3a610f9bc920b8be4ad8403364c2d4_crypt-blowfish.cpp_1.1_BF_crypt_NEW.vul,"[True, True, True, 0.9507575757575758, 0.9277777777777778]",True

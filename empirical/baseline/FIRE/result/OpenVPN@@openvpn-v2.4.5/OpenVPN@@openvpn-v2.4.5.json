@@ -1,0 +1,35 @@
+{
+    "total_func": 218021,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OpenVPN@@openvpn-v2.4.5/test_packet_id_write_long_prepend@@@tests@#@unit_tests@#@openvpn@#@test_packet_id.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7479_CWE-XXXX-XXXX_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_CVE-2017-7479_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_test_packet_id.c_1.1_test_packet_id_write_long_wrap_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OpenVPN@@openvpn-v2.4.5/test_packet_id_write_long@@@tests@#@unit_tests@#@openvpn@#@test_packet_id.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7479_CWE-XXXX-XXXX_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_CVE-2017-7479_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_test_packet_id.c_1.1_test_packet_id_write_long_wrap_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/OpenVPN@@openvpn-v2.4.5/init_instance@@@src@#@openvpn@#@init.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46849_CWE-XXXX-XXXX_1cfca659244e362f372d9843351257f456392a2f_CVE-2023-46849_1cfca659244e362f372d9843351257f456392a2f_init.c_1.1_init_instance_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/OpenVPN@@openvpn-v2.4.5/GetStartupData@@@src@#@openvpnserv@#@interactive.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2018-9336_CWE-XXXX-XXXX_1394192b210cb3c6624a7419bcf3ff966742e79b_CVE-2018-9336_1394192b210cb3c6624a7419bcf3ff966742e79b_interactive.c_1.1_GetStartupData_OLD.vul"
+            ]
+        }
+    ]
+}

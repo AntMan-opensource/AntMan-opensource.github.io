@@ -1,0 +1,14 @@
+{
+    "total_func": 1092,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/e2guardian@@e2guardian-v5.4.1-pre1/startSslClient@@@src@#@Socket.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-44273_CWE-XXXX-XXXX_eae46a7e2a57103aadca903c4a24cca94dc502a2_CVE-2021-44273_eae46a7e2a57103aadca903c4a24cca94dc502a2_Socket.cpp_1.1_Socket :: startSslClient_OLD.vul"
+            ]
+        }
+    ]
+}

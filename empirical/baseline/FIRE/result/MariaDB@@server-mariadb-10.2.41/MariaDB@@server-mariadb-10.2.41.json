@@ -1,0 +1,14 @@
+{
+    "total_func": 66497,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/MariaDB@@server-mariadb-10.2.41/create_worker_threads@@@extra@#@mariabackup@#@ds_compress.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-31622_CWE-XXXX-XXXX_e1eb39a446c30b8459c39fd7f2ee1c55a36e97d2_CVE-2022-31622_e1eb39a446c30b8459c39fd7f2ee1c55a36e97d2_ds_compress.cc_1.1_create_worker_threads_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "total_func": 3622,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Exiv2@@exiv2-v0.28.1/decodeHeader@@@src@#@asfvideo.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-39695_CWE-XXXX-XXXX_3a28346db5ae1735a8728fe3491b0aecc1dbf387_CVE-2024-39695_3a28346db5ae1735a8728fe3491b0aecc1dbf387_asfvideo.cpp_1.1_AsfVideo :: decodeHeader_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Exiv2@@exiv2-v0.28.1/streamProperties@@@src@#@asfvideo.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-39695_CWE-XXXX-XXXX_3a28346db5ae1735a8728fe3491b0aecc1dbf387_CVE-2024-39695_3a28346db5ae1735a8728fe3491b0aecc1dbf387_asfvideo.cpp_1.1_AsfVideo :: streamProperties_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/Exiv2@@exiv2-v0.28.1/fileProperties@@@src@#@asfvideo.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-39695_CWE-XXXX-XXXX_3a28346db5ae1735a8728fe3491b0aecc1dbf387_CVE-2024-39695_3a28346db5ae1735a8728fe3491b0aecc1dbf387_asfvideo.cpp_1.1_AsfVideo :: fileProperties_OLD.vul"
+            ]
+        }
+    ]
+}

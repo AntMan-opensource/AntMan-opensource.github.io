@@ -1,0 +1,28 @@
+{
+    "total_func": 1038,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/keepkey@@keepkey-firmware-v6.5.1/svhandler_flash_erase_sector@@@lib@#@board@#@supervise.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30330_CWE-XXXX-XXXX_447c1f038a31378ab9589965c098467d9ea6cccc_CVE-2022-30330_447c1f038a31378ab9589965c098467d9ea6cccc_supervise.c_1.1_svhandler_flash_erase_sector_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/keepkey@@keepkey-firmware-v6.5.1/svhandler_flash_pgm_word@@@lib@#@board@#@supervise.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30330_CWE-XXXX-XXXX_447c1f038a31378ab9589965c098467d9ea6cccc_CVE-2022-30330_447c1f038a31378ab9589965c098467d9ea6cccc_supervise.c_1.1_svhandler_flash_pgm_word_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/keepkey@@keepkey-firmware-v6.5.1/svhandler_flash_pgm_blk@@@lib@#@board@#@supervise.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30330_CWE-XXXX-XXXX_447c1f038a31378ab9589965c098467d9ea6cccc_CVE-2022-30330_447c1f038a31378ab9589965c098467d9ea6cccc_supervise.c_1.1_svhandler_flash_pgm_blk_OLD.vul"
+            ]
+        }
+    ]
+}

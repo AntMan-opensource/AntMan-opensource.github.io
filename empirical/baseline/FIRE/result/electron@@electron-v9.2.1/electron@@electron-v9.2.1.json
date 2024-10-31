@@ -1,0 +1,28 @@
+{
+    "total_func": 5498,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/electron@@electron-v9.2.1/CreateNativeEvent@@@shell@#@common@#@gin_helper@#@event_emitter.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26272_CWE-XXXX-XXXX_07a1c2a3e5845901f7e2eda9506695be58edc73c_CVE-2020-26272_07a1c2a3e5845901f7e2eda9506695be58edc73c_event_emitter.cc_1.1_CreateNativeEvent_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/electron@@electron-v9.2.1/OpenURLFromTab@@@shell@#@browser@#@api@#@electron_api_web_contents.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-15174_CWE-XXXX-XXXX_18613925610ba319da7f497b6deed85ad712c59b_CVE-2020-15174_18613925610ba319da7f497b6deed85ad712c59b_electron_api_web_contents.cc_1.1_WebContents :: OpenURLFromTab_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/electron@@electron-v9.2.1/SendIPCMessageToFrame@@@shell@#@browser@#@api@#@electron_api_web_contents.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26272_CWE-XXXX-XXXX_07a1c2a3e5845901f7e2eda9506695be58edc73c_CVE-2020-26272_07a1c2a3e5845901f7e2eda9506695be58edc73c_electron_api_web_contents.cc_1.1_WebContents :: SendIPCMessageToFrame_OLD.vul"
+            ]
+        }
+    ]
+}

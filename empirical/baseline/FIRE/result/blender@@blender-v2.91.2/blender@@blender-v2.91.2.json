@@ -1,0 +1,14 @@
+{
+    "total_func": 96408,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/blender@@blender-v2.91.2/oldreadcolrs@@@source@#@blender@#@imbuf@#@intern@#@radiance_hdr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0546_CWE-XXXX-XXXX_77616082f44da5258faf9ec0d53618c721b88c62_CVE-2022-0546_77616082f44da5258faf9ec0d53618c721b88c62_radiance_hdr.c_1.1_oldreadcolrs_OLD.vul"
+            ]
+        }
+    ]
+}

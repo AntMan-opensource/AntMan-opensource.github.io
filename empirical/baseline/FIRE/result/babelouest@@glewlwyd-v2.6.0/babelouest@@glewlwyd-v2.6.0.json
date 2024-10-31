@@ -1,0 +1,35 @@
+{
+    "total_func": 3540,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/babelouest@@glewlwyd-v2.6.0/callback_static_file_uncompressed@@@src@#@static_compressed_inmemory_website_callback.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29967_CWE-XXXX-XXXX_e3f7245c33897bf9b3a75acfcdb8b7b93974bf11_CVE-2022-29967_e3f7245c33897bf9b3a75acfcdb8b7b93974bf11_static_compressed_inmemory_website_callback.c_1.1_callback_static_file_uncompressed_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/babelouest@@glewlwyd-v2.6.0/check_assertion@@@src@#@scheme@#@webauthn.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-27240_CWE-XXXX-XXXX_4c5597c155bfbaf6491cf6b83479d241ae66940a_CVE-2022-27240_4c5597c155bfbaf6491cf6b83479d241ae66940a_webauthn.c_1.1_check_assertion_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/babelouest@@glewlwyd-v2.6.0/callback_glewlwyd_user_auth@@@src@#@webservice.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-45379_CWE-XXXX-XXXX_125281f1c0d4b6a8b49f7e55a757205a2ef01fbe_CVE-2021-45379_125281f1c0d4b6a8b49f7e55a757205a2ef01fbe_webservice.c_1.1_callback_glewlwyd_user_auth_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/babelouest@@glewlwyd-v2.6.0/callback_static_compressed_inmemory_website@@@src@#@static_compressed_inmemory_website_callback.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29967_CWE-XXXX-XXXX_e3f7245c33897bf9b3a75acfcdb8b7b93974bf11_CVE-2022-29967_e3f7245c33897bf9b3a75acfcdb8b7b93974bf11_static_compressed_inmemory_website_callback.c_1.1_callback_static_compressed_inmemory_website_OLD.vul"
+            ]
+        }
+    ]
+}

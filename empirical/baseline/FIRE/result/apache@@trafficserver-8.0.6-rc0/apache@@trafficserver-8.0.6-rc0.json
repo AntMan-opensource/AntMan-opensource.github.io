@@ -1,0 +1,21 @@
+{
+    "total_func": 16427,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/apache@@trafficserver-8.0.6-rc0/do_cache_lookup_and_read@@@proxy@#@http@#@HttpSM.cc",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-35296_CWE-XXXX-XXXX_6052dba804c399aa1b46c454329a1100041b9c8c_CVE-2024-35296_6052dba804c399aa1b46c454329a1100041b9c8c_HttpSM.cc_1.1_HttpSM :: do_cache_lookup_and_read_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/apache@@trafficserver-8.0.6-rc0/do_cache_prepare_action@@@proxy@#@http@#@HttpSM.cc",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-35296_CWE-XXXX-XXXX_6052dba804c399aa1b46c454329a1100041b9c8c_CVE-2024-35296_6052dba804c399aa1b46c454329a1100041b9c8c_HttpSM.cc_1.1_HttpSM :: do_cache_prepare_action_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 223823,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/carla-simulator@@carla-0.9.15.2/OnCollisionEvent@@@Unreal@#@CarlaUE4@#@Plugins@#@Carla@#@Source@#@Carla@#@Sensor@#@CollisionSensor.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33903_CWE-XXXX-XXXX_e55a4ef1c08e046ad3bcbce6b4b374434bc08153_CVE-2024-33903_e55a4ef1c08e046ad3bcbce6b4b374434bc08153_CollisionSensor.cpp_1.1_ACollisionSensor :: OnCollisionEvent_OLD.vul"
+            ]
+        }
+    ]
+}

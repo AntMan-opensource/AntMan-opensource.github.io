@@ -1,0 +1,28 @@
+{
+    "total_func": 28258,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ArtifexSoftware@@ghostpdl-ghostpdl-9.57.0-test-base-1/doProlog@@@expat@#@lib@#@xmlparse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2009-3720_CWE-XXXX-XXXX_82c0fd73d4da6f33596f0c9f231566242fd20d01_CVE-2009-3720_82c0fd73d4da6f33596f0c9f231566242fd20d01_xmlparse.c_1.1_doProlog_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ArtifexSoftware@@ghostpdl-ghostpdl-9.57.0-test-base-1/get_scaled_rgb_row@@@jpeg@#@rdppm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46822_CWE-XXXX-XXXX_f35fd27ec641c42d6b115bfa595e483ec58188d2_CVE-2021-46822_f35fd27ec641c42d6b115bfa595e483ec58188d2_rdppm.c_1.1_get_word_rgb_row_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/ArtifexSoftware@@ghostpdl-ghostpdl-9.57.0-test-base-1/get_word_rgb_row@@@jpeg@#@rdppm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46822_CWE-XXXX-XXXX_f35fd27ec641c42d6b115bfa595e483ec58188d2_CVE-2021-46822_f35fd27ec641c42d6b115bfa595e483ec58188d2_rdppm.c_1.1_get_word_rgb_row_OLD.vul"
+            ]
+        }
+    ]
+}

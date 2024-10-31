@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/LibVNC@@x11vnc-newest/shm_create@@@src@#@scan.c,./cache/old_new_funcs/vul/sample/CVE-2020-29074_CWE-XXXX-XXXX_69eeb9f7baa14ca03b16c9de821f9876def7a36a_CVE-2020-29074_69eeb9f7baa14ca03b16c9de821f9876def7a36a_scan.c_1.1_shm_create_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-29074_CWE-XXXX-XXXX_69eeb9f7baa14ca03b16c9de821f9876def7a36a_CVE-2020-29074_69eeb9f7baa14ca03b16c9de821f9876def7a36a_scan.c_1.1_shm_create_NEW.vul,[False],False

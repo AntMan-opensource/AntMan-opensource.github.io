@@ -1,0 +1,35 @@
+{
+    "total_func": 6745,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ImageMagick@@ImageMagick6-6.9.12-90/ReadTIFFImage@@@coders@#@tiff.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27829_CWE-XXXX-XXXX_6ee5059cd3ac8d82714a1ab1321399b88539abf0_CVE-2020-27829_6ee5059cd3ac8d82714a1ab1321399b88539abf0_tiff.c_1.1_ReadTIFFImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ImageMagick@@ImageMagick6-6.9.12-90/UnregisterStaticModules@@@magick@#@static.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-39212_CWE-XXXX-XXXX_35893e7cad78ce461fcaffa56076c11700ba5e4e_CVE-2021-39212_35893e7cad78ce461fcaffa56076c11700ba5e4e_static.c_1.1_RegisterStaticModules_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/ImageMagick@@ImageMagick6-6.9.12-90/ReadDCMImage@@@coders@#@dcm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3962_CWE-XXXX-XXXX_82775af03bbb10a0a1d0e15c0156c75673b4525e_CVE-2021-3962_82775af03bbb10a0a1d0e15c0156c75673b4525e_dcm.c_1.1_ReadDCMImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/ImageMagick@@ImageMagick6-6.9.12-90/CloneDrawInfo@@@magick@#@draw.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-39978_CWE-XXXX-XXXX_c90e79b3b22fec309cab55af2ee606f71b027b12_CVE-2023-39978_c90e79b3b22fec309cab55af2ee606f71b027b12_draw.c_1.1_CloneDrawInfo_OLD.vul"
+            ]
+        }
+    ]
+}

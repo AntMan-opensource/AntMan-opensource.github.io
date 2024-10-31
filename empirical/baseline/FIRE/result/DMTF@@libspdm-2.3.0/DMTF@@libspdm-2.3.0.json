@@ -1,0 +1,49 @@
+{
+    "total_func": 2756,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/DMTF@@libspdm-2.3.0/libspdm_receive_response@@@library@#@spdm_requester_lib@#@libspdm_req_send_receive.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-32690_CWE-XXXX-XXXX_7ba45838b023ee90e9db450e403f74589dcc3160_CVE-2023-32690_7ba45838b023ee90e9db450e403f74589dcc3160_libspdm_req_send_receive.c_1.1_libspdm_receive_response_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/DMTF@@libspdm-2.3.0/libspdm_try_get_capabilities@@@library@#@spdm_requester_lib@#@libspdm_req_get_capabilities.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-32690_CWE-XXXX-XXXX_7ba45838b023ee90e9db450e403f74589dcc3160_CVE-2023-32690_7ba45838b023ee90e9db450e403f74589dcc3160_libspdm_req_get_capabilities.c_1.1_libspdm_try_get_capabilities_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/DMTF@@libspdm-2.3.0/libspdm_handle_response_not_ready@@@library@#@spdm_requester_lib@#@libspdm_req_handle_error_response.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-32690_CWE-XXXX-XXXX_7ba45838b023ee90e9db450e403f74589dcc3160_CVE-2023-32690_7ba45838b023ee90e9db450e403f74589dcc3160_libspdm_req_handle_error_response.c_1.1_libspdm_handle_response_not_ready_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/DMTF@@libspdm-2.3.0/libspdm_get_response_psk_finish@@@library@#@spdm_responder_lib@#@libspdm_rsp_psk_finish.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-31127_CWE-XXXX-XXXX_3167bcaba6a4d8662e13741c0f06699def0ff635_CVE-2023-31127_3167bcaba6a4d8662e13741c0f06699def0ff635_libspdm_rsp_psk_finish.c_1.1_libspdm_get_response_psk_finish_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/DMTF@@libspdm-2.3.0/libspdm_get_response_capabilities@@@library@#@spdm_responder_lib@#@libspdm_rsp_capabilities.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-32690_CWE-XXXX-XXXX_7ba45838b023ee90e9db450e403f74589dcc3160_CVE-2023-32690_7ba45838b023ee90e9db450e403f74589dcc3160_libspdm_rsp_capabilities.c_1.1_libspdm_get_response_capabilities_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/DMTF@@libspdm-2.3.0/libspdm_get_response_finish@@@library@#@spdm_responder_lib@#@libspdm_rsp_finish.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-31127_CWE-XXXX-XXXX_3167bcaba6a4d8662e13741c0f06699def0ff635_CVE-2023-31127_3167bcaba6a4d8662e13741c0f06699def0ff635_libspdm_rsp_finish.c_1.1_libspdm_get_response_finish_OLD.vul"
+            ]
+        }
+    ]
+}

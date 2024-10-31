@@ -1,0 +1,14 @@
+{
+    "total_func": 23503,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/asterisk@@asterisk-18.20.1/action_getconfigjson@@@main@#@manager.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49294_CWE-XXXX-XXXX_424be345639d75c6cb7d0bd2da5f0f407dbd0bd5_CVE-2023-49294_424be345639d75c6cb7d0bd2da5f0f407dbd0bd5_manager.c_1.1_action_getconfig_OLD.vul"
+            ]
+        }
+    ]
+}

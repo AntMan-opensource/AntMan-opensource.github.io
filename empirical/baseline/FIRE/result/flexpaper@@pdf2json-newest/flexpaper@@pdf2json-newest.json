@@ -1,0 +1,14 @@
+{
+    "total_func": 3660,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/flexpaper@@pdf2json-newest/addMapping@@@xpdf@#@CharCodeToUnicode.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-18750_CWE-XXXX-XXXX_80bf71f16c804108fd933e267fe31692aaa509b4_CVE-2020-18750_80bf71f16c804108fd933e267fe31692aaa509b4_CharCodeToUnicode.cc_1.1_CharCodeToUnicode :: addMapping_OLD.vul"
+            ]
+        }
+    ]
+}

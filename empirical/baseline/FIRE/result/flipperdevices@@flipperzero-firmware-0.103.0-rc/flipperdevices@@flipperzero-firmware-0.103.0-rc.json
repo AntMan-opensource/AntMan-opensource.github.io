@@ -1,0 +1,29 @@
+{
+    "total_func": 226346,
+    "cnt": 2,
+    "all": 10,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/flipperdevices@@flipperzero-firmware-0.103.0-rc/mjs_execute@@@lib@#@mjs@#@mjs_exec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-35385_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2024-35385_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49553_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49553_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49551_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49551_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49550_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49550_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49549_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49549_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49552_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49552_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/flipperdevices@@flipperzero-firmware-0.103.0-rc/mjs_exec_internal@@@lib@#@mjs@#@mjs_exec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49553_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49553_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_exec_internal_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49551_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49551_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_exec_internal_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49552_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49552_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_no_common.c_1.1_mjs_exec_internal_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49550_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49550_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_no_common.c_1.1_mjs_exec_internal_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "total_func": 2907,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/TigerVNC@@tigervnc-v1.10.90/checkSession@@@common@#@rfb@#@CSecurityTLS.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26117_CWE-XXXX-XXXX_7399eab79a4365434d26494fa1628ce1eb91562b_CVE-2020-26117_7399eab79a4365434d26494fa1628ce1eb91562b_CSecurityTLS.cxx_1.1_CSecurityTLS :: checkSession_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/TigerVNC@@tigervnc-v1.10.90/setParam@@@common@#@rfb@#@CSecurityTLS.cxx",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26117_CWE-XXXX-XXXX_7399eab79a4365434d26494fa1628ce1eb91562b_CVE-2020-26117_7399eab79a4365434d26494fa1628ce1eb91562b_CSecurityTLS.cxx_1.1_CSecurityTLS :: setParam_OLD.vul"
+            ]
+        }
+    ]
+}

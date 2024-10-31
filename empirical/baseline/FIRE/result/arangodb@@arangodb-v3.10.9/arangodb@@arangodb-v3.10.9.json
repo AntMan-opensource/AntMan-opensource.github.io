@@ -1,0 +1,45 @@
+{
+    "total_func": 322072,
+    "cnt": 5,
+    "all": 8,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/arangodb@@arangodb-v3.10.9/nghttp2_strerror@@@3rdParty@#@nghttp2@#@lib@#@nghttp2_helper.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11080_CWE-XXXX-XXXX_336a98feb0d56b9ac54e12736b18785c27f75090_CVE-2020-11080_336a98feb0d56b9ac54e12736b18785c27f75090_nghttp2_helper.c_1.1_nghttp2_strerror_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28182_CWE-XXXX-XXXX_00201ecd8f982da3b67d4f6868af72a1b03b14e0_CVE-2024-28182_00201ecd8f982da3b67d4f6868af72a1b03b14e0_nghttp2_helper.c_1.1_nghttp2_strerror_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/arangodb@@arangodb-v3.10.9/MustAllocate@@@3rdParty@#@V8@#@v7.9.317@#@src@#@ast@#@scopes.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-5274_CWE-XXXX-XXXX_3e037e195e508dea045f5626862412e8f64fc919_CVE-2024-5274_3e037e195e508dea045f5626862412e8f64fc919_scopes.cc_1.1_Scope :: MustAllocate_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/arangodb@@arangodb-v3.10.9/validateOptions@@@arangod@#@GeneralServer@#@AuthenticationFeature.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-25940_CWE-XXXX-XXXX_e9c6ee9dcca7b9b4fbcd02a0b323d205bee838d3_CVE-2021-25940_e9c6ee9dcca7b9b4fbcd02a0b323d205bee838d3_AuthenticationFeature.cpp_1.1_AuthenticationFeature :: validateOptions_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/arangodb@@arangodb-v3.10.9/nghttp2_session_mem_recv@@@3rdParty@#@nghttp2@#@lib@#@nghttp2_session.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11080_CWE-XXXX-XXXX_336a98feb0d56b9ac54e12736b18785c27f75090_CVE-2020-11080_336a98feb0d56b9ac54e12736b18785c27f75090_nghttp2_session.c_1.1_nghttp2_session_mem_recv_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28182_CWE-XXXX-XXXX_00201ecd8f982da3b67d4f6868af72a1b03b14e0_CVE-2024-28182_00201ecd8f982da3b67d4f6868af72a1b03b14e0_nghttp2_session.c_1.1_nghttp2_session_mem_recv2_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/arangodb@@arangodb-v3.10.9/session_new@@@3rdParty@#@nghttp2@#@lib@#@nghttp2_session.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11080_CWE-XXXX-XXXX_336a98feb0d56b9ac54e12736b18785c27f75090_CVE-2020-11080_336a98feb0d56b9ac54e12736b18785c27f75090_nghttp2_session.c_1.1_session_new_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28182_CWE-XXXX-XXXX_00201ecd8f982da3b67d4f6868af72a1b03b14e0_CVE-2024-28182_00201ecd8f982da3b67d4f6868af72a1b03b14e0_nghttp2_session.c_1.1_session_new_OLD.vul"
+            ]
+        }
+    ]
+}

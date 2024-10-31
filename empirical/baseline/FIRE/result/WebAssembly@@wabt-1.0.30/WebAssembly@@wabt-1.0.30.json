@@ -1,0 +1,14 @@
+{
+    "total_func": 4322,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/WebAssembly@@wabt-1.0.30/ProgramMain@@@src@#@tools@#@wasm2c.cc",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-30300_CWE-XXXX-XXXX_2d77bda4034a719fe1a2eaf1d51593eb351ecb4c_CVE-2023-30300_2d77bda4034a719fe1a2eaf1d51593eb351ecb4c_wasm2c.cc_1.1_ProgramMain_OLD.vul"
+            ]
+        }
+    ]
+}

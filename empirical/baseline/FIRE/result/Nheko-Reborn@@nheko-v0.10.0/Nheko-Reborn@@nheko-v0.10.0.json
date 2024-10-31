@@ -1,0 +1,14 @@
+{
+    "total_func": 2762,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Nheko-Reborn@@nheko-v0.10.0/handle_olm_message@@@src@#@encryption@#@Olm.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39264_CWE-XXXX-XXXX_67bee15a389f9b8a9f6c3a340558d1e2319e7199_CVE-2022-39264_67bee15a389f9b8a9f6c3a340558d1e2319e7199_Olm.cpp_1.1_handle_olm_message_OLD.vul"
+            ]
+        }
+    ]
+}

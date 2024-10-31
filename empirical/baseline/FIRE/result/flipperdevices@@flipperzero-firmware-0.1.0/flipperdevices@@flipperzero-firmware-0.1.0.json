@@ -1,0 +1,28 @@
+{
+    "total_func": 223216,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/flipperdevices@@flipperzero-firmware-0.1.0/pvPortMalloc@@@target_f1@#@Middlewares@#@Third_Party@#@FreeRTOS@#@Source@#@portable@#@MemMang@#@heap_2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_2.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/flipperdevices@@flipperzero-firmware-0.1.0/pvPortMalloc@@@target_f1@#@Middlewares@#@Third_Party@#@FreeRTOS@#@Source@#@portable@#@MemMang@#@heap_4.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/flipperdevices@@flipperzero-firmware-0.1.0/pvPortMalloc@@@target_f1@#@Middlewares@#@Third_Party@#@FreeRTOS@#@Source@#@portable@#@MemMang@#@heap_5.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_5.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        }
+    ]
+}

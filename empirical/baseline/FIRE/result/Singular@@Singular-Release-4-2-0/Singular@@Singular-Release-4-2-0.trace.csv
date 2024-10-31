@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/Singular@@Singular-Release-4-2-0/sdb_edit@@@Singular@#@sdb.cc,./cache/old_new_funcs/vul/sample/CVE-2022-40299_CWE-XXXX-XXXX_5f28fbf066626fa9c4a8f0e6408c0bb362fb386c_CVE-2022-40299_5f28fbf066626fa9c4a8f0e6408c0bb362fb386c_sdb.cc_1.1_sdb_edit_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-40299_CWE-XXXX-XXXX_5f28fbf066626fa9c4a8f0e6408c0bb362fb386c_CVE-2022-40299_5f28fbf066626fa9c4a8f0e6408c0bb362fb386c_sdb.cc_1.1_sdb_edit_NEW.vul,"[True, True, True, 1.0, 0.8327316486161251]",True

@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/Barenboim@@json-parser-v1.1.2/__parse_json_members@@@json_parser.c,./cache/old_new_funcs/vul/sample/CVE-2023-23088_CWE-XXXX-XXXX_2b2b689543d06db66dbfb1f32e8f7273f5dcc698_CVE-2023-23088_2b2b689543d06db66dbfb1f32e8f7273f5dcc698_json_parser.c_1.1___parse_json_members_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2023-23088_CWE-XXXX-XXXX_2b2b689543d06db66dbfb1f32e8f7273f5dcc698_CVE-2023-23088_2b2b689543d06db66dbfb1f32e8f7273f5dcc698_json_parser.c_1.1___parse_json_members_NEW.vul,[False],False

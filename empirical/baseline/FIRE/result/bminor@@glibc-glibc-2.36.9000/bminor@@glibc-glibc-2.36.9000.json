@@ -1,0 +1,49 @@
+{
+    "total_func": 17224,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/bminor@@glibc-glibc-2.36.9000/do_test@@@misc@#@tst-syslog.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-6246_CWE-XXXX-XXXX_52a5be0df411ef3ff45c10c7c308cb92993d15b1_CVE-2023-6246_52a5be0df411ef3ff45c10c7c308cb92993d15b1_tst-syslog.c_1.1_do_test_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/bminor@@glibc-glibc-2.36.9000/check_syslog_tcp@@@misc@#@tst-syslog.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-6246_CWE-XXXX-XXXX_52a5be0df411ef3ff45c10c7c308cb92993d15b1_CVE-2023-6246_52a5be0df411ef3ff45c10c7c308cb92993d15b1_tst-syslog.c_1.1_check_syslog_tcp_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/bminor@@glibc-glibc-2.36.9000/parse_syslog_console@@@misc@#@tst-syslog.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-6246_CWE-XXXX-XXXX_52a5be0df411ef3ff45c10c7c308cb92993d15b1_CVE-2023-6246_52a5be0df411ef3ff45c10c7c308cb92993d15b1_tst-syslog.c_1.1_parse_syslog_console_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/bminor@@glibc-glibc-2.36.9000/check_syslog_udp@@@misc@#@tst-syslog.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-6246_CWE-XXXX-XXXX_52a5be0df411ef3ff45c10c7c308cb92993d15b1_CVE-2023-6246_52a5be0df411ef3ff45c10c7c308cb92993d15b1_tst-syslog.c_1.1_check_syslog_udp_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/bminor@@glibc-glibc-2.36.9000/parse_syslog_msg@@@misc@#@tst-syslog.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-6246_CWE-XXXX-XXXX_52a5be0df411ef3ff45c10c7c308cb92993d15b1_CVE-2023-6246_52a5be0df411ef3ff45c10c7c308cb92993d15b1_tst-syslog.c_1.1_parse_syslog_msg_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/bminor@@glibc-glibc-2.36.9000/__vsyslog_internal@@@misc@#@syslog.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-6246_CWE-XXXX-XXXX_52a5be0df411ef3ff45c10c7c308cb92993d15b1_CVE-2023-6246_52a5be0df411ef3ff45c10c7c308cb92993d15b1_syslog.c_1.1___vsyslog_internal_OLD.vul"
+            ]
+        }
+    ]
+}

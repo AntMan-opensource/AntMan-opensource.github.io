@@ -1,0 +1,14 @@
+{
+    "total_func": 232,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/GNS3@@ubridge-v0.9.17/parse_config@@@src@#@parse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-14976_CWE-XXXX-XXXX_2eb0d1dab6a6de76cf3556130a2d52af101077db_CVE-2020-14976_2eb0d1dab6a6de76cf3556130a2d52af101077db_parse.c_1.1_parse_config_OLD.vul"
+            ]
+        }
+    ]
+}

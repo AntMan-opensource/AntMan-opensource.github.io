@@ -1,0 +1,28 @@
+{
+    "total_func": 246387,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/NVIDIA@@open-gpu-kernel-modules-535.104.12/libspdm_try_get_capabilities@@@src@#@nvidia@#@src@#@libraries@#@libspdm@#@2.3.1@#@library@#@spdm_requester_lib@#@libspdm_req_get_capabilities.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-32690_CWE-XXXX-XXXX_7ba45838b023ee90e9db450e403f74589dcc3160_CVE-2023-32690_7ba45838b023ee90e9db450e403f74589dcc3160_libspdm_req_get_capabilities.c_1.1_libspdm_try_get_capabilities_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/NVIDIA@@open-gpu-kernel-modules-535.104.12/libspdm_handle_response_not_ready@@@src@#@nvidia@#@src@#@libraries@#@libspdm@#@2.3.1@#@library@#@spdm_requester_lib@#@libspdm_req_handle_error_response.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-32690_CWE-XXXX-XXXX_7ba45838b023ee90e9db450e403f74589dcc3160_CVE-2023-32690_7ba45838b023ee90e9db450e403f74589dcc3160_libspdm_req_handle_error_response.c_1.1_libspdm_handle_response_not_ready_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/NVIDIA@@open-gpu-kernel-modules-535.104.12/libspdm_receive_response@@@src@#@nvidia@#@src@#@libraries@#@libspdm@#@2.3.1@#@library@#@spdm_requester_lib@#@libspdm_req_send_receive.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-32690_CWE-XXXX-XXXX_7ba45838b023ee90e9db450e403f74589dcc3160_CVE-2023-32690_7ba45838b023ee90e9db450e403f74589dcc3160_libspdm_req_send_receive.c_1.1_libspdm_receive_response_OLD.vul"
+            ]
+        }
+    ]
+}

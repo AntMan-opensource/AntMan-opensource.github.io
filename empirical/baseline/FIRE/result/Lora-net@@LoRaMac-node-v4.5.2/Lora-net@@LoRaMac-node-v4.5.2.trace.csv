@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/Lora-net@@LoRaMac-node-v4.5.2/ProcessRadioRxDone@@@src@#@mac@#@LoRaMac.c,./cache/old_new_funcs/vul/sample/CVE-2020-11068_CWE-XXXX-XXXX_e3063a91daa7ad8a687223efa63079f0c24568e4_CVE-2020-11068_e3063a91daa7ad8a687223efa63079f0c24568e4_LoRaMac.c_1.1_ProcessRadioRxDone_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-11068_CWE-XXXX-XXXX_e3063a91daa7ad8a687223efa63079f0c24568e4_CVE-2020-11068_e3063a91daa7ad8a687223efa63079f0c24568e4_LoRaMac.c_1.1_ProcessRadioRxDone_NEW.vul,[False],False

@@ -1,0 +1,112 @@
+{
+    "total_func": 31052,
+    "cnt": 15,
+    "all": 15,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/facebook@@hermes-v0.11.0/generate@@@lib@#@BCGen@#@HBC@#@BytecodeGenerator.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-1912_CWE-XXXX-XXXX_091835377369c8fd5917d9b87acffa721ad2a168_CVE-2020-1912_091835377369c8fd5917d9b87acffa721ad2a168_BytecodeGenerator.cpp_1.1_BytecodeModuleGenerator :: generate_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/facebook@@hermes-v0.11.0/resolveBreakpointLocation@@@lib@#@VM@#@Debugger@#@Debugger.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-40138_CWE-XXXX-XXXX_6aa825e480d48127b480b08d13adf70033237097_CVE-2022-40138_6aa825e480d48127b480b08d13adf70033237097_Debugger.cpp_1.1_Debugger :: resolveBreakpointLocation_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/facebook@@hermes-v0.11.0/uv__utf8_decode1_slow@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__utf8_decode1_slow_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/facebook@@hermes-v0.11.0/generateBytecodeForSerialization@@@lib@#@CompilerDriver@#@CompilerDriver.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-40138_CWE-XXXX-XXXX_6aa825e480d48127b480b08d13adf70033237097_CVE-2022-40138_6aa825e480d48127b480b08d13adf70033237097_CompilerDriver.cpp_1.1_generateBytecodeForSerialization_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/facebook@@hermes-v0.11.0/uv__utf8_decode1@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__utf8_decode1_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/facebook@@hermes-v0.11.0/getCodeBlockFileName@@@lib@#@VM@#@JSLib@#@HermesInternal.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24832_CWE-XXXX-XXXX_5cae9f72975cf0e5a62b27fdd8b01f103e198708_CVE-2023-24832_5cae9f72975cf0e5a62b27fdd8b01f103e198708_HermesInternal.cpp_1.1_getCodeBlockFileName_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/facebook@@hermes-v0.11.0/createHermesInternalObject@@@lib@#@VM@#@JSLib@#@HermesInternal.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-24832_CWE-XXXX-XXXX_5cae9f72975cf0e5a62b27fdd8b01f103e198708_CVE-2023-24832_5cae9f72975cf0e5a62b27fdd8b01f103e198708_HermesInternal.cpp_1.1_createHermesInternalObject_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/facebook@@hermes-v0.11.0/genES5Function@@@lib@#@IRGen@#@ESTreeIRGen-func.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-1912_CWE-XXXX-XXXX_091835377369c8fd5917d9b87acffa721ad2a168_CVE-2020-1912_091835377369c8fd5917d9b87acffa721ad2a168_ESTreeIRGen-func.cpp_1.1_ESTreeIRGen :: genES5Function_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/facebook@@hermes-v0.11.0/grow_pod@@@external@#@llvh@#@lib@#@Support@#@SmallVector.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32234_CWE-XXXX-XXXX_06eaec767e376bfdb883d912cb15e987ddf2bda1_CVE-2022-32234_06eaec767e376bfdb883d912cb15e987ddf2bda1_SmallVector.cpp_1.1_SmallVectorBase :: grow_pod_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/facebook@@hermes-v0.11.0/generateBytecodeForExecution@@@lib@#@CompilerDriver@#@CompilerDriver.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-40138_CWE-XXXX-XXXX_6aa825e480d48127b480b08d13adf70033237097_CVE-2022-40138_6aa825e480d48127b480b08d13adf70033237097_CompilerDriver.cpp_1.1_generateBytecodeForExecution_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/facebook@@hermes-v0.11.0/generateBytecode@@@lib@#@BCGen@#@HBC@#@HBC.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-40138_CWE-XXXX-XXXX_6aa825e480d48127b480b08d13adf70033237097_CVE-2022-40138_6aa825e480d48127b480b08d13adf70033237097_HBC.cpp_1.1_hbc :: generateBytecode_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/facebook@@hermes-v0.11.0/generateHBCResolveEnvironment@@@lib@#@BCGen@#@HBC@#@ISel.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-40138_CWE-XXXX-XXXX_6aa825e480d48127b480b08d13adf70033237097_CVE-2022-40138_6aa825e480d48127b480b08d13adf70033237097_ISel.cpp_1.1_HBCISel :: generateHBCResolveEnvironment_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/facebook@@hermes-v0.11.0/copyDataPropertiesSlowPath_RJS@@@lib@#@VM@#@JSLib@#@HermesBuiltin.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-23557_CWE-XXXX-XXXX_a00d237346894c6067a594983be6634f4168c9ad_CVE-2023-23557_a00d237346894c6067a594983be6634f4168c9ad_HermesBuiltin.cpp_1.1_copyDataPropertiesSlowPath_RJS_OLD.vul"
+            ]
+        },
+        {
+            "id": 14,
+            "dst": "./processed/facebook@@hermes-v0.11.0/uv__idna_toascii@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__idna_toascii_OLD.vul"
+            ]
+        },
+        {
+            "id": 15,
+            "dst": "./processed/facebook@@hermes-v0.11.0/uv__idna_toascii_label@@@tools@#@node-hermes@#@third-party@#@libuv@#@src@#@idna.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-22918_CWE-XXXX-XXXX_b7466e31e4bee160d82a68fca11b1f61d46debae_CVE-2021-22918_b7466e31e4bee160d82a68fca11b1f61d46debae_idna.c_1.1_uv__idna_toascii_label_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "total_func": 6138,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/mongodb@@mongo-c-driver-1.23.1/bson_strfreev@@@src@#@libbson@#@src@#@bson@#@bson-string.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-6381_CWE-XXXX-XXXX_effd95c34ad421df94eec7c69236f0e4172552d0_CVE-2024-6381_effd95c34ad421df94eec7c69236f0e4172552d0_bson-string.c_1.1_bson_strfreev_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/mongodb@@mongo-c-driver-1.23.1/bson_string_new@@@src@#@libbson@#@src@#@bson@#@bson-string.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-6383_CWE-XXXX-XXXX_7c34461863211be172e6317221d72e4429bed45e_CVE-2024-6383_7c34461863211be172e6317221d72e4429bed45e_bson-string.c_1.1_bson_string_new_OLD.vul"
+            ]
+        }
+    ]
+}

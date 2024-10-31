@@ -1,0 +1,14 @@
+{
+    "total_func": 224398,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AcademySoftwareFoundation@@OpenImageIO-v2.5.12.0/seek_subimage@@@src@#@heif.imageio@#@heifinput.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-40630_CWE-XXXX-XXXX_0a2dcb4cf2c3fd4825a146cd3ad929d9d8305ce3_CVE-2024-40630_0a2dcb4cf2c3fd4825a146cd3ad929d9d8305ce3_heifinput.cpp_1.1_HeifInput :: seek_subimage_OLD.vul"
+            ]
+        }
+    ]
+}

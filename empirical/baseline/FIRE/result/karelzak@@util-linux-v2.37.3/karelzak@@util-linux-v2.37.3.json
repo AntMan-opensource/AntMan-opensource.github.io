@@ -1,0 +1,21 @@
+{
+    "total_func": 5031,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/karelzak@@util-linux-v2.37.3/ask_new_field@@@login-utils@#@chfn.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0563_CWE-XXXX-XXXX_faa5a3a83ad0cb5e2c303edbfd8cd823c9d94c17_CVE-2022-0563_faa5a3a83ad0cb5e2c303edbfd8cd823c9d94c17_chfn.c_1.1_ask_new_field_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/karelzak@@util-linux-v2.37.3/ask_new_shell@@@login-utils@#@chsh.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0563_CWE-XXXX-XXXX_faa5a3a83ad0cb5e2c303edbfd8cd823c9d94c17_CVE-2022-0563_faa5a3a83ad0cb5e2c303edbfd8cd823c9d94c17_chsh.c_1.1_ask_new_shell_OLD.vul"
+            ]
+        }
+    ]
+}

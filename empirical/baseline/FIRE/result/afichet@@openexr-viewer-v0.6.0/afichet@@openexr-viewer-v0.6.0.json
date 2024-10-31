@@ -1,0 +1,35 @@
+{
+    "total_func": 283,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/afichet@@openexr-viewer-v0.6.0/__anond7d974560102@@@src@#@model@#@framebuffer@#@YFramebufferModel.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50245_CWE-XXXX-XXXX_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_CVE-2023-50245_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_YFramebufferModel.cpp_1.1_YFramebufferModel :: load_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/afichet@@openexr-viewer-v0.6.0/load@@@src@#@model@#@framebuffer@#@YFramebufferModel.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50245_CWE-XXXX-XXXX_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_CVE-2023-50245_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_YFramebufferModel.cpp_1.1_YFramebufferModel :: load_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/afichet@@openexr-viewer-v0.6.0/load@@@src@#@model@#@framebuffer@#@RGBFramebufferModel.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50245_CWE-XXXX-XXXX_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_CVE-2023-50245_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_RGBFramebufferModel.cpp_1.1_RGBFramebufferModel :: load_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/afichet@@openexr-viewer-v0.6.0/__anon136b4cb80102@@@src@#@model@#@framebuffer@#@RGBFramebufferModel.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50245_CWE-XXXX-XXXX_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_CVE-2023-50245_d0a7e85dfeb519951fb8a8d70f73f30d41cdd3d9_RGBFramebufferModel.cpp_1.1_RGBFramebufferModel :: load_OLD.vul"
+            ]
+        }
+    ]
+}

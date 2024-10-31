@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/mity@@md4c-release-0.4.6/md_analyze_line@@@src@#@md4c.c,./cache/old_new_funcs/vul/sample/CVE-2021-30027_CWE-XXXX-XXXX_4fc808d8fe8d8904f8525bb4231d854f45e23a19_CVE-2021-30027_4fc808d8fe8d8904f8525bb4231d854f45e23a19_md4c.c_1.1_md_analyze_line_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2021-30027_CWE-XXXX-XXXX_4fc808d8fe8d8904f8525bb4231d854f45e23a19_CVE-2021-30027_4fc808d8fe8d8904f8525bb4231d854f45e23a19_md4c.c_1.1_md_analyze_line_NEW.vul,"[True, True, True, 0.9843711843711843, 0.9368596616630926]",True

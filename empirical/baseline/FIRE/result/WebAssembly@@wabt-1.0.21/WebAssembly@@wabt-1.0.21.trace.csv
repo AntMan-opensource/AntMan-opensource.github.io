@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/WebAssembly@@wabt-1.0.21/ProgramMain@@@src@#@tools@#@wasm2c.cc,.//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-30300_CWE-XXXX-XXXX_2d77bda4034a719fe1a2eaf1d51593eb351ecb4c_CVE-2023-30300_2d77bda4034a719fe1a2eaf1d51593eb351ecb4c_wasm2c.cc_1.1_ProgramMain_OLD.vul,.//3.FIRE/cache/old_new_funcs/no_vul/CVE-2023-30300_CWE-XXXX-XXXX_2d77bda4034a719fe1a2eaf1d51593eb351ecb4c_CVE-2023-30300_2d77bda4034a719fe1a2eaf1d51593eb351ecb4c_wasm2c.cc_1.1_ProgramMain_NEW.vul,[False],False

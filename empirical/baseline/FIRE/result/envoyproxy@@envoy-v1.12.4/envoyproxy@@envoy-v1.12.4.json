@@ -1,0 +1,28 @@
+{
+    "total_func": 23305,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/envoyproxy@@envoy-v1.12.4/DEFINE_FUZZER@@@test@#@common@#@compressor@#@compressor_fuzz_test.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29225_CWE-XXXX-XXXX_cb4ef0b09200c720dfdb07e097092dd105450343_CVE-2022-29225_cb4ef0b09200c720dfdb07e097092dd105450343_compressor_fuzz_test.cc_1.1_DEFINE_FUZZER_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/envoyproxy@@envoy-v1.12.4/maybeEndDecode@@@source@#@common@#@http@#@conn_manager_impl.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-43825_CWE-XXXX-XXXX_148de954ed3585d8b4298b424aa24916d0de6136_CVE-2021-43825_148de954ed3585d8b4298b424aa24916d0de6136_filter_manager.cc_1.1_FilterManager :: maybeEndDecode_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/envoyproxy@@envoy-v1.12.4/decompress@@@source@#@common@#@decompressor@#@zlib_decompressor_impl.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29225_CWE-XXXX-XXXX_cb4ef0b09200c720dfdb07e097092dd105450343_CVE-2022-29225_cb4ef0b09200c720dfdb07e097092dd105450343_zlib_decompressor_impl.cc_1.1_ZlibDecompressorImpl :: decompress_OLD.vul"
+            ]
+        }
+    ]
+}

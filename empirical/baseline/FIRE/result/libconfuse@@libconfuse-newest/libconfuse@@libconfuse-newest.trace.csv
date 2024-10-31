@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/libconfuse@@libconfuse-newest/cfg_tilde_expand@@@src@#@confuse.c,./cache/old_new_funcs/vul/sample/CVE-2022-40320_CWE-XXXX-XXXX_d73777c2c3566fb2647727bb56d9a2295b81669b_CVE-2022-40320_d73777c2c3566fb2647727bb56d9a2295b81669b_confuse.c_1.1_cfg_tilde_expand_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-40320_CWE-XXXX-XXXX_d73777c2c3566fb2647727bb56d9a2295b81669b_CVE-2022-40320_d73777c2c3566fb2647727bb56d9a2295b81669b_confuse.c_1.1_cfg_tilde_expand_NEW.vul,[False],False

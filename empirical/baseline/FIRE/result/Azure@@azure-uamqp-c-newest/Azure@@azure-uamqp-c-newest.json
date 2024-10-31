@@ -1,0 +1,14 @@
+{
+    "total_func": 218333,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Azure@@azure-uamqp-c-newest/send_chunk@@@samples@#@local_server_tls_sample@#@tls_server_io_schannel.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29195_CWE-XXXX-XXXX_1129147c38ac02ad974c4c701a1e01b2141b9fe2_CVE-2024-29195_1129147c38ac02ad974c4c701a1e01b2141b9fe2_tlsio_schannel.c_1.1_send_chunk_OLD.vul"
+            ]
+        }
+    ]
+}

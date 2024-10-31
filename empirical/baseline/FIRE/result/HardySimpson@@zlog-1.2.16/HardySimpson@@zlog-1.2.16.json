@@ -1,0 +1,14 @@
+{
+    "total_func": 237,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/HardySimpson@@zlog-1.2.16/zlog_rule_new@@@src@#@rule.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-22857_CWE-XXXX-XXXX_c47f781a9f1e9604f5201e27d046d925d0d48ac4_CVE-2024-22857_c47f781a9f1e9604f5201e27d046d925d0d48ac4_rule.c_1.1_zlog_rule_new_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,609 @@
+{
+    "total_func": 219786,
+    "cnt": 86,
+    "all": 86,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/xPortStartScheduler@@@portable@#@RVDS@#@ARM_CM4_MPU@#@port.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_port.c_1.1_xPortStartScheduler_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/xPortStartScheduler@@@portable@#@GCC@#@ARM_CM4_MPU@#@port.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_port.c_1.1_xPortStartScheduler_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xEventGroupSetBitsImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xEventGroupSetBitsImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTimerGetReloadModeImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTimerGetReloadModeImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTimerGetExpiryTimeImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTimerGetExpiryTimeImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xEventGroupGetStaticBuffer@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxEventGroupGetNumberImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferNextMessageLengthBytesImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferNextMessageLengthBytesImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xEventGroupClearBitsFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xEventGroupClearBitsImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vQueueUnregisterQueueImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vQueueUnregisterQueueImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxQueueMessagesWaitingFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxQueueSpacesAvailableImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vTaskResumeImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vTaskResumeImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTimerGetPeriodImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTimerGetPeriodImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vTaskSetApplicationTaskTagImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vTaskSetApplicationTaskTagImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 14,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferIsEmptyImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferIsEmptyImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 15,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xEventGroupClearBitsImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xEventGroupClearBitsImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 16,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxTaskGetStackHighWaterMark2Impl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxTaskGetStackHighWaterMark2Impl_OLD.vul"
+            ]
+        },
+        {
+            "id": 17,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueuePeekFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGiveMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 18,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxTaskPriorityGetFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxTaskGetStackHighWaterMarkImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 19,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vTimerSetReloadModeImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vTimerSetReloadModeImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 20,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferReceiveCompletedFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferIsEmptyImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 21,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueRemoveFromSet@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueAddToSetImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 22,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferSendImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferSendImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 23,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTaskGenericNotifyStateClearImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTaskGenericNotifyStateClearImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 24,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTaskGetApplicationTaskTagImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTaskGetApplicationTaskTagImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 25,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTaskCallApplicationTaskHook@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTaskGenericNotifyStateClearImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 26,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vTaskGetInfoImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vTaskGetInfoImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 27,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferSpacesAvailableImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferSpacesAvailableImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 28,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferIsFullImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferIsFullImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 29,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferReceiveImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferReceiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 30,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vTimerSetTimerIDImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vTimerSetTimerIDImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 31,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferBytesAvailableImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferBytesAvailableImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 32,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_ulTaskGenericNotifyValueClearImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_ulTaskGenericNotifyValueClearImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 33,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxQueueMessagesWaitingImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxQueueMessagesWaitingImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 34,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueSelectFromSetImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueSelectFromSetImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 35,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferReset@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferIsEmptyImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 36,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vQueueDelete@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vQueueUnregisterQueueImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 37,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferSendCompletedFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferIsEmptyImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 38,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xEventGroupGetBitsFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxEventGroupGetNumberImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 39,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@GCC@#@ARM_CM35P@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 40,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vStreamBufferDelete@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferIsEmptyImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 41,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueIsQueueEmptyFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGiveMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 42,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@GCC@#@ARM_CM33@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 43,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vTaskSetThreadLocalStoragePointerImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vTaskSetThreadLocalStoragePointerImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 44,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueGenericReset@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGiveMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 45,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTaskResumeFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTaskAbortDelayImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 46,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTaskAbortDelayImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTaskAbortDelayImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 47,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueTakeMutexRecursiveImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueTakeMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 48,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxTimerGetReloadModeImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxTimerGetReloadModeImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 49,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTimerGetStaticBuffer@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTimerIsTimerActiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 50,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferSendFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferBytesAvailableImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 51,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@IAR@#@ARM_CM33@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 52,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/xPortStartScheduler@@@portable@#@IAR@#@ARM_CM4F_MPU@#@port.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_port.c_1.1_xPortStartScheduler_OLD.vul"
+            ]
+        },
+        {
+            "id": 53,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_pcTimerGetNameImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_pcTimerGetNameImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 54,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@ARMv8M@#@secure@#@heap@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 55,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxTaskGetStackHighWaterMarkImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxTaskGetStackHighWaterMarkImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 56,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferReceiveFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferBytesAvailableImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 57,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxQueueSpacesAvailableImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxQueueSpacesAvailableImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 58,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueSemaphoreTakeImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGiveMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 59,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_ulTaskGetRunTimeCounterImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_ulTaskGetRunTimeCounterImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 60,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueGiveMutexRecursiveImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGiveMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 61,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxEventGroupGetNumberImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxEventGroupGetNumberImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 62,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueAddToSetImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueAddToSetImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 63,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueGiveFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGiveMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 64,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@IAR@#@ARM_CM55@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 65,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueSelectFromSetFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueSelectFromSetImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 66,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vQueueAddToRegistryImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vQueueAddToRegistryImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 67,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTimerIsTimerActiveImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTimerIsTimerActiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 68,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_pcQueueGetNameImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_pcQueueGetNameImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 69,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@IAR@#@ARM_CM85@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 70,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xStreamBufferSetTriggerLevelImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xStreamBufferSetTriggerLevelImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 71,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_uxTaskPriorityGetImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_uxTaskPriorityGetImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 72,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xTaskGetApplicationTaskTagFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xTaskGetApplicationTaskTagImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 73,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@GCC@#@ARM_CM55@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 74,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueIsQueueFullFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGiveMutexRecursiveImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 75,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_ulTaskGetRunTimePercentImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_ulTaskGetRunTimePercentImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 76,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vEventGroupSetNumberImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vEventGroupSetNumberImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 77,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@GCC@#@ARM_CM23@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 78,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueGetMutexHolderImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGetMutexHolderImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 79,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_eTaskGetStateImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_eTaskGetStateImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 80,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_xQueueGetMutexHolderFromISR@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_xQueueGetMutexHolderImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 81,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@IAR@#@ARM_CM23@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 82,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@GCC@#@ARM_CM85@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 83,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/pvPortMalloc@@@portable@#@IAR@#@ARM_CM35P@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 84,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_pvTimerGetTimerIDImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_pvTimerGetTimerIDImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 85,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_vTaskSuspendImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_vTaskSuspendImpl_OLD.vul"
+            ]
+        },
+        {
+            "id": 86,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.6.0/MPU_pvTaskGetThreadLocalStoragePointerImpl@@@portable@#@Common@#@mpu_wrappers_v2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-28115_CWE-XXXX-XXXX_6b7d4cf41be3438177ae7104553f0c69d2f2d286_CVE-2024-28115_6b7d4cf41be3438177ae7104553f0c69d2f2d286_mpu_wrappers_v2.c_1.1_MPU_pvTaskGetThreadLocalStoragePointerImpl_OLD.vul"
+            ]
+        }
+    ]
+}

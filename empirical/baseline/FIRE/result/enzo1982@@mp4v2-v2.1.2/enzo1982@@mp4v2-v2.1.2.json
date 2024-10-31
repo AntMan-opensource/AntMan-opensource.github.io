@@ -1,0 +1,58 @@
+{
+    "total_func": 1575,
+    "cnt": 6,
+    "all": 15,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/enzo1982@@mp4v2-v2.1.2/Read@@@src@#@atom_sdp.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33718_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33718_c724815a541b763455ff38922af96f652627bce6_atom_sdp.cpp_1.1_MP4SdpAtom :: Read_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33719_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33719_c724815a541b763455ff38922af96f652627bce6_atom_sdp.cpp_1.1_MP4SdpAtom :: Read_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33717_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33717_c724815a541b763455ff38922af96f652627bce6_atom_sdp.cpp_1.1_MP4SdpAtom :: Read_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/enzo1982@@mp4v2-v2.1.2/ReadHntiType@@@src@#@atom_rtp.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33717_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33717_c724815a541b763455ff38922af96f652627bce6_atom_rtp.cpp_1.1_MP4RtpAtom :: ReadHntiType_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33719_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33719_c724815a541b763455ff38922af96f652627bce6_atom_rtp.cpp_1.1_MP4RtpAtom :: ReadHntiType_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33718_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33718_c724815a541b763455ff38922af96f652627bce6_atom_rtp.cpp_1.1_MP4RtpAtom :: ReadHntiType_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/enzo1982@@mp4v2-v2.1.2/MP4GetVideoProfileLevel@@@src@#@mp4.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-29584_CWE-XXXX-XXXX_e7177cc04092c6fac65a9468a08b4a07504a8ad4_CVE-2023-29584_e7177cc04092c6fac65a9468a08b4a07504a8ad4_mp4.cpp_1.1_MP4GetVideoProfileLevel_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/enzo1982@@mp4v2-v2.1.2/ReadCountedString@@@src@#@mp4file_io.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33718_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33718_c724815a541b763455ff38922af96f652627bce6_mp4file_io.cpp_1.1_MP4File :: ReadCountedString_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33719_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33719_c724815a541b763455ff38922af96f652627bce6_mp4file_io.cpp_1.1_MP4File :: ReadCountedString_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33717_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33717_c724815a541b763455ff38922af96f652627bce6_mp4file_io.cpp_1.1_MP4File :: ReadCountedString_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/enzo1982@@mp4v2-v2.1.2/SetCount@@@src@#@mp4property.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33716_CWE-XXXX-XXXX_0f97a87685c8fcf9d7b9b21167265b21b1c34cc5_CVE-2023-33716_0f97a87685c8fcf9d7b9b21167265b21b1c34cc5_mp4property.cpp_1.1_MP4BytesProperty :: SetCount_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33720_CWE-XXXX-XXXX_0f97a87685c8fcf9d7b9b21167265b21b1c34cc5_CVE-2023-33720_0f97a87685c8fcf9d7b9b21167265b21b1c34cc5_mp4property.cpp_1.1_MP4BytesProperty :: SetCount_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/enzo1982@@mp4v2-v2.1.2/ReadString@@@src@#@mp4file_io.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33718_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33718_c724815a541b763455ff38922af96f652627bce6_mp4file_io.cpp_1.1_MP4File :: ReadString_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33717_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33717_c724815a541b763455ff38922af96f652627bce6_mp4file_io.cpp_1.1_MP4File :: ReadString_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-33719_CWE-XXXX-XXXX_c724815a541b763455ff38922af96f652627bce6_CVE-2023-33719_c724815a541b763455ff38922af96f652627bce6_mp4file_io.cpp_1.1_MP4File :: ReadString_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "total_func": 3954,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Blosc@@c-blosc2-v2.10.5/zfp_prec_decompress@@@plugins@#@codecs@#@zfp@#@blosc2-zfp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37187_CWE-XXXX-XXXX_425e8a9a59d49378d57e2116b6c9b0190a5986f5_CVE-2023-37187_425e8a9a59d49378d57e2116b6c9b0190a5986f5_blosc2-zfp.c_1.1_zfp_prec_compress_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Blosc@@c-blosc2-v2.10.5/zfp_rate_decompress@@@plugins@#@codecs@#@zfp@#@blosc2-zfp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37187_CWE-XXXX-XXXX_425e8a9a59d49378d57e2116b6c9b0190a5986f5_CVE-2023-37187_425e8a9a59d49378d57e2116b6c9b0190a5986f5_blosc2-zfp.c_1.1_zfp_acc_compress_OLD.vul"
+            ]
+        }
+    ]
+}

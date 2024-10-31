@@ -1,0 +1,61 @@
+{
+    "total_func": 228692,
+    "cnt": 7,
+    "all": 12,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FRRouting@@frr-frr-7.3.1/parse_hello_subtlv@@@babeld@#@message.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26128_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26128_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_parse_hello_subtlv_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26129_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26129_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_parse_hello_subtlv_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FRRouting@@frr-frr-7.3.1/parse_update_subtlv@@@babeld@#@message.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26129_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26129_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_parse_update_subtlv_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26128_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26128_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_parse_update_subtlv_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FRRouting@@frr-frr-7.3.1/parse_packet@@@babeld@#@message.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26127_CWE-XXXX-XXXX_50044ec7fe129e0a74d3a679dd29fe17ce30e6bf_CVE-2022-26127_50044ec7fe129e0a74d3a679dd29fe17ce30e6bf_message.c_1.1_parse_packet_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FRRouting@@frr-frr-7.3.1/bgp_mp_reach_parse@@@bgpd@#@bgp_attr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46752_CWE-XXXX-XXXX_b08afc81c60607a4f736f418f2e3eb06087f1a35_CVE-2023-46752_b08afc81c60607a4f736f418f2e3eb06087f1a35_bgp_attr.c_1.1_bgp_mp_reach_parse_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FRRouting@@frr-frr-7.3.1/parse_ihu_subtlv@@@babeld@#@message.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26128_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26128_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_parse_ihu_subtlv_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26129_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26129_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_parse_ihu_subtlv_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/FRRouting@@frr-frr-7.3.1/babel_packet_examin@@@babeld@#@message.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26127_CWE-XXXX-XXXX_50044ec7fe129e0a74d3a679dd29fe17ce30e6bf_CVE-2022-26127_50044ec7fe129e0a74d3a679dd29fe17ce30e6bf_message.c_1.1_babel_packet_examin_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26129_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26129_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_babel_packet_examin_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26128_CWE-XXXX-XXXX_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_CVE-2022-26128_c3793352a8d76d2eee1edc38a9a16c1c8a6573f4_message.c_1.1_babel_packet_examin_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/FRRouting@@frr-frr-7.3.1/bgp_capability_msg_parse@@@bgpd@#@bgp_packet.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-37032_CWE-XXXX-XXXX_ff6db1027f8f36df657ff2e5ea167773752537ed_CVE-2022-37032_ff6db1027f8f36df657ff2e5ea167773752537ed_bgp_packet.c_1.1_bgp_capability_msg_parse_OLD.vul"
+            ]
+        }
+    ]
+}

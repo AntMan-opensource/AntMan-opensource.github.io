@@ -1,0 +1,14 @@
+{
+    "total_func": 217594,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ValveSoftware@@GameNetworkingSockets-v1.1.0/SNP_SendMessage@@@src@#@steamnetworkingsockets@#@clientlib@#@steamnetworkingsockets_snp.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-6017_CWE-XXXX-XXXX_e0c86dcb9139771db3db0cfdb1fb8bef0af19c43_CVE-2020-6017_e0c86dcb9139771db3db0cfdb1fb8bef0af19c43_steamnetworkingsockets_snp.cpp_1.1_CSteamNetworkConnectionBase :: SNP_SendMessage_OLD.vul"
+            ]
+        }
+    ]
+}

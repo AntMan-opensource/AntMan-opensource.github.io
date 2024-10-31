@@ -1,0 +1,21 @@
+{
+    "total_func": 373824,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/RT-Thread@@rt-thread-v3.1.4/dfs_normalize_path@@@components@#@dfs@#@src@#@dfs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs.c_1.1_dfs_normalize_path_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/RT-Thread@@rt-thread-v3.1.4/dfs_win32_getdents@@@bsp@#@simulator@#@drivers@#@dfs_win32.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs_win32.c_1.1_dfs_win32_getdents_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 221298,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/fwupd@@fwupd-1.7.4/fu_plugin_set_secure_config_value@@@libfwupdplugin@#@fu-plugin.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3287_CWE-XXXX-XXXX_ea676855f2119e36d433fbd2ed604039f53b2091_CVE-2022-3287_ea676855f2119e36d433fbd2ed604039f53b2091_fu-plugin.c_1.1_fu_plugin_set_secure_config_value_OLD.vul"
+            ]
+        }
+    ]
+}

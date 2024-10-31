@@ -1,0 +1,15 @@
+{
+    "signature_path":"/path/to/signature/",
+    "work_path": "/path/to/workdir",
+    "saga_path": "/path/to/saga/",
+    "progress_file": "/path/to/progress_0520.txt",
+    "saga_multi": "/path/to/infoFile/sagaMulti.json",
+    "vulFileMulti": "/path/to/vulFile/",
+    "ctagsPath":"/path/to//ctags/bin/ctags",
+    "tempSignature": "/path/to/tempSignature/",
+    "th_syn_v":0.7,
+    "th_sem_v":0.6,
+    "th_syn_p":0.3,
+    "th_sem_p":0.4,
+    "th_ce":0.6
+}

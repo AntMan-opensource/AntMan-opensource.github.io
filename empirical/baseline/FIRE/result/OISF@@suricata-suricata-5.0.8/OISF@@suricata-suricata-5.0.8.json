@@ -1,0 +1,49 @@
+{
+    "total_func": 225578,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OISF@@suricata-suricata-5.0.8/LuaMatchTest01@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OISF@@suricata-suricata-5.0.8/LuaMatchTest04@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/OISF@@suricata-suricata-5.0.8/LuaMatchTest06@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/OISF@@suricata-suricata-5.0.8/LuaMatchTest02@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/OISF@@suricata-suricata-5.0.8/LuaMatchTest05@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/OISF@@suricata-suricata-5.0.8/LuaMatchTest03@@@src@#@detect-lua.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35853_CWE-XXXX-XXXX_b95bbcc66db526ffcc880eb439dbe8abc87a81da_CVE-2023-35853_b95bbcc66db526ffcc880eb439dbe8abc87a81da_detect-lua.c_1.1_LuaMatchTest01_OLD.vul"
+            ]
+        }
+    ]
+}

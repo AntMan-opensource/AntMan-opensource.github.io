@@ -1,0 +1,79 @@
+{
+    "total_func": 813,
+    "cnt": 9,
+    "all": 18,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_pima_entry@@@common@#@usbx_device_classes@#@src@#@ux_device_class_pima_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_dfu_entry.c_1.1__ux_device_class_dfu_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_dfu_entry.c_1.1__ux_device_class_dfu_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_cdc_acm_entry@@@common@#@usbx_device_classes@#@src@#@ux_device_class_cdc_acm_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_hid_entry.c_1.1__ux_device_class_hid_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_hid_entry.c_1.1__ux_device_class_hid_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_audio_entry@@@common@#@usbx_device_classes@#@src@#@ux_device_class_audio_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_video_entry.c_1.1__ux_device_class_video_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_video_entry.c_1.1__ux_device_class_video_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_dpump_entry@@@common@#@core@#@src@#@ux_device_class_dpump_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_storage_entry.c_1.1__ux_device_class_storage_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_storage_entry.c_1.1__ux_device_class_storage_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_dfu_entry@@@common@#@usbx_device_classes@#@src@#@ux_device_class_dfu_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_dfu_entry.c_1.1__ux_device_class_dfu_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_dfu_entry.c_1.1__ux_device_class_dfu_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_storage_entry@@@common@#@usbx_device_classes@#@src@#@ux_device_class_storage_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_storage_entry.c_1.1__ux_device_class_storage_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_storage_entry.c_1.1__ux_device_class_storage_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_rndis_initialize@@@common@#@usbx_device_classes@#@src@#@ux_device_class_rndis_initialize.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_rndis_initialize.c_1.1__ux_device_class_rndis_initialize_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_rndis_initialize.c_1.1__ux_device_class_rndis_initialize_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_hid_entry@@@common@#@usbx_device_classes@#@src@#@ux_device_class_hid_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_hid_entry.c_1.1__ux_device_class_hid_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_hid_entry.c_1.1__ux_device_class_hid_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/azure-rtos@@usbx-v6.1.7_rel/_ux_device_class_rndis_entry@@@common@#@usbx_device_classes@#@src@#@ux_device_class_rndis_entry.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48698_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48698_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_storage_entry.c_1.1__ux_device_class_storage_entry_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-48694_CWE-XXXX-XXXX_5f758e08fe6661ee5330a764abdf6b3c5a55938f_CVE-2023-48694_5f758e08fe6661ee5330a764abdf6b3c5a55938f_ux_device_class_storage_entry.c_1.1__ux_device_class_storage_entry_OLD.vul"
+            ]
+        }
+    ]
+}

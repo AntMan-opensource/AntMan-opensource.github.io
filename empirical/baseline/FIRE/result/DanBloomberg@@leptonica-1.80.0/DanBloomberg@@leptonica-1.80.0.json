@@ -1,0 +1,42 @@
+{
+    "total_func": 4334,
+    "cnt": 5,
+    "all": 5,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/DanBloomberg@@leptonica-1.80.0/pixBlockconvGray@@@src@#@convolve.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-38266_CWE-XXXX-XXXX_f062b42c0ea8dddebdc6a152fd16152de215d614_CVE-2022-38266_f062b42c0ea8dddebdc6a152fd16152de215d614_convolve.c_1.1_pixBlockconvGray_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/DanBloomberg@@leptonica-1.80.0/pixBlockconvGrayTile@@@src@#@convolve.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-38266_CWE-XXXX-XXXX_f062b42c0ea8dddebdc6a152fd16152de215d614_CVE-2022-38266_f062b42c0ea8dddebdc6a152fd16152de215d614_convolve.c_1.1_pixBlockconvGrayTile_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/DanBloomberg@@leptonica-1.80.0/pixBlockconvGrayUnnormalized@@@src@#@convolve.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-38266_CWE-XXXX-XXXX_f062b42c0ea8dddebdc6a152fd16152de215d614_CVE-2022-38266_f062b42c0ea8dddebdc6a152fd16152de215d614_convolve.c_1.1_pixBlockconvGrayUnnormalized_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/DanBloomberg@@leptonica-1.80.0/pixBlockconv@@@src@#@convolve.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-38266_CWE-XXXX-XXXX_f062b42c0ea8dddebdc6a152fd16152de215d614_CVE-2022-38266_f062b42c0ea8dddebdc6a152fd16152de215d614_convolve.c_1.1_pixBlockconv_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/DanBloomberg@@leptonica-1.80.0/pixBlockconvTiled@@@src@#@convolve.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-38266_CWE-XXXX-XXXX_f062b42c0ea8dddebdc6a152fd16152de215d614_CVE-2022-38266_f062b42c0ea8dddebdc6a152fd16152de215d614_convolve.c_1.1_pixBlockconvTiled_OLD.vul"
+            ]
+        }
+    ]
+}

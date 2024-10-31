@@ -1,0 +1,161 @@
+{
+    "total_func": 8292,
+    "cnt": 22,
+    "all": 22,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_acipher_alloc_dsa_keypair@@@core@#@lib@#@libtomcrypt@#@dsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_dsa.c_1.1_crypto_acipher_alloc_dsa_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/cleanup_shm_refs@@@core@#@tee@#@entry_std.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-46152_CWE-XXXX-XXXX_728616b28df659cf0bdde6e58a471f6ef25d023c_CVE-2022-46152_728616b28df659cf0bdde6e58a471f6ef25d023c_entry_std.c_1.1_cleanup_shm_refs_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_acipher_alloc_rsa_public_key@@@core@#@lib@#@libtomcrypt@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_rsa.c_1.1_do_alloc_publickey_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_allocate_publickey@@@core@#@drivers@#@crypto@#@caam@#@acipher@#@caam_ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_caam_ecc.c_1.1_do_allocate_publickey_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_alloc_keypair@@@core@#@drivers@#@crypto@#@se050@#@core@#@ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_ecc.c_1.1_do_alloc_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/mbedtls_x509_set_extension@@@lib@#@libmbedtls@#@mbedtls@#@library@#@x509_create.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23775_CWE-XXXX-XXXX_e90cbc3d1260901efc879178a15f2d90a5e17612_CVE-2024-23775_e90cbc3d1260901efc879178a15f2d90a5e17612_x509_create.c_1.1_mbedtls_x509_set_extension_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_acipher_alloc_dsa_public_key@@@core@#@lib@#@libtomcrypt@#@dsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_dsa.c_1.1_crypto_acipher_alloc_dsa_public_key_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_alloc_publickey@@@core@#@drivers@#@crypto@#@se050@#@core@#@ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_ecc.c_1.1_do_alloc_publickey_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_asym_alloc_ecc_keypair@@@core@#@lib@#@libtomcrypt@#@ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_ecc.c_1.1_crypto_asym_alloc_ecc_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_allocate_keypair@@@core@#@drivers@#@crypto@#@caam@#@acipher@#@caam_ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_caam_ecc.c_1.1_do_allocate_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_alloc_publickey@@@core@#@drivers@#@crypto@#@se050@#@core@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_rsa.c_1.1_do_alloc_publickey_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_free_keypair@@@core@#@drivers@#@crypto@#@se050@#@core@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_rsa.c_1.1_do_free_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_alloc_keypair@@@core@#@drivers@#@crypto@#@se050@#@core@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_rsa.c_1.1_do_alloc_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 14,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_allocate_publickey@@@core@#@drivers@#@crypto@#@caam@#@acipher@#@caam_rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_caam_rsa.c_1.1_do_allocate_publickey_OLD.vul"
+            ]
+        },
+        {
+            "id": 15,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_acipher_free_rsa_keypair@@@lib@#@libmbedtls@#@core@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_rsa.c_1.1_sw_crypto_acipher_free_rsa_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 16,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_asym_alloc_ecc_public_key@@@core@#@lib@#@libtomcrypt@#@ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_ecc.c_1.1_crypto_asym_alloc_ecc_public_key_OLD.vul"
+            ]
+        },
+        {
+            "id": 17,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_asym_alloc_ecc_public_key@@@lib@#@libmbedtls@#@core@#@ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_ecc.c_1.1_crypto_asym_alloc_ecc_public_key_OLD.vul"
+            ]
+        },
+        {
+            "id": 18,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_acipher_alloc_rsa_public_key@@@lib@#@libmbedtls@#@core@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_rsa.c_1.1_sw_crypto_acipher_alloc_rsa_public_key_OLD.vul"
+            ]
+        },
+        {
+            "id": 19,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_acipher_free_rsa_keypair@@@core@#@lib@#@libtomcrypt@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_rsa.c_1.1_sw_crypto_acipher_free_rsa_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 20,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/do_free_keypair@@@core@#@drivers@#@crypto@#@caam@#@acipher@#@caam_rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_caam_rsa.c_1.1_do_free_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 21,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/crypto_asym_alloc_ecc_keypair@@@lib@#@libmbedtls@#@core@#@ecc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_ecc.c_1.1_crypto_asym_alloc_ecc_keypair_OLD.vul"
+            ]
+        },
+        {
+            "id": 22,
+            "dst": "./processed/OP-TEE@@optee_os-3.13.0-rc1/syscall_cryp_derive_key@@@core@#@tee@#@tee_svc_cryp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41325_CWE-XXXX-XXXX_e2ec831cb07ed0099535c7c140cb6338aa62816a_CVE-2023-41325_e2ec831cb07ed0099535c7c140cb6338aa62816a_tee_svc_cryp.c_1.1_syscall_cryp_derive_key_OLD.vul"
+            ]
+        }
+    ]
+}

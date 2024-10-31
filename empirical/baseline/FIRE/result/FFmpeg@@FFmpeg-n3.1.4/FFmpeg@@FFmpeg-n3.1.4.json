@@ -1,0 +1,67 @@
+{
+    "total_func": 234977,
+    "cnt": 8,
+    "all": 12,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/decode_dds1@@@libavcodec@#@dfa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-9992_CWE-XXXX-XXXX_d34a133b78afe2793cd8537f3c7f42437f441e94_CVE-2017-9992_d34a133b78afe2793cd8537f3c7f42437f441e94_dfa.c_1.1_decode_dds1_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/av_hwframe_ctx_init@@@libavutil@#@hwcontext.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31578_CWE-XXXX-XXXX_3bb00c0a420c3ce83c6fafee30270d69622ccad7_CVE-2024-31578_3bb00c0a420c3ce83c6fafee30270d69622ccad7_hwcontext.c_1.1_av_hwframe_ctx_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/avs_decode_init@@@libavcodec@#@avs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/rpza_decode_init@@@libavcodec@#@rpza.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/gif_decode_init@@@libavcodec@#@gifdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/smc_decode_init@@@libavcodec@#@smc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/adts_decode_extradata@@@libavformat@#@adtsenc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-38171_CWE-XXXX-XXXX_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_CVE-2021-38171_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_adtsenc.c_1.1_adts_decode_extradata_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/FFmpeg@@FFmpeg-n3.1.4/load_input_picture@@@libavcodec@#@mpegvideo_enc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32230_CWE-XXXX-XXXX_67ca3a5ee7d4ddb55fbe93de9cf7898eb09b7887_CVE-2024-32230_67ca3a5ee7d4ddb55fbe93de9cf7898eb09b7887_mpegvideo_enc.c_1.1_load_input_picture_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 349,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ClusterLabs@@booth-newest/setup_config@@@src@#@main.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2553_CWE-XXXX-XXXX_35bf0b7b048d715f671eb68974fb6b4af6528c67_CVE-2022-2553_35bf0b7b048d715f671eb68974fb6b4af6528c67_main.c_1.1_setup_config_OLD.vul"
+            ]
+        }
+    ]
+}

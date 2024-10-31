@@ -1,0 +1,21 @@
+{
+    "total_func": 220215,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/eclipse-threadx@@threadx-v6.1.3_rel/xQueueCreateSet@@@utility@#@rtos_compatibility_layers@#@FreeRTOS@#@tx_freertos.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2212_CWE-XXXX-XXXX_9f3e35d3dcacfac3eed6df8fb8cc6ed9a5a680d5_CVE-2024-2212_9f3e35d3dcacfac3eed6df8fb8cc6ed9a5a680d5_tx_freertos.c_1.1_xQueueCreateSet_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/eclipse-threadx@@threadx-v6.1.3_rel/xQueueCreate@@@utility@#@rtos_compatibility_layers@#@FreeRTOS@#@tx_freertos.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2212_CWE-XXXX-XXXX_9f3e35d3dcacfac3eed6df8fb8cc6ed9a5a680d5_CVE-2024-2212_9f3e35d3dcacfac3eed6df8fb8cc6ed9a5a680d5_tx_freertos.c_1.1_xQueueCreate_OLD.vul"
+            ]
+        }
+    ]
+}

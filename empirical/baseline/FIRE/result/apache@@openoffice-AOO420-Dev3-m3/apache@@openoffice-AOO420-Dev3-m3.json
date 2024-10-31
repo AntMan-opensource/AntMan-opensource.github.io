@@ -1,0 +1,21 @@
+{
+    "total_func": 245016,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/apache@@openoffice-AOO420-Dev3-m3/ImpUpdateGraphicLink@@@main@#@svx@#@source@#@svdraw@#@svdograf.cxx",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-47804_CWE-XXXX-XXXX_f8c074b1219af2a7160e5b8f8157fac1a2076a93_CVE-2023-47804_f8c074b1219af2a7160e5b8f8157fac1a2076a93_svdograf.cxx_1.1_SdrGrafObj :: ImpUpdateGraphicLink_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/apache@@openoffice-AOO420-Dev3-m3/PaintPicture@@@main@#@sw@#@source@#@core@#@doc@#@notxtfrm.cxx",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-47804_CWE-XXXX-XXXX_f8c074b1219af2a7160e5b8f8157fac1a2076a93_CVE-2023-47804_f8c074b1219af2a7160e5b8f8157fac1a2076a93_notxtfrm.cxx_1.1_SwNoTxtFrm :: PaintPicture_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 8433,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/isc-projects@@bind9-v9.19.0/process_request@@@lib@#@isc@#@httpd.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-2881_CWE-XXXX-XXXX_d4c5d1c650ae0e97a083b0ce7a705c20fc001f07_CVE-2022-2881_d4c5d1c650ae0e97a083b0ce7a705c20fc001f07_httpd.c_1.1_process_request_OLD.vul"
+            ]
+        }
+    ]
+}

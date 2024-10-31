@@ -1,0 +1,35 @@
+{
+    "total_func": 238,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/LoicMarechal@@libMeshb-v7.60/GmfOpenMesh@@@legacy_sources@#@v7alpha@#@libmesh7.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46225_CWE-XXXX-XXXX_8cd68c54e0647c0030ae4506a225ad4a2655c316_CVE-2021-46225_8cd68c54e0647c0030ae4506a225ad4a2655c316_libmeshb7.c_1.1_GmfOpenMesh_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/LoicMarechal@@libMeshb-v7.60/ScaKwdTab@@@sources@#@libmeshb7.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46225_CWE-XXXX-XXXX_8cd68c54e0647c0030ae4506a225ad4a2655c316_CVE-2021-46225_8cd68c54e0647c0030ae4506a225ad4a2655c316_libmeshb7.c_1.1_ScaKwdTab_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/LoicMarechal@@libMeshb-v7.60/ScaKwdTab@@@legacy_sources@#@v7alpha@#@libmesh7.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46225_CWE-XXXX-XXXX_8cd68c54e0647c0030ae4506a225ad4a2655c316_CVE-2021-46225_8cd68c54e0647c0030ae4506a225ad4a2655c316_libmeshb7.c_1.1_ScaKwdTab_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/LoicMarechal@@libMeshb-v7.60/GmfOpenMesh@@@sources@#@libmeshb7.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46225_CWE-XXXX-XXXX_8cd68c54e0647c0030ae4506a225ad4a2655c316_CVE-2021-46225_8cd68c54e0647c0030ae4506a225ad4a2655c316_libmeshb7.c_1.1_GmfOpenMesh_OLD.vul"
+            ]
+        }
+    ]
+}

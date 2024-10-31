@@ -1,0 +1,14 @@
+{
+    "total_func": 161,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/koral--@@android-gif-drawable-v1.2.22/getComment@@@android-gif-drawable@#@src@#@main@#@c@#@decoding.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2022-23435_CWE-XXXX-XXXX_9f0f0c89e6fa38548163771feeb4bde84b828887_CVE-2022-23435_9f0f0c89e6fa38548163771feeb4bde84b828887_decoding.c_1.1_getComment_OLD.vul"
+            ]
+        }
+    ]
+}

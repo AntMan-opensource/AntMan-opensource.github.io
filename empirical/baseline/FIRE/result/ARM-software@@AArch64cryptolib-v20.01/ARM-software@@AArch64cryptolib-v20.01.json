@@ -1,0 +1,21 @@
+{
+    "total_func": 83,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ARM-software@@AArch64cryptolib-v20.01/decrypt_full@@@AArch64cryptolib_aes_gcm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-26084_CWE-XXXX-XXXX_86065c6cbdf84e3b49ed4ae2ac1be9a1de5db01f_CVE-2023-26084_86065c6cbdf84e3b49ed4ae2ac1be9a1de5db01f_AArch64cryptolib_aes_gcm.c_1.1_decrypt_full_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ARM-software@@AArch64cryptolib-v20.01/encrypt_full@@@AArch64cryptolib_aes_gcm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-26084_CWE-XXXX-XXXX_86065c6cbdf84e3b49ed4ae2ac1be9a1de5db01f_CVE-2023-26084_86065c6cbdf84e3b49ed4ae2ac1be9a1de5db01f_AArch64cryptolib_aes_gcm.c_1.1_decrypt_full_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "Component-level|Component|Original Project Codes|Target Project Codes":"S1-1",
+    "Function Code|Pre-Patch|Target Function":"S1-2",
+    "Function Call Relations|Pre- & Post-Patch|Target Function":"S1-3",
+    "Statements Difference|Pre- & Post-Patch|All Statements in Target Function":"S1-4",
+    "Statements Difference|Version Discrepancy|All Statements in Target Function":"S1-5",
+    "Dependency Pairs|Add & Delete Statements|All Statements in Target Function":"S1-6",
+    "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function":"S1-7",
+    "C/C++ Keywords|Pre-Patch Function |Target Function":"S1-8",
+    "Normalization":"S2-1",
+    "No abstraction":"S2-2",
+    "Abstraction":"S2-2",
+    "Component-level|SCA Tool":"S3-1",
+    "Function-level|Intra-Procedural Hard-Match":"S3-2",
+    "Function-level|Intra-Procedural Soft-Match":"S3-3",
+    "Statement-level|Hard-Match":"S3-4",
+    "Statement-level|Soft-Match":"S3-5",
+    "Token-level|Soft-Match":"S3-6"
+}

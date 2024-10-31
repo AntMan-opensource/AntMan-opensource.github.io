@@ -1,0 +1,55 @@
+{
+    "total_func": 1187,
+    "cnt": 4,
+    "all": 24,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/cesanta@@mjs-2.18.0/mjs_execute@@@mjs.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49549_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49549_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49551_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49551_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49553_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49553_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49552_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49552_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49550_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49550_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-35385_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2024-35385_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/cesanta@@mjs-2.18.0/mjs_exec_internal@@@mjs@#@src@#@mjs_exec.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-35385_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2024-35385_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49553_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49553_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49550_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49550_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_no_common.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49549_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49549_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49551_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49551_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49552_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49552_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_no_common.c_1.1_mjs_exec_internal_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/cesanta@@mjs-2.18.0/mjs_exec_internal@@@mjs.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-35385_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2024-35385_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49553_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49553_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49550_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49550_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_no_common.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49549_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49549_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49551_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49551_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_exec_internal_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49552_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49552_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_no_common.c_1.1_mjs_exec_internal_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/cesanta@@mjs-2.18.0/mjs_execute@@@mjs@#@src@#@mjs_exec.c",
+            "sim": [
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49549_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49549_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49551_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49551_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49553_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49553_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49552_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49552_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs_exec.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-49550_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2023-49550_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul",
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2024-35385_CWE-XXXX-XXXX_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_CVE-2024-35385_b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551_mjs.c_1.1_mjs_execute_OLD.vul"
+            ]
+        }
+    ]
+}
