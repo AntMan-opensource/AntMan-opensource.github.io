@@ -1,8 +1,8 @@
-## News
+# News
 
 - [2024-10-20]🚀🚀🚀We have successfully detected 4,593 recurring vulnerabilities, with 307 confirmed by developers, and identified 73 new 0-day vulnerabilities across 15 projects, receiving 5 CVE identifiers.
 
-## AntMan
+# AntMan
 
 With the rapid development of open-source software, code reuse has become a common practice to accelerate development. However, it leads to inheritance from the original vulnerability, which recurs at the reusing projects, known as recurring vulnerabilities (RVs). Traditional general-purpose vulnerability detection approaches struggle with scalability and adaptability, while learning-based approaches are often constrained by limited training datasets and are less effective against unseen vulnerabilities. Though specific recurring vulnerability detection (RVD) approaches have been proposed, their effectiveness across various RV characteristics remains unclear.
 
@@ -18,9 +18,9 @@ This page lists the supplementary materials including the dataset, source code a
 
 
 
-## Empirical Study
+# Empirical Study
 
-### Setup
+## Setup
 
 - Ground Truth Construction
 
@@ -30,57 +30,57 @@ This page lists the supplementary materials including the dataset, source code a
 
 ​	TBD
 
-### RQ1 Characteristic Analysis of RVs.
+## RQ1 Characteristic Analysis of RVs.
 
 TBD
 
-### RQ2 Effectiveness Evaluation of RVD. 
+## RQ2 Effectiveness Evaluation of RVD. 
 
 TBD
 
-### RQ3 FP/FN Analysis of RVD.
+## RQ3 FP/FN Analysis of RVD.
 
 TBD
 
 
 
-## AntMan
+# AntMan
 
-### **Environment Setup:**
-
-TBD
-
-### Methodology Implementation
+## **Environment Setup:**
 
 TBD
 
-### Evaluation
-
-#### RQ4 Effectiveness Evaluation
+## Methodology Implementation
 
 TBD
 
-#### RQ5 Ablation Study
+## Evaluation
+
+### RQ4 Effectiveness Evaluation
 
 TBD
 
-#### RQ6 Parameter Sensitivity Analysis
+### RQ5 Ablation Study
 
 TBD
 
-#### RQ7 Generality Evaltion
+### RQ6 Parameter Sensitivity Analysis
 
 TBD
 
-#### RQ8 0-day Detection Capability
+### RQ7 Generality Evaltion
 
 TBD
 
-#### RQ9 Efficiency Evaluation
+### RQ8 0-day Detection Capability
 
 TBD
 
-#### RQ10 Usefulness Evaluation
+### RQ9 Efficiency Evaluation
+
+TBD
+
+### RQ10 Usefulness Evaluation
 
 TBD
 
