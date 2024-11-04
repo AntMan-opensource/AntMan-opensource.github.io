@@ -1,6 +1,4 @@
-# News
-
-- [2024-10-20]🚀🚀🚀We have successfully detected 4,593 recurring vulnerabilities, with 307 confirmed by developers, and identified 73 new 0-day vulnerabilities across 15 projects, receiving 5 CVE identifiers.
+| News : [2024-10-20]🚀🚀🚀We have successfully detected 4,593 recurring vulnerabilities, with 307 confirmed by developers, and identified 73 new 0-day vulnerabilities across 15 projects, receiving 5 CVE identifiers.
 
 # AntMan
 
