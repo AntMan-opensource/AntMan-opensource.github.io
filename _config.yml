@@ -1,6 +1,6 @@
-theme: jekyll-theme-cayman
 title: "Recurring Vulnerability Detection: How Far Are We?"
-markdown: kramdown
+theme: jekyll-theme-cayman
+# markdown: kramdown
 show_downloads: true
 # title: Leap Day theme
 # description: "VMud: Detecting Recurring Vulnerabilities with Multiple Fixing Functions"
