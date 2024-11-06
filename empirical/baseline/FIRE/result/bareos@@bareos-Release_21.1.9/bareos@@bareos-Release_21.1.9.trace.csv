@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/bareos@@bareos-Release_21.1.9/DoPamAuth@@@core@#@src@#@dird@#@auth_pam.cc,./cache/old_new_funcs/vul/sample/CVE-2022-24755_CWE-XXXX-XXXX_abe462037388635193f3b5b71575f32596c3b69d_CVE-2022-24755_abe462037388635193f3b5b71575f32596c3b69d_auth_pam.cc_1.1_DoPamAuth_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-24755_CWE-XXXX-XXXX_abe462037388635193f3b5b71575f32596c3b69d_CVE-2022-24755_abe462037388635193f3b5b71575f32596c3b69d_auth_pam.cc_1.1_DoPamAuth_NEW.vul,"[True, 'no del line', False]",False

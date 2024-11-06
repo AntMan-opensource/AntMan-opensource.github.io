@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/linux4sam@@at91bootstrap-v3.9.2-rc1/secure_check@@@driver@#@secure.c,./cache/old_new_funcs/vul/sample/CVE-2020-11684_CWE-XXXX-XXXX_45419497309ffbf27c17ea7938499aca99168927_CVE-2020-11684_45419497309ffbf27c17ea7938499aca99168927_secure.c_1.1_secure_check_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-11684_CWE-XXXX-XXXX_45419497309ffbf27c17ea7938499aca99168927_CVE-2020-11684_45419497309ffbf27c17ea7938499aca99168927_secure.c_1.1_secure_check_NEW.vul,[False],False

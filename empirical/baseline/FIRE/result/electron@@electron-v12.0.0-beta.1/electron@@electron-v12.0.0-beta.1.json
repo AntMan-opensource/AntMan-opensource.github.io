@@ -1,0 +1,21 @@
+{
+    "total_func": 5773,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/electron@@electron-v12.0.0-beta.1/CreateNativeEvent@@@shell@#@common@#@gin_helper@#@event_emitter.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26272_CWE-XXXX-XXXX_07a1c2a3e5845901f7e2eda9506695be58edc73c_CVE-2020-26272_07a1c2a3e5845901f7e2eda9506695be58edc73c_event_emitter.cc_1.1_CreateNativeEvent_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/electron@@electron-v12.0.0-beta.1/SendIPCMessageToFrame@@@shell@#@browser@#@api@#@electron_api_web_contents.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26272_CWE-XXXX-XXXX_07a1c2a3e5845901f7e2eda9506695be58edc73c_CVE-2020-26272_07a1c2a3e5845901f7e2eda9506695be58edc73c_electron_api_web_contents.cc_1.1_WebContents :: SendIPCMessageToFrame_OLD.vul"
+            ]
+        }
+    ]
+}

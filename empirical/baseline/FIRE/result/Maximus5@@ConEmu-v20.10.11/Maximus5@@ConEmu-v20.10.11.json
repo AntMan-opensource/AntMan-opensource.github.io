@@ -1,0 +1,21 @@
+{
+    "total_func": 222584,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Maximus5@@ConEmu-v20.10.11/ReportString@@@src@#@ConEmuHk@#@Ansi.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-46387_CWE-XXXX-XXXX_cd9bb863603d6d515de921f31de0a1986dcd6f7e_CVE-2022-46387_cd9bb863603d6d515de921f31de0a1986dcd6f7e_ConAnsiImpl.cpp_1.1_SrvAnsiImpl :: ReportString_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Maximus5@@ConEmu-v20.10.11/ReportString@@@src@#@ConEmuCD@#@ConAnsiImpl.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-46387_CWE-XXXX-XXXX_cd9bb863603d6d515de921f31de0a1986dcd6f7e_CVE-2022-46387_cd9bb863603d6d515de921f31de0a1986dcd6f7e_ConAnsiImpl.cpp_1.1_SrvAnsiImpl :: ReportString_OLD.vul"
+            ]
+        }
+    ]
+}

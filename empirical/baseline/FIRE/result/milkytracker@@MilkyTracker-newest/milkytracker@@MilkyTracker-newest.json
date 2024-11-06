@@ -1,0 +1,14 @@
+{
+    "total_func": 4782,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/milkytracker@@MilkyTracker-newest/load@@@src@#@milkyplay@#@LoaderXM.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-34927_CWE-XXXX-XXXX_3a5474f9102cbdc10fbd9e7b1b2c8d3f3f45d91b_CVE-2022-34927_3a5474f9102cbdc10fbd9e7b1b2c8d3f3f45d91b_LoaderXM.cpp_1.1_LoaderXM :: load_OLD.vul"
+            ]
+        }
+    ]
+}

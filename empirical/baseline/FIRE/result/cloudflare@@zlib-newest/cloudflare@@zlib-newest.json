@@ -1,0 +1,21 @@
+{
+    "total_func": 215731,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/cloudflare@@zlib-newest/deflate_slow@@@deflate.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-6992_CWE-XXXX-XXXX_8352d108c05db1bdc5ac3bdf834dad641694c13c_CVE-2023-6992_8352d108c05db1bdc5ac3bdf834dad641694c13c_deflate.c_1.1_deflate_slow_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/cloudflare@@zlib-newest/longest_match@@@deflate.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-6992_CWE-XXXX-XXXX_8352d108c05db1bdc5ac3bdf834dad641694c13c_CVE-2023-6992_8352d108c05db1bdc5ac3bdf834dad641694c13c_deflate.c_1.1_longest_match_OLD.vul"
+            ]
+        }
+    ]
+}

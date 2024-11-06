@@ -1,0 +1,49 @@
+{
+    "total_func": 216807,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/apache@@guacamole-server-newest/guac_client_init@@@src@#@protocols@#@vnc@#@client.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-43826_CWE-XXXX-XXXX_dfb708498d1286c6e6403b47e08587109670bfce_CVE-2023-43826_dfb708498d1286c6e6403b47e08587109670bfce_client.c_1.1_guac_client_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/apache@@guacamole-server-newest/guac_vnc_cursor@@@src@#@protocols@#@vnc@#@cursor.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-43826_CWE-XXXX-XXXX_dfb708498d1286c6e6403b47e08587109670bfce_CVE-2023-43826_dfb708498d1286c6e6403b47e08587109670bfce_cursor.c_1.1_guac_vnc_cursor_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/apache@@guacamole-server-newest/guac_vnc_settings_free@@@src@#@protocols@#@vnc@#@settings.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-43826_CWE-XXXX-XXXX_dfb708498d1286c6e6403b47e08587109670bfce_CVE-2023-43826_dfb708498d1286c6e6403b47e08587109670bfce_settings.c_1.1_guac_vnc_settings_free_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/apache@@guacamole-server-newest/guac_vnc_update@@@src@#@protocols@#@vnc@#@display.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-43826_CWE-XXXX-XXXX_dfb708498d1286c6e6403b47e08587109670bfce_CVE-2023-43826_dfb708498d1286c6e6403b47e08587109670bfce_display.c_1.1_guac_vnc_update_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/apache@@guacamole-server-newest/guac_vnc_client_free_handler@@@src@#@protocols@#@vnc@#@client.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-43826_CWE-XXXX-XXXX_dfb708498d1286c6e6403b47e08587109670bfce_CVE-2023-43826_dfb708498d1286c6e6403b47e08587109670bfce_client.c_1.1_guac_vnc_client_free_handler_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/apache@@guacamole-server-newest/guac_vnc_argv_callback@@@src@#@protocols@#@vnc@#@argv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-43826_CWE-XXXX-XXXX_dfb708498d1286c6e6403b47e08587109670bfce_CVE-2023-43826_dfb708498d1286c6e6403b47e08587109670bfce_argv.c_1.1_guac_vnc_argv_callback_OLD.vul"
+            ]
+        }
+    ]
+}

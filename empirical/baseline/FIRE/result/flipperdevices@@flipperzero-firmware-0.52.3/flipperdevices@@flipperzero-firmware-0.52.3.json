@@ -1,0 +1,14 @@
+{
+    "total_func": 221590,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/flipperdevices@@flipperzero-firmware-0.52.3/nfc_device_load_mifare_ul_data@@@applications@#@nfc@#@nfc_device.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-40363_CWE-XXXX-XXXX_8d8481b17fdcd0b2f4303b2e88742a94e980c989_CVE-2022-40363_8d8481b17fdcd0b2f4303b2e88742a94e980c989_nfc_device.c_1.1_nfc_device_load_mifare_ul_data_OLD.vul"
+            ]
+        }
+    ]
+}

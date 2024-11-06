@@ -1,0 +1,35 @@
+{
+    "total_func": 1007,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/keepkey@@keepkey-firmware-v6.4.0/decode_static_field@@@lib@#@transport@#@pb_decode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-26243_CWE-XXXX-XXXX_4fe23595732b6f1254cfc11a9b8d6da900b55b0c_CVE-2020-26243_4fe23595732b6f1254cfc11a9b8d6da900b55b0c_pb_decode.c_1.1_decode_static_field_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/keepkey@@keepkey-firmware-v6.4.0/decode_pointer_field@@@lib@#@transport@#@pb_decode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-5235_CWE-XXXX-XXXX_aa9d0d1ca78d6adec3adfeecf3a706c7f9df81f2_CVE-2020-5235_aa9d0d1ca78d6adec3adfeecf3a706c7f9df81f2_pb_decode.c_1.1_decode_pointer_field_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/keepkey@@keepkey-firmware-v6.4.0/svhandler_flash_erase_sector@@@lib@#@board@#@supervise.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30330_CWE-XXXX-XXXX_447c1f038a31378ab9589965c098467d9ea6cccc_CVE-2022-30330_447c1f038a31378ab9589965c098467d9ea6cccc_supervise.c_1.1_svhandler_flash_erase_sector_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/keepkey@@keepkey-firmware-v6.4.0/svhandler_flash_pgm_word@@@lib@#@board@#@supervise.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30330_CWE-XXXX-XXXX_447c1f038a31378ab9589965c098467d9ea6cccc_CVE-2022-30330_447c1f038a31378ab9589965c098467d9ea6cccc_supervise.c_1.1_svhandler_flash_pgm_word_OLD.vul"
+            ]
+        }
+    ]
+}

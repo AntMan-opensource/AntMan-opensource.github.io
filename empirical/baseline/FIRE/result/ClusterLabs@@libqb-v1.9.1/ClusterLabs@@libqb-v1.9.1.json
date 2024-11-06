@@ -1,0 +1,14 @@
+{
+    "total_func": 834,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ClusterLabs@@libqb-v1.9.1/_blackbox_vlogger@@@lib@#@log_blackbox.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-39976_CWE-XXXX-XXXX_1bbaa929b77113532785c408dd1b41cd0521ffc8_CVE-2023-39976_1bbaa929b77113532785c408dd1b41cd0521ffc8_log_blackbox.c_1.1__blackbox_vlogger_OLD.vul"
+            ]
+        }
+    ]
+}

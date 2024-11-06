@@ -1,0 +1,35 @@
+{
+    "total_func": 229073,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/cloudbase@@ovs-newest/reserve_sfa_size@@@datapath@#@flow_netlink.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2639_CWE-XXXX-XXXX_cefa91b2332d7009bc0be5d951d6cbbf349f90f8_CVE-2022-2639_cefa91b2332d7009bc0be5d951d6cbbf349f90f8_flow_netlink.c_1.1_reserve_sfa_size_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/cloudbase@@ovs-newest/geneve_gro_receive@@@datapath@#@linux@#@compat@#@geneve.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-7039_CWE-XXXX-XXXX_fcd91dd449867c6bfe56a81cabba76b829fd05cd_CVE-2016-7039_fcd91dd449867c6bfe56a81cabba76b829fd05cd_geneve.c_1.1_geneve_gro_receive_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/cloudbase@@ovs-newest/rpl_eth_gro_receive@@@datapath@#@linux@#@compat@#@netdevice.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-7039_CWE-XXXX-XXXX_fcd91dd449867c6bfe56a81cabba76b829fd05cd_CVE-2016-7039_fcd91dd449867c6bfe56a81cabba76b829fd05cd_eth.c_1.1_eth_gro_receive_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/cloudbase@@ovs-newest/vxlan_gro_receive@@@datapath@#@linux@#@compat@#@vxlan.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-7039_CWE-XXXX-XXXX_fcd91dd449867c6bfe56a81cabba76b829fd05cd_CVE-2016-7039_fcd91dd449867c6bfe56a81cabba76b829fd05cd_vxlan.c_1.1_vxlan_gro_receive_OLD.vul"
+            ]
+        }
+    ]
+}

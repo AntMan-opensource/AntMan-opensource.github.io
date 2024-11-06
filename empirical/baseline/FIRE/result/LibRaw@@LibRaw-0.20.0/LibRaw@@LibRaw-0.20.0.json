@@ -1,0 +1,21 @@
+{
+    "total_func": 849,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/LibRaw@@LibRaw-0.20.0/raw2image_start@@@src@#@preprocessing@#@raw2image.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-1729_CWE-XXXX-XXXX_9ab70f6dca19229cb5caad7cc31af4e7501bac93_CVE-2023-1729_9ab70f6dca19229cb5caad7cc31af4e7501bac93_raw2image.cpp_1.1_LibRaw :: raw2image_start_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/LibRaw@@LibRaw-0.20.0/identify_process_dng_fields@@@src@#@metadata@#@identify.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-24870_CWE-XXXX-XXXX_4feaed4dea636cee4fee010f615881ccf76a096d_CVE-2020-24870_4feaed4dea636cee4fee010f615881ccf76a096d_identify.cpp_1.1_LibRaw :: identify_process_dng_fields_OLD.vul"
+            ]
+        }
+    ]
+}

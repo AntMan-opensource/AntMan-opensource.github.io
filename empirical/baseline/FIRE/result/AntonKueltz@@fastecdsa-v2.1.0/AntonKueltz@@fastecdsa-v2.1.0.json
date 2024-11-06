@@ -1,0 +1,21 @@
+{
+    "total_func": 20,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AntonKueltz@@fastecdsa-v2.1.0/pointZZ_pDouble@@@src@#@curveMath.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-12607_CWE-XXXX-XXXX_e592f106edd5acf6dacedfab2ad16fe6c735c9d1_CVE-2020-12607_e592f106edd5acf6dacedfab2ad16fe6c735c9d1_curveMath.c_1.1_pointZZ_pDouble_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/AntonKueltz@@fastecdsa-v2.1.0/pointZZ_pAdd@@@src@#@curveMath.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-12607_CWE-XXXX-XXXX_e592f106edd5acf6dacedfab2ad16fe6c735c9d1_CVE-2020-12607_e592f106edd5acf6dacedfab2ad16fe6c735c9d1_curveMath.c_1.1_pointZZ_pAdd_OLD.vul"
+            ]
+        }
+    ]
+}

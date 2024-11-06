@@ -1,0 +1,28 @@
+{
+    "total_func": 2790,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/babelouest@@glewlwyd-v2.3.0/check_assertion@@@src@#@scheme@#@webauthn.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-27240_CWE-XXXX-XXXX_4c5597c155bfbaf6491cf6b83479d241ae66940a_CVE-2022-27240_4c5597c155bfbaf6491cf6b83479d241ae66940a_webauthn.c_1.1_check_assertion_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/babelouest@@glewlwyd-v2.3.0/check_attestation_fido_u2f@@@src@#@scheme@#@webauthn.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-40818_CWE-XXXX-XXXX_0efd112bb62f566877750ad62ee828bff579b4e2_CVE-2021-40818_0efd112bb62f566877750ad62ee828bff579b4e2_webauthn.c_1.1_check_attestation_fido_u2f_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/babelouest@@glewlwyd-v2.3.0/register_new_attestation@@@src@#@scheme@#@webauthn.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49208_CWE-XXXX-XXXX_f9d8c06aae8dfe17e761b18b577ff169e059e812_CVE-2023-49208_f9d8c06aae8dfe17e761b18b577ff169e059e812_webauthn.c_1.1_register_new_attestation_OLD.vul"
+            ]
+        }
+    ]
+}

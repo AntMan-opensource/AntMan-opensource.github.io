@@ -1,0 +1,14 @@
+{
+    "total_func": 220,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OSGeo@@shapelib-newest/split@@@contrib@#@shpsort.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0699_CWE-XXXX-XXXX_c75b9281a5b9452d92e1682bdfe6019a13ed819f_CVE-2022-0699_c75b9281a5b9452d92e1682bdfe6019a13ed819f_shpsort.c_1.1_split_OLD.vul"
+            ]
+        }
+    ]
+}

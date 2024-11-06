@@ -1,0 +1,35 @@
+{
+    "total_func": 272070,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/GStreamer@@gstreamer-1.19.90/mxf_up_create_caps@@@subprojects@#@gst-plugins-bad@#@gst@#@mxf@#@mxfup.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-40475_CWE-XXXX-XXXX_ce17e968e4cf900d28ca5b46f6e095febc42b4f0_CVE-2023-40475_ce17e968e4cf900d28ca5b46f6e095febc42b4f0_mxfup.c_1.1_mxf_up_create_caps_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/GStreamer@@gstreamer-1.19.90/mxf_up_handle_essence_element@@@subprojects@#@gst-plugins-bad@#@gst@#@mxf@#@mxfup.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-40475_CWE-XXXX-XXXX_ce17e968e4cf900d28ca5b46f6e095febc42b4f0_CVE-2023-40475_ce17e968e4cf900d28ca5b46f6e095febc42b4f0_mxfup.c_1.1_mxf_up_handle_essence_element_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/GStreamer@@gstreamer-1.19.90/gst_flac_parse_handle_picture@@@subprojects@#@gst-plugins-good@#@gst@#@audioparsers@#@gstflacparse.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37327_CWE-XXXX-XXXX_dbbfc917fe616ff3343a03fc8e9533d39777ce6e_CVE-2023-37327_dbbfc917fe616ff3343a03fc8e9533d39777ce6e_gstflacparse.c_1.1_gst_flac_parse_handle_picture_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/GStreamer@@gstreamer-1.19.90/gst_h265_parse_vps@@@subprojects@#@gst-plugins-bad@#@gst-libs@#@gst@#@codecparsers@#@gsth265parser.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-40476_CWE-XXXX-XXXX_ff91a3d8d6f7e2412c44663bf30fad5c7fdbc9d9_CVE-2023-40476_ff91a3d8d6f7e2412c44663bf30fad5c7fdbc9d9_gsth265parser.c_1.1_gst_h265_parse_vps_OLD.vul"
+            ]
+        }
+    ]
+}

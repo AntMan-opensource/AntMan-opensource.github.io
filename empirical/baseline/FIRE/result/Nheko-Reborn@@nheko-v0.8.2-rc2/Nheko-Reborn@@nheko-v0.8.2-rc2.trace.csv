@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/Nheko-Reborn@@nheko-v0.8.2-rc2/handle_olm_message@@@src@#@Olm.cpp,./cache/old_new_funcs/vul/sample/CVE-2022-39264_CWE-XXXX-XXXX_67bee15a389f9b8a9f6c3a340558d1e2319e7199_CVE-2022-39264_67bee15a389f9b8a9f6c3a340558d1e2319e7199_Olm.cpp_1.1_handle_olm_message_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-39264_CWE-XXXX-XXXX_67bee15a389f9b8a9f6c3a340558d1e2319e7199_CVE-2022-39264_67bee15a389f9b8a9f6c3a340558d1e2319e7199_Olm.cpp_1.1_handle_olm_message_NEW.vul,[False],False

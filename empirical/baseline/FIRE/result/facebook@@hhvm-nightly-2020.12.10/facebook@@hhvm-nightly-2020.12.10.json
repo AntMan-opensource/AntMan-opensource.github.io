@@ -1,0 +1,77 @@
+{
+    "total_func": 65410,
+    "cnt": 10,
+    "all": 10,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/logToUSDT@@@hphp@#@runtime@#@ext@#@strobelight@#@ext_strobelight.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_ext_strobelight.cpp_1.1_logToUSDT_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/serialize_impl@@@hphp@#@runtime@#@ext@#@std@#@ext_std_variable.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_ext_std_variable.cpp_1.1_serialize_impl_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/seek@@@hphp@#@runtime@#@base@#@mem-file.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_mem-file.cpp_1.1_MemFile :: seek_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/set_sockaddr@@@hphp@#@runtime@#@ext@#@sockets@#@ext_sockets.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_ext_sockets.cpp_1.1_set_sockaddr_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/setupCrypto@@@hphp@#@runtime@#@base@#@ssl-socket.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-36937_CWE-XXXX-XXXX_083f5ffdee661f61512909d16f9a5b98cff3cf0b_CVE-2022-36937_083f5ffdee661f61512909d16f9a5b98cff3cf0b_ssl-socket.cpp_1.1_SSLSocket :: setupCrypto_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/php_openssl_validate_iv@@@hphp@#@runtime@#@ext@#@openssl@#@ext_openssl.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_ext_openssl.cpp_1.1_php_openssl_validate_iv_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/xbuf_format_converter@@@hphp@#@zend@#@zend-printf.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_zend-printf.cpp_1.1_xbuf_format_converter_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/exif_scan_thumbnail@@@hphp@#@runtime@#@ext@#@gd@#@ext_gd.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_ext_gd.cpp_1.1_exif_scan_thumbnail_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/preg_quote@@@hphp@#@runtime@#@base@#@preg.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_preg.cpp_1.1_preg_quote_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/facebook@@hhvm-nightly-2020.12.10/readImpl@@@hphp@#@runtime@#@base@#@mem-file.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-24025_CWE-XXXX-XXXX_08193b7f0cd3910256e00d599f0f3eb2519c44ca_CVE-2021-24025_08193b7f0cd3910256e00d599f0f3eb2519c44ca_mem-file.cpp_1.1_MemFile :: readImpl_OLD.vul"
+            ]
+        }
+    ]
+}

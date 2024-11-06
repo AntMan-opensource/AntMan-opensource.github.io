@@ -1,0 +1,14 @@
+{
+    "total_func": 215450,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/libexif@@exif-exif-0_6_22-release/escape_xml@@@exif@#@actions.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-27815_CWE-XXXX-XXXX_f6334d9d32437ef13dc902f0a88a2be0063d9d1c_CVE-2021-27815_f6334d9d32437ef13dc902f0a88a2be0063d9d1c_actions.c_1.1_escape_xml_OLD.vul"
+            ]
+        }
+    ]
+}

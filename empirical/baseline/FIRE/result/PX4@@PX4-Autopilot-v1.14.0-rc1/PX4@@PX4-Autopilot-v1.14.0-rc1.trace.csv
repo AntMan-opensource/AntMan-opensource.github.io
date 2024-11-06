@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/PX4@@PX4-Autopilot-v1.14.0-rc1/run@@@src@#@modules@#@navigator@#@navigator_main.cpp,./cache/old_new_funcs/vul/sample/CVE-2024-30800_CWE-XXXX-XXXX_e280a6c6e68fdc2804cf63754e83a412c1421bf6_CVE-2024-30800_e280a6c6e68fdc2804cf63754e83a412c1421bf6_navigator_main.cpp_1.1_Navigator :: run_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2024-30800_CWE-XXXX-XXXX_e280a6c6e68fdc2804cf63754e83a412c1421bf6_CVE-2024-30800_e280a6c6e68fdc2804cf63754e83a412c1421bf6_navigator_main.cpp_1.1_Navigator :: run_NEW.vul,[False],False

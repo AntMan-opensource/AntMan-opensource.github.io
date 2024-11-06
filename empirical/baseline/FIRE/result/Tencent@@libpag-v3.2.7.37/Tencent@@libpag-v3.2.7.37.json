@@ -1,0 +1,15 @@
+{
+    "total_func": 15100,
+    "cnt": 1,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Tencent@@libpag-v3.2.7.37/ReadByteDataWithStartCode@@@src@#@codec@#@utils@#@NALUReader.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33078_CWE-XXXX-XXXX_497ff2e16d25622f5c430568895b73ab4c37cc1a_CVE-2024-33078_497ff2e16d25622f5c430568895b73ab4c37cc1a_NALUReader.cpp_1.1_ReadByteDataWithStartCode_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-34408_CWE-XXXX-XXXX_497ff2e16d25622f5c430568895b73ab4c37cc1a_CVE-2024-34408_497ff2e16d25622f5c430568895b73ab4c37cc1a_NALUReader.cpp_1.1_ReadByteDataWithStartCode_OLD.vul"
+            ]
+        }
+    ]
+}

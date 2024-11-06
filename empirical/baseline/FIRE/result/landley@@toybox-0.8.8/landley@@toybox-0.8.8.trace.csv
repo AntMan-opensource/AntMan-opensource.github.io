@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/landley@@toybox-0.8.8/isunder@@@toys@#@net@#@httpd.c,./cache/old_new_funcs/vul/sample/CVE-2022-32298_CWE-XXXX-XXXX_6d4847934fc0fe47a3254ce6c0396d197a780cf4_CVE-2022-32298_6d4847934fc0fe47a3254ce6c0396d197a780cf4_httpd.c_1.1_isunder_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-32298_CWE-XXXX-XXXX_6d4847934fc0fe47a3254ce6c0396d197a780cf4_CVE-2022-32298_6d4847934fc0fe47a3254ce6c0396d197a780cf4_httpd.c_1.1_isunder_NEW.vul,[False],False

@@ -1,0 +1,21 @@
+{
+    "total_func": 1474,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OISF@@libhtp-0.5.43/htp_connp_REQ_HEADERS@@@htp@#@htp_request.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23837_CWE-XXXX-XXXX_20ac301d801cdf01b3f021cca08a22a87f477c4a_CVE-2024-23837_20ac301d801cdf01b3f021cca08a22a87f477c4a_htp_request.c_1.1_htp_connp_REQ_HEADERS_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OISF@@libhtp-0.5.43/htp_connp_RES_HEADERS@@@htp@#@htp_response.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23837_CWE-XXXX-XXXX_20ac301d801cdf01b3f021cca08a22a87f477c4a_CVE-2024-23837_20ac301d801cdf01b3f021cca08a22a87f477c4a_htp_response.c_1.1_htp_connp_RES_HEADERS_OLD.vul"
+            ]
+        }
+    ]
+}

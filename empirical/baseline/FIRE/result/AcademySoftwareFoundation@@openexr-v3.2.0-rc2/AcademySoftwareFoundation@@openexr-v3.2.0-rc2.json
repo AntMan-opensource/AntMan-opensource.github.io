@@ -1,0 +1,63 @@
+{
+    "total_func": 4086,
+    "cnt": 8,
+    "all": 8,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/generic_unpack_deep@@@src@#@lib@#@OpenEXRCore@#@unpack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_unpack.c_1.1_generic_unpack_deep_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/generic_unpack_deep_pointers@@@src@#@lib@#@OpenEXRCore@#@unpack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_unpack.c_1.1_generic_unpack_deep_pointers_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/internal_exr_match_decode@@@src@#@lib@#@OpenEXRCore@#@unpack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_unpack.c_1.1_internal_exr_match_decode_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/readCoreTiledPart@@@src@#@lib@#@OpenEXRUtil@#@ImfCheckFile.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_ImfCheckFile.cpp_1.1_readCoreTiledPart_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/default_decompress_chunk@@@src@#@lib@#@OpenEXRCore@#@decoding.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_decoding.c_1.1_default_decompress_chunk_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/unpack_sample_table@@@src@#@lib@#@OpenEXRCore@#@decoding.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_decoding.c_1.1_unpack_sample_table_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/checkCoreFile@@@src@#@lib@#@OpenEXRUtil@#@ImfCheckFile.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_ImfCheckFile.cpp_1.1_checkCoreFile_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.2.0-rc2/readCoreScanlinePart@@@src@#@lib@#@OpenEXRUtil@#@ImfCheckFile.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_ImfCheckFile.cpp_1.1_readCoreScanlinePart_OLD.vul"
+            ]
+        }
+    ]
+}

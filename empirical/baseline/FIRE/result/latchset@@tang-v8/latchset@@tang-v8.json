@@ -1,0 +1,21 @@
+{
+    "total_func": 45,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/latchset@@tang-v8/find_jws@@@src@#@keys.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-4076_CWE-XXXX-XXXX_e82459fda10f0630c3414ed2afbc6320bb9ea7c9_CVE-2021-4076_e82459fda10f0630c3414ed2afbc6320bb9ea7c9_keys.c_1.1_find_jws_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/latchset@@tang-v8/find_by_thp@@@src@#@keys.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-4076_CWE-XXXX-XXXX_e82459fda10f0630c3414ed2afbc6320bb9ea7c9_CVE-2021-4076_e82459fda10f0630c3414ed2afbc6320bb9ea7c9_keys.c_1.1_find_by_thp_OLD.vul"
+            ]
+        }
+    ]
+}

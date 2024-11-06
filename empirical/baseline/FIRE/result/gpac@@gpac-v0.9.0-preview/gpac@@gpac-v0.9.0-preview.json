@@ -1,0 +1,14 @@
+{
+    "total_func": 20208,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/gpac@@gpac-v0.9.0-preview/BM_ParseCommand@@@src@#@bifs@#@memory_decoder.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-41000_CWE-XXXX-XXXX_0018b5e4e07a1465287e7dff69b387929f5a75fa_CVE-2023-41000_0018b5e4e07a1465287e7dff69b387929f5a75fa_memory_decoder.c_1.1_BM_ParseCommand_OLD.vul"
+            ]
+        }
+    ]
+}

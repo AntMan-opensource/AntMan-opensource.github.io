@@ -1,0 +1,14 @@
+{
+    "total_func": 625,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/NeoRaider@@fastd-v19/handle_socket_receive_known@@@src@#@receive.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27638_CWE-XXXX-XXXX_737925113363b6130879729cdff9ccc46c33eaea_CVE-2020-27638_737925113363b6130879729cdff9ccc46c33eaea_receive.c_1.1_handle_socket_receive_known_OLD.vul"
+            ]
+        }
+    ]
+}

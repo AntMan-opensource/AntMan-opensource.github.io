@@ -1,0 +1,45 @@
+{
+    "total_func": 2322,
+    "cnt": 5,
+    "all": 8,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/davea42@@libdwarf-code-libdwarf-0.3.1/_dwarf_error_destructor@@@src@#@lib@#@libdwarf@#@dwarf_alloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31745_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-31745_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_error_destructor_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2002_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-2002_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_error_destructor_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/davea42@@libdwarf-code-libdwarf-0.3.1/_dwarf_get_alloc@@@src@#@lib@#@libdwarf@#@dwarf_alloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2002_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-2002_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_get_alloc_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31745_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-31745_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1__dwarf_get_alloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/davea42@@libdwarf-code-libdwarf-0.3.1/dwarf_dealloc@@@src@#@lib@#@libdwarf@#@dwarf_alloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-2002_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-2002_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1_dwarf_dealloc_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31745_CWE-XXXX-XXXX_404e6b1b14f60c81388d50b4239f81d461b3c3ad_CVE-2024-31745_404e6b1b14f60c81388d50b4239f81d461b3c3ad_dwarf_alloc.c_1.1_dwarf_dealloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/davea42@@libdwarf-code-libdwarf-0.3.1/dwarf_global_formref_b@@@src@#@lib@#@libdwarf@#@dwarf_form.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-34299_CWE-XXXX-XXXX_7ef09e1fc9ba07653dd078edb2408631c7969162_CVE-2022-34299_7ef09e1fc9ba07653dd078edb2408631c7969162_dwarf_form.c_1.1_dwarf_global_formref_b_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/davea42@@libdwarf-code-libdwarf-0.3.1/_dwarf_internal_get_pubnames_like_data@@@src@#@lib@#@libdwarf@#@dwarf_global.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32200_CWE-XXXX-XXXX_8151575a6ace77d005ca5bb5d71c1bfdba3f7069_CVE-2022-32200_8151575a6ace77d005ca5bb5d71c1bfdba3f7069_dwarf_global.c_1.1__dwarf_internal_get_pubnames_like_data_OLD.vul"
+            ]
+        }
+    ]
+}

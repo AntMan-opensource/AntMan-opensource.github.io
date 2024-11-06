@@ -1,0 +1,24 @@
+{
+    "total_func": 11579,
+    "cnt": 1,
+    "all": 11,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/HDFGroup@@hdf5-hdf5-1_10_7/H5G_node_debug@@@src@#@H5Gnode.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32613_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32613_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32612_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32612_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32616_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32616_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32609_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32609_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29162_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29162_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32611_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32611_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33877_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-33877_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-29165_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-29165_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32615_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32615_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32605_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32605_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32624_CWE-XXXX-XXXX_ce53bc020d37e10a06a59501c45f1ab82539f0c5_CVE-2024-32624_ce53bc020d37e10a06a59501c45f1ab82539f0c5_H5Gnode.c_1.1_H5G_node_debug_OLD.vul"
+            ]
+        }
+    ]
+}

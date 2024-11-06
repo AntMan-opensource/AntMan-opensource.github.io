@@ -1,0 +1,56 @@
+{
+    "total_func": 286478,
+    "cnt": 7,
+    "all": 7,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/gcc-mirror@@gcc-releases_gcc-11.3.0/_cpp_skip_block_comment@@@libcpp@#@lex.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42574_CWE-XXXX-XXXX_51c500269bf53749b107807d84271385fad35628_CVE-2021-42574_51c500269bf53749b107807d84271385fad35628_lex.c_1.1__cpp_skip_block_comment_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/gcc-mirror@@gcc-releases_gcc-11.3.0/lex_string@@@libcpp@#@lex.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42574_CWE-XXXX-XXXX_51c500269bf53749b107807d84271385fad35628_CVE-2021-42574_51c500269bf53749b107807d84271385fad35628_lex.c_1.1_lex_string_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/gcc-mirror@@gcc-releases_gcc-11.3.0/skip_line_comment@@@libcpp@#@lex.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42574_CWE-XXXX-XXXX_51c500269bf53749b107807d84271385fad35628_CVE-2021-42574_51c500269bf53749b107807d84271385fad35628_lex.c_1.1_skip_line_comment_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/gcc-mirror@@gcc-releases_gcc-11.3.0/lex_identifier@@@libcpp@#@lex.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42574_CWE-XXXX-XXXX_51c500269bf53749b107807d84271385fad35628_CVE-2021-42574_51c500269bf53749b107807d84271385fad35628_lex.c_1.1_lex_identifier_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/gcc-mirror@@gcc-releases_gcc-11.3.0/lex_raw_string@@@libcpp@#@lex.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42574_CWE-XXXX-XXXX_51c500269bf53749b107807d84271385fad35628_CVE-2021-42574_51c500269bf53749b107807d84271385fad35628_lex.c_1.1_lex_raw_string_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/gcc-mirror@@gcc-releases_gcc-11.3.0/forms_identifier_p@@@libcpp@#@lex.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42574_CWE-XXXX-XXXX_51c500269bf53749b107807d84271385fad35628_CVE-2021-42574_51c500269bf53749b107807d84271385fad35628_lex.c_1.1_forms_identifier_p_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/gcc-mirror@@gcc-releases_gcc-11.3.0/cpp_create_reader@@@libcpp@#@init.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42574_CWE-XXXX-XXXX_51c500269bf53749b107807d84271385fad35628_CVE-2021-42574_51c500269bf53749b107807d84271385fad35628_init.c_1.1_cpp_create_reader_OLD.vul"
+            ]
+        }
+    ]
+}

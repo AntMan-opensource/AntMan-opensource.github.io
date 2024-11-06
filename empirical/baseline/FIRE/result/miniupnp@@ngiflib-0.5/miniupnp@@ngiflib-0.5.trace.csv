@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/miniupnp@@ngiflib-0.5/main@@@gif2tga.c,./cache/old_new_funcs/vul/sample/CVE-2023-39113_CWE-XXXX-XXXX_84a750338394bbd2f8ff15811e2098bd9634180a_CVE-2023-39113_84a750338394bbd2f8ff15811e2098bd9634180a_gif2tga.c_1.1_main_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2023-39113_CWE-XXXX-XXXX_84a750338394bbd2f8ff15811e2098bd9634180a_CVE-2023-39113_84a750338394bbd2f8ff15811e2098bd9634180a_gif2tga.c_1.1_main_NEW.vul,[False],False

@@ -1,0 +1,14 @@
+{
+    "total_func": 216464,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/jasper-software@@jasper-version-3.0.0/cmdopts_parse@@@src@#@app@#@jasper.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2963_CWE-XXXX-XXXX_d99636fad60629785efd1ef72da772a8ef68f54c_CVE-2022-2963_d99636fad60629785efd1ef72da772a8ef68f54c_jasper.c_1.1_cmdopts_parse_OLD.vul"
+            ]
+        }
+    ]
+}

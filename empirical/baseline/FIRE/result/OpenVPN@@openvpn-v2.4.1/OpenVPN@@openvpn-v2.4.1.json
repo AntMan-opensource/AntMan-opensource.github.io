@@ -1,0 +1,28 @@
+{
+    "total_func": 217985,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OpenVPN@@openvpn-v2.4.1/asn1_buf_to_c_string@@@src@#@openvpn@#@ssl_verify_mbedtls.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7522_CWE-XXXX-XXXX_426392940c7060300a10077c389f5156c790c2f6_CVE-2017-7522_426392940c7060300a10077c389f5156c790c2f6_ssl_verify_mbedtls.c_1.1_asn1_buf_to_c_string_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OpenVPN@@openvpn-v2.4.1/mss_fixup_ipv6@@@src@#@openvpn@#@mss.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7508_CWE-XXXX-XXXX_c3f47077a7756de5929094569421a95aa66f2022_CVE-2017-7508_c3f47077a7756de5929094569421a95aa66f2022_mss.c_1.1_mss_fixup_ipv6_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/OpenVPN@@openvpn-v2.4.1/tls_pre_decrypt@@@src@#@openvpn@#@ssl.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7478_CWE-XXXX-XXXX_5774cf4c25e1d8bf4e544702db8f157f111c9d93_CVE-2017-7478_5774cf4c25e1d8bf4e544702db8f157f111c9d93_ssl.c_1.1_tls_pre_decrypt_OLD.vul"
+            ]
+        }
+    ]
+}

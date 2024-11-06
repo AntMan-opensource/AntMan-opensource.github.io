@@ -1,0 +1,21 @@
+{
+    "total_func": 219752,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/h2o@@h2o-v2.0.1/mrb_proc_init_copy@@@deps@#@mruby@#@src@#@proc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-4110_CWE-XXXX-XXXX_f5e10c5a79a17939af763b1dcf5232ce47e24a34_CVE-2021-4110_f5e10c5a79a17939af763b1dcf5232ce47e24a34_proc.c_1.1_mrb_proc_init_copy_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/h2o@@h2o-v2.0.1/proc_lambda@@@deps@#@mruby@#@src@#@proc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-4110_CWE-XXXX-XXXX_f5e10c5a79a17939af763b1dcf5232ce47e24a34_CVE-2021-4110_f5e10c5a79a17939af763b1dcf5232ce47e24a34_proc.c_1.1_proc_lambda_OLD.vul"
+            ]
+        }
+    ]
+}

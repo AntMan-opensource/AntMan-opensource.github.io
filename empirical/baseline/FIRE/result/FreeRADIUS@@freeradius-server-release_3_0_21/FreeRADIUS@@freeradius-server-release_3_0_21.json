@@ -1,0 +1,14 @@
+{
+    "total_func": 2653,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FreeRADIUS@@freeradius-server-release_3_0_21/unmap_eapsim_basictypes@@@src@#@modules@#@rlm_eap@#@libeap@#@eapsimlib.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-41860_CWE-XXXX-XXXX_f1cdbb33ec61c4a64a_CVE-2022-41860_f1cdbb33ec61c4a64a_eapsimlib.c_1.1_unmap_eapsim_basictypes_OLD.vul"
+            ]
+        }
+    ]
+}

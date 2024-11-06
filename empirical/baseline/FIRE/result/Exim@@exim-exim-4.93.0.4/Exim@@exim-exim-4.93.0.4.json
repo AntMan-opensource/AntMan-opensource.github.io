@@ -1,0 +1,14 @@
+{
+    "total_func": 1845,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Exim@@exim-exim-4.93.0.4/pam_converse@@@src@#@src@#@auths@#@call_pam.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-37451_CWE-XXXX-XXXX_51be321b27825c01829dffd90f11bfff256f7e42_CVE-2022-37451_51be321b27825c01829dffd90f11bfff256f7e42_call_pam.c_1.1_pam_converse_OLD.vul"
+            ]
+        }
+    ]
+}

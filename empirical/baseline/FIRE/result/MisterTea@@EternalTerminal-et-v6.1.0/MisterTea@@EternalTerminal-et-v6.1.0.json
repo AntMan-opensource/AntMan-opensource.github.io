@@ -1,0 +1,42 @@
+{
+    "total_func": 32508,
+    "cnt": 5,
+    "all": 5,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/MisterTea@@EternalTerminal-et-v6.1.0/parseRangesToRequests@@@src@#@terminal@#@TerminalClient.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24950_CWE-XXXX-XXXX_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_CVE-2022-24950_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_TerminalClient.cpp_1.1_parseRangesToRequests_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/MisterTea@@EternalTerminal-et-v6.1.0/stderrToFile@@@src@#@base@#@LogHandler.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24950_CWE-XXXX-XXXX_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_CVE-2022-24950_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_LogHandler.cpp_1.1_LogHandler :: stderrToFile_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/MisterTea@@EternalTerminal-et-v6.1.0/connect@@@src@#@base@#@PipeSocketHandler.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24950_CWE-XXXX-XXXX_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_CVE-2022-24950_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_PipeSocketHandler.cpp_1.1_PipeSocketHandler :: connect_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/MisterTea@@EternalTerminal-et-v6.1.0/acceptNewConnection@@@src@#@terminal@#@UserTerminalRouter.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24950_CWE-XXXX-XXXX_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_CVE-2022-24950_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_UserTerminalRouter.cpp_1.1_UserTerminalRouter :: acceptNewConnection_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/MisterTea@@EternalTerminal-et-v6.1.0/listen@@@src@#@base@#@PipeSocketHandler.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-24950_CWE-XXXX-XXXX_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_CVE-2022-24950_900348bb8bc96e1c7ba4888ac8480f643c43d3c3_PipeSocketHandler.cpp_1.1_PipeSocketHandler :: listen_OLD.vul"
+            ]
+        }
+    ]
+}

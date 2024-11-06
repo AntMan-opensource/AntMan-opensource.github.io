@@ -1,0 +1,81 @@
+{
+    "total_func": 238177,
+    "cnt": 10,
+    "all": 14,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/ff_vmafmotion_init@@@libavfilter@#@vf_vmafmotion.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-22033_CWE-XXXX-XXXX_82ad1b76751bcfad5005440db48c46a4de5d6f02_CVE-2020-22033_82ad1b76751bcfad5005440db48c46a4de5d6f02_vf_vmafmotion.c_1.1_ff_vmafmotion_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2020-22019_CWE-XXXX-XXXX_82ad1b76751bcfad5005440db48c46a4de5d6f02_CVE-2020-22019_82ad1b76751bcfad5005440db48c46a4de5d6f02_vf_vmafmotion.c_1.1_ff_vmafmotion_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/av_hwframe_ctx_init@@@libavutil@#@hwcontext.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31578_CWE-XXXX-XXXX_3bb00c0a420c3ce83c6fafee30270d69622ccad7_CVE-2024-31578_3bb00c0a420c3ce83c6fafee30270d69622ccad7_hwcontext.c_1.1_av_hwframe_ctx_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/filter_edges_16bit@@@libavfilter@#@vf_yadif.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-22021_CWE-XXXX-XXXX_7971f62120a55c141ec437aa3f0bacc1c1a3526b_CVE-2020-22021_7971f62120a55c141ec437aa3f0bacc1c1a3526b_vf_yadif.c_1.1_filter_edges_16bit_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/avs_decode_init@@@libavcodec@#@avs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/filter_edges@@@libavfilter@#@vf_yadif.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-22021_CWE-XXXX-XXXX_7971f62120a55c141ec437aa3f0bacc1c1a3526b_CVE-2020-22021_7971f62120a55c141ec437aa3f0bacc1c1a3526b_vf_yadif.c_1.1_filter_edges_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/rpza_decode_init@@@libavcodec@#@rpza.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/smc_decode_init@@@libavcodec@#@smc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/adts_decode_extradata@@@libavformat@#@adtsenc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-38171_CWE-XXXX-XXXX_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_CVE-2021-38171_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_adtsenc.c_1.1_adts_decode_extradata_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/load_input_picture@@@libavcodec@#@mpegvideo_enc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32230_CWE-XXXX-XXXX_67ca3a5ee7d4ddb55fbe93de9cf7898eb09b7887_CVE-2024-32230_67ca3a5ee7d4ddb55fbe93de9cf7898eb09b7887_mpegvideo_enc.c_1.1_load_input_picture_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/FFmpeg@@FFmpeg-n4.1.1/cbs_jpeg_split_fragment@@@libavcodec@#@cbs_jpeg.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-12284_CWE-XXXX-XXXX_a3a3730b5456ca00587455004d40c047f7b20a99_CVE-2020-12284_a3a3730b5456ca00587455004d40c047f7b20a99_cbs_jpeg.c_1.1_cbs_jpeg_split_fragment_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "CVE-2021-23180##michaelrsweet@@htmldoc##v1.9.12":"MVP, same file",
+    "CVE-2022-3358##openssl@@openssl##openssl-3.0.0-alpha6":"MVP,FIRE,MOVERY, same file",
+    "CVE-2022-47658##gpac@@gpac##v1.0.1":"MVP, same file",
+    "CVE-2021-21852##gpac@@gpac##v1.0.1":"MOVERY, same file",
+    "CVE-2022-3358##openssl@@openssl##openssl-3.0.0-alpha13":"MVP,FIRE,MOVERY, same file",
+    "CVE-2022-31307##nginx@@njs##0.6.0":"MOVERY FIRE, same module",
+    "CVE-2020-26247##sparklemotion@@nokogiri##v1.11.0":"MVP, same module",
+    "CVE-2022-47658##gpac@@gpac##v0.9.0-preview":"MVP, same file",
+    "CVE-2022-31307##nginx@@njs##0.4.2":"MOVERY FIRE, same module",
+    "CVE-2022-31307##nginx@@njs##0.5.0":"MOVERY FIRE, same module",
+    "CVE-2020-13775##znc@@znc##znc-1.8.0":"MOVERY FIRE, same module",
+    "CVE-2022-31307##nginx@@njs##0.3.9":"FIRE, same module",
+    "CVE-2022-38307##lief-project@@LIEF##0.11.5":"MOVERY same module",
+    "CVE-2022-31307##nginx@@njs##0.5.2":"MOVERY FIRE, same module",
+    "CVE-2023-25564##gssapi@@gss-ntlmssp##0.8.0":"MOVERY FIRE, same file"
+}

@@ -1,0 +1,42 @@
+{
+    "total_func": 3991,
+    "cnt": 5,
+    "all": 5,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.1.8-rc/generic_unpack_deep@@@src@#@lib@#@OpenEXRCore@#@unpack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_unpack.c_1.1_generic_unpack_deep_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.1.8-rc/generic_unpack_deep_pointers@@@src@#@lib@#@OpenEXRCore@#@unpack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_unpack.c_1.1_generic_unpack_deep_pointers_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.1.8-rc/internal_exr_match_decode@@@src@#@lib@#@OpenEXRCore@#@unpack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_unpack.c_1.1_internal_exr_match_decode_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.1.8-rc/default_decompress_chunk@@@src@#@lib@#@OpenEXRCore@#@decoding.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_decoding.c_1.1_default_decompress_chunk_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/AcademySoftwareFoundation@@openexr-v3.1.8-rc/unpack_sample_table@@@src@#@lib@#@OpenEXRCore@#@decoding.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5841_CWE-XXXX-XXXX_8bedf106ef14d97c6e383c1052659e4f3b5b487d_CVE-2023-5841_8bedf106ef14d97c6e383c1052659e4f3b5b487d_decoding.c_1.1_unpack_sample_table_OLD.vul"
+            ]
+        }
+    ]
+}

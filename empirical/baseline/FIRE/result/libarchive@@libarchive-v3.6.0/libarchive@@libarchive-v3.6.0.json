@@ -1,0 +1,35 @@
+{
+    "total_func": 4097,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/libarchive@@libarchive-v3.6.0/zipx_lzma_alone_init@@@libarchive@#@archive_read_support_format_zip.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28066_CWE-XXXX-XXXX_cfaa28168a07ea4a53276b63068f94fce37d6aff_CVE-2022-28066_cfaa28168a07ea4a53276b63068f94fce37d6aff_archive_read_support_format_zip.c_1.1_zipx_lzma_alone_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/libarchive@@libarchive-v3.6.0/execute_filter_e8@@@libarchive@#@archive_read_support_format_rar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-26256_CWE-XXXX-XXXX_eb7939b24a681a04648a59cdebd386b1e9dc9237_CVE-2024-26256_eb7939b24a681a04648a59cdebd386b1e9dc9237_archive_read_support_format_rar.c_1.1_execute_filter_e8_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/libarchive@@libarchive-v3.6.0/copy_from_lzss_window_to_unp@@@libarchive@#@archive_read_support_format_rar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-20696_CWE-XXXX-XXXX_eac15e252010c1189a5c0f461364dbe2cd2a68b1_CVE-2024-20696_eac15e252010c1189a5c0f461364dbe2cd2a68b1_archive_read_support_format_rar.c_1.1_copy_from_lzss_window_to_unp_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/libarchive@@libarchive-v3.6.0/read_data_compressed@@@libarchive@#@archive_read_support_format_rar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-20696_CWE-XXXX-XXXX_eac15e252010c1189a5c0f461364dbe2cd2a68b1_CVE-2024-20696_eac15e252010c1189a5c0f461364dbe2cd2a68b1_archive_read_support_format_rar.c_1.1_read_data_compressed_OLD.vul"
+            ]
+        }
+    ]
+}

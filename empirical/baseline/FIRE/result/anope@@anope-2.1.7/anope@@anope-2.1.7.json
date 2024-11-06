@@ -1,0 +1,14 @@
+{
+    "total_func": 4146,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/anope@@anope-2.1.7/BF_crypt@@@vendor@#@bcrypt@#@crypt_blowfish.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-1916_CWE-XXXX-XXXX_abe0b29e4d3a610f9bc920b8be4ad8403364c2d4_CVE-2020-1916_abe0b29e4d3a610f9bc920b8be4ad8403364c2d4_crypt-blowfish.cpp_1.1_BF_crypt_OLD.vul"
+            ]
+        }
+    ]
+}

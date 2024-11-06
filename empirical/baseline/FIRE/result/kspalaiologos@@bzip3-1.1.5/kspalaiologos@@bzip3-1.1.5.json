@@ -1,0 +1,21 @@
+{
+    "total_func": 225,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/kspalaiologos@@bzip3-1.1.5/bz3_decode_block@@@src@#@libbz3.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-29416_CWE-XXXX-XXXX_bfa5bf82b53715dfedf048e5859a46cf248668ff_CVE-2023-29416_bfa5bf82b53715dfedf048e5859a46cf248668ff_libbz3.c_1.1_bz3_decode_block_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/kspalaiologos@@bzip3-1.1.5/main@@@src@#@main.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-29418_CWE-XXXX-XXXX_aae16d107f804f69000c09cd92027a140968cc9d_CVE-2023-29418_aae16d107f804f69000c09cd92027a140968cc9d_main.c_1.1_main_OLD.vul"
+            ]
+        }
+    ]
+}

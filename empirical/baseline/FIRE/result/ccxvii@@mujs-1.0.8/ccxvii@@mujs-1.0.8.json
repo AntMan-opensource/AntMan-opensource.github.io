@@ -1,0 +1,28 @@
+{
+    "total_func": 774,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ccxvii@@mujs-1.0.8/O_getOwnPropertyDescriptor@@@jsobject.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-44789_CWE-XXXX-XXXX_edb50ad66f7601ca9a3544a0e9045e8a8c60561f_CVE-2022-44789_edb50ad66f7601ca9a3544a0e9045e8a8c60561f_jsobject.c_1.1_O_getOwnPropertyDescriptor_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ccxvii@@mujs-1.0.8/regcompx@@@regexp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30974_CWE-XXXX-XXXX_160ae29578054dc09fd91e5401ef040d52797e61_CVE-2022-30974_160ae29578054dc09fd91e5401ef040d52797e61_regexp.c_1.1_regcompx_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/ccxvii@@mujs-1.0.8/cstm@@@jscompile.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-45005_CWE-XXXX-XXXX_df8559e7bdbc6065276e786217eeee70f28fce66_CVE-2021-45005_df8559e7bdbc6065276e786217eeee70f28fce66_jscompile.c_1.1_cstm_OLD.vul"
+            ]
+        }
+    ]
+}

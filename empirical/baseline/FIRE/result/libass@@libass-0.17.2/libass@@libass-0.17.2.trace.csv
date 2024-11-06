@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/libass@@libass-0.17.2/decode_font@@@libass@#@ass.c,./cache/old_new_funcs/vul/sample/CVE-2020-36430_CWE-XXXX-XXXX_017137471d0043e0321e377ed8da48e45a3ec632_CVE-2020-36430_017137471d0043e0321e377ed8da48e45a3ec632_ass.c_1.1_decode_font_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-36430_CWE-XXXX-XXXX_017137471d0043e0321e377ed8da48e45a3ec632_CVE-2020-36430_017137471d0043e0321e377ed8da48e45a3ec632_ass.c_1.1_decode_font_NEW.vul,[False],False

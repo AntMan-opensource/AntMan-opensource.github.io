@@ -1,0 +1,14 @@
+{
+    "total_func": 85956,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/bminor@@binutils-gdb-binutils-2_35_1/bfd_init_section_decompress_status@@@bfd@#@compress.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-25586_CWE-XXXX-XXXX_5830876a0cca17bef3b2d54908928e72cca53502_CVE-2023-25586_5830876a0cca17bef3b2d54908928e72cca53502_compress.c_1.1_bfd_init_section_decompress_status_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 246301,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/RT-Thread@@rt-thread-v1.2.1/get_word_rgb_row@@@components@#@external@#@jpeg@#@rdppm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46822_CWE-XXXX-XXXX_f35fd27ec641c42d6b115bfa595e483ec58188d2_CVE-2021-46822_f35fd27ec641c42d6b115bfa595e483ec58188d2_rdppm.c_1.1_get_word_rgb_row_OLD.vul"
+            ]
+        }
+    ]
+}

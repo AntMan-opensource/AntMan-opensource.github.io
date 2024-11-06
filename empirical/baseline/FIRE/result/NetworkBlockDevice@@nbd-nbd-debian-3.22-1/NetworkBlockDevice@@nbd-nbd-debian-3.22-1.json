@@ -1,0 +1,22 @@
+{
+    "total_func": 204,
+    "cnt": 2,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/NetworkBlockDevice@@nbd-nbd-debian-3.22-1/handle_export_name@@@nbd-server.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26495_CWE-XXXX-XXXX_4e5c5d2ed71cc9c34559e5fbeeb7f390661e530c_CVE-2022-26495_4e5c5d2ed71cc9c34559e5fbeeb7f390661e530c_nbd-server.c_1.1_handle_export_name_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/NetworkBlockDevice@@nbd-nbd-debian-3.22-1/handle_info@@@nbd-server.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26496_CWE-XXXX-XXXX_3740ff7fc9c3847d309c180a1a9fc9bc895342d5_CVE-2022-26496_3740ff7fc9c3847d309c180a1a9fc9bc895342d5_nbd-server.c_1.1_handle_info_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2022-26495_CWE-XXXX-XXXX_4e5c5d2ed71cc9c34559e5fbeeb7f390661e530c_CVE-2022-26495_4e5c5d2ed71cc9c34559e5fbeeb7f390661e530c_nbd-server.c_1.1_handle_info_OLD.vul"
+            ]
+        }
+    ]
+}

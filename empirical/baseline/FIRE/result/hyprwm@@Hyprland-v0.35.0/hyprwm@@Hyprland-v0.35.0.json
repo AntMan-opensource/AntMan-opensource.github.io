@@ -1,0 +1,14 @@
+{
+    "total_func": 217045,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/hyprwm@@Hyprland-v0.35.0/fixInstructionProbeRIPCalls@@@src@#@plugins@#@HookSystem.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-33904_CWE-XXXX-XXXX_28c85619243e6320e75d7abcfe8244fa99d054dd_CVE-2024-33904_28c85619243e6320e75d7abcfe8244fa99d054dd_HookSystem.cpp_1.1_CFunctionHook :: fixInstructionProbeRIPCalls_OLD.vul"
+            ]
+        }
+    ]
+}

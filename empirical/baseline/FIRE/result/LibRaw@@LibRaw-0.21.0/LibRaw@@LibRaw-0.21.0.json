@@ -1,0 +1,14 @@
+{
+    "total_func": 934,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/LibRaw@@LibRaw-0.21.0/raw2image_start@@@src@#@preprocessing@#@raw2image.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-1729_CWE-XXXX-XXXX_9ab70f6dca19229cb5caad7cc31af4e7501bac93_CVE-2023-1729_9ab70f6dca19229cb5caad7cc31af4e7501bac93_raw2image.cpp_1.1_LibRaw :: raw2image_start_OLD.vul"
+            ]
+        }
+    ]
+}

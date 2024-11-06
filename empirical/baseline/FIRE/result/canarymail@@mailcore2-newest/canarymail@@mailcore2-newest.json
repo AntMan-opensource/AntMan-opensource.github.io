@@ -1,0 +1,14 @@
+{
+    "total_func": 3607,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/canarymail@@mailcore2-newest/connect@@@src@#@core@#@imap@#@MCIMAPSession.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-26911_CWE-XXXX-XXXX_45acb4efbcaa57a20ac5127dc976538671fce018_CVE-2021-26911_45acb4efbcaa57a20ac5127dc976538671fce018_MCIMAPSession.cpp_1.1_IMAPSession :: connect_OLD.vul"
+            ]
+        }
+    ]
+}

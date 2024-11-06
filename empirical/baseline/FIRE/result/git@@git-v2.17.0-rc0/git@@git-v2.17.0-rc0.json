@@ -1,0 +1,57 @@
+{
+    "total_func": 223518,
+    "cnt": 7,
+    "all": 8,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/git@@git-v2.17.0-rc0/mingw_rmdir@@@compat@#@mingw.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-21300_CWE-XXXX-XXXX_684dd4c2b414bcf648505e74498a608f28de4592_CVE-2021-21300_684dd4c2b414bcf648505e74498a608f28de4592_mingw.c_1.1_mingw_rmdir_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/git@@git-v2.17.0-rc0/quote_arg@@@compat@#@mingw.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1350_CWE-XXXX-XXXX_6d8684161ee9c03bed5cb69ae76dfdddb85a0003_CVE-2019-1350_6d8684161ee9c03bed5cb69ae76dfdddb85a0003_mingw.c_1.1_quote_arg_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/git@@git-v2.17.0-rc0/decode_tree_entry@@@tree-walk.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1354_CWE-XXXX-XXXX_e1d911dd4c7b76a5a8cec0f5c8de15981e34da83_CVE-2019-1354_e1d911dd4c7b76a5a8cec0f5c8de15981e34da83_tree-walk.c_1.1_decode_tree_entry_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/git@@git-v2.17.0-rc0/relocate_single_git_dir_into_superproject@@@submodule.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1387_CWE-XXXX-XXXX_a8dee3ca610f5a1d403634492136c887f83b59d2_CVE-2019-1387_a8dee3ca610f5a1d403634492136c887f83b59d2_submodule.c_1.1_relocate_single_git_dir_into_superproject_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/git@@git-v2.17.0-rc0/update_clone@@@builtin@#@submodule--helper.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1349_CWE-XXXX-XXXX_0060fd1511b94c918928fa3708f69a3f33895a4a_CVE-2019-1349_0060fd1511b94c918928fa3708f69a3f33895a4a_submodule--helper.c_1.1_update_clone_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/git@@git-v2.17.0-rc0/checkout@@@builtin@#@clone.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1349_CWE-XXXX-XXXX_0060fd1511b94c918928fa3708f69a3f33895a4a_CVE-2019-1349_0060fd1511b94c918928fa3708f69a3f33895a4a_clone.c_1.1_checkout_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/git@@git-v2.17.0-rc0/module_clone@@@builtin@#@submodule--helper.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1349_CWE-XXXX-XXXX_0060fd1511b94c918928fa3708f69a3f33895a4a_CVE-2019-1349_0060fd1511b94c918928fa3708f69a3f33895a4a_submodule--helper.c_1.1_module_clone_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1387_CWE-XXXX-XXXX_a8dee3ca610f5a1d403634492136c887f83b59d2_CVE-2019-1387_a8dee3ca610f5a1d403634492136c887f83b59d2_submodule--helper.c_1.1_module_clone_OLD.vul"
+            ]
+        }
+    ]
+}

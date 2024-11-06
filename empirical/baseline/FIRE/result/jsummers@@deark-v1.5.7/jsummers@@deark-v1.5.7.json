@@ -1,0 +1,28 @@
+{
+    "total_func": 3955,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/jsummers@@deark-v1.5.7/do_iccprofile_item@@@modules@#@pict.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-28855_CWE-XXXX-XXXX_287f5ac31dfdc074669182f51ece637706070eeb_CVE-2021-28855_287f5ac31dfdc074669182f51ece637706070eeb_pict.c_1.1_do_iccprofile_item_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/jsummers@@deark-v1.5.7/do_prism_read_palette@@@modules@#@atari-img.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-43289_CWE-XXXX-XXXX_b297d9a8c829a7de26009b8ea6b059a8001e0198_CVE-2022-43289_b297d9a8c829a7de26009b8ea6b059a8001e0198_atari-img.c_1.1_do_prism_read_palette_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/jsummers@@deark-v1.5.7/fmtutil_macbitmap_read_pixmap_only_fields@@@src@#@fmtutil.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-28856_CWE-XXXX-XXXX_62acb7753b0e3c0d3ab3c15057b0a65222313334_CVE-2021-28856_62acb7753b0e3c0d3ab3c15057b0a65222313334_fmtutil.c_1.1_fmtutil_macbitmap_read_pixmap_only_fields_OLD.vul"
+            ]
+        }
+    ]
+}

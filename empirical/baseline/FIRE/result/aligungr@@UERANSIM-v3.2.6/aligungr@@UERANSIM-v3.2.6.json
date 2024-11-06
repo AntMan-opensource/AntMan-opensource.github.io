@@ -1,0 +1,21 @@
+{
+    "total_func": 7206,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/aligungr@@UERANSIM-v3.2.6/readOctetString@@@src@#@utils@#@octet_view.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37877_CWE-XXXX-XXXX_b68de9b52a856b1f632b6cb6d38928e16163b00a_CVE-2024-37877_b68de9b52a856b1f632b6cb6d38928e16163b00a_octet_view.cpp_1.1_OctetView :: readOctetString_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/aligungr@@UERANSIM-v3.2.6/DecodeRlsMessage@@@src@#@lib@#@rls@#@rls_pdu.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-37877_CWE-XXXX-XXXX_b68de9b52a856b1f632b6cb6d38928e16163b00a_CVE-2024-37877_b68de9b52a856b1f632b6cb6d38928e16163b00a_rls_pdu.cpp_1.1_DecodeRlsMessage_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 14309,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Singular@@Singular-Release-4-2-1/sdb_edit@@@Singular@#@sdb.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-40299_CWE-XXXX-XXXX_5f28fbf066626fa9c4a8f0e6408c0bb362fb386c_CVE-2022-40299_5f28fbf066626fa9c4a8f0e6408c0bb362fb386c_sdb.cc_1.1_sdb_edit_OLD.vul"
+            ]
+        }
+    ]
+}

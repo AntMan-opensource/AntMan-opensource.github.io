@@ -1,0 +1,14 @@
+{
+    "total_func": 4755,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/karelzak@@util-linux-v2.35.1/get_sem_elements@@@sys-utils@#@ipcutils.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-37600_CWE-XXXX-XXXX_1c9143d0c1f979c3daf10e1c37b5b1e916c22a1c_CVE-2021-37600_1c9143d0c1f979c3daf10e1c37b5b1e916c22a1c_ipcutils.c_1.1_get_sem_elements_OLD.vul"
+            ]
+        }
+    ]
+}

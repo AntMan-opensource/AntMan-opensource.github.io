@@ -1,0 +1,49 @@
+{
+    "total_func": 32824,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Ardour@@ardour-newest/find_impl@@@libs@#@pbd@#@xml++.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-22617_CWE-XXXX-XXXX_96daa4036a_CVE-2020-22617_96daa4036a_xml++.cc_1.1_find_impl_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Ardour@@ardour-newest/lua_sethook@@@libs@#@lua@#@lua-5.3.5@#@ldebug.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-15945_CWE-XXXX-XXXX_a2195644d89812e5b157ce7bac35543e06db05e3_CVE-2020-15945_a2195644d89812e5b157ce7bac35543e06db05e3_ldebug.c_1.1_lua_sethook_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/Ardour@@ardour-newest/luaC_barrier_@@@libs@#@lua@#@lua-5.3.5@#@lgc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-24371_CWE-XXXX-XXXX_a6da1472c0c5e05ff249325f979531ad51533110_CVE-2020-24371_a6da1472c0c5e05ff249325f979531ad51533110_lgc.c_1.1_luaC_barrier__OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/Ardour@@ardour-newest/luaG_runerror@@@libs@#@lua@#@lua-5.3.5@#@ldebug.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-33099_CWE-XXXX-XXXX_42d40581dd919fb134c07027ca1ce0844c670daf_CVE-2022-33099_42d40581dd919fb134c07027ca1ce0844c670daf_ldebug.c_1.1_luaG_runerror_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/Ardour@@ardour-newest/findlocal@@@libs@#@lua@#@lua-5.3.5@#@ldebug.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-24370_CWE-XXXX-XXXX_a585eae6e7ada1ca9271607a4f48dfb17868ab7b_CVE-2020-24370_a585eae6e7ada1ca9271607a4f48dfb17868ab7b_ldebug.c_1.1_luaG_findlocal_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/Ardour@@ardour-newest/singlevar@@@libs@#@lua@#@lua-5.3.5@#@lparser.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28805_CWE-XXXX-XXXX_1f3c6f4534c6411313361697d98d1145a1f030fa_CVE-2022-28805_1f3c6f4534c6411313361697d98d1145a1f030fa_lparser.c_1.1_singlevar_OLD.vul"
+            ]
+        }
+    ]
+}

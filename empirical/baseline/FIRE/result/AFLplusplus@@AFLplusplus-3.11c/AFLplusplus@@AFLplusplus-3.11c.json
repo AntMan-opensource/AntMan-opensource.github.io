@@ -1,0 +1,14 @@
+{
+    "total_func": 1824,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AFLplusplus@@AFLplusplus-3.11c/cmplog_exec_child@@@src@#@afl-fuzz-cmplog.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-26266_CWE-XXXX-XXXX_f2be73186e2e16c3992f92b65ae9ba598d6fff2f_CVE-2023-26266_f2be73186e2e16c3992f92b65ae9ba598d6fff2f_afl-fuzz-cmplog.c_1.1_cmplog_exec_child_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,947 @@
+{
+    "total_func": 458625,
+    "cnt": 134,
+    "all": 136,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rxrpc_krb5_decode_tagged_data@@@trunk@#@linux-3.4.x@#@net@#@rxrpc@#@ar-key.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7482_CWE-XXXX-XXXX_5f2f97656ada8d811d3c1bef503ced266fcd53a0_CVE-2017-7482_5f2f97656ada8d811d3c1bef503ced266fcd53a0_key.c_1.1_rxrpc_krb5_decode_tagged_data_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/decode_init@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@wmalosslessdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2792_CWE-XXXX-XXXX_065b3a1cfa3f23aedf76244b3f3883ba913173ff_CVE-2012-2792_065b3a1cfa3f23aedf76244b3f3883ba913173ff_wmalosslessdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/netbufdup@@@trunk@#@user@#@rpcbind@#@rpcbind-91973cc@#@src@#@rpcb_svc_com.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2015-7236_CWE-XXXX-XXXX_066c492a77015b0e8236d3d2cdfc733024e2e6c3_CVE-2015-7236_066c492a77015b0e8236d3d2cdfc733024e2e6c3_rpcb_svc_com.c_1.1_netbufdup_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rose_start_hbtimer@@@trunk@#@linux-3.4.x@#@net@#@rose@#@rose_timer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2318_CWE-XXXX-XXXX_9cc02ede696272c5271a401e4f27c262359bc2f6_CVE-2022-2318_9cc02ede696272c5271a401e4f27c262359bc2f6_rose_timer.c_1.1_rose_start_hbtimer_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rose_start_idletimer@@@trunk@#@linux-3.4.x@#@net@#@rose@#@rose_timer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2318_CWE-XXXX-XXXX_9cc02ede696272c5271a401e4f27c262359bc2f6_CVE-2022-2318_9cc02ede696272c5271a401e4f27c262359bc2f6_rose_timer.c_1.1_rose_start_idletimer_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/s_mp_mul_high_digs@@@trunk@#@user@#@dropbear@#@dropbear-201X.XX@#@libtommath@#@bn_s_mp_mul_high_digs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_high_digs.c_1.1_s_mp_mul_high_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/mm_decode_inter@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@mmvideo.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-3672_CWE-XXXX-XXXX_70cd3b8e659c3522eea5c16a65d14b8658894a94_CVE-2013-3672_70cd3b8e659c3522eea5c16a65d14b8658894a94_mmvideo.c_1.1_mm_decode_inter_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rose_start_t1timer@@@trunk@#@linux-3.4.x@#@net@#@rose@#@rose_timer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2318_CWE-XXXX-XXXX_9cc02ede696272c5271a401e4f27c262359bc2f6_CVE-2022-2318_9cc02ede696272c5271a401e4f27c262359bc2f6_rose_timer.c_1.1_rose_start_t1timer_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/dfa_decode_init@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@dfa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2786_CWE-XXXX-XXXX_ee715f49a06bf3898246d01b056284a9bb1bcbb9_CVE-2012-2786_ee715f49a06bf3898246d01b056284a9bb1bcbb9_dfa.c_1.1_dfa_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/selinux_setprocattr@@@trunk@#@linux-3.4.x@#@security@#@selinux@#@hooks.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-2618_CWE-XXXX-XXXX_0c461cb727d146c9ef2d3e86214f498b78b7d125_CVE-2017-2618_0c461cb727d146c9ef2d3e86214f498b78b7d125_hooks.c_1.1_selinux_setprocattr_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/dbFree@@@trunk@#@linux-3.4.x@#@fs@#@jfs@#@jfs_dmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-4385_CWE-XXXX-XXXX_0d4837fdb796f99369cf7691d33de1b856bcaf1f_CVE-2023-4385_0d4837fdb796f99369cf7691d33de1b856bcaf1f_jfs_dmap.c_1.1_dbFree_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/preinit_state@@@trunk@#@user@#@xupnpd@#@src@#@lua-5.2.0@#@lstate.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-15945_CWE-XXXX-XXXX_a2195644d89812e5b157ce7bac35543e06db05e3_CVE-2020-15945_a2195644d89812e5b157ce7bac35543e06db05e3_lstate.c_1.1_preinit_thread_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_llcp_mac_is_up@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@llcp@#@llcp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_mac_is_up_OLD.vul"
+            ]
+        },
+        {
+            "id": 14,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/cit_get_packet_size@@@trunk@#@linux-3.4.x@#@drivers@#@media@#@video@#@gspca@#@xirlink_cit.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11668_CWE-XXXX-XXXX_a246b4d547708f33ff4d4b9a7a5dbac741dc89d8_CVE-2020-11668_a246b4d547708f33ff4d4b9a7a5dbac741dc89d8_xirlink_cit.c_1.1_cit_get_packet_size_OLD.vul"
+            ]
+        },
+        {
+            "id": 15,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/test_packet_id_write_long_prepend@@@trunk@#@user@#@openvpn@#@openvpn-2.4.x@#@tests@#@unit_tests@#@openvpn@#@test_packet_id.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7479_CWE-XXXX-XXXX_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_CVE-2017-7479_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_test_packet_id.c_1.1_test_packet_id_write_long_wrap_OLD.vul"
+            ]
+        },
+        {
+            "id": 16,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/__dns_lookup@@@trunk@#@libc@#@uClibc-ng-1.0.32@#@libc@#@inet@#@resolv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-43523_CWE-XXXX-XXXX_0f822af0445e5348ce7b7bd8ce1204244f31d174_CVE-2021-43523_0f822af0445e5348ce7b7bd8ce1204244f31d174_resolv.c_1.1___dns_lookup_OLD.vul"
+            ]
+        },
+        {
+            "id": 17,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/exit_mmap@@@trunk@#@linux-3.4.x@#@mm@#@mmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2018-1000200_CWE-XXXX-XXXX_27ae357fa82be5ab73b2ef8d39dcb8ca2563483a_CVE-2018-1000200_27ae357fa82be5ab73b2ef8d39dcb8ca2563483a_mmap.c_1.1_exit_mmap_OLD.vul"
+            ]
+        },
+        {
+            "id": 18,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sl_tx_timeout@@@trunk@#@linux-3.4.x@#@drivers@#@net@#@slip@#@slip.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-41858_CWE-XXXX-XXXX_ec4eb8a86ade4d22633e1da2a7d85a846b7d1798_CVE-2022-41858_ec4eb8a86ade4d22633e1da2a7d85a846b7d1798_slip.c_1.1_sl_tx_timeout_OLD.vul"
+            ]
+        },
+        {
+            "id": 19,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ext4_ext_split@@@trunk@#@linux-3.4.x@#@fs@#@ext4@#@extents.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-11833_CWE-XXXX-XXXX_592acbf16821288ecdc4192c47e3774a4c48bb64_CVE-2019-11833_592acbf16821288ecdc4192c47e3774a4c48bb64_extents.c_1.1_ext4_ext_split_OLD.vul"
+            ]
+        },
+        {
+            "id": 20,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/bcm_release@@@trunk@#@linux-3.4.x@#@net@#@can@#@bcm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3609_CWE-XXXX-XXXX_d5f9023fa61ee8b94f37a93f08e94b136cf1e463_CVE-2021-3609_d5f9023fa61ee8b94f37a93f08e94b136cf1e463_bcm.c_1.1_bcm_release_OLD.vul"
+            ]
+        },
+        {
+            "id": 21,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/singlevar@@@trunk@#@user@#@xupnpd@#@src@#@lua-5.2.0@#@lparser.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28805_CWE-XXXX-XXXX_1f3c6f4534c6411313361697d98d1145a1f030fa_CVE-2022-28805_1f3c6f4534c6411313361697d98d1145a1f030fa_lparser.c_1.1_singlevar_OLD.vul"
+            ]
+        },
+        {
+            "id": 22,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/segmented_read_std@@@trunk@#@linux-3.4.x@#@arch@#@x86@#@kvm@#@emulate.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2018-10853_CWE-XXXX-XXXX_3c9fa24ca7c9c47605672916491f79e8ccacb9e6_CVE-2018-10853_3c9fa24ca7c9c47605672916491f79e8ccacb9e6_emulate.c_1.1_segmented_read_std_OLD.vul"
+            ]
+        },
+        {
+            "id": 23,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_dep_link_down@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1974_CWE-XXXX-XXXX_da5c0f119203ad9728920456a0f52a6d850c01cd_CVE-2022-1974_da5c0f119203ad9728920456a0f52a6d850c01cd_core.c_1.1_nfc_dep_link_down_OLD.vul"
+            ]
+        },
+        {
+            "id": 24,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ptrace_attach@@@trunk@#@linux-3.4.x@#@kernel@#@ptrace.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-30594_CWE-XXXX-XXXX_ee1fee900537b5d9560e9f937402de5ddc8412f3_CVE-2022-30594_ee1fee900537b5d9560e9f937402de5ddc8412f3_ptrace.c_1.1_ptrace_attach_OLD.vul"
+            ]
+        },
+        {
+            "id": 25,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/__del_gref@@@trunk@#@linux-3.4.x@#@drivers@#@xen@#@gntalloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23039_CWE-XXXX-XXXX_f06e3edaeac1942c4ff42072e3d98ee8c762c5fa_CVE-2022-23039_f06e3edaeac1942c4ff42072e3d98ee8c762c5fa_gntalloc.c_1.1___del_gref_OLD.vul"
+            ]
+        },
+        {
+            "id": 26,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/mwifiex_update_bss_desc_with_ie@@@trunk@#@linux-3.4.x@#@drivers@#@net@#@wireless@#@mwifiex@#@scan.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-3846_CWE-XXXX-XXXX_13ec7f10b87f5fc04c4ccbd491c94c7980236a74_CVE-2019-3846_13ec7f10b87f5fc04c4ccbd491c94c7980236a74_scan.c_1.1_mwifiex_update_bss_desc_with_ie_OLD.vul"
+            ]
+        },
+        {
+            "id": 27,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/pep_sock_accept@@@trunk@#@linux-3.4.x@#@net@#@phonet@#@pep.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-45095_CWE-XXXX-XXXX_bcd0f93353326954817a4f9fa55ec57fb38acbb0_CVE-2021-45095_bcd0f93353326954817a4f9fa55ec57fb38acbb0_pep.c_1.1_pep_sock_accept_OLD.vul"
+            ]
+        },
+        {
+            "id": 28,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/mwifiex_cmd_append_vsie_tlv@@@trunk@#@linux-3.4.x@#@drivers@#@net@#@wireless@#@mwifiex@#@scan.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-12653_CWE-XXXX-XXXX_b70261a288ea4d2f4ac7cd04be08a9f0f2de4f4d_CVE-2020-12653_b70261a288ea4d2f4ac7cd04be08a9f0f2de4f4d_scan.c_1.1_mwifiex_cmd_append_vsie_tlv_OLD.vul"
+            ]
+        },
+        {
+            "id": 29,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sbusfb_ioctl_helper@@@trunk@#@linux-3.4.x@#@drivers@#@video@#@sbuslib.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2018-6412_CWE-XXXX-XXXX_250c6c49e3b68756b14983c076183568636e2bde_CVE-2018-6412_250c6c49e3b68756b14983c076183568636e2bde_sbuslib.c_1.1_sbusfb_ioctl_helper_OLD.vul"
+            ]
+        },
+        {
+            "id": 30,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/smacker_decode_header_tree@@@trunk@#@libs@#@libav@#@ffmpeg-0.6.x@#@libavcodec@#@smacker.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2011-3944_CWE-XXXX-XXXX_1285baaab550e3e761590ef6dfb1d9bd9d1332e4_CVE-2011-3944_1285baaab550e3e761590ef6dfb1d9bd9d1332e4_smacker.c_1.1_smacker_decode_header_tree_OLD.vul"
+            ]
+        },
+        {
+            "id": 31,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sixpack_close@@@trunk@#@linux-3.4.x@#@drivers@#@net@#@hamradio@#@6pack.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1198_CWE-XXXX-XXXX_efe4186e6a1b54bf38b9e05450d43b0da1fd7739_CVE-2022-1198_efe4186e6a1b54bf38b9e05450d43b0da1fd7739_6pack.c_1.1_sixpack_close_OLD.vul"
+            ]
+        },
+        {
+            "id": 32,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_dev_down@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1974_CWE-XXXX-XXXX_da5c0f119203ad9728920456a0f52a6d850c01cd_CVE-2022-1974_da5c0f119203ad9728920456a0f52a6d850c01cd_core.c_1.1_nfc_dev_down_OLD.vul"
+            ]
+        },
+        {
+            "id": 33,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/fb_copy_cmap@@@trunk@#@linux-3.4.x@#@drivers@#@video@#@fbcmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-8405_CWE-XXXX-XXXX_2dc705a9930b4806250fbf5a76e55266e59389f2_CVE-2016-8405_2dc705a9930b4806250fbf5a76e55266e59389f2_fbcmap.c_1.1_fb_copy_cmap_OLD.vul"
+            ]
+        },
+        {
+            "id": 34,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/snd_pcm_control_ioctl@@@trunk@#@linux-3.4.x@#@sound@#@core@#@pcm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-0861_CWE-XXXX-XXXX_362bca57f5d78220f8b5907b875961af9436e229_CVE-2017-0861_362bca57f5d78220f8b5907b875961af9436e229_pcm.c_1.1_snd_pcm_control_ioctl_OLD.vul"
+            ]
+        },
+        {
+            "id": 35,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/gru_check_context_placement@@@trunk@#@linux-3.4.x@#@drivers@#@misc@#@sgi-gru@#@grumain.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3424_CWE-XXXX-XXXX_643a16a0eb1d6ac23744bb6e90a00fc21148a9dc_CVE-2022-3424_643a16a0eb1d6ac23744bb6e90a00fc21148a9dc_grumain.c_1.1_gru_check_context_placement_OLD.vul"
+            ]
+        },
+        {
+            "id": 36,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/pxa3xx_gcu_misc_write@@@trunk@#@linux-3.4.x@#@drivers@#@video@#@pxa3xx-gcu.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39842_CWE-XXXX-XXXX_a09d2d00af53b43c6f11e6ab3cb58443c2cac8a7_CVE-2022-39842_a09d2d00af53b43c6f11e6ab3cb58443c2cac8a7_pxa3xx-gcu.c_1.1_pxa3xx_gcu_write_OLD.vul"
+            ]
+        },
+        {
+            "id": 37,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/anon_vma_fork@@@trunk@#@linux-3.4.x@#@mm@#@rmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-42703_CWE-XXXX-XXXX_2555283eb40df89945557273121e9393ef9b542b_CVE-2022-42703_2555283eb40df89945557273121e9393ef9b542b_rmap.c_1.1_anon_vma_fork_OLD.vul"
+            ]
+        },
+        {
+            "id": 38,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_stop_poll@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1974_CWE-XXXX-XXXX_da5c0f119203ad9728920456a0f52a6d850c01cd_CVE-2022-1974_da5c0f119203ad9728920456a0f52a6d850c01cd_core.c_1.1_nfc_stop_poll_OLD.vul"
+            ]
+        },
+        {
+            "id": 39,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sfb_enqueue@@@trunk@#@linux-3.4.x@#@net@#@sched@#@sch_sfb.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3586_CWE-XXXX-XXXX_9efd23297cca_CVE-2022-3586_9efd23297cca_sch_sfb.c_1.1_sfb_enqueue_OLD.vul"
+            ]
+        },
+        {
+            "id": 40,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_start_poll@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1974_CWE-XXXX-XXXX_da5c0f119203ad9728920456a0f52a6d850c01cd_CVE-2022-1974_da5c0f119203ad9728920456a0f52a6d850c01cd_core.c_1.1_nfc_start_poll_OLD.vul"
+            ]
+        },
+        {
+            "id": 41,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/inode_change_ok@@@trunk@#@linux-3.4.x@#@fs@#@attr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2015-1350_CWE-XXXX-XXXX_030b533c4fd4d2ec3402363323de4bb2983c9cee_CVE-2015-1350_030b533c4fd4d2ec3402363323de4bb2983c9cee_attr.c_1.1_setattr_prepare_OLD.vul"
+            ]
+        },
+        {
+            "id": 42,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/generic_startup@@@trunk@#@linux-3.4.x@#@drivers@#@usb@#@serial@#@cypress_m8.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-3137_CWE-XXXX-XXXX_c55aee1bf0e6b6feec8b2927b43f7a09a6d5f754_CVE-2016-3137_c55aee1bf0e6b6feec8b2927b43f7a09a6d5f754_cypress_m8.c_1.1_cypress_generic_port_probe_OLD.vul"
+            ]
+        },
+        {
+            "id": 43,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rose_start_t2timer@@@trunk@#@linux-3.4.x@#@net@#@rose@#@rose_timer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2318_CWE-XXXX-XXXX_9cc02ede696272c5271a401e4f27c262359bc2f6_CVE-2022-2318_9cc02ede696272c5271a401e4f27c262359bc2f6_rose_timer.c_1.1_rose_start_t2timer_OLD.vul"
+            ]
+        },
+        {
+            "id": 44,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/read_frame_data@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@alsdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-0845_CWE-XXXX-XXXX_2a0fb7286d67c47e44aa76c237ede117b22af616_CVE-2013-0845_2a0fb7286d67c47e44aa76c237ede117b22af616_alsdec.c_1.1_read_frame_data_OLD.vul"
+            ]
+        },
+        {
+            "id": 45,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/read_frame_data@@@trunk@#@libs@#@libav@#@ffmpeg-0.6.x@#@libavcodec@#@alsdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-0845_CWE-XXXX-XXXX_2a0fb7286d67c47e44aa76c237ede117b22af616_CVE-2013-0845_2a0fb7286d67c47e44aa76c237ede117b22af616_alsdec.c_1.1_read_frame_data_OLD.vul"
+            ]
+        },
+        {
+            "id": 46,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ext4_xattr_ibody_set@@@trunk@#@linux-3.4.x@#@fs@#@ext4@#@xattr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-2513_CWE-XXXX-XXXX_67d7d8ad99be_CVE-2023-2513_67d7d8ad99be_xattr.c_1.1_ext4_xattr_ibody_set_OLD.vul"
+            ]
+        },
+        {
+            "id": 47,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/llcp_sock_connect@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@llcp@#@sock.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-25671_CWE-XXXX-XXXX_8a4cd82d62b5ec7e5482333a72b58a4eea4979f0_CVE-2020-25671_8a4cd82d62b5ec7e5482333a72b58a4eea4979f0_llcp_sock.c_1.1_llcp_sock_connect_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2020-25672_CWE-XXXX-XXXX_7574fcdbdcb335763b6b322f6928dc0fd5730451_CVE-2020-25672_7574fcdbdcb335763b6b322f6928dc0fd5730451_llcp_sock.c_1.1_llcp_sock_connect_OLD.vul"
+            ]
+        },
+        {
+            "id": 48,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/av_probe_input_buffer@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavformat@#@utils.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-6618_CWE-XXXX-XXXX_2115a3597457231a6e5c0527fe0ff8550f64b733_CVE-2012-6618_2115a3597457231a6e5c0527fe0ff8550f64b733_utils.c_1.1_av_probe_input_buffer_OLD.vul"
+            ]
+        },
+        {
+            "id": 49,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/decode_seq_header@@@trunk@#@libs@#@libav@#@ffmpeg-0.6.x@#@libavcodec@#@cavsdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2777_CWE-XXXX-XXXX_c20a69630619d14ae92c5541d52c579d7c8f3e94_CVE-2012-2777_c20a69630619d14ae92c5541d52c579d7c8f3e94_cavsdec.c_1.1_decode_seq_header_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2784_CWE-XXXX-XXXX_c20a69630619d14ae92c5541d52c579d7c8f3e94_CVE-2012-2784_c20a69630619d14ae92c5541d52c579d7c8f3e94_cavsdec.c_1.1_decode_seq_header_OLD.vul"
+            ]
+        },
+        {
+            "id": 50,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/decode_cell_data@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@indeo3.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2776_CWE-XXXX-XXXX_e4d4044339b9c3b0f45f7203cd026eda3c0414c0_CVE-2012-2776_e4d4044339b9c3b0f45f7203cd026eda3c0414c0_indeo3.c_1.1_decode_cell_data_OLD.vul"
+            ]
+        },
+        {
+            "id": 51,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/gru_handle_user_call_os@@@trunk@#@linux-3.4.x@#@drivers@#@misc@#@sgi-gru@#@grufault.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3424_CWE-XXXX-XXXX_643a16a0eb1d6ac23744bb6e90a00fc21148a9dc_CVE-2022-3424_643a16a0eb1d6ac23744bb6e90a00fc21148a9dc_grufault.c_1.1_gru_handle_user_call_os_OLD.vul"
+            ]
+        },
+        {
+            "id": 52,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/anon_vma_prepare@@@trunk@#@linux-3.4.x@#@mm@#@rmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-42703_CWE-XXXX-XXXX_2555283eb40df89945557273121e9393ef9b542b_CVE-2022-42703_2555283eb40df89945557273121e9393ef9b542b_rmap.c_1.1___anon_vma_prepare_OLD.vul"
+            ]
+        },
+        {
+            "id": 53,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/findlocal@@@trunk@#@user@#@xupnpd@#@src@#@lua-5.2.0@#@ldebug.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-24370_CWE-XXXX-XXXX_a585eae6e7ada1ca9271607a4f48dfb17868ab7b_CVE-2020-24370_a585eae6e7ada1ca9271607a4f48dfb17868ab7b_ldebug.c_1.1_luaG_findlocal_OLD.vul"
+            ]
+        },
+        {
+            "id": 54,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ene_remove@@@trunk@#@linux-3.4.x@#@drivers@#@media@#@rc@#@ene_ir.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-1118_CWE-XXXX-XXXX_29b0589a865b6f66d141d79b2dd1373e4e50fe17_CVE-2023-1118_29b0589a865b6f66d141d79b2dd1373e4e50fe17_ene_ir.c_1.1_ene_remove_OLD.vul"
+            ]
+        },
+        {
+            "id": 55,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/s_mp_mul_high_digs@@@trunk@#@user@#@wpa_supplicant@#@src@#@tls@#@libtommath.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_high_digs.c_1.1_s_mp_mul_high_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 56,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/create_kthread@@@trunk@#@linux-3.4.x@#@kernel@#@kthread.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-4398_CWE-XXXX-XXXX_786235eeba0e1e85e5cbbb9f97d1087ad03dfa21_CVE-2012-4398_786235eeba0e1e85e5cbbb9f97d1087ad03dfa21_kthread.c_1.1_create_kthread_OLD.vul"
+            ]
+        },
+        {
+            "id": 57,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/llc_ui_bind@@@trunk@#@linux-3.4.x@#@net@#@llc@#@af_llc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28356_CWE-XXXX-XXXX_764f4eb6846f5475f1244767d24d25dd86528a4a_CVE-2022-28356_764f4eb6846f5475f1244767d24d25dd86528a4a_af_llc.c_1.1_llc_ui_bind_OLD.vul"
+            ]
+        },
+        {
+            "id": 58,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/fd_locked_ioctl@@@trunk@#@linux-3.4.x@#@drivers@#@block@#@floppy.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2018-7755_CWE-XXXX-XXXX_65eea8edc315589d6c993cf12dbb5d0e9ef1fe4e_CVE-2018-7755_65eea8edc315589d6c993cf12dbb5d0e9ef1fe4e_floppy.c_1.1_fd_locked_ioctl_OLD.vul"
+            ]
+        },
+        {
+            "id": 59,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sunkbd_interrupt@@@trunk@#@linux-3.4.x@#@drivers@#@input@#@keyboard@#@sunkbd.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-25669_CWE-XXXX-XXXX_77e70d351db7de07a46ac49b87a6c3c7a60fca7e_CVE-2020-25669_77e70d351db7de07a46ac49b87a6c3c7a60fca7e_sunkbd.c_1.1_sunkbd_interrupt_OLD.vul"
+            ]
+        },
+        {
+            "id": 60,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ax25_release@@@trunk@#@linux-3.4.x@#@net@#@ax25@#@af_ax25.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1205_CWE-XXXX-XXXX_82e31755e55fbcea6a9dfaae5fe4860ade17cbc0_CVE-2022-1205_82e31755e55fbcea6a9dfaae5fe4860ade17cbc0_af_ax25.c_1.1_ax25_release_OLD.vul"
+            ]
+        },
+        {
+            "id": 61,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/compat_mpt_command@@@trunk@#@linux-3.4.x@#@drivers@#@message@#@fusion@#@mptctl.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-12652_CWE-XXXX-XXXX_28d76df18f0ad5bcf5fa48510b225f0ed262a99b_CVE-2020-12652_28d76df18f0ad5bcf5fa48510b225f0ed262a99b_mptctl.c_1.1_compat_mpt_command_OLD.vul"
+            ]
+        },
+        {
+            "id": 62,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ext4_has_uninit_itable@@@trunk@#@linux-3.4.x@#@fs@#@ext4@#@super.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2018-10876_CWE-XXXX-XXXX_8844618d8aa7a9973e7b527d038a2a589665002c_CVE-2018-10876_8844618d8aa7a9973e7b527d038a2a589665002c_super.c_1.1_ext4_has_uninit_itable_OLD.vul"
+            ]
+        },
+        {
+            "id": 63,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_llcp_send_symm@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@llcp@#@commands.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_commands.c_1.1_nfc_llcp_send_symm_OLD.vul"
+            ]
+        },
+        {
+            "id": 64,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/kvm_vm_ioctl_set_pit2@@@trunk@#@linux-3.4.x@#@arch@#@x86@#@kvm@#@x86.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2015-7513_CWE-XXXX-XXXX_0185604c2d82c560dab2f2933a18f797e74ab5a8_CVE-2015-7513_0185604c2d82c560dab2f2933a18f797e74ab5a8_x86.c_1.1_kvm_vm_ioctl_set_pit2_OLD.vul"
+            ]
+        },
+        {
+            "id": 65,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rose_start_t3timer@@@trunk@#@linux-3.4.x@#@net@#@rose@#@rose_timer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-2318_CWE-XXXX-XXXX_9cc02ede696272c5271a401e4f27c262359bc2f6_CVE-2022-2318_9cc02ede696272c5271a401e4f27c262359bc2f6_rose_timer.c_1.1_rose_start_t3timer_OLD.vul"
+            ]
+        },
+        {
+            "id": 66,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ff_adts_decode_extradata@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavformat@#@adtsenc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-38171_CWE-XXXX-XXXX_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_CVE-2021-38171_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_adtsenc.c_1.1_adts_decode_extradata_OLD.vul"
+            ]
+        },
+        {
+            "id": 67,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/decode_packet@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@wmaprodec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2799_CWE-XXXX-XXXX_d65d8347314b645051e336aed141aaf32a6c0d02_CVE-2012-2799_d65d8347314b645051e336aed141aaf32a6c0d02_wmalosslessdec.c_1.1_decode_packet_OLD.vul"
+            ]
+        },
+        {
+            "id": 68,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/init_emulate_ctxt@@@trunk@#@linux-3.4.x@#@arch@#@x86@#@kvm@#@x86.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7518_CWE-XXXX-XXXX_c8401dda2f0a00cd25c0af6a95ed50e478d25de4_CVE-2017-7518_c8401dda2f0a00cd25c0af6a95ed50e478d25de4_x86.c_1.1_init_emulate_ctxt_OLD.vul"
+            ]
+        },
+        {
+            "id": 69,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ov511_mode_init_regs@@@trunk@#@linux-3.4.x@#@drivers@#@media@#@video@#@gspca@#@ov519.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11608_CWE-XXXX-XXXX_998912346c0da53a6dbb71fab3a138586b596b30_CVE-2020-11608_998912346c0da53a6dbb71fab3a138586b596b30_ov519.c_1.1_ov511_mode_init_regs_OLD.vul"
+            ]
+        },
+        {
+            "id": 70,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/join_session_keyring@@@trunk@#@linux-3.4.x@#@security@#@keys@#@process_keys.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-0728_CWE-XXXX-XXXX_23567fd052a9abb6d67fe8e7a9ccdd9800a540f2_CVE-2016-0728_23567fd052a9abb6d67fe8e7a9ccdd9800a540f2_process_keys.c_1.1_join_session_keyring_OLD.vul"
+            ]
+        },
+        {
+            "id": 71,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/kvm_vm_ioctl_set_pit@@@trunk@#@linux-3.4.x@#@arch@#@x86@#@kvm@#@x86.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2015-7513_CWE-XXXX-XXXX_0185604c2d82c560dab2f2933a18f797e74ab5a8_CVE-2015-7513_0185604c2d82c560dab2f2933a18f797e74ab5a8_x86.c_1.1_kvm_vm_ioctl_set_pit_OLD.vul"
+            ]
+        },
+        {
+            "id": 72,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sys_oabi_semtimedop@@@trunk@#@linux-3.4.x@#@arch@#@arm@#@kernel@#@sys_oabi-compat.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-3857_CWE-XXXX-XXXX_7de249964f5578e67b99699c5f0b405738d820a2_CVE-2016-3857_7de249964f5578e67b99699c5f0b405738d820a2_sys_oabi-compat.c_1.1_sys_oabi_semtimedop_OLD.vul"
+            ]
+        },
+        {
+            "id": 73,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sd_isoc_init@@@trunk@#@linux-3.4.x@#@drivers@#@media@#@video@#@gspca@#@xirlink_cit.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11668_CWE-XXXX-XXXX_a246b4d547708f33ff4d4b9a7a5dbac741dc89d8_CVE-2020-11668_a246b4d547708f33ff4d4b9a7a5dbac741dc89d8_xirlink_cit.c_1.1_sd_isoc_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 74,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/render_slice@@@trunk@#@libs@#@libav@#@ffmpeg-0.6.x@#@libavcodec@#@vp3.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2011-4352_CWE-XXXX-XXXX_8b94df0f2047e9728cb872adc9e64557b7a5152f_CVE-2011-4352_8b94df0f2047e9728cb872adc9e64557b7a5152f_vp3.c_1.1_render_slice_OLD.vul"
+            ]
+        },
+        {
+            "id": 75,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/stv06xx_start@@@trunk@#@linux-3.4.x@#@drivers@#@media@#@video@#@gspca@#@stv06xx@#@stv06xx.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11609_CWE-XXXX-XXXX_485b06aadb933190f4bc44e006076bc27a23f205_CVE-2020-11609_485b06aadb933190f4bc44e006076bc27a23f205_stv06xx.c_1.1_stv06xx_start_OLD.vul"
+            ]
+        },
+        {
+            "id": 76,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/kvm_vcpu_ioctl_x86_get_debugregs@@@trunk@#@linux-3.4.x@#@arch@#@x86@#@kvm@#@x86.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-1513_CWE-XXXX-XXXX_2c10b61421a28e95a46ab489fd56c0f442ff6952_CVE-2023-1513_2c10b61421a28e95a46ab489fd56c0f442ff6952_x86.c_1.1_kvm_vcpu_ioctl_x86_get_debugregs_OLD.vul"
+            ]
+        },
+        {
+            "id": 77,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/proc_keys_show@@@trunk@#@linux-3.4.x@#@security@#@keys@#@proc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-7042_CWE-XXXX-XXXX_03dab869b7b239c4e013ec82aea22e181e441cfc_CVE-2016-7042_03dab869b7b239c4e013ec82aea22e181e441cfc_proc.c_1.1_proc_keys_show_OLD.vul"
+            ]
+        },
+        {
+            "id": 78,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ext4_xattr_ibody_find@@@trunk@#@linux-3.4.x@#@fs@#@ext4@#@xattr.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-2513_CWE-XXXX-XXXX_67d7d8ad99be_CVE-2023-2513_67d7d8ad99be_xattr.c_1.1_ext4_xattr_ibody_find_OLD.vul"
+            ]
+        },
+        {
+            "id": 79,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sys_oabi_epoll_wait@@@trunk@#@linux-3.4.x@#@arch@#@arm@#@kernel@#@sys_oabi-compat.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-3857_CWE-XXXX-XXXX_7de249964f5578e67b99699c5f0b405738d820a2_CVE-2016-3857_7de249964f5578e67b99699c5f0b405738d820a2_sys_oabi-compat.c_1.1_sys_oabi_epoll_wait_OLD.vul"
+            ]
+        },
+        {
+            "id": 80,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/vgacon_startup@@@trunk@#@linux-3.4.x@#@drivers@#@video@#@console@#@vgacon.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-28097_CWE-XXXX-XXXX_973c096f6a85e5b5f2a295126ba6928d9a6afd45_CVE-2020-28097_973c096f6a85e5b5f2a295126ba6928d9a6afd45_vgacon.c_1.1_vgacon_startup_OLD.vul"
+            ]
+        },
+        {
+            "id": 81,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rxrpc_krb5_decode_ticket@@@trunk@#@linux-3.4.x@#@net@#@rxrpc@#@ar-key.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7482_CWE-XXXX-XXXX_5f2f97656ada8d811d3c1bef503ced266fcd53a0_CVE-2017-7482_5f2f97656ada8d811d3c1bef503ced266fcd53a0_key.c_1.1_rxrpc_krb5_decode_ticket_OLD.vul"
+            ]
+        },
+        {
+            "id": 82,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/early_init_amd@@@trunk@#@linux-3.4.x@#@arch@#@x86@#@kernel@#@cpu@#@amd.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-6885_CWE-XXXX-XXXX_3b56496865f9f7d9bcb2f93b44c63f274f08e3b6_CVE-2013-6885_3b56496865f9f7d9bcb2f93b44c63f274f08e3b6_amd.c_1.1_early_init_amd_OLD.vul"
+            ]
+        },
+        {
+            "id": 83,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/atalk_ioctl@@@trunk@#@linux-3.4.x@#@net@#@appletalk@#@ddp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-51781_CWE-XXXX-XXXX_189ff16722ee36ced4d2a2469d4ab65a8fee4198_CVE-2023-51781_189ff16722ee36ced4d2a2469d4ab65a8fee4198_ddp.c_1.1_atalk_ioctl_OLD.vul"
+            ]
+        },
+        {
+            "id": 84,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rxrpc_krb5_decode_principal@@@trunk@#@linux-3.4.x@#@net@#@rxrpc@#@ar-key.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7482_CWE-XXXX-XXXX_5f2f97656ada8d811d3c1bef503ced266fcd53a0_CVE-2017-7482_5f2f97656ada8d811d3c1bef503ced266fcd53a0_key.c_1.1_rxrpc_krb5_decode_principal_OLD.vul"
+            ]
+        },
+        {
+            "id": 85,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rndis_set_response@@@trunk@#@linux-3.4.x@#@drivers@#@usb@#@gadget@#@rndis.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-25375_CWE-XXXX-XXXX_38ea1eac7d88072bbffb630e2b3db83ca649b826_CVE-2022-25375_38ea1eac7d88072bbffb630e2b3db83ca649b826_rndis.c_1.1_rndis_set_response_OLD.vul"
+            ]
+        },
+        {
+            "id": 86,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_llcp_general_bytes@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@llcp@#@llcp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_general_bytes_OLD.vul"
+            ]
+        },
+        {
+            "id": 87,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/s_mp_mul_digs@@@trunk@#@user@#@wpa_supplicant@#@src@#@tls@#@libtommath.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_digs.c_1.1_s_mp_mul_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 88,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/test_packet_id_write_long@@@trunk@#@user@#@openvpn@#@openvpn-2.4.x@#@tests@#@unit_tests@#@openvpn@#@test_packet_id.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7479_CWE-XXXX-XXXX_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_CVE-2017-7479_e498cb0ea8d3a451b39eaf6f9b6a7488f18250b8_test_packet_id.c_1.1_test_packet_id_write_long_wrap_OLD.vul"
+            ]
+        },
+        {
+            "id": 89,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/stv06xx_isoc_init@@@trunk@#@linux-3.4.x@#@drivers@#@media@#@video@#@gspca@#@stv06xx@#@stv06xx.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11609_CWE-XXXX-XXXX_485b06aadb933190f4bc44e006076bc27a23f205_CVE-2020-11609_485b06aadb933190f4bc44e006076bc27a23f205_stv06xx.c_1.1_stv06xx_isoc_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 90,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/bcm_delete_rx_op@@@trunk@#@linux-3.4.x@#@net@#@can@#@bcm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3609_CWE-XXXX-XXXX_d5f9023fa61ee8b94f37a93f08e94b136cf1e463_CVE-2021-3609_d5f9023fa61ee8b94f37a93f08e94b136cf1e463_bcm.c_1.1_bcm_delete_rx_op_OLD.vul"
+            ]
+        },
+        {
+            "id": 91,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_dep_link_up@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1974_CWE-XXXX-XXXX_da5c0f119203ad9728920456a0f52a6d850c01cd_CVE-2022-1974_da5c0f119203ad9728920456a0f52a6d850c01cd_core.c_1.1_nfc_dep_link_up_OLD.vul"
+            ]
+        },
+        {
+            "id": 92,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_dev_up@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1974_CWE-XXXX-XXXX_da5c0f119203ad9728920456a0f52a6d850c01cd_CVE-2022-1974_da5c0f119203ad9728920456a0f52a6d850c01cd_core.c_1.1_nfc_dev_down_OLD.vul"
+            ]
+        },
+        {
+            "id": 93,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/vorbis_parse_setup_hdr_floors@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@vorbisdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-0894_CWE-XXXX-XXXX_11dcecfcca0eca1a571792c4fa3c21fb2cfddddc_CVE-2013-0894_11dcecfcca0eca1a571792c4fa3c21fb2cfddddc_vorbisdec.c_1.1_vorbis_parse_setup_hdr_floors_OLD.vul"
+            ]
+        },
+        {
+            "id": 94,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/kthread_create_on_node@@@trunk@#@linux-3.4.x@#@kernel@#@kthread.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-4398_CWE-XXXX-XXXX_786235eeba0e1e85e5cbbb9f97d1087ad03dfa21_CVE-2012-4398_786235eeba0e1e85e5cbbb9f97d1087ad03dfa21_kthread.c_1.1_kthread_create_on_node_OLD.vul"
+            ]
+        },
+        {
+            "id": 95,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sink@@@trunk@#@user@#@dropbear@#@dropbear-201X.XX@#@scp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-36254_CWE-XXXX-XXXX_8f8a3dff705fad774a10864a2e3dbcfa9779ceff_CVE-2020-36254_8f8a3dff705fad774a10864a2e3dbcfa9779ceff_scp.c_1.1_sink_OLD.vul"
+            ]
+        },
+        {
+            "id": 96,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/hso_probe@@@trunk@#@linux-3.4.x@#@drivers@#@net@#@usb@#@hso.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2018-19985_CWE-XXXX-XXXX_5146f95df782b0ac61abde36567e718692725c89_CVE-2018-19985_5146f95df782b0ac61abde36567e718692725c89_hso.c_1.1_hso_probe_OLD.vul"
+            ]
+        },
+        {
+            "id": 97,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/BN_mod_sqrt@@@trunk@#@proprietary@#@rt_wifi@#@rtpci@#@5.0.4.0@#@mt7615@#@embedded@#@security@#@bn_lib.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0778_CWE-XXXX-XXXX_fdc418f15e92732a3551832bcb625ba9b47242df_CVE-2022-0778_fdc418f15e92732a3551832bcb625ba9b47242df_bn_sqrt.c_1.1_BN_mod_sqrt_OLD.vul"
+            ]
+        },
+        {
+            "id": 98,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/sco_sock_sendmsg@@@trunk@#@linux-3.4.x@#@net@#@bluetooth@#@sco.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3640_CWE-XXXX-XXXX_99c23da0eed4fd20cae8243f2b51e10e66aa0951_CVE-2021-3640_99c23da0eed4fd20cae8243f2b51e10e66aa0951_sco.c_1.1_sco_sock_sendmsg_OLD.vul"
+            ]
+        },
+        {
+            "id": 99,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/decode_update_thread_context@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@h264.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2782_CWE-XXXX-XXXX_9e696d2e5ffaa763c564682ec18c3b51b3e5fccc_CVE-2012-2782_9e696d2e5ffaa763c564682ec18c3b51b3e5fccc_h264.c_1.1_decode_update_thread_context_OLD.vul"
+            ]
+        },
+        {
+            "id": 100,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ext4_ext_tree_init@@@trunk@#@linux-3.4.x@#@fs@#@ext4@#@extents.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0850_CWE-XXXX-XXXX_ce3aba43599f0b50adbebff133df8d08a3d5fffe_CVE-2022-0850_ce3aba43599f0b50adbebff133df8d08a3d5fffe_extents.c_1.1_ext4_ext_tree_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 101,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/xen_free_irq@@@trunk@#@linux-3.4.x@#@drivers@#@xen@#@events.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27675_CWE-XXXX-XXXX_073d0552ead5bfc7a3a9c01de590e924f11b5dd2_CVE-2020-27675_073d0552ead5bfc7a3a9c01de590e924f11b5dd2_events_base.c_1.1_xen_free_irq_OLD.vul"
+            ]
+        },
+        {
+            "id": 102,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/pb0100_start@@@trunk@#@linux-3.4.x@#@drivers@#@media@#@video@#@gspca@#@stv06xx@#@stv06xx_pb0100.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-11609_CWE-XXXX-XXXX_485b06aadb933190f4bc44e006076bc27a23f205_CVE-2020-11609_485b06aadb933190f4bc44e006076bc27a23f205_stv06xx_pb0100.c_1.1_pb0100_start_OLD.vul"
+            ]
+        },
+        {
+            "id": 103,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/s_mp_mul_high_digs@@@trunk@#@user@#@dropbear@#@dropbear-201X.XX@#@libtommath@#@pre_gen@#@mpi.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_high_digs.c_1.1_s_mp_mul_high_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 104,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/lua_sethook@@@trunk@#@user@#@xupnpd@#@src@#@lua-5.2.0@#@ldebug.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-15945_CWE-XXXX-XXXX_a2195644d89812e5b157ce7bac35543e06db05e3_CVE-2020-15945_a2195644d89812e5b157ce7bac35543e06db05e3_ldebug.c_1.1_lua_sethook_OLD.vul"
+            ]
+        },
+        {
+            "id": 105,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/render_slice@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@vp3.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2011-4352_CWE-XXXX-XXXX_8b94df0f2047e9728cb872adc9e64557b7a5152f_CVE-2011-4352_8b94df0f2047e9728cb872adc9e64557b7a5152f_vp3.c_1.1_render_slice_OLD.vul"
+            ]
+        },
+        {
+            "id": 106,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/do_umount@@@trunk@#@linux-3.4.x@#@fs@#@namespace.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-7975_CWE-XXXX-XXXX_a1480dcc3c706e309a88884723446f2e84fedd5b_CVE-2014-7975_a1480dcc3c706e309a88884723446f2e84fedd5b_namespace.c_1.1_do_umount_OLD.vul"
+            ]
+        },
+        {
+            "id": 107,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/set_fdc@@@trunk@#@linux-3.4.x@#@drivers@#@block@#@floppy.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-9383_CWE-XXXX-XXXX_2e90ca68b0d2f5548804f22f0dd61145516171e3_CVE-2020-9383_2e90ca68b0d2f5548804f22f0dd61145516171e3_floppy.c_1.1_set_fdc_OLD.vul"
+            ]
+        },
+        {
+            "id": 108,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/luaC_barrier_@@@trunk@#@user@#@xupnpd@#@src@#@lua-5.2.0@#@lgc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-24371_CWE-XXXX-XXXX_a6da1472c0c5e05ff249325f979531ad51533110_CVE-2020-24371_a6da1472c0c5e05ff249325f979531ad51533110_lgc.c_1.1_luaC_barrier__OLD.vul"
+            ]
+        },
+        {
+            "id": 109,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/mwifiex_cmd_802_11_ad_hoc_start@@@trunk@#@linux-3.4.x@#@drivers@#@net@#@wireless@#@mwifiex@#@join.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-36158_CWE-XXXX-XXXX_5c455c5ab332773464d02ba17015acdca198f03d_CVE-2020-36158_5c455c5ab332773464d02ba17015acdca198f03d_join.c_1.1_mwifiex_cmd_802_11_ad_hoc_start_OLD.vul"
+            ]
+        },
+        {
+            "id": 110,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/llc_ui_autobind@@@trunk@#@linux-3.4.x@#@net@#@llc@#@af_llc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28356_CWE-XXXX-XXXX_764f4eb6846f5475f1244767d24d25dd86528a4a_CVE-2022-28356_764f4eb6846f5475f1244767d24d25dd86528a4a_af_llc.c_1.1_llc_ui_autobind_OLD.vul"
+            ]
+        },
+        {
+            "id": 111,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/bprm_fill_uid@@@trunk@#@linux-3.4.x@#@fs@#@exec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-5207_CWE-XXXX-XXXX_380cf5ba6b0a0b307f4afb62b186ca801defb203_CVE-2014-5207_380cf5ba6b0a0b307f4afb62b186ca801defb203_exec.c_1.1_bprm_fill_uid_OLD.vul"
+            ]
+        },
+        {
+            "id": 112,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/s_mp_mul_digs@@@trunk@#@user@#@dropbear@#@dropbear-201X.XX@#@libtommath@#@bn_s_mp_mul_digs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_digs.c_1.1_s_mp_mul_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 113,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/rose_ioctl@@@trunk@#@linux-3.4.x@#@net@#@rose@#@af_rose.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-51782_CWE-XXXX-XXXX_810c38a369a0a0ce625b5c12169abce1dd9ccd53_CVE-2023-51782_810c38a369a0a0ce625b5c12169abce1dd9ccd53_af_rose.c_1.1_rose_ioctl_OLD.vul"
+            ]
+        },
+        {
+            "id": 114,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/compat_mptfwxfer_ioctl@@@trunk@#@linux-3.4.x@#@drivers@#@message@#@fusion@#@mptctl.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-12652_CWE-XXXX-XXXX_28d76df18f0ad5bcf5fa48510b225f0ed262a99b_CVE-2020-12652_28d76df18f0ad5bcf5fa48510b225f0ed262a99b_mptctl.c_1.1_compat_mptfwxfer_ioctl_OLD.vul"
+            ]
+        },
+        {
+            "id": 115,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/restore_median@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@utvideo.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-9604_CWE-XXXX-XXXX_0ce3a0f9d9523a9bcad4c6d451ca5bbd7a4f420d_CVE-2014-9604_0ce3a0f9d9523a9bcad4c6d451ca5bbd7a4f420d_utvideodec.c_1.1_restore_median_OLD.vul"
+            ]
+        },
+        {
+            "id": 116,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nfc_llcp_find_local@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@llcp@#@llcp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3863_CWE-XXXX-XXXX_6709d4b7bc2e079241fdef15d1160581c5261c10_CVE-2023-3863_6709d4b7bc2e079241fdef15d1160581c5261c10_llcp_core.c_1.1_nfc_llcp_find_local_OLD.vul"
+            ]
+        },
+        {
+            "id": 117,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nr_listen@@@trunk@#@linux-3.4.x@#@net@#@netrom@#@af_netrom.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-32269_CWE-XXXX-XXXX_611792920925fb088ddccbe2783c7f92fdfb6b64_CVE-2023-32269_611792920925fb088ddccbe2783c7f92fdfb6b64_af_netrom.c_1.1_nr_listen_OLD.vul"
+            ]
+        },
+        {
+            "id": 118,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/ems_usb_start_xmit@@@trunk@#@linux-3.4.x@#@drivers@#@net@#@can@#@usb@#@ems_usb.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-28390_CWE-XXXX-XXXX_c70222752228a62135cee3409dccefd494a24646_CVE-2022-28390_c70222752228a62135cee3409dccefd494a24646_ems_usb.c_1.1_ems_usb_start_xmit_OLD.vul"
+            ]
+        },
+        {
+            "id": 119,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/init_instance@@@trunk@#@user@#@openvpn@#@openvpn-2.4.x@#@src@#@openvpn@#@init.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46849_CWE-XXXX-XXXX_1cfca659244e362f372d9843351257f456392a2f_CVE-2023-46849_1cfca659244e362f372d9843351257f456392a2f_init.c_1.1_init_instance_OLD.vul"
+            ]
+        },
+        {
+            "id": 120,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/BN_mod_sqrt@@@trunk@#@proprietary@#@rt_wifi@#@rtpci@#@5.0.3.0@#@mt7615@#@embedded@#@security@#@bn_lib.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0778_CWE-XXXX-XXXX_fdc418f15e92732a3551832bcb625ba9b47242df_CVE-2022-0778_fdc418f15e92732a3551832bcb625ba9b47242df_bn_sqrt.c_1.1_BN_mod_sqrt_OLD.vul"
+            ]
+        },
+        {
+            "id": 121,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/nut_read_header@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavformat@#@nutdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3341_CWE-XXXX-XXXX_9cf652cef49d74afe3d454f27d49eb1a1394951e_CVE-2022-3341_9cf652cef49d74afe3d454f27d49eb1a1394951e_nutdec.c_1.1_nut_read_header_OLD.vul"
+            ]
+        },
+        {
+            "id": 122,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/__mptctl_ioctl@@@trunk@#@linux-3.4.x@#@drivers@#@message@#@fusion@#@mptctl.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-12652_CWE-XXXX-XXXX_28d76df18f0ad5bcf5fa48510b225f0ed262a99b_CVE-2020-12652_28d76df18f0ad5bcf5fa48510b225f0ed262a99b_mptctl.c_1.1___mptctl_ioctl_OLD.vul"
+            ]
+        },
+        {
+            "id": 123,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/gru_set_context_option@@@trunk@#@linux-3.4.x@#@drivers@#@misc@#@sgi-gru@#@grufault.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3424_CWE-XXXX-XXXX_643a16a0eb1d6ac23744bb6e90a00fc21148a9dc_CVE-2022-3424_643a16a0eb1d6ac23744bb6e90a00fc21148a9dc_grufault.c_1.1_gru_set_context_option_OLD.vul"
+            ]
+        },
+        {
+            "id": 124,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/msrle_decode_pal4@@@trunk@#@libs@#@libav@#@ffmpeg-0.6.x@#@libavcodec@#@msrledec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2015-3395_CWE-XXXX-XXXX_5ecabd3c54b7c802522dc338838c9a4c2dc42948_CVE-2015-3395_5ecabd3c54b7c802522dc338838c9a4c2dc42948_msrledec.c_1.1_msrle_decode_pal4_OLD.vul"
+            ]
+        },
+        {
+            "id": 125,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/hci_request@@@trunk@#@linux-3.4.x@#@net@#@bluetooth@#@hci_core.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32399_CWE-XXXX-XXXX_e2cb6b891ad2b8caa9131e3be70f45243df82a80_CVE-2021-32399_e2cb6b891ad2b8caa9131e3be70f45243df82a80_hci_request.c_1.1_hci_req_sync_OLD.vul"
+            ]
+        },
+        {
+            "id": 126,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/BN_mod_sqrt@@@trunk@#@proprietary@#@rt_wifi@#@rtpci@#@4.1.X.X@#@mt76x3@#@common@#@bn_lib.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0778_CWE-XXXX-XXXX_fdc418f15e92732a3551832bcb625ba9b47242df_CVE-2022-0778_fdc418f15e92732a3551832bcb625ba9b47242df_bn_sqrt.c_1.1_BN_mod_sqrt_OLD.vul"
+            ]
+        },
+        {
+            "id": 127,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/mon_bin_mmap@@@trunk@#@linux-3.4.x@#@drivers@#@usb@#@mon@#@mon_bin.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-43750_CWE-XXXX-XXXX_a659daf63d16aa883be42f3f34ff84235c302198_CVE-2022-43750_a659daf63d16aa883be42f3f34ff84235c302198_mon_bin.c_1.1_mon_bin_mmap_OLD.vul"
+            ]
+        },
+        {
+            "id": 128,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/llcp_sock_bind@@@trunk@#@linux-3.4.x@#@net@#@nfc@#@llcp@#@sock.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-25670_CWE-XXXX-XXXX_c33b1cc62ac05c1dbb1cdafe2eb66da01c76ca8d_CVE-2020-25670_c33b1cc62ac05c1dbb1cdafe2eb66da01c76ca8d_llcp_sock.c_1.1_llcp_sock_bind_OLD.vul"
+            ]
+        },
+        {
+            "id": 129,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/add_grefs@@@trunk@#@linux-3.4.x@#@drivers@#@xen@#@gntalloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23039_CWE-XXXX-XXXX_f06e3edaeac1942c4ff42072e3d98ee8c762c5fa_CVE-2022-23039_f06e3edaeac1942c4ff42072e3d98ee8c762c5fa_gntalloc.c_1.1_add_grefs_OLD.vul"
+            ]
+        },
+        {
+            "id": 130,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/s_mp_mul_digs@@@trunk@#@user@#@dropbear@#@dropbear-201X.XX@#@libtommath@#@pre_gen@#@mpi.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_digs.c_1.1_s_mp_mul_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 131,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/outbound_phy_packet_callback@@@trunk@#@linux-3.4.x@#@drivers@#@firewire@#@core-cdev.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3159_CWE-XXXX-XXXX_b7c81f80246fac44077166f3e07103affe6db8ff_CVE-2023-3159_b7c81f80246fac44077166f3e07103affe6db8ff_core-cdev.c_1.1_outbound_phy_packet_callback_OLD.vul"
+            ]
+        },
+        {
+            "id": 132,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/luaD_precall@@@trunk@#@user@#@xupnpd@#@src@#@lua-5.2.0@#@ldo.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-5461_CWE-XXXX-XXXX_31b4e008f13fe00c5619fee06c6502d417448bd5_CVE-2014-5461_31b4e008f13fe00c5619fee06c6502d417448bd5_ldo.c_1.1_luaD_precall_OLD.vul"
+            ]
+        },
+        {
+            "id": 133,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/msrle_decode_pal4@@@trunk@#@libs@#@libav@#@ffmpeg-0.11.x@#@libavcodec@#@msrledec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2015-3395_CWE-XXXX-XXXX_5ecabd3c54b7c802522dc338838c9a4c2dc42948_CVE-2015-3395_5ecabd3c54b7c802522dc338838c9a4c2dc42948_msrledec.c_1.1_msrle_decode_pal4_OLD.vul"
+            ]
+        },
+        {
+            "id": 134,
+            "dst": "./processed/hanwckf@@rt-n56u-v2020-11-27/fb_cmap_to_user@@@trunk@#@linux-3.4.x@#@drivers@#@video@#@fbcmap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2016-8405_CWE-XXXX-XXXX_2dc705a9930b4806250fbf5a76e55266e59389f2_CVE-2016-8405_2dc705a9930b4806250fbf5a76e55266e59389f2_fbcmap.c_1.1_fb_cmap_to_user_OLD.vul"
+            ]
+        }
+    ]
+}

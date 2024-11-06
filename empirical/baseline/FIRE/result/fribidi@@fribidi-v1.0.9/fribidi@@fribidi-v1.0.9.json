@@ -1,0 +1,14 @@
+{
+    "total_func": 215611,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/fribidi@@fribidi-v1.0.9/fribidi_cap_rtl_to_unicode@@@lib@#@fribidi-char-sets-cap-rtl.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-25309_CWE-XXXX-XXXX_f22593b82b5d1668d1997dbccd10a9c31ffea3b3_CVE-2022-25309_f22593b82b5d1668d1997dbccd10a9c31ffea3b3_fribidi-char-sets-cap-rtl.c_1.1_fribidi_cap_rtl_to_unicode_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "total_func": 225294,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/git@@git-v2.30.1/mingw_rmdir@@@compat@#@mingw.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-21300_CWE-XXXX-XXXX_684dd4c2b414bcf648505e74498a608f28de4592_CVE-2021-21300_684dd4c2b414bcf648505e74498a608f28de4592_mingw.c_1.1_mingw_rmdir_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/git@@git-v2.30.1/decode_tree_entry@@@tree-walk.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2019-1354_CWE-XXXX-XXXX_e1d911dd4c7b76a5a8cec0f5c8de15981e34da83_CVE-2019-1354_e1d911dd4c7b76a5a8cec0f5c8de15981e34da83_tree-walk.c_1.1_decode_tree_entry_OLD.vul"
+            ]
+        }
+    ]
+}

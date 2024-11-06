@@ -1,0 +1,14 @@
+{
+    "total_func": 233226,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/libsdl-org@@SDL-prerelease-2.23.2/GLES_CreateTexture@@@src@#@render@#@opengles@#@SDL_render_gles.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-4743_CWE-XXXX-XXXX_00b67f55727bc0944c3266e2b875440da132ce4b_CVE-2022-4743_00b67f55727bc0944c3266e2b875440da132ce4b_SDL_render_gles.c_1.1_GLES_CreateTexture_OLD.vul"
+            ]
+        }
+    ]
+}

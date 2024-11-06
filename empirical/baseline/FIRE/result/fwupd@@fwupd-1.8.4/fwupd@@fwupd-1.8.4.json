@@ -1,0 +1,21 @@
+{
+    "total_func": 222135,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/fwupd@@fwupd-1.8.4/main@@@libfwupdplugin@#@fu-self-test.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3287_CWE-XXXX-XXXX_ea676855f2119e36d433fbd2ed604039f53b2091_CVE-2022-3287_ea676855f2119e36d433fbd2ed604039f53b2091_fu-self-test.c_1.1_main_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/fwupd@@fwupd-1.8.4/fu_plugin_set_secure_config_value@@@libfwupdplugin@#@fu-plugin.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3287_CWE-XXXX-XXXX_ea676855f2119e36d433fbd2ed604039f53b2091_CVE-2022-3287_ea676855f2119e36d433fbd2ed604039f53b2091_fu-plugin.c_1.1_fu_plugin_set_secure_config_value_OLD.vul"
+            ]
+        }
+    ]
+}

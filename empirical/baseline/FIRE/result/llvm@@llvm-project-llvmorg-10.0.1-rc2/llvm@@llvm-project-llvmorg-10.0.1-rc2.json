@@ -1,0 +1,21 @@
+{
+    "total_func": 592086,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/llvm@@llvm-project-llvmorg-10.0.1-rc2/grow_pod@@@llvm@#@lib@#@Support@#@SmallVector.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32234_CWE-XXXX-XXXX_06eaec767e376bfdb883d912cb15e987ddf2bda1_CVE-2022-32234_06eaec767e376bfdb883d912cb15e987ddf2bda1_SmallVector.cpp_1.1_SmallVectorBase :: grow_pod_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/llvm@@llvm-project-llvmorg-10.0.1-rc2/parseOneMetadata@@@llvm@#@lib@#@Bitcode@#@Reader@#@MetadataLoader.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46049_CWE-XXXX-XXXX_c2515a8f2be5dd23354c9891f41ad104000f88c4_CVE-2023-46049_c2515a8f2be5dd23354c9891f41ad104000f88c4_MetadataLoader.cpp_1.1_MetadataLoader :: MetadataLoaderImpl :: parseOneMetadata_OLD.vul"
+            ]
+        }
+    ]
+}

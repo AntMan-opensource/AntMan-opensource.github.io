@@ -1,0 +1,14 @@
+{
+    "total_func": 218027,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/flatpak@@flatpak-1.15.0/print_eol_info_message@@@app@#@flatpak-cli-transaction.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-28101_CWE-XXXX-XXXX_409e34187de2b2b2c4ef34c79f417be698830f6c_CVE-2023-28101_409e34187de2b2b2c4ef34c79f417be698830f6c_flatpak-cli-transaction.c_1.1_print_eol_info_message_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 8209,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/minetest@@minetest-5.5.0/checkSettingSecurity@@@src@#@script@#@lua_api@#@l_settings.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-35978_CWE-XXXX-XXXX_da71e86633d0b27cd02d7aac9fdac625d141ca13_CVE-2022-35978_da71e86633d0b27cd02d7aac9fdac625d141ca13_l_settings.cpp_1.1_checkSettingSecurity_OLD.vul"
+            ]
+        }
+    ]
+}

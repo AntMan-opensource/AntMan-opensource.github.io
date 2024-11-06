@@ -1,0 +1,21 @@
+{
+    "total_func": 241213,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/coolsnowwolf@@lede-20220505/BN_mod_sqrt@@@package@#@lean@#@mt@#@drivers@#@mt7603e@#@src@#@mt7603_wifi@#@common@#@bn_lib.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0778_CWE-XXXX-XXXX_fdc418f15e92732a3551832bcb625ba9b47242df_CVE-2022-0778_fdc418f15e92732a3551832bcb625ba9b47242df_bn_sqrt.c_1.1_BN_mod_sqrt_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/coolsnowwolf@@lede-20220505/BN_mod_sqrt@@@package@#@lean@#@mt@#@drivers@#@mt7615d@#@src@#@mt_wifi@#@embedded@#@security@#@bn_lib.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0778_CWE-XXXX-XXXX_fdc418f15e92732a3551832bcb625ba9b47242df_CVE-2022-0778_fdc418f15e92732a3551832bcb625ba9b47242df_bn_sqrt.c_1.1_BN_mod_sqrt_OLD.vul"
+            ]
+        }
+    ]
+}

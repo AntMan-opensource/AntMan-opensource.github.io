@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/gnif@@LookingGlass-newest/kvmfr_vm_fault@@@module@#@kvmfr.c,./cache/old_new_funcs/vul/sample/CVE-2023-2008_CWE-XXXX-XXXX_05b252cccb2e5c3f56119d25de684b4f810ba4_CVE-2023-2008_05b252cccb2e5c3f56119d25de684b4f810ba4_udmabuf.c_1.1_udmabuf_vm_fault_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2023-2008_CWE-XXXX-XXXX_05b252cccb2e5c3f56119d25de684b4f810ba4_CVE-2023-2008_05b252cccb2e5c3f56119d25de684b4f810ba4_udmabuf.c_1.1_udmabuf_vm_fault_NEW.vul,[False],False

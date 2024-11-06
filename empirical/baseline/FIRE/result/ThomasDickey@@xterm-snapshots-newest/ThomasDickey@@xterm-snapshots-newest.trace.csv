@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/ThomasDickey@@xterm-snapshots-newest/SaltTextAway@@@button.c,./cache/old_new_funcs/vul/sample/CVE-2021-27135_CWE-XXXX-XXXX_82ba55b8f994ab30ff561a347b82ea340ba7075c_CVE-2021-27135_82ba55b8f994ab30ff561a347b82ea340ba7075c_button.c_1.1_SaltTextAway_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2021-27135_CWE-XXXX-XXXX_82ba55b8f994ab30ff561a347b82ea340ba7075c_CVE-2021-27135_82ba55b8f994ab30ff561a347b82ea340ba7075c_button.c_1.1_SaltTextAway_NEW.vul,[False],False

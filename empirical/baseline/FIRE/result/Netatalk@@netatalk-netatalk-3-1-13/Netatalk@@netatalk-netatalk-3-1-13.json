@@ -1,0 +1,35 @@
+{
+    "total_func": 1958,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Netatalk@@netatalk-netatalk-3-1-13/dsi_writeinit@@@libatalk@#@dsi@#@dsi_write.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-43634_CWE-XXXX-XXXX_5fcb4ab02aced14484310165b3d754bb2f0820ca_CVE-2022-43634_5fcb4ab02aced14484310165b3d754bb2f0820ca_dsi_write.c_1.1_dsi_writeinit_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/Netatalk@@netatalk-netatalk-3-1-13/dalloc_value_for_key@@@libatalk@#@talloc@#@dalloc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-42464_CWE-XXXX-XXXX_f6364ef0e5f1b7de88c5e837434af8a5df4c4c75_CVE-2023-42464_f6364ef0e5f1b7de88c5e837434af8a5df4c4c75_dalloc.c_1.1_dalloc_value_for_key_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/Netatalk@@netatalk-netatalk-3-1-13/sl_rpc_storeAttributesForOIDArray@@@etc@#@afpd@#@spotlight.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-42464_CWE-XXXX-XXXX_f6364ef0e5f1b7de88c5e837434af8a5df4c4c75_CVE-2023-42464_f6364ef0e5f1b7de88c5e837434af8a5df4c4c75_spotlight.c_1.1_sl_rpc_storeAttributesForOIDArray_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/Netatalk@@netatalk-netatalk-3-1-13/sl_rpc_openQuery@@@etc@#@afpd@#@spotlight.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-42464_CWE-XXXX-XXXX_f6364ef0e5f1b7de88c5e837434af8a5df4c4c75_CVE-2023-42464_f6364ef0e5f1b7de88c5e837434af8a5df4c4c75_spotlight.c_1.1_sl_rpc_openQuery_OLD.vul"
+            ]
+        }
+    ]
+}

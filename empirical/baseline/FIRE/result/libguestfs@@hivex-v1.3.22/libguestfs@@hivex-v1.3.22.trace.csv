@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/libguestfs@@hivex-v1.3.22/_hivex_get_children@@@lib@#@node.c,./cache/old_new_funcs/vul/sample/CVE-2021-3622_CWE-XXXX-XXXX_771728218dac2fbf6997a7e53225e75a4c6b7255_CVE-2021-3622_771728218dac2fbf6997a7e53225e75a4c6b7255_node.c_1.1__hivex_get_children_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2021-3622_CWE-XXXX-XXXX_771728218dac2fbf6997a7e53225e75a4c6b7255_CVE-2021-3622_771728218dac2fbf6997a7e53225e75a4c6b7255_node.c_1.1__hivex_get_children_NEW.vul,[False],False

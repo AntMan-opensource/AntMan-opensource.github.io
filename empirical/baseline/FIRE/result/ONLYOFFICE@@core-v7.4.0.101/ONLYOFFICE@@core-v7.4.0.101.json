@@ -1,0 +1,98 @@
+{
+    "total_func": 104208,
+    "cnt": 13,
+    "all": 13,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/Pentanomial@@@Common@#@3dParty@#@cryptopp@#@gf2n.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50980_CWE-XXXX-XXXX_eb383b8e1622c07da2d5d6599a8b0e17a0deee0f_CVE-2023-50980_eb383b8e1622c07da2d5d6599a8b0e17a0deee0f_gf2n.cpp_1.1_PolynomialMod2 :: Pentanomial_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/xmlValidNormalizeAttributeValue@@@DesktopEditor@#@xml@#@libxml2@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlValidNormalizeAttributeValue_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/xmlTextReaderRemoveID@@@DesktopEditor@#@xml@#@libxml2@#@xmlreader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/xmlRemoveID@@@DesktopEditor@#@xml@#@libxml2@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/xmlAddRef@@@DesktopEditor@#@xml@#@libxml2@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlAddRef_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/xmlValidCtxtNormalizeAttributeValue@@@DesktopEditor@#@xml@#@libxml2@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlValidCtxtNormalizeAttributeValue_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/pixFewColorsOctcubeQuantMixed@@@DesktopEditor@#@raster@#@JBig2@#@source@#@LeptonLib@#@colorquant1.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-36281_CWE-XXXX-XXXX_5ee24b398bb67666f6d173763eaaedd9c36fb1e5_CVE-2020-36281_5ee24b398bb67666f6d173763eaaedd9c36fb1e5_colorquant1.c_1.1_pixFewColorsOctcubeQuantMixed_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/findNextBorderPixel@@@DesktopEditor@#@raster@#@JBig2@#@source@#@LeptonLib@#@ccbord.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-36278_CWE-XXXX-XXXX_8d6e1755518cfb98536d6c3daf0601f226d16842_CVE-2020-36278_8d6e1755518cfb98536d6c3daf0601f226d16842_ccbord.c_1.1_findNextBorderPixel_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/xmlAddID@@@DesktopEditor@#@xml@#@libxml2@#@valid.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlAddID_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/parse_riff@@@DesktopEditor@#@cximage@#@raw@#@dcraw.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29776_CWE-XXXX-XXXX_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_CVE-2022-29776_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_libdcr.c_1.1_dcr_parse_riff_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/get_word_rgb_row@@@DesktopEditor@#@cximage@#@jpeg@#@rdppm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-46822_CWE-XXXX-XXXX_f35fd27ec641c42d6b115bfa595e483ec58188d2_CVE-2021-46822_f35fd27ec641c42d6b115bfa595e483ec58188d2_rdppm.c_1.1_get_word_rgb_row_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/Trinomial@@@Common@#@3dParty@#@cryptopp@#@gf2n.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-50980_CWE-XXXX-XXXX_eb383b8e1622c07da2d5d6599a8b0e17a0deee0f_CVE-2023-50980_eb383b8e1622c07da2d5d6599a8b0e17a0deee0f_gf2n.cpp_1.1_PolynomialMod2 :: Trinomial_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/ONLYOFFICE@@core-v7.4.0.101/pixFillMapHoles@@@DesktopEditor@#@raster@#@JBig2@#@source@#@LeptonLib@#@adaptmap.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-36279_CWE-XXXX-XXXX_3c18c43b6a3f753f0dfff99610d46ad46b8bfac4_CVE-2020-36279_3c18c43b6a3f753f0dfff99610d46ad46b8bfac4_adaptmap.c_1.1_pixFillMapHoles_OLD.vul"
+            ]
+        }
+    ]
+}

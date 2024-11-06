@@ -1,0 +1,14 @@
+{
+    "total_func": 4342,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/libjxl@@libjxl-v0.7.0/Decode@@@lib@#@jxl@#@dec_patch_dictionary.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-35790_CWE-XXXX-XXXX_bb20184fd500f6142926bdb095af46a7f3385ce6_CVE-2023-35790_bb20184fd500f6142926bdb095af46a7f3385ce6_dec_patch_dictionary.cc_1.1_PatchDictionary :: Decode_OLD.vul"
+            ]
+        }
+    ]
+}

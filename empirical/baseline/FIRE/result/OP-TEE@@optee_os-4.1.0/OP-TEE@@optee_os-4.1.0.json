@@ -1,0 +1,21 @@
+{
+    "total_func": 11446,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OP-TEE@@optee_os-4.1.0/mbedtls_x509_set_extension@@@lib@#@libmbedtls@#@mbedtls@#@library@#@x509_create.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23775_CWE-XXXX-XXXX_e90cbc3d1260901efc879178a15f2d90a5e17612_CVE-2024-23775_e90cbc3d1260901efc879178a15f2d90a5e17612_x509_create.c_1.1_mbedtls_x509_set_extension_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OP-TEE@@optee_os-4.1.0/mbedtls_rsa_private@@@lib@#@libmbedtls@#@mbedtls@#@library@#@rsa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23170_CWE-XXXX-XXXX_aa6760d7b5d9a218eaf072f4155974f58b00986b_CVE-2024-23170_aa6760d7b5d9a218eaf072f4155974f58b00986b_rsa.c_1.1_mbedtls_rsa_private_OLD.vul"
+            ]
+        }
+    ]
+}

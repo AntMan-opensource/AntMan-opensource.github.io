@@ -1,0 +1,14 @@
+{
+    "total_func": 218287,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/mate-desktop@@atril-v1.26.0/extract_epub_from_container@@@backend@#@epub@#@epub-document.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-52076_CWE-XXXX-XXXX_e70b21c815418a1e6ebedf6d8d31b8477c03ba50_CVE-2023-52076_e70b21c815418a1e6ebedf6d8d31b8477c03ba50_epub-document.c_1.1_extract_epub_from_container_OLD.vul"
+            ]
+        }
+    ]
+}

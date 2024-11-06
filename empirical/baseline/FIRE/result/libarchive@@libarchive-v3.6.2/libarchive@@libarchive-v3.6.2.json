@@ -1,0 +1,28 @@
+{
+    "total_func": 4100,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/libarchive@@libarchive-v3.6.2/execute_filter_e8@@@libarchive@#@archive_read_support_format_rar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-26256_CWE-XXXX-XXXX_eb7939b24a681a04648a59cdebd386b1e9dc9237_CVE-2024-26256_eb7939b24a681a04648a59cdebd386b1e9dc9237_archive_read_support_format_rar.c_1.1_execute_filter_e8_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/libarchive@@libarchive-v3.6.2/copy_from_lzss_window_to_unp@@@libarchive@#@archive_read_support_format_rar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-20696_CWE-XXXX-XXXX_eac15e252010c1189a5c0f461364dbe2cd2a68b1_CVE-2024-20696_eac15e252010c1189a5c0f461364dbe2cd2a68b1_archive_read_support_format_rar.c_1.1_copy_from_lzss_window_to_unp_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/libarchive@@libarchive-v3.6.2/read_data_compressed@@@libarchive@#@archive_read_support_format_rar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-20696_CWE-XXXX-XXXX_eac15e252010c1189a5c0f461364dbe2cd2a68b1_CVE-2024-20696_eac15e252010c1189a5c0f461364dbe2cd2a68b1_archive_read_support_format_rar.c_1.1_read_data_compressed_OLD.vul"
+            ]
+        }
+    ]
+}

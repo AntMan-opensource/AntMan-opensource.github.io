@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/fwupd@@fwupd-1.9.20/main@@@libfwupdplugin@#@fu-self-test.c,./cache/old_new_funcs/vul/sample/CVE-2022-3287_CWE-XXXX-XXXX_ea676855f2119e36d433fbd2ed604039f53b2091_CVE-2022-3287_ea676855f2119e36d433fbd2ed604039f53b2091_fu-self-test.c_1.1_main_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-3287_CWE-XXXX-XXXX_ea676855f2119e36d433fbd2ed604039f53b2091_CVE-2022-3287_ea676855f2119e36d433fbd2ed604039f53b2091_fu-self-test.c_1.1_main_NEW.vul,"[True, 'no del line', False]",False

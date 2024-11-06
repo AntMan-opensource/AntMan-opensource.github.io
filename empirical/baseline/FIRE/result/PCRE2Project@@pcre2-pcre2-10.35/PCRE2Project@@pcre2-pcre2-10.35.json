@@ -1,0 +1,28 @@
+{
+    "total_func": 1212,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/PCRE2Project@@pcre2-pcre2-10.35/get_recurse_data_length@@@src@#@pcre2_jit_compile.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1587_CWE-XXXX-XXXX_03654e751e7f0700693526b67dfcadda6b42c9d0_CVE-2022-1587_03654e751e7f0700693526b67dfcadda6b42c9d0_pcre2_jit_compile.c_1.1_get_recurse_data_length_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/PCRE2Project@@pcre2-pcre2-10.35/copy_recurse_data@@@src@#@pcre2_jit_compile.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1587_CWE-XXXX-XXXX_03654e751e7f0700693526b67dfcadda6b42c9d0_CVE-2022-1587_03654e751e7f0700693526b67dfcadda6b42c9d0_pcre2_jit_compile.c_1.1_copy_recurse_data_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/PCRE2Project@@pcre2-pcre2-10.35/jit_compile@@@src@#@pcre2_jit_compile.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1587_CWE-XXXX-XXXX_03654e751e7f0700693526b67dfcadda6b42c9d0_CVE-2022-1587_03654e751e7f0700693526b67dfcadda6b42c9d0_pcre2_jit_compile.c_1.1_jit_compile_OLD.vul"
+            ]
+        }
+    ]
+}

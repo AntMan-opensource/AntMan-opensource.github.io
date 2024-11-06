@@ -1,0 +1,39 @@
+{
+    "total_func": 244039,
+    "cnt": 4,
+    "all": 8,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FFmpeg@@FFmpeg-n7.0.1/cpia_decode_init@@@libavcodec@#@cpia.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FFmpeg@@FFmpeg-n7.0.1/avs_decode_init@@@libavcodec@#@avs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FFmpeg@@FFmpeg-n7.0.1/rpza_decode_init@@@libavcodec@#@rpza.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FFmpeg@@FFmpeg-n7.0.1/smc_decode_init@@@libavcodec@#@smc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        }
+    ]
+}

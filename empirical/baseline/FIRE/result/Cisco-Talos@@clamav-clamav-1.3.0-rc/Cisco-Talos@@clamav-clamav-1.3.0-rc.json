@@ -1,0 +1,14 @@
+{
+    "total_func": 219881,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Cisco-Talos@@clamav-clamav-1.3.0-rc/cli_scandmg@@@libclamav@#@dmg.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-20052_CWE-XXXX-XXXX_e835e2f9d1277ccdc1c90167f4240ef439c9ac3c_CVE-2023-20052_e835e2f9d1277ccdc1c90167f4240ef439c9ac3c_dmg.c_1.1_cli_scandmg_OLD.vul"
+            ]
+        }
+    ]
+}

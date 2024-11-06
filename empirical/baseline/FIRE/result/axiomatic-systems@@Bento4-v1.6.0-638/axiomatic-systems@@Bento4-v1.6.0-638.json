@@ -1,0 +1,14 @@
+{
+    "total_func": 218335,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/axiomatic-systems@@Bento4-v1.6.0-638/main@@@Source@#@C++@#@Apps@#@Mp42Hls@#@Mp42Hls.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29017_CWE-XXXX-XXXX_33331ce2d35d45d855af7441db6116b4a9e2b70f_CVE-2022-29017_33331ce2d35d45d855af7441db6116b4a9e2b70f_Mp42Hls.cpp_1.1_main_OLD.vul"
+            ]
+        }
+    ]
+}

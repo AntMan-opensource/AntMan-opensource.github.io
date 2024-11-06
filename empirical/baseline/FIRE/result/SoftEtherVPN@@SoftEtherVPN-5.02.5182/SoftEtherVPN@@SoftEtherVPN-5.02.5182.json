@@ -1,0 +1,14 @@
+{
+    "total_func": 222803,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/SoftEtherVPN@@SoftEtherVPN-5.02.5182/ProcIPsecEspPacketRecv@@@src@#@Cedar@#@Proto_IKE.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-38520_CWE-XXXX-XXXX_c2a7aa548137dc80c6aafdc645cf4dc34e0dc764_CVE-2024-38520_c2a7aa548137dc80c6aafdc645cf4dc34e0dc764_Proto_IKE.c_1.1_ProcIPsecEspPacketRecv_OLD.vul"
+            ]
+        }
+    ]
+}

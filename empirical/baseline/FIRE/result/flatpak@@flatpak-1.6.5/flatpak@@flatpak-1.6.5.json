@@ -1,0 +1,35 @@
+{
+    "total_func": 217530,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/flatpak@@flatpak-1.6.5/resolve_op_from_commit@@@common@#@flatpak-transaction.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-43860_CWE-XXXX-XXXX_ba818f504c926baaf6e362be8159cfacf994310e_CVE-2021-43860_ba818f504c926baaf6e362be8159cfacf994310e_flatpak-transaction.c_1.1_resolve_op_from_commit_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/flatpak@@flatpak-1.6.5/load_deployed_metadata@@@common@#@flatpak-transaction.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-43860_CWE-XXXX-XXXX_ba818f504c926baaf6e362be8159cfacf994310e_CVE-2021-43860_ba818f504c926baaf6e362be8159cfacf994310e_flatpak-transaction.c_1.1_load_deployed_metadata_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/flatpak@@flatpak-1.6.5/flatpak_context_merge@@@common@#@flatpak-context.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-21682_CWE-XXXX-XXXX_445bddeee657fdc8d2a0a1f0de12975400d4fc1a_CVE-2022-21682_445bddeee657fdc8d2a0a1f0de12975400d4fc1a_flatpak-context.c_1.1_flatpak_context_merge_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/flatpak@@flatpak-1.6.5/flatpak_pull_from_bundle@@@common@#@flatpak-utils.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-43860_CWE-XXXX-XXXX_ba818f504c926baaf6e362be8159cfacf994310e_CVE-2021-43860_ba818f504c926baaf6e362be8159cfacf994310e_flatpak-utils.c_1.1_flatpak_pull_from_bundle_OLD.vul"
+            ]
+        }
+    ]
+}

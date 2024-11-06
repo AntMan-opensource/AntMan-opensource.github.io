@@ -1,0 +1,14 @@
+{
+    "total_func": 217271,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/fastfetch-cli@@fastfetch-2.1.0/yyjson_mut_doc_free@@@src@#@3rdparty@#@yyjson@#@yyjson.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-25713_CWE-XXXX-XXXX_0eca326fe57aeeb866e6f04c9ef9ea9f8343157e_CVE-2024-25713_0eca326fe57aeeb866e6f04c9ef9ea9f8343157e_yyjson.c_1.1_yyjson_mut_doc_free_OLD.vul"
+            ]
+        }
+    ]
+}

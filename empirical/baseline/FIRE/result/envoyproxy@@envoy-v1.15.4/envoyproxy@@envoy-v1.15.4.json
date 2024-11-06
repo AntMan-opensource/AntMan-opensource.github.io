@@ -1,0 +1,49 @@
+{
+    "total_func": 29568,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/envoyproxy@@envoy-v1.15.4/closeIdleConnections@@@source@#@common@#@conn_pool@#@conn_pool_base.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23606_CWE-XXXX-XXXX_4b6dd3b53cd5c6d4d4df378a2fc62c1707522b31_CVE-2022-23606_4b6dd3b53cd5c6d4d4df378a2fc62c1707522b31_conn_pool_base.cc_1.1_ConnPoolImplBase :: closeIdleConnectionsForDrainingPool_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/envoyproxy@@envoy-v1.15.4/decompress@@@source@#@extensions@#@compression@#@gzip@#@decompressor@#@zlib_decompressor_impl.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29225_CWE-XXXX-XXXX_cb4ef0b09200c720dfdb07e097092dd105450343_CVE-2022-29225_cb4ef0b09200c720dfdb07e097092dd105450343_zlib_decompressor_impl.cc_1.1_ZlibDecompressorImpl :: decompress_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/envoyproxy@@envoy-v1.15.4/maybeEndDecode@@@source@#@common@#@http@#@conn_manager_impl.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-43825_CWE-XXXX-XXXX_148de954ed3585d8b4298b424aa24916d0de6136_CVE-2021-43825_148de954ed3585d8b4298b424aa24916d0de6136_filter_manager.cc_1.1_FilterManager :: maybeEndDecode_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/envoyproxy@@envoy-v1.15.4/DEFINE_FUZZER@@@test@#@extensions@#@compression@#@gzip@#@compressor_fuzz_test.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29225_CWE-XXXX-XXXX_cb4ef0b09200c720dfdb07e097092dd105450343_CVE-2022-29225_cb4ef0b09200c720dfdb07e097092dd105450343_compressor_fuzz_test.cc_1.1_DEFINE_FUZZER_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/envoyproxy@@envoy-v1.15.4/onGoAway@@@source@#@common@#@upstream@#@health_checker_impl.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29224_CWE-XXXX-XXXX_9b1c3962172a972bc0359398af6daa3790bb59db_CVE-2022-29224_9b1c3962172a972bc0359398af6daa3790bb59db_health_checker_impl.cc_1.1_GrpcHealthCheckerImpl :: GrpcActiveHealthCheckSession :: onGoAway_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/envoyproxy@@envoy-v1.15.4/onRpcComplete@@@source@#@common@#@upstream@#@health_checker_impl.cc",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29224_CWE-XXXX-XXXX_9b1c3962172a972bc0359398af6daa3790bb59db_CVE-2022-29224_9b1c3962172a972bc0359398af6daa3790bb59db_health_checker_impl.cc_1.1_GrpcHealthCheckerImpl :: GrpcActiveHealthCheckSession :: onRpcComplete_OLD.vul"
+            ]
+        }
+    ]
+}

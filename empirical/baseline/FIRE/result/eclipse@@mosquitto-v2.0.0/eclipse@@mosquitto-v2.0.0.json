@@ -1,0 +1,14 @@
+{
+    "total_func": 217134,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/eclipse@@mosquitto-v2.0.0/packet__write@@@lib@#@packet_mosq.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5632_CWE-XXXX-XXXX_18bad1ff32435e523d7507e9b2ce0010124a8f2d_CVE-2023-5632_18bad1ff32435e523d7507e9b2ce0010124a8f2d_packet_mosq.c_1.1_packet__write_OLD.vul"
+            ]
+        }
+    ]
+}

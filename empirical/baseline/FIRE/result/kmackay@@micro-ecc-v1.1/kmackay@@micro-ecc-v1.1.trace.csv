@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/kmackay@@micro-ecc-v1.1/uECC_sign_with_k_internal@@@uECC.c,./cache/old_new_funcs/vul/sample/CVE-2020-27209_CWE-XXXX-XXXX_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_CVE-2020-27209_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_uECC.c_1.1_uECC_sign_with_k_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-27209_CWE-XXXX-XXXX_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_CVE-2020-27209_1b5f5cea5145c96dd8791b9b2c41424fc74c2172_uECC.c_1.1_uECC_sign_with_k_NEW.vul,[False],False

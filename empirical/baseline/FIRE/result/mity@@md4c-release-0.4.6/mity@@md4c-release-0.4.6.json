@@ -1,0 +1,14 @@
+{
+    "total_func": 215551,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/mity@@md4c-release-0.4.6/md_analyze_line@@@src@#@md4c.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-30027_CWE-XXXX-XXXX_4fc808d8fe8d8904f8525bb4231d854f45e23a19_CVE-2021-30027_4fc808d8fe8d8904f8525bb4231d854f45e23a19_md4c.c_1.1_md_analyze_line_OLD.vul"
+            ]
+        }
+    ]
+}

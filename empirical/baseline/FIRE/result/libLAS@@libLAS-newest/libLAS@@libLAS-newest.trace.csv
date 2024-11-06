@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/libLAS@@libLAS-newest/main@@@apps@#@ts2las.cpp,./cache/old_new_funcs/vul/sample/CVE-2024-27507_CWE-XXXX-XXXX_f1da55589ce568119a5b4cb5707af2ec403b3cd7_CVE-2024-27507_f1da55589ce568119a5b4cb5707af2ec403b3cd7_ts2las.cpp_1.1_main_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2024-27507_CWE-XXXX-XXXX_f1da55589ce568119a5b4cb5707af2ec403b3cd7_CVE-2024-27507_f1da55589ce568119a5b4cb5707af2ec403b3cd7_ts2las.cpp_1.1_main_NEW.vul,"[True, 'no del line', False]",False

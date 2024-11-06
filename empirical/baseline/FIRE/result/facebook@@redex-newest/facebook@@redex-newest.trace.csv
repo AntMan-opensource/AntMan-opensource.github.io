@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/facebook@@redex-newest/validate_dex_header@@@libredex@#@DexLoader.cpp,./cache/old_new_funcs/vul/sample/CVE-2022-36938_CWE-XXXX-XXXX_3b44c640346b77bfb7ef36e2413688dd460288d2_CVE-2022-36938_3b44c640346b77bfb7ef36e2413688dd460288d2_DexLoader.cpp_1.1_validate_dex_header_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-36938_CWE-XXXX-XXXX_3b44c640346b77bfb7ef36e2413688dd460288d2_CVE-2022-36938_3b44c640346b77bfb7ef36e2413688dd460288d2_DexLoader.cpp_1.1_validate_dex_header_NEW.vul,"[True, False]",False

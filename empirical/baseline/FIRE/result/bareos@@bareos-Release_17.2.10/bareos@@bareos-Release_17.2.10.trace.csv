@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/bareos@@bareos-Release_17.2.10/fmtstr@@@src@#@win32@#@compat@#@print.c,./cache/old_new_funcs/vul/sample/CVE-2016-0799_CWE-XXXX-XXXX_9cb177301fdab492e4cfef376b28339afe3ef663_CVE-2016-0799_9cb177301fdab492e4cfef376b28339afe3ef663_b_print.c_1.1_fmtstr_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2016-0799_CWE-XXXX-XXXX_9cb177301fdab492e4cfef376b28339afe3ef663_CVE-2016-0799_9cb177301fdab492e4cfef376b28339afe3ef663_b_print.c_1.1_fmtstr_NEW.vul,[False],False

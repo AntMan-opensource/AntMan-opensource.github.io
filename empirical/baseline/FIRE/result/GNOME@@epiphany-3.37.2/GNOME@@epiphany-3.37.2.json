@@ -1,0 +1,14 @@
+{
+    "total_func": 218500,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/GNOME@@epiphany-3.37.2/ephy_string_shorten@@@lib@#@ephy-string.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29536_CWE-XXXX-XXXX_486da133569ebfc436c959a7419565ab102e8525_CVE-2022-29536_486da133569ebfc436c959a7419565ab102e8525_ephy-string.c_1.1_ephy_string_shorten_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 4371,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/jsummers@@deark-v1.6.1/do_prism_read_palette@@@modules@#@atari-img.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-43289_CWE-XXXX-XXXX_b297d9a8c829a7de26009b8ea6b059a8001e0198_CVE-2022-43289_b297d9a8c829a7de26009b8ea6b059a8001e0198_atari-img.c_1.1_do_prism_read_palette_OLD.vul"
+            ]
+        }
+    ]
+}

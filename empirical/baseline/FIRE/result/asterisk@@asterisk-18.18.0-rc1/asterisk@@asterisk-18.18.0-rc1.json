@@ -1,0 +1,28 @@
+{
+    "total_func": 23376,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/asterisk@@asterisk-18.18.0-rc1/action_getconfigjson@@@main@#@manager.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49294_CWE-XXXX-XXXX_424be345639d75c6cb7d0bd2da5f0f407dbd0bd5_CVE-2023-49294_424be345639d75c6cb7d0bd2da5f0f407dbd0bd5_manager.c_1.1_action_getconfig_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/asterisk@@asterisk-18.18.0-rc1/update_header@@@res@#@res_pjsip_header_funcs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-37457_CWE-XXXX-XXXX_a1ca0268254374b515fa5992f01340f7717113fa_CVE-2023-37457_a1ca0268254374b515fa5992f01340f7717113fa_res_pjsip_header_funcs.c_1.1_update_header_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/asterisk@@asterisk-18.18.0-rc1/action_getconfig@@@main@#@manager.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49294_CWE-XXXX-XXXX_424be345639d75c6cb7d0bd2da5f0f407dbd0bd5_CVE-2023-49294_424be345639d75c6cb7d0bd2da5f0f407dbd0bd5_manager.c_1.1_action_getconfig_OLD.vul"
+            ]
+        }
+    ]
+}

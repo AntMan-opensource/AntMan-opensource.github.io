@@ -1,0 +1,42 @@
+{
+    "total_func": 218595,
+    "cnt": 5,
+    "all": 5,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.4.3/pvPortMalloc@@@portable@#@IAR@#@ARM_CM23@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.4.3/pvPortMalloc@@@portable@#@GCC@#@ARM_CM33@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.4.3/pvPortMalloc@@@portable@#@ARMv8M@#@secure@#@heap@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.4.3/pvPortMalloc@@@portable@#@GCC@#@ARM_CM23@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.4.3/pvPortMalloc@@@portable@#@IAR@#@ARM_CM33@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        }
+    ]
+}

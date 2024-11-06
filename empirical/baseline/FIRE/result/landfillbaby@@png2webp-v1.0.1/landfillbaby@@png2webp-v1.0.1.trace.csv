@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/landfillbaby@@png2webp-v1.0.1/w2p@@@png2webp.c,./cache/old_new_funcs/vul/sample/CVE-2022-36752_CWE-XXXX-XXXX_8f21ad79b0cd98fc22d5b49734543101946abbff_CVE-2022-36752_8f21ad79b0cd98fc22d5b49734543101946abbff_png2webp.c_1.1_w2p_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-36752_CWE-XXXX-XXXX_8f21ad79b0cd98fc22d5b49734543101946abbff_CVE-2022-36752_8f21ad79b0cd98fc22d5b49734543101946abbff_png2webp.c_1.1_w2p_NEW.vul,"[True, 'no del line', True, True, 0.9359895493141738, 0.9141221374045801]",True

@@ -1,0 +1,21 @@
+{
+    "total_func": 221193,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/lief-project@@LIEF-0.12.2/main@@@examples@#@c@#@elf_reader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31636_CWE-XXXX-XXXX_307e113f8e00b034f0a5f1baa33e54d636c52ea3_CVE-2024-31636_307e113f8e00b034f0a5f1baa33e54d636c52ea3_elf_reader.c_1.1_main_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/lief-project@@LIEF-0.12.2/main@@@examples@#@c@#@pe_reader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-31636_CWE-XXXX-XXXX_307e113f8e00b034f0a5f1baa33e54d636c52ea3_CVE-2024-31636_307e113f8e00b034f0a5f1baa33e54d636c52ea3_pe_reader.c_1.1_main_OLD.vul"
+            ]
+        }
+    ]
+}

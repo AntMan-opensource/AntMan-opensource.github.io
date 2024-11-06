@@ -1,0 +1,14 @@
+{
+    "total_func": 65961,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/facebook@@hhvm-nightly-2021.10.10/setupCrypto@@@hphp@#@runtime@#@base@#@ssl-socket.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-36937_CWE-XXXX-XXXX_083f5ffdee661f61512909d16f9a5b98cff3cf0b_CVE-2022-36937_083f5ffdee661f61512909d16f9a5b98cff3cf0b_ssl-socket.cpp_1.1_SSLSocket :: setupCrypto_OLD.vul"
+            ]
+        }
+    ]
+}

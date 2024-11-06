@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/AOMediaCodec@@libavif-v0.9.3/cJSON_SetValuestring@@@tests@#@cJSON.c,./cache/old_new_funcs/vul/sample/CVE-2024-31755_CWE-XXXX-XXXX_7e4d5dabe7a9b754c601f214e65b544e67ba9f59_CVE-2024-31755_7e4d5dabe7a9b754c601f214e65b544e67ba9f59_cJSON.c_1.1_cJSON_SetValuestring_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2024-31755_CWE-XXXX-XXXX_7e4d5dabe7a9b754c601f214e65b544e67ba9f59_CVE-2024-31755_7e4d5dabe7a9b754c601f214e65b544e67ba9f59_cJSON.c_1.1_cJSON_SetValuestring_NEW.vul,[False],False

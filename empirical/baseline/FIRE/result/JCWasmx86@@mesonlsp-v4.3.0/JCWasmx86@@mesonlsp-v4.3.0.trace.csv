@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/JCWasmx86@@mesonlsp-v4.3.0/extractFile@@@src@#@libutils@#@utils.cpp,./cache/old_new_funcs/vul/sample/CVE-2024-30254_CWE-XXXX-XXXX_594b6334061371911cd59389124ab8af30ce0a3a_CVE-2024-30254_594b6334061371911cd59389124ab8af30ce0a3a_utils.cpp_1.1_extractFile_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2024-30254_CWE-XXXX-XXXX_594b6334061371911cd59389124ab8af30ce0a3a_CVE-2024-30254_594b6334061371911cd59389124ab8af30ce0a3a_utils.cpp_1.1_extractFile_NEW.vul,[False],False

@@ -1,0 +1,14 @@
+{
+    "total_func": 754749,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/llvm@@llvm-project-llvmorg-15.0.0-rc1/parseOneMetadata@@@llvm@#@lib@#@Bitcode@#@Reader@#@MetadataLoader.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-46049_CWE-XXXX-XXXX_c2515a8f2be5dd23354c9891f41ad104000f88c4_CVE-2023-46049_c2515a8f2be5dd23354c9891f41ad104000f88c4_MetadataLoader.cpp_1.1_MetadataLoader :: MetadataLoaderImpl :: parseOneMetadata_OLD.vul"
+            ]
+        }
+    ]
+}

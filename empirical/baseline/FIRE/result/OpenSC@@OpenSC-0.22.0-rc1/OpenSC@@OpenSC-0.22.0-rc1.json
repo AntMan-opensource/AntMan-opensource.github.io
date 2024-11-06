@@ -1,0 +1,70 @@
+{
+    "total_func": 219730,
+    "cnt": 9,
+    "all": 9,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/cardos_have_verifyrc_package@@@src@#@pkcs15init@#@pkcs15-cardos.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-2977_CWE-XXXX-XXXX_81944d1529202bd28359bede57c0a15deb65ba8a_CVE-2023-2977_81944d1529202bd28359bede57c0a15deb65ba8a_pkcs15-cardos.c_1.1_cardos_have_verifyrc_package_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/piv_get_serial_nr_from_CHUI@@@src@#@libopensc@#@card-piv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42782_CWE-XXXX-XXXX_456ac566_CVE-2021-42782_456ac566_card-piv.c_1.1_piv_get_serial_nr_from_CHUI_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/piv_validate_general_authentication@@@src@#@libopensc@#@card-piv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42782_CWE-XXXX-XXXX_456ac566_CVE-2021-42782_456ac566_card-piv.c_1.1_piv_validate_general_authentication_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/sc_pkcs15_verify_pin@@@src@#@libopensc@#@pkcs15-pin.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-40660_CWE-XXXX-XXXX_868f76fb31255fd3fdacfc3e476452efeb61c3e7_CVE-2023-40660_868f76fb31255fd3fdacfc3e476452efeb61c3e7_pkcs15-pin.c_1.1_sc_pkcs15_verify_pin_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/piv_compute_signature@@@src@#@libopensc@#@card-piv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42782_CWE-XXXX-XXXX_456ac566_CVE-2021-42782_456ac566_card-piv.c_1.1_piv_compute_signature_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/piv_generate_key@@@src@#@libopensc@#@card-piv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42782_CWE-XXXX-XXXX_456ac566_CVE-2021-42782_456ac566_card-piv.c_1.1_piv_generate_key_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/piv_cache_internal_data@@@src@#@libopensc@#@card-piv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42782_CWE-XXXX-XXXX_456ac566_CVE-2021-42782_456ac566_card-piv.c_1.1_piv_cache_internal_data_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/piv_general_external_authenticate@@@src@#@libopensc@#@card-piv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42782_CWE-XXXX-XXXX_456ac566_CVE-2021-42782_456ac566_card-piv.c_1.1_piv_general_external_authenticate_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/OpenSC@@OpenSC-0.22.0-rc1/piv_general_mutual_authenticate@@@src@#@libopensc@#@card-piv.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-42782_CWE-XXXX-XXXX_456ac566_CVE-2021-42782_456ac566_card-piv.c_1.1_piv_general_mutual_authenticate_OLD.vul"
+            ]
+        }
+    ]
+}

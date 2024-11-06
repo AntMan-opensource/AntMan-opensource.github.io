@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/libreswan@@libreswan-newest/process_packet_tail@@@programs@#@pluto@#@ikev1.c,./cache/old_new_funcs/vul/sample/CVE-2023-38712_CWE-XXXX-XXXX_b2184520b314c4f3cbbf7f2cfd824be7f83b4929_CVE-2023-38712_b2184520b314c4f3cbbf7f2cfd824be7f83b4929_ikev1.c_1.1_process_packet_tail_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2023-38712_CWE-XXXX-XXXX_b2184520b314c4f3cbbf7f2cfd824be7f83b4929_CVE-2023-38712_b2184520b314c4f3cbbf7f2cfd824be7f83b4929_ikev1.c_1.1_process_packet_tail_NEW.vul,[False],False

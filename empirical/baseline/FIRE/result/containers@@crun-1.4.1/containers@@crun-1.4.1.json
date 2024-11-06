@@ -1,0 +1,14 @@
+{
+    "total_func": 215992,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/containers@@crun-1.4.1/crun_command_exec@@@src@#@exec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-27650_CWE-XXXX-XXXX_1aeeed2e4fdeffb4875c0d0b439915894594c8c6_CVE-2022-27650_1aeeed2e4fdeffb4875c0d0b439915894594c8c6_exec.c_1.1_crun_command_exec_OLD.vul"
+            ]
+        }
+    ]
+}

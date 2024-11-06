@@ -1,0 +1,21 @@
+{
+    "total_func": 231848,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/libsdl-org@@SDL-release-2.0.14/Map1toN@@@src@#@video@#@SDL_pixels.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-33657_CWE-XXXX-XXXX_8c91cf7dba5193f5ce12d06db1336515851c9ee9_CVE-2021-33657_8c91cf7dba5193f5ce12d06db1336515851c9ee9_SDL_pixels.c_1.1_Map1toN_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/libsdl-org@@SDL-release-2.0.14/GLES_CreateTexture@@@src@#@render@#@opengles@#@SDL_render_gles.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-4743_CWE-XXXX-XXXX_00b67f55727bc0944c3266e2b875440da132ce4b_CVE-2022-4743_00b67f55727bc0944c3266e2b875440da132ce4b_SDL_render_gles.c_1.1_GLES_CreateTexture_OLD.vul"
+            ]
+        }
+    ]
+}

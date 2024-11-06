@@ -1,0 +1,49 @@
+{
+    "total_func": 482329,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.1.1-beta/dfs_elm_getdents@@@components@#@dfs@#@filesystems@#@elmfat@#@dfs_elm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs_elm.c_1.1_dfs_elm_getdents_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.1.1-beta/dfs_romfs_getdents@@@components@#@dfs@#@filesystems@#@romfs@#@dfs_romfs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs_romfs.c_1.1_dfs_romfs_getdents_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.1.1-beta/nfs_getdents@@@components@#@dfs@#@filesystems@#@nfs@#@dfs_nfs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs_nfs.c_1.1_nfs_getdents_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.1.1-beta/dfs_win32_getdents@@@bsp@#@simulator@#@drivers@#@dfs_win32.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs_win32.c_1.1_dfs_win32_getdents_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.1.1-beta/directory_delete_for_msh@@@components@#@finsh@#@msh_file.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_msh_file.c_1.1_directory_delete_for_msh_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/RT-Thread@@rt-thread-v4.1.1-beta/dfs_normalize_path@@@components@#@dfs@#@src@#@dfs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-24334_CWE-XXXX-XXXX_74925f43eda4b09bfd26c38beaf366481d784505_CVE-2024-24334_74925f43eda4b09bfd26c38beaf366481d784505_dfs.c_1.1_dfs_normalize_path_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "total_func": 217598,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/landley@@toybox-0.8.7/isunder@@@toys@#@net@#@httpd.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32298_CWE-XXXX-XXXX_6d4847934fc0fe47a3254ce6c0396d197a780cf4_CVE-2022-32298_6d4847934fc0fe47a3254ce6c0396d197a780cf4_httpd.c_1.1_isunder_OLD.vul"
+            ]
+        }
+    ]
+}

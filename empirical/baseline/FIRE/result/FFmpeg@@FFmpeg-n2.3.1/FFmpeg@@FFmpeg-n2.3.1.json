@@ -1,0 +1,133 @@
+{
+    "total_func": 230106,
+    "cnt": 17,
+    "all": 24,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/decode_dds1@@@libavcodec@#@dfa.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-9992_CWE-XXXX-XXXX_d34a133b78afe2793cd8537f3c7f42437f441e94_CVE-2017-9992_d34a133b78afe2793cd8537f3c7f42437f441e94_dfa.c_1.1_decode_dds1_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/on2avc_decode_init@@@libavcodec@#@on2avc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8549_CWE-XXXX-XXXX_cee4490b521fd0d02476d46aa2598af24fb8d686_CVE-2014-8549_cee4490b521fd0d02476d46aa2598af24fb8d686_on2avc.c_1.1_on2avc_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/ff_h264_set_parameter_from_sps@@@libavcodec@#@h264.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2013-2277_CWE-XXXX-XXXX_4987faee78b9869f8f4646b8dd971d459df218a5_CVE-2013-2277_4987faee78b9869f8f4646b8dd971d459df218a5_h264.c_1.1_h264_set_parameter_from_sps_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/restore_median@@@libavcodec@#@utvideodec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-9604_CWE-XXXX-XXXX_0ce3a0f9d9523a9bcad4c6d451ca5bbd7a4f420d_CVE-2014-9604_0ce3a0f9d9523a9bcad4c6d451ca5bbd7a4f420d_utvideodec.c_1.1_restore_median_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/avs_decode_init@@@libavcodec@#@avs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/decode_packet@@@libavcodec@#@wmaprodec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2012-2799_CWE-XXXX-XXXX_d65d8347314b645051e336aed141aaf32a6c0d02_CVE-2012-2799_d65d8347314b645051e336aed141aaf32a6c0d02_wmalosslessdec.c_1.1_decode_packet_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/nut_read_header@@@libavformat@#@nutdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-3341_CWE-XXXX-XXXX_9cf652cef49d74afe3d454f27d49eb1a1394951e_CVE-2022-3341_9cf652cef49d74afe3d454f27d49eb1a1394951e_nutdec.c_1.1_nut_read_header_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/rpza_decode_init@@@libavcodec@#@rpza.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/sgirle_decode_init@@@libavcodec@#@sgirledec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/mm_decode_init@@@libavcodec@#@mmvideo.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/gif_decode_init@@@libavcodec@#@gifdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/smc_decode_init@@@libavcodec@#@smc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 13,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/decode_init@@@libavcodec@#@jvdec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8543_CWE-XXXX-XXXX_17ba719d9ba30c970f65747f42d5fbb1e447ca28_CVE-2014-8543_17ba719d9ba30c970f65747f42d5fbb1e447ca28_mmvideo.c_1.1_mm_decode_init_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2014-8542_CWE-XXXX-XXXX_88626e5af8d006e67189bf10b96b982502a7e8ad_CVE-2014-8542_88626e5af8d006e67189bf10b96b982502a7e8ad_jvdec.c_1.1_decode_init_OLD.vul"
+            ]
+        },
+        {
+            "id": 14,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/msrle_decode_pal4@@@libavcodec@#@msrledec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2015-3395_CWE-XXXX-XXXX_5ecabd3c54b7c802522dc338838c9a4c2dc42948_CVE-2015-3395_5ecabd3c54b7c802522dc338838c9a4c2dc42948_msrledec.c_1.1_msrle_decode_pal4_OLD.vul"
+            ]
+        },
+        {
+            "id": 15,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/adts_decode_extradata@@@libavformat@#@adtsenc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-38171_CWE-XXXX-XXXX_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_CVE-2021-38171_9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6_adtsenc.c_1.1_adts_decode_extradata_OLD.vul"
+            ]
+        },
+        {
+            "id": 16,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/load_input_picture@@@libavcodec@#@mpegvideo_enc.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-32230_CWE-XXXX-XXXX_67ca3a5ee7d4ddb55fbe93de9cf7898eb09b7887_CVE-2024-32230_67ca3a5ee7d4ddb55fbe93de9cf7898eb09b7887_mpegvideo_enc.c_1.1_load_input_picture_OLD.vul"
+            ]
+        },
+        {
+            "id": 17,
+            "dst": "./processed/FFmpeg@@FFmpeg-n2.3.1/restore_median_il@@@libavcodec@#@utvideodec.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-9604_CWE-XXXX-XXXX_0ce3a0f9d9523a9bcad4c6d451ca5bbd7a4f420d_CVE-2014-9604_0ce3a0f9d9523a9bcad4c6d451ca5bbd7a4f420d_utvideodec.c_1.1_restore_median_il_OLD.vul"
+            ]
+        }
+    ]
+}

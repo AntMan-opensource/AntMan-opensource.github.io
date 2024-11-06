@@ -1,0 +1,14 @@
+{
+    "total_func": 3780,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/babelouest@@glewlwyd-v2.7.5/register_new_attestation@@@src@#@scheme@#@webauthn.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-49208_CWE-XXXX-XXXX_f9d8c06aae8dfe17e761b18b577ff169e059e812_CVE-2023-49208_f9d8c06aae8dfe17e761b18b577ff169e059e812_webauthn.c_1.1_register_new_attestation_OLD.vul"
+            ]
+        }
+    ]
+}

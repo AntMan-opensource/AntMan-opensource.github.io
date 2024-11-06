@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/ClusterLabs@@booth-newest/setup_config@@@src@#@main.c,./cache/old_new_funcs/vul/sample/CVE-2022-2553_CWE-XXXX-XXXX_35bf0b7b048d715f671eb68974fb6b4af6528c67_CVE-2022-2553_35bf0b7b048d715f671eb68974fb6b4af6528c67_main.c_1.1_setup_config_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-2553_CWE-XXXX-XXXX_35bf0b7b048d715f671eb68974fb6b4af6528c67_CVE-2022-2553_35bf0b7b048d715f671eb68974fb6b4af6528c67_main.c_1.1_setup_config_NEW.vul,"[True, True, True, 0.9042253521126761, 0.8440860215053764]",True

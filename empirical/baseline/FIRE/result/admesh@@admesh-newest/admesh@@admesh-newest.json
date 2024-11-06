@@ -1,0 +1,14 @@
+{
+    "total_func": 215482,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/admesh@@admesh-newest/stl_fix_normal_directions@@@src@#@normals.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-38072_CWE-XXXX-XXXX_5fab257268a0ee6f832c18d72af89810a29fbd5f_CVE-2022-38072_5fab257268a0ee6f832c18d72af89810a29fbd5f_normals.c_1.1_stl_fix_normal_directions_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "total_func": 220741,
+    "cnt": 12,
+    "all": 12,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/set_ecuid@@@src@#@console@#@dlt-control-common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-26257_CWE-XXXX-XXXX_b6149e203f919c899fefc702a17fbb78bdec3700_CVE-2023-26257_b6149e203f919c899fefc702a17fbb78bdec3700_dlt-control-common.c_1.1_set_ecuid_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_message_print_header@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt_common.c_1.1_dlt_message_print_header_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_message_print_mixed_plain@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt_common.c_1.1_dlt_message_print_mixed_plain_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_message_print_mixed_html@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt_common.c_1.1_dlt_message_print_mixed_html_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_message_print_ascii@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt_common.c_1.1_dlt_message_print_ascii_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/write_messages@@@src@#@console@#@dlt-sortbytimestamp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt-sortbytimestamp.c_1.1_write_messages_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_message_print_hex@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt_common.c_1.1_dlt_message_print_hex_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_file_message@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36321_CWE-XXXX-XXXX_8ac9a080bee25e67e49bd138d81c992ce7b6d899_CVE-2023-36321_8ac9a080bee25e67e49bd138d81c992ce7b6d899_dlt_common.c_1.1_dlt_file_message_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_print_mixed_string@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt_common.c_1.1_dlt_print_mixed_string_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/dlt_message_header_flags@@@src@#@shared@#@dlt_common.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt_common.c_1.1_dlt_message_header_flags_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/main@@@src@#@console@#@dlt-sortbytimestamp.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt-sortbytimestamp.c_1.1_main_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/COVESA@@dlt-daemon-v2.18.6/main@@@src@#@console@#@dlt-convert.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-39836_CWE-XXXX-XXXX_855e0017a980d2990c16f7dbf3b4983b48fac272_CVE-2022-39836_855e0017a980d2990c16f7dbf3b4983b48fac272_dlt-convert.c_1.1_main_OLD.vul"
+            ]
+        }
+    ]
+}

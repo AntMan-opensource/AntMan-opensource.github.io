@@ -1,0 +1,87 @@
+{
+    "all": {
+        "Abstraction": "381(0.26)",
+        "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "352(0.24)",
+        "Function Call Relations|Pre- & Post-Patch|Target Function": "181(0.12)",
+        "all": "0.63",
+        "type34": {
+            "Abstraction": "329(0.30)",
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "278(0.25)",
+            "Dependency Pairs|Add & Delete Statements|All Statements in Target Function": "129(0.12)",
+            "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function": "107(0.10)",
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "98(0.09)",
+            "all": "0.86"
+        },
+        "type1": {
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "55(0.21)",
+            "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function": "53(0.21)",
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "42(0.16)",
+            "Abstraction": "29(0.11)",
+            "Dependency Pairs|Add & Delete Statements|All Statements in Target Function": "23(0.09)",
+            "all": "0.78"
+        },
+        "type2": {
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "41(0.38)",
+            "Abstraction": "23(0.21)",
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "19(0.18)",
+            "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function": "7(0.07)",
+            "Statements Difference|Version Discrepancy|All Statements in Target Function": "5(0.05)",
+            "all": "0.89"
+        }
+    },
+    "origin": {
+        "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "300(0.29)",
+        "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function": "167(0.16)",
+        "Dependency Pairs|Add & Delete Statements|All Statements in Target Function": "142(0.14)",
+        "all": "0.59",
+        "type34": {
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "240(0.33)",
+            "Dependency Pairs|Add & Delete Statements|All Statements in Target Function": "117(0.16)",
+            "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function": "107(0.15)",
+            "Abstraction": "76(0.10)",
+            "Statements Difference|Version Discrepancy|All Statements in Target Function": "61(0.08)",
+            "all": "0.83"
+        },
+        "type1": {
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "55(0.23)",
+            "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function": "53(0.22)",
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "35(0.15)",
+            "Abstraction": "29(0.12)",
+            "Dependency Pairs|Add & Delete Statements|All Statements in Target Function": "23(0.10)",
+            "all": "0.82"
+        },
+        "type2": {
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "26(0.41)",
+            "Abstraction": "8(0.13)",
+            "Taint Path|Pre- & Post-Patch Function Variables|All Variables in Target Function": "7(0.11)",
+            "Statements Difference|Version Discrepancy|All Statements in Target Function": "5(0.08)",
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "5(0.08)",
+            "all": "0.81"
+        }
+    },
+    "transfer": {
+        "Abstraction": "268(0.62)",
+        "Function Call Relations|Pre- & Post-Patch|Target Function": "72(0.17)",
+        "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "52(0.12)",
+        "all": "0.91",
+        "type1": {
+            "Normalization": "12(0.63)",
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "7(0.37)",
+            "all": "1.00"
+        },
+        "type34": {
+            "Abstraction": "253(0.69)",
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "50(0.14)",
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "38(0.10)",
+            "Function-level|Intra-Procedural Hard-Match": "14(0.04)",
+            "Dependency Pairs|Add & Delete Statements|All Statements in Target Function": "12(0.03)",
+            "all": "1.00"
+        },
+        "type2": {
+            "Abstraction": "15(0.34)",
+            "Function Call Relations|Pre- & Post-Patch|Target Function": "15(0.34)",
+            "Statements Difference|Pre- & Post-Patch|All Statements in Target Function": "14(0.32)",
+            "all": "1.00"
+        }
+    }
+}

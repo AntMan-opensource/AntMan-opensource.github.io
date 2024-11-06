@@ -1,0 +1,21 @@
+{
+    "total_func": 225583,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ARM-software@@arm-trusted-firmware-lts-v2.8.7/check_load_area@@@drivers@#@renesas@#@common@#@io@#@io_rcar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-6285_CWE-XXXX-XXXX_b596f580637bae919b0ac3a5471422a1f756db3b_CVE-2024-6285_b596f580637bae919b0ac3a5471422a1f756db3b_io_rcar.c_1.1_check_load_area_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ARM-software@@arm-trusted-firmware-lts-v2.8.7/rcar_dev_init@@@drivers@#@renesas@#@common@#@io@#@io_rcar.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-6564_CWE-XXXX-XXXX_c9fb3558410032d2660c7f3b7d4b87dec09fe2f2_CVE-2024-6564_c9fb3558410032d2660c7f3b7d4b87dec09fe2f2_io_rcar.c_1.1_rcar_dev_init_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "total_func": 222195,
+    "cnt": 9,
+    "all": 12,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/RegisterStaticModules@@@MagickCore@#@static.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-39212_CWE-XXXX-XXXX_35893e7cad78ce461fcaffa56076c11700ba5e4e_CVE-2021-39212_35893e7cad78ce461fcaffa56076c11700ba5e4e_static.c_1.1_RegisterStaticModules_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/UnregisterStaticModules@@@MagickCore@#@static.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-39212_CWE-XXXX-XXXX_35893e7cad78ce461fcaffa56076c11700ba5e4e_CVE-2021-39212_35893e7cad78ce461fcaffa56076c11700ba5e4e_static.c_1.1_RegisterStaticModules_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/ReadDCMImage@@@coders@#@dcm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-3962_CWE-XXXX-XXXX_82775af03bbb10a0a1d0e15c0156c75673b4525e_CVE-2021-3962_82775af03bbb10a0a1d0e15c0156c75673b4525e_dcm.c_1.1_ReadDCMImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/ReadTIFFImage@@@coders@#@tiff.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-27829_CWE-XXXX-XXXX_6ee5059cd3ac8d82714a1ab1321399b88539abf0_CVE-2020-27829_6ee5059cd3ac8d82714a1ab1321399b88539abf0_tiff.c_1.1_ReadTIFFImage_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-3195_CWE-XXXX-XXXX_85a370c79afeb45a97842b0959366af5236e9023_CVE-2023-3195_85a370c79afeb45a97842b0959366af5236e9023_tiff.c_1.1_ReadTIFFImage_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2022-1115_CWE-XXXX-XXXX_1f860f52bd8d58737ad883072203391096b30b51_CVE-2022-1115_1f860f52bd8d58737ad883072203391096b30b51_tiff.c_1.1_ReadTIFFImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/RegisterStaticModule@@@MagickCore@#@static.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-39212_CWE-XXXX-XXXX_35893e7cad78ce461fcaffa56076c11700ba5e4e_CVE-2021-39212_35893e7cad78ce461fcaffa56076c11700ba5e4e_static.c_1.1_RegisterStaticModule_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/GetEXIFProperty@@@MagickCore@#@property.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32547_CWE-XXXX-XXXX_eac8ce4d873f28bb6a46aa3a662fb196b49b95d0_CVE-2022-32547_eac8ce4d873f28bb6a46aa3a662fb196b49b95d0_property.c_1.1_GetEXIFProperty_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/WritePICONImage@@@coders@#@xpm.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-0284_CWE-XXXX-XXXX_e50f19fd73c792ebe912df8ab83aa51a243a3da7_CVE-2022-0284_e50f19fd73c792ebe912df8ab83aa51a243a3da7_xpm.c_1.1_WritePICONImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/ReadPCLImage@@@coders@#@pcl.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-32546_CWE-XXXX-XXXX_29c8abce0da56b536542f76a9ddfebdaab5b2943_CVE-2022-32546_29c8abce0da56b536542f76a9ddfebdaab5b2943_pcl.c_1.1_ReadPCLImage_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/ImageMagick@@ImageMagick-7.1.0-5/ReadTIM2ImageData@@@coders@#@tim2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-34474_CWE-XXXX-XXXX_1061db7f80fdc9ef572ac60b55f408f7bab6e1b0_CVE-2023-34474_1061db7f80fdc9ef572ac60b55f408f7bab6e1b0_tim2.c_1.1_ReadTIM2ImageData_OLD.vul",
+                "./cache/old_new_funcs/vul/sample/CVE-2023-34475_CWE-XXXX-XXXX_1061db7f80fdc9ef572ac60b55f408f7bab6e1b0_CVE-2023-34475_1061db7f80fdc9ef572ac60b55f408f7bab6e1b0_tim2.c_1.1_ReadTIM2ImageData_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/ArtifexSoftware@@jbig2dec-0.20/jbig2_image_compose@@@jbig2_image.c,./cache/old_new_funcs/vul/sample/CVE-2020-12268_CWE-XXXX-XXXX_0726320a4b55078e9d8deb590e477d598b3da66e_CVE-2020-12268_0726320a4b55078e9d8deb590e477d598b3da66e_jbig2_image.c_1.1_jbig2_image_compose_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2020-12268_CWE-XXXX-XXXX_0726320a4b55078e9d8deb590e477d598b3da66e_CVE-2020-12268_0726320a4b55078e9d8deb590e477d598b3da66e_jbig2_image.c_1.1_jbig2_image_compose_NEW.vul,"[True, 'no del line', False]",False

@@ -1,0 +1,21 @@
+{
+    "total_func": 5688,
+    "cnt": 2,
+    "all": 2,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/GNOME@@libxml2-v2.9.13/xmlTextReaderRemoveID@@@xmlreader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/GNOME@@libxml2-v2.9.13/xmlTextReaderRemoveRef@@@xmlreader.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-23308_CWE-XXXX-XXXX_652dd12a858989b14eed4e84e453059cd3ba340e_CVE-2022-23308_652dd12a858989b14eed4e84e453059cd3ba340e_valid.c_1.1_xmlRemoveID_OLD.vul"
+            ]
+        }
+    ]
+}

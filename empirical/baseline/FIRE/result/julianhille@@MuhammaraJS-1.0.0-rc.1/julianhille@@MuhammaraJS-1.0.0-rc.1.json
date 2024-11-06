@@ -1,0 +1,35 @@
+{
+    "total_func": 7041,
+    "cnt": 4,
+    "all": 4,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/julianhille@@MuhammaraJS-1.0.0-rc.1/OJPEGReadBufferFill@@@src@#@deps@#@LibTiff@#@tif_ojpeg.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29776_CWE-XXXX-XXXX_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_CVE-2022-29776_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_tif_ojpeg.c_1.1_OJPEGReadBufferFill_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/julianhille@@MuhammaraJS-1.0.0-rc.1/ParseLastXrefPosition@@@src@#@deps@#@PDFWriter@#@PDFParser.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-25892_CWE-XXXX-XXXX_1890fb555eaf171db79b73fdc3ea543bbd63c002_CVE-2022-25892_1890fb555eaf171db79b73fdc3ea543bbd63c002_PDFParser.cpp_1.1_PDFParser :: ParseLastXrefPosition_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/julianhille@@MuhammaraJS-1.0.0-rc.1/TIFFReadCustomDirectory@@@src@#@deps@#@LibTiff@#@tif_dirread.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29776_CWE-XXXX-XXXX_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_CVE-2022-29776_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_tif_dirread.c_1.1_TIFFReadCustomDirectory_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/julianhille@@MuhammaraJS-1.0.0-rc.1/TIFFReadDirectory@@@src@#@deps@#@LibTiff@#@tif_dirread.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2022-29776_CWE-XXXX-XXXX_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_CVE-2022-29776_88cf60a3ed4a2b40d71a1c2ced72fa3902a30967_tif_dirread.c_1.1_TIFFReadDirectory_OLD.vul"
+            ]
+        }
+    ]
+}

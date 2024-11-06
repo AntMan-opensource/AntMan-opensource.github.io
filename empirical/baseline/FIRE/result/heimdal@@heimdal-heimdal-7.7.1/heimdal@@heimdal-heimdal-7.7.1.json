@@ -1,0 +1,28 @@
+{
+    "total_func": 10721,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/heimdal@@heimdal-heimdal-7.7.1/s_mp_mul_high_digs@@@lib@#@hcrypto@#@libtommath@#@bn_s_mp_mul_high_digs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_high_digs.c_1.1_s_mp_mul_high_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/heimdal@@heimdal-heimdal-7.7.1/_kdc_pk_free_client_param@@@kdc@#@pkinit.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-5568_CWE-XXXX-XXXX_f0da8219262ba7c3e066d4f519063edf26f36b88_CVE-2023-5568_f0da8219262ba7c3e066d4f519063edf26f36b88_pkinit.c_1.1__kdc_pk_free_client_param_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/heimdal@@heimdal-heimdal-7.7.1/s_mp_mul_digs@@@lib@#@hcrypto@#@libtommath@#@bn_s_mp_mul_digs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_digs.c_1.1_s_mp_mul_digs_OLD.vul"
+            ]
+        }
+    ]
+}

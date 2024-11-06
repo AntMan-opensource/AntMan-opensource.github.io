@@ -1,0 +1,14 @@
+{
+    "total_func": 407,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/AOMediaCodec@@libavif-v0.8.0/avifParseImageGridBox@@@src@#@read.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-36407_CWE-XXXX-XXXX_0a8e7244d494ae98e9756355dfbfb6697ded2ff9_CVE-2020-36407_0a8e7244d494ae98e9756355dfbfb6697ded2ff9_read.c_1.1_avifParseImageGridBox_OLD.vul"
+            ]
+        }
+    ]
+}

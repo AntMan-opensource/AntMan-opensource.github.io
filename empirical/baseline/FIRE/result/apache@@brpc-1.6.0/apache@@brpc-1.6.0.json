@@ -1,0 +1,28 @@
+{
+    "total_func": 227768,
+    "cnt": 3,
+    "all": 3,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/apache@@brpc-1.6.0/PrintClientSpan@@@src@#@brpc@#@builtin@#@rpcz_service.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-45757_CWE-XXXX-XXXX_b0a7c4a9da7ab44aeeaed10e6f3d126cde44e6f7_CVE-2023-45757_b0a7c4a9da7ab44aeeaed10e6f3d126cde44e6f7_rpcz_service.cpp_1.1_PrintClientSpan_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/apache@@brpc-1.6.0/PrintAnnotations@@@src@#@brpc@#@builtin@#@rpcz_service.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-45757_CWE-XXXX-XXXX_b0a7c4a9da7ab44aeeaed10e6f3d126cde44e6f7_CVE-2023-45757_b0a7c4a9da7ab44aeeaed10e6f3d126cde44e6f7_rpcz_service.cpp_1.1_PrintAnnotations_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/apache@@brpc-1.6.0/PrintServerSpan@@@src@#@brpc@#@builtin@#@rpcz_service.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-45757_CWE-XXXX-XXXX_b0a7c4a9da7ab44aeeaed10e6f3d126cde44e6f7_CVE-2023-45757_b0a7c4a9da7ab44aeeaed10e6f3d126cde44e6f7_rpcz_service.cpp_1.1_PrintServerSpan_OLD.vul"
+            ]
+        }
+    ]
+}

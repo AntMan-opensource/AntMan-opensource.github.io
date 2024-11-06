@@ -1,0 +1,14 @@
+{
+    "total_func": 230116,
+    "cnt": 1,
+    "all": 1,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/Stellarium@@stellarium-v0.22.0/prepareScript@@@src@#@scripting@#@StelScriptMgr.cpp",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-28371_CWE-XXXX-XXXX_787a894897b7872ae96e6f5804a182210edd5c78_CVE-2023-28371_787a894897b7872ae96e6f5804a182210edd5c78_StelScriptMgr.cpp_1.1_StelScriptMgr :: prepareScript_OLD.vul"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "total_func": 253996,
+    "cnt": 6,
+    "all": 6,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/ApsaraDB@@PolarDB-for-PostgreSQL-v11.9.20.0/SetSessionUserId@@@src@#@backend@#@utils@#@init@#@miscinit.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2007-6600_CWE-XXXX-XXXX_eedb068c0a7474fb11d67d03b0a9e1ded5df82c4_CVE-2007-6600_eedb068c0a7474fb11d67d03b0a9e1ded5df82c4_miscinit.c_1.1_SetSessionUserId_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/ApsaraDB@@PolarDB-for-PostgreSQL-v11.9.20.0/be_lo_from_bytea@@@src@#@backend@#@libpq@#@be-fsstubs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2017-7548_CWE-XXXX-XXXX_8d9881911f0d30e0783a6bb1363b94a2c817433d_CVE-2017-7548_8d9881911f0d30e0783a6bb1363b94a2c817433d_be-fsstubs.c_1.1_be_lo_put_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/ApsaraDB@@PolarDB-for-PostgreSQL-v11.9.20.0/_readQueryDispatchDesc@@@src@#@backend@#@nodes@#@readfuncs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-25695_CWE-XXXX-XXXX_14f8ba7603e187be045543c8ad60a961e0041bd6_CVE-2020-25695_14f8ba7603e187be045543c8ad60a961e0041bd6_readfast.c_1.1__readQueryDispatchDesc_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/ApsaraDB@@PolarDB-for-PostgreSQL-v11.9.20.0/main@@@src@#@interfaces@#@ecpg@#@test@#@expected@#@pgtypeslib-dt_test2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2014-0063_CWE-XXXX-XXXX_4318daecc959886d001a6e79c6ea853e8b1dfb4b_CVE-2014-0063_4318daecc959886d001a6e79c6ea853e8b1dfb4b_pgtypeslib-dt_test2.c_1.1_main_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/ApsaraDB@@PolarDB-for-PostgreSQL-v11.9.20.0/_copyQueryDispatchDesc@@@src@#@backend@#@nodes@#@copyfuncs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-25695_CWE-XXXX-XXXX_14f8ba7603e187be045543c8ad60a961e0041bd6_CVE-2020-25695_14f8ba7603e187be045543c8ad60a961e0041bd6_copyfuncs.c_1.1__copyQueryDispatchDesc_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/ApsaraDB@@PolarDB-for-PostgreSQL-v11.9.20.0/_outQueryDispatchDesc@@@src@#@backend@#@nodes@#@outfuncs.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2020-25695_CWE-XXXX-XXXX_14f8ba7603e187be045543c8ad60a961e0041bd6_CVE-2020-25695_14f8ba7603e187be045543c8ad60a961e0041bd6_outfuncs.c_1.1__outQueryDispatchDesc_OLD.vul"
+            ]
+        }
+    ]
+}

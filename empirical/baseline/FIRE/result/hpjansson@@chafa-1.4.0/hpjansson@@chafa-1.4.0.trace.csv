@@ -1,0 +1,2 @@
+target_file,vuln_file,patch_file,datail,predict
+./processed/hpjansson@@chafa-1.4.0/load_header@@@tools@#@chafa@#@xwd-loader.c,./cache/old_new_funcs/vul/sample/CVE-2022-2301_CWE-XXXX-XXXX_56fabfa18a6880b4cb66047fa6557920078048d9_CVE-2022-2301_56fabfa18a6880b4cb66047fa6557920078048d9_xwd-loader.c_1.1_load_header_OLD.vul,./cache/old_new_funcs/no_vul/CVE-2022-2301_CWE-XXXX-XXXX_56fabfa18a6880b4cb66047fa6557920078048d9_CVE-2022-2301_56fabfa18a6880b4cb66047fa6557920078048d9_xwd-loader.c_1.1_load_header_NEW.vul,"[True, True, True, 0.9734104046242774, 0.383515559293524]",True

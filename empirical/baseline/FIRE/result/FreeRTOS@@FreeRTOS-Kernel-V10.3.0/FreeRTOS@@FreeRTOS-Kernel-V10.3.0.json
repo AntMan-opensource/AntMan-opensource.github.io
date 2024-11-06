@@ -1,0 +1,91 @@
+{
+    "total_func": 272012,
+    "cnt": 12,
+    "all": 12,
+    "vul": [
+        {
+            "id": 1,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@IAR@#@ARM_CM33@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 2,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@MemMang@#@heap_4.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 3,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/mbedtls_x509_set_extension@@@FreeRTOS-Labs@#@Source@#@mbedtls@#@library@#@x509_create.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2024-23775_CWE-XXXX-XXXX_e90cbc3d1260901efc879178a15f2d90a5e17612_CVE-2024-23775_e90cbc3d1260901efc879178a15f2d90a5e17612_x509_create.c_1.1_mbedtls_x509_set_extension_OLD.vul"
+            ]
+        },
+        {
+            "id": 4,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@GCC@#@ARM_CM33@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 5,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@GCC@#@ARM_CM23@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 6,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@MemMang@#@heap_5.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_5.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 7,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/s_mp_mul_high_digs@@@FreeRTOS-Plus@#@Source@#@WolfSSL@#@wolfcrypt@#@src@#@integer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_high_digs.c_1.1_s_mp_mul_high_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 8,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@MemMang@#@heap_2.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_2.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 9,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@ARMv8M@#@secure@#@heap@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 10,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/s_mp_mul_digs@@@FreeRTOS-Plus@#@Source@#@WolfSSL@#@wolfcrypt@#@src@#@integer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2023-36328_CWE-XXXX-XXXX_7bbc1f8e4fe6dce75055957645117180768efb15_CVE-2023-36328_7bbc1f8e4fe6dce75055957645117180768efb15_bn_s_mp_mul_digs.c_1.1_s_mp_mul_digs_OLD.vul"
+            ]
+        },
+        {
+            "id": 11,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/pvPortMalloc@@@FreeRTOS@#@Source@#@portable@#@IAR@#@ARM_CM23@#@secure@#@secure_heap.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-32020_CWE-XXXX-XXXX_c7a9a01c94987082b223d3e59969ede64363da63_CVE-2021-32020_c7a9a01c94987082b223d3e59969ede64363da63_heap_4.c_1.1_pvPortMalloc_OLD.vul"
+            ]
+        },
+        {
+            "id": 12,
+            "dst": "./processed/FreeRTOS@@FreeRTOS-Kernel-V10.3.0/xStreamBufferGenericCreate@@@FreeRTOS@#@Source@#@stream_buffer.c",
+            "sim": [
+                "./cache/old_new_funcs/vul/sample/CVE-2021-31572_CWE-XXXX-XXXX_d05b9c123f2bf9090bce386a244fc934ae44db5b_CVE-2021-31572_d05b9c123f2bf9090bce386a244fc934ae44db5b_stream_buffer.c_1.1_xStreamBufferGenericCreate_OLD.vul"
+            ]
+        }
+    ]
+}
