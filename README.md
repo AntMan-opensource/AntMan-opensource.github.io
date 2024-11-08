@@ -52,7 +52,7 @@ To accurately assess the characteristics of RVs, follow these steps:
   python main.py
   ```
 
-- Enter to the `RQ1` folder and clone the target repositories mentioned in our [groundtruth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx) and run the [extract_target_code.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ1/extract_single_method.py) to extract the target functions. The output file will be [transfer_code.json](https://drive.google.com/file/d/1Pk3-YyRP8fkDq2PhOxkAmgeiEh2cYxnX/view?usp=drive_link).
+- Enter to the `RQ1` folder and clone the target repositories mentioned in our [groundtruth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx) and run the [extract_target_code.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ1/extract_target_code.py) to extract the target functions. The output file will be [transfer_code.json](https://drive.google.com/file/d/1Pk3-YyRP8fkDq2PhOxkAmgeiEh2cYxnX/view?usp=drive_link).
 
   ```
   python extract_target_code.py
@@ -80,7 +80,7 @@ To accurately assess the characteristics of RVs, follow these steps:
   ```
 ## RQ2 Effectiveness Evaluation of RVD. 
 
-- To get the effectiveness of each RVD approach, just run [RQ2_table2.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ1/datas/transfer_sharing_logic_feature.json) and get the results [results_RQ2.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ2/datas/results_RQ2.json), which is shown in Table 2.
+- To get the effectiveness of each RVD approach, just run [RQ2_table2.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ2/RQ2_table2.py) and get the results [results_RQ2.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ2/datas/results_RQ2.json), which is shown in Table 2.
   ```
   python RQ2_table2.py
   ```
@@ -94,9 +94,7 @@ To accurately assess the characteristics of RVs, follow these steps:
 
 ## Environment Setup:
 
-- ***Git***
-
-- ***Python 3***
+- ***python***: 3.11+
 
 - ***[joern](https://docs.joern.io/installation)***
 
@@ -164,7 +162,7 @@ To accurately assess the characteristics of RVs, follow these steps:
 
 - **Overall results:** 
 
-  - To get the six RVD approaches including AntMan, we merged all results they detected into json format, which is shown in [generality_rvd_results.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ7/generality_rvd_results.json), to get its metrics that is shown in Table 7 in our paper, just run the script, the metrics will be output in [rvd_generality_metrics.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ7/rvd_generality_metrics.json)
+  - To get the six RVD approaches including AntMan, we merged all results they detected into json format, which is shown in [generality_rvd_results.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ7/generality_rvd_results.json), to get its metrics that is shown in Table 7 in our paper, just run the script [generality.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/evaluation/RQ7/generality.py), the metrics will be output in [rvd_generality_metrics.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ7/rvd_generality_metrics.json)
 
   ```bash
   python generality.py
