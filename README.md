@@ -26,11 +26,11 @@ This page lists the supplementary materials including the dataset, source code a
 
 - **Step 1: Vulnerability and Patch Collection.**
 
-​	We first selected the original vulnerability 𝑐𝑣𝑒𝑖𝑑 and its patch commit 𝑝𝑎𝑡 of 𝑟𝑒𝑝𝑜o from the NVD Data Feeds. After filtering for C/C++ vulnerabilities from 1 January 2020 to 1 January 2024, we collected a total of [**2,115 vulnerabilities with their associated patches**](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/emperical_cve_list_raw.json). Then, we further excluded patches that modified only global declarations (e.g., macros and structures), C/C++ configuration files, or non-C/C++ files. This restricted our selection to a final dataset of [**2,088 vulnerabilities with their associated patches.**](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/emperical_cve_list.json)
+	We first selected the original vulnerability 𝑐𝑣𝑒𝑖𝑑 and its patch commit 𝑝𝑎𝑡 of 𝑟𝑒𝑝𝑜o from the NVD Data Feeds. After filtering for C/C++ vulnerabilities from 1 January 2020 to 1 January 2024, we collected a total of [**2,115 vulnerabilities with their associated patches**](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/emperical_cve_list_raw.json). Then, we further excluded patches that modified only global declarations (e.g., macros and structures), C/C++ configuration files, or non-C/C++ files. This restricted our selection to a final dataset of [**2,088 vulnerabilities with their associated patches.**](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/emperical_cve_list.json)
 
 - **Step 2: Target Repository Collection.**
 
-​	To ensure a diverse set of RVs, we targeted high-profile GitHub repositories, selected based on star counts, while excluding archived or outdated projects. By August 2024, we gathered the top 600 active C/C++ repositories. We then gathered all the released versions (i.e., 12,088) of the repositories. We then selected the first version released within each season to represent the evolution of code over specific periods, discarding all other versions from that period. If no version was available for a particular season, it was simply excluded. [**This process resulted in 3,873 distinct repositories with version tags**](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json).
+	To ensure a diverse set of RVs, we targeted high-profile GitHub repositories, selected based on star counts, while excluding archived or outdated projects. By August 2024, we gathered the top 600 active C/C++ repositories. We then gathered all the released versions (i.e., 12,088) of the repositories. We then selected the first version released within each season to represent the evolution of code over specific periods, discarding all other versions from that period. If no version was available for a particular season, it was simply excluded. [**This process resulted in 3,873 distinct repositories with version tags**](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json).
 
 - **Step 3: RV Detection and Confirmation.** 
 
@@ -42,9 +42,9 @@ This page lists the supplementary materials including the dataset, source code a
   -  **V1scan**: We just run V1scan using [docker](https://hub.docker.com/r/seunghoonwoo/v1scan_code) following the [instructions](https://github.com/WOOSEUNGHOON/V1SCAN-public/blob/main/README.md),  obtaining the [results](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/baseline/V1SCAN/empirical_v1scan.txt), then we conducted manual validation of all positive results by the authors to confirm the presence of RV, and then get the confirmed [results](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/baseline/V1SCAN/results_v1scan.xlsx).
   -  **FIRE**: We cloned the open-source code of [FIRE](https://github.com/CGCL-codes/FIRE), followed their [instructions](https://github.com/CGCL-codes/FIRE/blob/main/readme.md) to conduct our detection process. We performed detection across all projects listed in [detected_repo_list.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json), and obtained the initial detection [results](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/baseline/FIRE/result). Following this automated detection, we manually validated all positive results alongside the original authors to confirm the presence of RV, leading to the final validated results, available in [results_fire.xlsx](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/baseline/FIRE/results_fire.xlsx).
 
-​			For each patch, we ran five RVD approaches to identify RVs in each target project, This process generated samples that were detected by at least one RVD approach. Human experts then verified the detected samples. This process identified **3,834 positive samples** and **4,469 negative samples**. We release the confirmed data: [confirmation.xlsx](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/confirmation.xlsx) with [Kappa](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/empirical_confirmation_mark.xlsx) of 0.934.
+	For each patch, we ran five RVD approaches to identify RVs in each target project, This process generated samples that were detected by at least one RVD approach. Human experts then verified the detected samples. This process identified **3,834 positive samples** and **4,469 negative samples**. We release the confirmed data: [confirmation.xlsx](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/confirmation.xlsx) with [Kappa](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/empirical_confirmation_mark.xlsx) of 0.934.
 
-​			Moreover, as RVs can persist across multiple versions, the experts extended their manual analysis by recursively checking earlier and later versions of target projects where no sample was identified by RVD, continuing until no further vulnerable versions were found. This process expands **735 positive samples**. Ultimately, we gathered **4,569 positive samples across 1,300 target projects and 4,469 negative samples across 1,234 projects.**  We release whole [ground truth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx) with [Kappa](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/empirical_expansion_mark.xlsx) of 0.936 for sample expansion.
+	Moreover, as RVs can persist across multiple versions, the experts extended their manual analysis by recursively checking earlier and later versions of target projects where no sample was identified by RVD, continuing until no further vulnerable versions were found. This process expands **735 positive samples**. Ultimately, we gathered **4,569 positive samples across 1,300 target projects and 4,469 negative samples across 1,234 projects.**  We release whole [ground truth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx) with [Kappa](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/empirical_expansion_mark.xlsx) of 0.936 for sample expansion.
 
 ## RQ1 Characteristic Analysis of RVs.
 
@@ -52,13 +52,13 @@ We focus on three characteristics of RVs, **similarity types**, **patch scopes**
 
 To accurately assess the characteristics of RVs, follow these steps:
 
-- Enter to the `extraction` folder and clone the repositories mentioned in the [cve_list](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/emperical_cve_list.json) and run the [main.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ1/extraction/main.py) to extract the influenced functions. The output file will be `cve_origin_code.json`.
+- Enter to the `extraction` folder and clone the repositories mentioned in the [cve_list](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/emperical_cve_list.json) and run the [main.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ1/extraction/main.py) to extract the influenced functions. The output file will be [cve_origin_code.json](https://drive.google.com/file/d/1l2KheEowF00fk2-5YRVnXLFkPIYK6wS8/view?usp=drive_link).
 
   ```bash
   python main.py
   ```
 
-- Enter to the `RQ1` folder and clone the target repositories mentioned in our [groundtruth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx) and run the [extract_target_code.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ1/extract_single_method.py) to extract the target functions. The output file will be `target_code.json`.
+- Enter to the `RQ1` folder and clone the target repositories mentioned in our [groundtruth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx) and run the [extract_target_code.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ1/extract_single_method.py) to extract the target functions. The output file will be [transfer_code.json](https://drive.google.com/file/d/1Pk3-YyRP8fkDq2PhOxkAmgeiEh2cYxnX/view?usp=drive_link).
 
   ```
   python extract_target_code.py
@@ -96,44 +96,91 @@ To accurately assess the characteristics of RVs, follow these steps:
 - We began by sampling FPs and FNs for each RVD approach to reduce manual cost, resulting in 173, 814, 427, 208, 299 FPs, 881, 1,180, 314, 1,323, 879 FNs for the five approaches respectively. Sampling was performed at a 99% confidence level with a 3% confidence interval. We determined the root cause in each strategy that could cause FPs and FNs. The sampled data and its root cause is shown in [FP_samples_per_tool.xlsx](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ3/datas/FP_samples_per_tool.xlsx) and [FN_samples_per_tool.xlsx](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ3/datas/FN_samples_per_tool.xlsx) To ensure inter-rater reliability, Cohen’s Kappa was calculated, yielding 0.937 for [FPs](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ3/datas/FP_samples_expert_checked.xlsx) and 0.949 for [FNs](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ3/datas/FN_samples_expert_checked.xlsx).
 - Just run [fp_rootcause.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ3/fp_rootcause.py) and [fn_rootcause.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ3/fn_rootcause.py) to get the top three strategies that Introduced the most FPs and FNs, which is shown table 4.
 
-
-
 # AntMan
 
-## **Environment Setup:**
+## Environment Setup:
 
-TBD
+- ***Linux***: MVP is designed to work on any of the operating systems. However, currently, this repository only focuses on the Linux environment.
+
+- ***Git***
+
+- ***Python 3***
+
+- ***[joern](https://docs.joern.io/installation)***
+
+- ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***: for function elemtents extraction.
+
+  Our utilized versions: Python 3.11.8, joern 2.260 and some other relevant dependent packages listed in [requirements.txt](src/requirements.txt) on Ubuntu 18.04.
 
 ## Methodology Implementation
 
-TBD
+![approach](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/docs/approach.png)
+
+[The Prototype of AntMan](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/src).
 
 ## Evaluation
 
 ### RQ4 Effectiveness Evaluation
 
-TBD
+We assessed AntMan using the ground truth and compared it to the five baselines. The results of AntMan is shown in [raw_results.json](evaluation/RQ4/raw_results.json) and you can just run the script `effectiveness.py` to get some [data](evaluation/RQ4/results_RQ4.json) shown Table 5 and the json format of the AntMan's [results](evaluation/RQ4/results_antman_effectiveness.json).
+
+```
+python effectiveness.py
+```
+
+**Some description used in this script is as follows:**
+
+- `cve_lists.json`: the CVE list of original vulnerability used to construct our ground truth
+- `results_features.json`: the feature of RVs in our ground truth which is extracted in RQ1.
+- `results_other_tools.json`: the json format of our ground truth, splitting with the detected tools.
+- `ground truth.json`: the json format of our ground truth.
 
 ### RQ5 Ablation Study
 
-TBD
+We created six ablated versions of AntMan (i.e., w/o *norm*, w/o p^intra^, w/o *p^inter^*,  w/o *abs*, w/o *w* and w/ *LD*). To get the ablation study results which is shown in Table 6 of our paper, just replace the corresponding scripts in AntMan with those in the directory [w_o_norm](evaluation/RQ5/w_o_norm), [w_o_pintra](evaluation/RQ5/w_o_pintra), [w_o_pinter](evaluation/RQ5/w_o_pinter), [w_o_abs](evaluation/RQ5/w_o_abs), [w_o_w](evaluation/RQ5/w_o_w), [w_o_unixcoder](evaluation/RQ5/w_o_unixcoder),  respectively, and following the usage instructions outlined above to detect all [repositories](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json). Then follow the steps shown in RQ4 to get all metrics. The final results is shown in [results_ablation.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/results_ablation.json).
 
 ### RQ6 Parameter Sensitivity Analysis
 
-TBD
+We conducted a sensitivity analysis to assess the impact of various thresholds (*th~vul~, th~fix~, pro~vul~, pro~fix~*) on AntMan’s performance. Just modify the corresponding configurations in the detection script [Detection.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/src/hungarian/Detection.py), and following the usage instructions outlined above to detect all [repositories](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json). To get the Figure 2 in our paper, you need to :
 
-### RQ7 Generality Evaltion
+- run `python sensitivity_icpcvul_draw.py` point Figure 2(a) in RQ6
+- run `python sensitivity_icpcfix_draw.py` point Figure 2(b) in RQ6
+- run `python sensitivity_ICPCVUL__draw.py` point Figure 2(c) in RQ6
+- run `python sensitivity_ICPCFIX__draw.py` point Figure 2(d) in RQ6
 
-TBD
+### RQ7 Generality Evaluation
+
+- **Dataset:** AntMan was designed based on insights from our empirical study. To evaluate its generality, we further constructed a new dataset following the same procedure as in empirical study. Specifically, 
+
+  - We collected the newest C/C++ vulnerabilities reported between 1 January 2024 and 7 August 2024, gathering a set of [186 vulnerabilities ](evaluation/RQ7/generality_cve_list.json)with their corresponding patches.
+
+  - We then used these original vulnerability patches as inputs to detect RVs by the existing RVD approaches and AntMan. After sample confirmation and expansion, we finally gathered 813 positive and 260 negative [samples](evaluation/RQ7/generality_dataset.xlsx) with Cohen’s Kappa coefficient of [0.958](evaluation/RQ7/generality_confirmation_mark.xlsx) and [0.969](evaluation/RQ7/generality_expansion_mark.xlsx), respectively. 
+
+- **General-Purpose Vulnerability Detection Approach Selection.** We selected two state-of-the-art learning-based vulnerability detection approaches in our generality evaluation:
+
+  - **SySeVR:**  we cloned the open-source code of [SySeVR](https://github.com/SySeVR/SySeVR), following the [instructions](https://github.com/SySeVR/SySeVR/blob/master/README.md) and the [paper](https://arxiv.org/abs/1807.06756) to reproduce it.
+  - **DeepDFA: **we cloned the open-source code of [DeepDFA](https://github.com/ISU-PAAL/DeepDFA), following the [instructions](https://github.com/ISU-PAAL/DeepDFA/blob/master/README.md) and the [paper](https://github.com/ISU-PAAL/DeepDFA/blob/master/paper.pdf) to reproduce it.
+
+  We trained the models on our ground truth dataset, and assessed their performance on our new dataset as the testing dataset.
+
+- **Overall results:** 
+
+  - To get the six RVD approaches including AntMan, we merged all results they detected into json format, which is shown in [generality_rvd_results.json](evaluation/RQ7/generality_rvd_results.json), to get its metrics that is shown in Table 7 in our paper, just run the script, the metrics will be output in [rvd_generality_metrics.json](evaluation/RQ7/rvd_generality_metrics.json)
+
+  ```bash
+  python generality.py
+  ```
+
+  - we reproduce these methods and extract the metrics they output to the console. The extracted metrics are then saved in the file  [vd_generality_metrics.json](evaluation/RQ7/vd_generality_metrics.json)
 
 ### RQ8 0-day Detection Capability
 
-TBD
+To assess the 0-day vulnerability detection capability of AntMan, we compared AntMan with the five RVD approaches and the two learning-based approaches in terms of the pro-portion of detected 0-day vulnerabilities in our ground truth dataset and generality dataset. The results is shown in [results_0day.json](evaluation/RQ8/results_0day.json)
 
 ### RQ9 Efficiency Evaluation
 
-TBD
+We measured the average time taken to detect RVs in a single repository using all the original vulnerabilities collected in empirical study.  The results is shown in [results_efficiency.json](evaluation/RQ9/results_efficiency.json)
 
 ### RQ10 Usefulness Evaluation
 
-TBD
+AntMan notified target repositories of 274 1/N-day vulnerabilities with 188 of them confirmed, and notified target repositories of 73 0-day vulnerabilities with 67 of them confirmed. We reported 21 unique 0-day vulnerabilities to CVE with 5 CVE identifiers assigned.

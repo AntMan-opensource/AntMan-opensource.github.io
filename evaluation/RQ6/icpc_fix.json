@@ -1,0 +1,38 @@
+{
+    "1": {
+        "precision": 0.973,
+        "recall": 0.327
+    },
+    "2": {
+        "precision": 0.962,
+        "recall": 0.599
+    },
+    "3": {
+        "precision": 0.908,
+        "recall": 0.717
+    },
+    "4": {
+        "precision": 0.878,
+        "recall": 0.764
+    },
+    "5": {
+        "precision": 0.861,
+        "recall": 0.794
+    },
+    "6": {
+        "precision": 0.84,
+        "recall": 0.85
+    },
+    "7": {
+        "precision": 0.821,
+        "recall": 0.852
+    },
+    "8": {
+        "precision": 0.807,
+        "recall": 0.876
+    },
+    "9": {
+        "precision": 0.730,
+        "recall": 0.883
+    }
+}

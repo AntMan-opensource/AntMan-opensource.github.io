@@ -110,7 +110,7 @@ def extract_affected_version():
     affected_version = json.load(fp)
     fp.close()
 
-    fp = open("target_code_w_o_testcase.json")
+    fp = open("transfer_code.json")
     target_code = json.load(fp)
     fp.close()
 

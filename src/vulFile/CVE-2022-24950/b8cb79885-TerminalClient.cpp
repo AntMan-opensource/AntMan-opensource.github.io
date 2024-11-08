@@ -1,0 +1,388 @@
+
+
+
+
+namespace et {
+vector<PortForwardSourceRequest> parseRangesToRequests(const string& input) {
+  vector<PortForwardSourceRequest> pfsrs;
+  auto j = split(input, ',');
+  for (auto& pair : j) {
+    vector<string> sourceDestination = split(pair, ':');
+    try {
+      if (sourceDestination[0].find_first_not_of("0123456789-") != string::npos && sourceDestination[1].find_first_not_of("0123456789-") != string::npos) {
+
+
+        PortForwardSourceRequest pfsr;
+        pfsr.mutable_source()->set_name(sourceDestination[0]);
+        pfsr.mutable_destination()->set_name(sourceDestination[1]);
+        pfsrs.push_back(pfsr);
+      } else if (sourceDestination[0].find('-') != string::npos && sourceDestination[1].find('-') != string::npos) {
+        vector<string> sourcePortRange = split(sourceDestination[0], '-');
+        int sourcePortStart = stoi(sourcePortRange[0]);
+        int sourcePortEnd = stoi(sourcePortRange[1]);
+
+        vector<string> destinationPortRange = split(sourceDestination[1], '-');
+        int destinationPortStart = stoi(destinationPortRange[0]);
+        int destinationPortEnd = stoi(destinationPortRange[1]);
+
+        if (sourcePortEnd - sourcePortStart != destinationPortEnd - destinationPortStart) {
+          STFATAL << "source/destination port range mismatch";
+          exit(1);
+        } else {
+          int portRangeLength = sourcePortEnd - sourcePortStart + 1;
+          for (int i = 0; i < portRangeLength; ++i) {
+            PortForwardSourceRequest pfsr;
+            pfsr.mutable_source()->set_port(sourcePortStart + i);
+            pfsr.mutable_destination()->set_port(destinationPortStart + i);
+            pfsrs.push_back(pfsr);
+          }
+        }
+      } else if (sourceDestination[0].find('-') != string::npos || sourceDestination[1].find('-') != string::npos) {
+        STFATAL << "Invalid port range syntax: if source is range, " "destination must be range";
+      } else {
+        PortForwardSourceRequest pfsr;
+        pfsr.mutable_source()->set_port(stoi(sourceDestination[0]));
+        pfsr.mutable_destination()->set_port(stoi(sourceDestination[1]));
+        pfsrs.push_back(pfsr);
+      }
+    } catch (const std::logic_error& lr) {
+      STFATAL << "Logic error: " << lr.what();
+      exit(1);
+    }
+  }
+  return pfsrs;
+}
+
+TerminalClient::TerminalClient(shared_ptr<SocketHandler> _socketHandler, shared_ptr<SocketHandler> _pipeSocketHandler, const SocketEndpoint& _socketEndpoint, const string& id, const string& passkey, shared_ptr<Console> _console, bool jumphost, const string& tunnels, const string& reverseTunnels, bool forwardSshAgent, const string& identityAgent)
+
+
+
+
+
+
+
+    : console(_console), shuttingDown(false) {
+  portForwardHandler = shared_ptr<PortForwardHandler>( new PortForwardHandler(_socketHandler, _pipeSocketHandler));
+  InitialPayload payload;
+  payload.set_jumphost(jumphost);
+
+  try {
+    if (tunnels.length()) {
+      auto pfsrs = parseRangesToRequests(tunnels);
+      for (auto& pfsr : pfsrs) {
+
+        STFATAL << "Source tunnel not supported on windows yet";
+
+        auto pfsresponse = portForwardHandler->createSource(pfsr, nullptr, -1, -1);
+        if (pfsresponse.has_error()) {
+          throw std::runtime_error(pfsresponse.error());
+        }
+
+      }
+    }
+    if (reverseTunnels.length()) {
+      auto pfsrs = parseRangesToRequests(reverseTunnels);
+      for (auto& pfsr : pfsrs) {
+        *(payload.add_reversetunnels()) = pfsr;
+      }
+    }
+    if (forwardSshAgent) {
+      PortForwardSourceRequest pfsr;
+      string authSock = "";
+      if (identityAgent.length()) {
+        authSock.assign(identityAgent);
+      } else {
+        auto authSockEnv = getenv("SSH_AUTH_SOCK");
+        if (!authSockEnv) {
+          CLOG(INFO, "stdout")
+              << "Missing environment variable SSH_AUTH_SOCK.  Are you sure " "you " "ran ssh-agent first?" << endl;
+
+
+          exit(1);
+        }
+        authSock.assign(authSockEnv);
+      }
+      if (authSock.length()) {
+        pfsr.mutable_destination()->set_name(authSock);
+        pfsr.set_environmentvariable("SSH_AUTH_SOCK");
+        *(payload.add_reversetunnels()) = pfsr;
+      }
+    }
+  } catch (const std::runtime_error& ex) {
+    CLOG(INFO, "stdout") << "Error establishing port forward: " << ex.what()
+                         << endl;
+    exit(1);
+  }
+
+  connection = shared_ptr<ClientConnection>( new ClientConnection(_socketHandler, _socketEndpoint, id, passkey));
+
+  int connectFailCount = 0;
+  while (true) {
+    try {
+      bool fail = true;
+      if (connection->connect()) {
+        connection->writePacket( Packet(EtPacketType::INITIAL_PAYLOAD, protoToString(payload)));
+        fd_set rfd;
+        timeval tv;
+        for (int a = 0; a < 3; a++) {
+          FD_ZERO(&rfd);
+          int clientFd = connection->getSocketFd();
+          if (clientFd < 0) {
+            std::this_thread::sleep_for(std::chrono::seconds(1));
+            continue;
+          }
+          FD_SET(clientFd, &rfd);
+          tv.tv_sec = 1;
+          tv.tv_usec = 0;
+          select(clientFd + 1, &rfd, NULL, NULL, &tv);
+          if (FD_ISSET(clientFd, &rfd)) {
+            Packet initialResponsePacket;
+            if (connection->readPacket(&initialResponsePacket)) {
+              if (initialResponsePacket.getHeader() != EtPacketType::INITIAL_RESPONSE) {
+                CLOG(INFO, "stdout") << "Error: Missing initial response\n";
+                STFATAL << "Missing initial response!";
+              }
+              auto initialResponse = stringToProto<InitialResponse>( initialResponsePacket.getPayload());
+              if (initialResponse.has_error()) {
+                CLOG(INFO, "stdout") << "Error initializing connection: " << initialResponse.error() << endl;
+                exit(1);
+              }
+              fail = false;
+              break;
+            }
+          }
+        }
+      }
+      if (fail) {
+        LOG(WARNING) << "Connecting to server failed: Connect timeout";
+        connectFailCount++;
+        if (connectFailCount == 3) {
+          throw std::runtime_error("Connect Timeout");
+        }
+      }
+    } catch (const runtime_error& err) {
+      LOG(INFO) << "Could not make initial connection to server";
+      CLOG(INFO, "stdout") << "Could not make initial connection to " << _socketEndpoint << ": " << err.what() << endl;
+      exit(1);
+    }
+
+    TelemetryService::get()->logToDatadog("Connection Established", el::Level::Info, __FILE__, __LINE__);
+    break;
+  }
+  VLOG(1) << "Client created with id: " << connection->getId();
+};
+
+TerminalClient::~TerminalClient() {
+  connection->shutdown();
+  console.reset();
+  portForwardHandler.reset();
+  connection.reset();
+}
+
+void TerminalClient::run(const string& command) {
+  if (console) {
+    console->setup();
+  }
+
+
+
+  char b[BUF_SIZE];
+
+  time_t keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+  bool waitingOnKeepalive = false;
+
+  if (command.length()) {
+    LOG(INFO) << "Got command: " << command;
+    et::TerminalBuffer tb;
+    tb.set_buffer(command + "; exit\n");
+
+    connection->writePacket( Packet(TerminalPacketType::TERMINAL_BUFFER, protoToString(tb)));
+  }
+
+  TerminalInfo lastTerminalInfo;
+
+  if (!console.get()) {
+    CLOG(INFO, "stdout") << "ET running, feel free to background..." << endl;
+  }
+
+  while (!connection->isShuttingDown()) {
+    {
+      lock_guard<recursive_mutex> guard(shutdownMutex);
+      if (shuttingDown) {
+        break;
+      }
+    }
+    
+    
+    fd_set rfd;
+    timeval tv;
+
+    FD_ZERO(&rfd);
+    int maxfd = -1;
+    int consoleFd = -1;
+    if (console) {
+      consoleFd = console->getFd();
+      maxfd = consoleFd;
+      FD_SET(consoleFd, &rfd);
+    }
+    int clientFd = connection->getSocketFd();
+    if (clientFd > 0) {
+      FD_SET(clientFd, &rfd);
+      maxfd = max(maxfd, clientFd);
+    }
+    
+    tv.tv_sec = 0;
+    tv.tv_usec = 10000;
+    select(maxfd + 1, &rfd, NULL, NULL, &tv);
+
+    try {
+      if (console) {
+        
+        if (FD_ISSET(consoleFd, &rfd)) {
+          
+          
+          VLOG(4) << "Got data from stdin";
+
+          DWORD events;
+          INPUT_RECORD buffer[128];
+          HANDLE handle = GetStdHandle(STD_INPUT_HANDLE);
+          PeekConsoleInput(handle, buffer, 128, &events);
+          if (events > 0) {
+            ReadConsoleInput(handle, buffer, 128, &events);
+            string s;
+            for (int keyEvent = 0; keyEvent < events; keyEvent++) {
+              if (buffer[keyEvent].EventType == KEY_EVENT && buffer[keyEvent].Event.KeyEvent.bKeyDown) {
+                char charPressed = ((char)buffer[keyEvent].Event.KeyEvent.uChar.AsciiChar);
+                if (charPressed) {
+                  s += charPressed;
+                }
+              }
+            }
+            if (s.length()) {
+              et::TerminalBuffer tb;
+              tb.set_buffer(s);
+
+              connection->writePacket(Packet( TerminalPacketType::TERMINAL_BUFFER, protoToString(tb)));
+              keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+            }
+          }
+
+          if (console) {
+            int rc = ::read(consoleFd, b, BUF_SIZE);
+            FATAL_FAIL(rc);
+            if (rc > 0) {
+              
+              
+              string s(b, rc);
+              et::TerminalBuffer tb;
+              tb.set_buffer(s);
+
+              connection->writePacket(Packet( TerminalPacketType::TERMINAL_BUFFER, protoToString(tb)));
+              keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+            }
+          }
+
+        }
+      }
+
+      if (clientFd > 0 && FD_ISSET(clientFd, &rfd)) {
+        VLOG(4) << "Clientfd is selected";
+        while (connection->hasData()) {
+          VLOG(4) << "connection has data";
+          Packet packet;
+          if (!connection->read(&packet)) {
+            break;
+          }
+          uint8_t packetType = packet.getHeader();
+          if (packetType == et::TerminalPacketType::PORT_FORWARD_DATA || packetType == et::TerminalPacketType::PORT_FORWARD_DESTINATION_REQUEST || packetType == et::TerminalPacketType::PORT_FORWARD_DESTINATION_RESPONSE) {
+
+
+
+            keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+            VLOG(4) << "Got PF packet type " << packetType;
+            portForwardHandler->handlePacket(packet, connection);
+            continue;
+          }
+          switch (packetType) {
+            case et::TerminalPacketType::TERMINAL_BUFFER: {
+              if (console) {
+                VLOG(3) << "Got terminal buffer";
+                
+                et::TerminalBuffer tb = stringToProto<et::TerminalBuffer>(packet.getPayload());
+                const string& s = tb.buffer();
+                
+                
+                
+                keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+                console->write(s);
+              }
+              break;
+            }
+            case et::TerminalPacketType::KEEP_ALIVE:
+              waitingOnKeepalive = false;
+              
+              
+              LOG(INFO) << "Got a keepalive";
+              break;
+            default:
+              STFATAL << "Unknown packet type: " << int(packetType);
+          }
+        }
+      }
+
+      if (clientFd > 0 && keepaliveTime < time(NULL)) {
+        keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+        if (waitingOnKeepalive) {
+          LOG(INFO) << "Missed a keepalive, killing connection.";
+          connection->closeSocketAndMaybeReconnect();
+          waitingOnKeepalive = false;
+        } else {
+          LOG(INFO) << "Writing keepalive packet";
+          connection->writePacket(Packet(TerminalPacketType::KEEP_ALIVE, ""));
+          waitingOnKeepalive = true;
+        }
+      }
+      if (clientFd < 0) {
+        
+        waitingOnKeepalive = false;
+      }
+
+      if (console) {
+        TerminalInfo ti = console->getTerminalInfo();
+
+        if (ti != lastTerminalInfo) {
+          LOG(INFO) << "Window size changed: row: " << ti.row()
+                    << " column: " << ti.column() << " width: " << ti.width()
+                    << " height: " << ti.height();
+          lastTerminalInfo = ti;
+          connection->writePacket( Packet(TerminalPacketType::TERMINAL_INFO, protoToString(ti)));
+        }
+      }
+
+      vector<PortForwardDestinationRequest> requests;
+      vector<PortForwardData> dataToSend;
+      portForwardHandler->update(&requests, &dataToSend);
+      for (auto& pfr : requests) {
+        connection->writePacket( Packet(TerminalPacketType::PORT_FORWARD_DESTINATION_REQUEST, protoToString(pfr)));
+
+        VLOG(4) << "send PF request";
+        keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+      }
+      for (auto& pwd : dataToSend) {
+        connection->writePacket( Packet(TerminalPacketType::PORT_FORWARD_DATA, protoToString(pwd)));
+        VLOG(4) << "send PF data";
+        keepaliveTime = time(NULL) + CLIENT_KEEP_ALIVE_DURATION;
+      }
+    } catch (const runtime_error& re) {
+      STERROR << "Error: " << re.what();
+      CLOG(INFO, "stdout") << "Connection closing because of error: " << re.what() << endl;
+      lock_guard<recursive_mutex> guard(shutdownMutex);
+      shuttingDown = true;
+    }
+  }
+  if (console) {
+    console->teardown();
+  }
+  CLOG(INFO, "stdout") << "Session terminated" << endl;
+}
+}  

@@ -1,0 +1,746 @@
+{
+    "CVE-2024-25763": {
+        "commitId": "210c5da18e90d684f3415de95faa53ae3b7dce8f",
+        "repo": "https://github.com/openNDS/openNDS"
+    },
+    "CVE-2024-21825": {
+        "commitId": "18c2e17",
+        "repo": "https://github.com/ggerganov/llama.cpp"
+    },
+    "CVE-2024-3077": {
+        "commitId": "3eeb8f8d18d02962e0a842e46ad247648f84fa41",
+        "repo": "https://github.com/zephyrproject-rtos/zephyr"
+    },
+    "CVE-2024-37880": {
+        "commitId": "9b8d30698a3e7449aeb34e62339d4176f11e3c6c",
+        "repo": "https://github.com/pq-crystals/kyber"
+    },
+    "CVE-2024-39695": {
+        "commitId": "3a28346db5ae1735a8728fe3491b0aecc1dbf387",
+        "repo": "https://github.com/Exiv2/exiv2"
+    },
+    "CVE-2024-0684": {
+        "commitId": "c4c5ed8f4e9cd55a12966d4f520e3a13101637d9",
+        "repo": "https://github.com/coreutils/coreutils"
+    },
+    "CVE-2024-21506": {
+        "commitId": "56b6b6dbc267d365d97c037082369dabf37405d2",
+        "repo": "https://github.com/mongodb/mongo-python-driver"
+    },
+    "CVE-2024-30800": {
+        "commitId": "e280a6c6e68fdc2804cf63754e83a412c1421bf6",
+        "repo": "https://github.com/PX4/PX4-Autopilot"
+    },
+    "CVE-2024-6383": {
+        "commitId": "7c34461863211be172e6317221d72e4429bed45e",
+        "repo": "https://github.com/mongodb/mongo-c-driver"
+    },
+    "CVE-2024-32624": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-6564": {
+        "commitId": "c9fb3558410032d2660c7f3b7d4b87dec09fe2f2",
+        "repo": "https://github.com/renesas-rcar/arm-trusted-firmware"
+    },
+    "CVE-2024-25713": {
+        "commitId": "0eca326fe57aeeb866e6f04c9ef9ea9f8343157e",
+        "repo": "https://github.com/ibireme/yyjson"
+    },
+    "CVE-2024-31949": {
+        "commitId": "30a332dad86fafd2b0b6c61d23de59ed969a219b",
+        "repo": "https://github.com/FRRouting/frr"
+    },
+    "CVE-2024-6287": {
+        "commitId": "954d488a9798f8fda675c6b57c571b469b298f04",
+        "repo": "https://github.com/renesas-rcar/arm-trusted-firmware"
+    },
+    "CVE-2024-0641": {
+        "commitId": "08e50cf071847323414df0835109b6f3560d44f5",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-2212": {
+        "commitId": "9f3e35d3dcacfac3eed6df8fb8cc6ed9a5a680d5",
+        "repo": "https://github.com/eclipse-threadx/threadx"
+    },
+    "CVE-2024-31582": {
+        "commitId": "99debe5f823f45a482e1dc08de35879aa9c74bd2",
+        "repo": "https://github.com/ffmpeg/ffmpeg"
+    },
+    "CVE-2024-38427": {
+        "commitId": "f891074a0f1c9d61a3dfa53749265f8c14ed4ee6",
+        "repo": "https://github.com/InternationalColorConsortium/DemoIccMAX"
+    },
+    "CVE-2024-4693": {
+        "commitId": "2ce6cff94df2650c460f809e5ad263f1d22507c0",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    "CVE-2024-21802": {
+        "commitId": "18c2e17",
+        "repo": "https://github.com/ggerganov/llama.cpp"
+    },
+    "CVE-2024-3159": {
+        "commitId": "807cf7d0b7d96212c98ed2119e07f9b2c6a23f61",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-29039": {
+        "commitId": "98599df9392a346216c5a059b8d35271286100bb",
+        "repo": "https://github.com/tpm2-software/tpm2-tools"
+    },
+    "CVE-2024-6563": {
+        "commitId": "235f85b654a031f7647e81b86fc8e4ffeb430164",
+        "repo": "https://github.com/renesas-rcar/arm-trusted-firmware"
+    },
+    "CVE-2024-4947": {
+        "commitId": "b3c01ac1e60afc9addad9942f7a9a6c5e8a4a6da",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-32612": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-24199": {
+        "commitId": "1a3e826354e3eee99ef2171457f20b372f306ebd",
+        "repo": "https://github.com/pymumu/smartdns"
+    },
+    "CVE-2024-39844": {
+        "commitId": "8cbf8d628174ddf23da680f3f117dc54da0eb06e",
+        "repo": "https://github.com/znc/znc"
+    },
+    "CVE-2024-29040": {
+        "commitId": "710cd0b6adf3a063f34a8e92da46df7a107d9a99",
+        "repo": "https://github.com/tpm2-software/tpm2-tss"
+    },
+    "CVE-2024-24474": {
+        "commitId": "77668e4b9bca03a856c27ba899a2513ddf52bb52",
+        "repo": "https://github.com/qemu/qemu"
+    },
+    "CVE-2024-21640": {
+        "commitId": "1f55d2e12f62cfdfbf9da6968fde2f928982670b",
+        "repo": "https://github.com/chromiumembedded/cef"
+    },
+    "CVE-2024-32613": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-23775": {
+        "commitId": "e90cbc3d1260901efc879178a15f2d90a5e17612",
+        "repo": "https://github.com/Mbed-TLS/mbedtls"
+    },
+    "CVE-2024-25679": {
+        "commitId": "5bde5bb5534ae3fc233547b2db88f418fceff170",
+        "repo": "https://github.com/p-quic/pquic"
+    },
+    "CVE-2024-24479": {
+        "commitId": "c3720cff158c265dec2a0c6104b1d65954ae6bfd",
+        "repo": "https://github.com/wireshark/wireshark"
+    },
+    "CVE-2024-33428": {
+        "commitId": "5902ff2ca953f2f9ce6b43547a0cd4e1f31d4e74",
+        "repo": "https://github.com/stsaz/phiola"
+    },
+    "CVE-2024-32760": {
+        "commitId": "ffed470390784524800ca38dd415c2d71442c6c2",
+        "repo": "https://github.com/nginx/nginx"
+    },
+    "CVE-2024-25714": {
+        "commitId": "f9fd9a1c77e48b514ebb3baf0360f87eef3d846e",
+        "repo": "https://github.com/babelouest/rhonabwy"
+    },
+    "CVE-2024-36048": {
+        "commitId": "5c0c90b6e5c3cdabd6ad41d5b6478250c8877f48",
+        "repo": "https://github.com/qt/qtnetworkauth"
+    },
+    "CVE-2024-24198": {
+        "commitId": "1a3e826354e3eee99ef2171457f20b372f306ebd",
+        "repo": "https://github.com/pymumu/smartdns"
+    },
+    "CVE-2024-31948": {
+        "commitId": "ba6a8f1a31e1a88df2de69ea46068e8bd9b97138",
+        "repo": "https://github.com/FRRouting/frr"
+    },
+    "CVE-2024-40630": {
+        "commitId": "0a2dcb4cf2c3fd4825a146cd3ad929d9d8305ce3",
+        "repo": "https://github.com/AcademySoftwareFoundation/OpenImageIO"
+    },
+    "CVE-2024-33430": {
+        "commitId": "5902ff2ca953f2f9ce6b43547a0cd4e1f31d4e74",
+        "repo": "https://github.com/stsaz/phiola"
+    },
+    "CVE-2024-31580": {
+        "commitId": "b5c3a17c2c207ebefcb85043f0cf94be9b2fef81",
+        "repo": "https://github.com/pytorch/pytorch"
+    },
+    "CVE-2024-0639": {
+        "commitId": "6feb37b3b06e9049e20dcf7e23998f92c9c5be9a",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-35235": {
+        "commitId": "ff1f8a623e090dee8a8aadf12a6a4b25efac143d",
+        "repo": "https://github.com/OpenPrinting/cups"
+    },
+    "CVE-2024-31583": {
+        "commitId": "9c7071b0e324f9fb68ab881283d6b8d388a4bcd2",
+        "repo": "https://github.com/pytorch/pytorch"
+    },
+    "CVE-2024-31047": {
+        "commitId": "7aa89e1d09b09d9f5dbb96976ee083a331ab9d71",
+        "repo": "https://github.com/AcademySoftwareFoundation/openexr"
+    },
+    "CVE-2024-1454": {
+        "commitId": "5835f0d4f6c033bd58806d33fa546908d39825c9",
+        "repo": "https://github.com/OpenSC/OpenSC"
+    },
+    "CVE-2024-25082": {
+        "commitId": "216eb14b558df344b206bf82e2bdaf03a1f2f429",
+        "repo": "https://github.com/fontforge/fontforge"
+    },
+    "CVE-2024-29038": {
+        "commitId": "66d922d6547b7b4fe4f274fb2ec10b376e0e259c",
+        "repo": "https://github.com/tpm2-software/tpm2-tools"
+    },
+    "CVE-2024-6062": {
+        "commitId": "31e499d310a48bd17c8b055a0bfe0fe35887a7cd",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-32487": {
+        "commitId": "007521ac3c95bc76e3d59c6dbfe75d06c8075c33",
+        "repo": "https://github.com/gwsw/less"
+    },
+    "CVE-2024-31581": {
+        "commitId": "ce0c178a408d43e71085c28a47d50dc939b60196",
+        "repo": "https://github.com/ffmpeg/ffmpeg"
+    },
+    "CVE-2024-32611": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-33877": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-32230": {
+        "commitId": "67ca3a5ee7d4ddb55fbe93de9cf7898eb09b7887",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    "CVE-2024-32605": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-6388": {
+        "commitId": "b971b790e759e89b5f3d78b45f1816961099db32",
+        "repo": "https://github.com/canonical/ubuntu-advantage-desktop-daemon"
+    },
+    "CVE-2024-31745": {
+        "commitId": "404e6b1b14f60c81388d50b4239f81d461b3c3ad",
+        "repo": "https://github.com/davea42/libdwarf-code"
+    },
+    "CVE-2024-23837": {
+        "commitId": "20ac301d801cdf01b3f021cca08a22a87f477c4a",
+        "repo": "https://github.com/OISF/libhtp"
+    },
+    "CVE-2024-35200": {
+        "commitId": "326150b82d5a345dfb8799f2f52e987760ea242e",
+        "repo": "https://github.com/nginx/nginx"
+    },
+    "CVE-2024-34509": {
+        "commitId": "c78e434c0c5f9d932874f0b17a8b4ce305ca01f5",
+        "repo": "https://github.com/DCMTK/dcmtk"
+    },
+    "CVE-2024-41130": {
+        "commitId": "07283b1a90e1320aae4762c7e03c879043910252",
+        "repo": "https://github.com/ggerganov/llama.cpp"
+    },
+    "CVE-2024-1433": {
+        "commitId": "6cdf42916369ebf4ad5bd876c4dfa0170d7b2f01",
+        "repo": "https://github.com/KDE/plasma-workspace"
+    },
+    "CVE-2024-32661": {
+        "commitId": "71e463e31b4d69f4022d36bfc814592f56600793",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    "CVE-2024-26540": {
+        "commitId": "cb9c5518905ea370954a59903ff747650c6edd40",
+        "repo": "https://github.com/GreycLab/CImg"
+    },
+    "CVE-2024-28960": {
+        "commitId": "8d9d4fe20daca8d7e0390fa8d350ad80be7cca83",
+        "repo": "https://github.com/Mbed-TLS/mbedtls"
+    },
+    "CVE-2024-37877": {
+        "commitId": "b68de9b52a856b1f632b6cb6d38928e16163b00a",
+        "repo": "https://github.com/aligungr/UERANSIM"
+    },
+    "CVE-2024-3933": {
+        "commitId": "53e909c419b5ab0eced9de02af54d35a389702bd",
+        "repo": "https://github.com/eclipse/omr"
+    },
+    "CVE-2024-2173": {
+        "commitId": "7330f46163e8a2c10a3d40ecbf554656f0ac55e8",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-6772": {
+        "commitId": "901377bb2f3b8ff45fbd077fc425fc2f4e66036a",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-0217": {
+        "commitId": "64278c9127e3333342b56ead99556161f7e86f79",
+        "repo": "https://github.com/PackageKit/PackageKit"
+    },
+    "CVE-2024-28286": {
+        "commitId": "cee97f7676ee4b6b87cc5e2cddc7971d12cf1ee7",
+        "repo": "https://github.com/mz-automation/libiec61850"
+    },
+    "CVE-2024-32228": {
+        "commitId": "30002d58fa4115fad26bc1fa302dfca5de10e853",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    "CVE-2024-25742": {
+        "commitId": "e3ef461af35a8c74f2f4ce6616491ddb355a208f",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-25269": {
+        "commitId": "877de6b398198bca387df791b9232922c5721c80",
+        "repo": "https://github.com/strukturag/libheif"
+    },
+    "CVE-2024-33903": {
+        "commitId": "e55a4ef1c08e046ad3bcbce6b4b374434bc08153",
+        "repo": "https://github.com/carla-simulator/carla"
+    },
+    "CVE-2024-33904": {
+        "commitId": "28c85619243e6320e75d7abcfe8244fa99d054dd",
+        "repo": "https://github.com/hyprwm/Hyprland"
+    },
+    "CVE-2024-22862": {
+        "commitId": "ca09d8a0dcd82e3128e62463231296aaf63ae6f7",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    "CVE-2024-28182": {
+        "commitId": "00201ecd8f982da3b67d4f6868af72a1b03b14e0",
+        "repo": "https://github.com/nghttp2/nghttp2"
+    },
+    "CVE-2024-0582": {
+        "commitId": "c392cbecd8eca4c53f2bf508731257d9d0a21c2d",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-6285": {
+        "commitId": "b596f580637bae919b0ac3a5471422a1f756db3b",
+        "repo": "https://github.com/renesas-rcar/arm-trusted-firmware"
+    },
+    "CVE-2024-26599": {
+        "commitId": "a297d07b9a1e4fb8cda25a4a2363a507d294b7c9",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-29162": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-21836": {
+        "commitId": "18c2e17",
+        "repo": "https://github.com/ggerganov/llama.cpp"
+    },
+    "CVE-2024-6063": {
+        "commitId": "8767ed0a77c4b02287db3723e92c2169f67c85d5",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-21646": {
+        "commitId": "12ddb3a31a5a97f55b06fa5d74c59a1d84ad78fe",
+        "repo": "https://github.com/Azure/azure-uamqp-c"
+    },
+    "CVE-2024-23770": {
+        "commitId": "2b339828b2a42a5fda105ea84934957a7d23e35d",
+        "repo": "https://github.com/emikulic/darkhttpd"
+    },
+    "CVE-2024-40130": {
+        "commitId": "2f8ae91b0b9467f94f128090c88cae91bd73e008",
+        "repo": "https://github.com/open5gs/open5gs"
+    },
+    "CVE-2024-26475": {
+        "commitId": "8419d7d0cbe61c687dcb8a35de0acccb2ee4c220",
+        "repo": "https://github.com/radareorg/radare2"
+    },
+    "CVE-2024-32616": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-6061": {
+        "commitId": "20c0f29139a82779b86453ce7f68d0681ec7624c",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-25110": {
+        "commitId": "30865c9ccedaa32ddb036e87a8ebb52c3f18f695",
+        "repo": "https://github.com/Azure/azure-uamqp-c"
+    },
+    "CVE-2024-27913": {
+        "commitId": "541503eecd302d2cc8456167d130014cd2cf1134",
+        "repo": "https://github.com/FRRouting/frr"
+    },
+    "CVE-2024-31578": {
+        "commitId": "3bb00c0a420c3ce83c6fafee30270d69622ccad7",
+        "repo": "https://github.com/ffmpeg/ffmpeg"
+    },
+    "CVE-2024-22860": {
+        "commitId": "d2e8974699a9e35cc1a926bf74a972300d629cd5",
+        "repo": "https://github.com/FFmpeg/FFmpeg"
+    },
+    "CVE-2024-24476": {
+        "commitId": "108217f4bb1afb8b25fc705c2722b3e328b1ad78",
+        "repo": "https://github.com/wireshark/wireshark"
+    },
+    "CVE-2024-40725": {
+        "commitId": "a7d24b4ea9a6ea35878fd33075365328caafcf91",
+        "repo": "https://github.com/apache/httpd"
+    },
+    "CVE-2024-1638": {
+        "commitId": "d9ff7eb0eda36b4b70e5c5badfd6661c1ddfe626",
+        "repo": "https://github.com/zephyrproject-rtos/zephyr"
+    },
+    "CVE-2024-32258": {
+        "commitId": "3e1a8ec4865510279dfcc2453b5d906a8fd2a98a",
+        "repo": "https://github.com/TASEmulators/fceux"
+    },
+    "CVE-2024-38536": {
+        "commitId": "2bd3bd0e318f19008e9fe068ab17277c530ffb92",
+        "repo": "https://github.com/OISF/suricata"
+    },
+    "CVE-2024-26529": {
+        "commitId": "cf94d64206cf53298edf4799a75b31657bb7cbb3",
+        "repo": "https://github.com/mz-automation/libiec61850"
+    },
+    "CVE-2024-0901": {
+        "commitId": "9db20774d8abe0725734d48090bd4f650a477b8a",
+        "repo": "https://github.com/wolfSSL/wolfssl"
+    },
+    "CVE-2024-31036": {
+        "commitId": "8988d417c25ddc89dc07c804964034541e345d7c",
+        "repo": "https://github.com/nanomq/nanomq"
+    },
+    "CVE-2024-24267": {
+        "commitId": "d28d9ba45cf4f628a7b2c351849a895e6fcf2234",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-35434": {
+        "commitId": "da80ced1e3cf6321f748b08e145a829bcc3c90e5",
+        "repo": "https://github.com/irontec/sngrep"
+    },
+    "CVE-2024-23170": {
+        "commitId": "aa6760d7b5d9a218eaf072f4155974f58b00986b",
+        "repo": "https://github.com/Mbed-TLS/mbedtls"
+    },
+    "CVE-2024-32985": {
+        "commitId": "97138128b4fc02cf296a07acc5d7145557a27782",
+        "repo": "https://github.com/stellar/stellar-core"
+    },
+    "CVE-2024-6874": {
+        "commitId": "686d54baf1df6e0775",
+        "repo": "https://github.com/curl/curl"
+    },
+    "CVE-2024-39894": {
+        "commitId": "146c420d29d055cc75c8606327a1cf8439fe3a08",
+        "repo": "https://github.com/openssh/openssh-portable"
+    },
+    "CVE-2024-32662": {
+        "commitId": "626d10a94a88565d957ddc30768ed08b320049a7",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    "CVE-2024-34161": {
+        "commitId": "0e7702e06655e3b439be8fbcd57bc91539912c2f",
+        "repo": "https://github.com/nginx/nginx"
+    },
+    "CVE-2024-23196": {
+        "commitId": "1f4a08fed450db87fbb5ff5105354158bdbe1a22",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-21875": {
+        "commitId": "bd4b5777948e66b78693e6d3d73cac68e20ee0a6",
+        "repo": "https://github.com/badgeteam/hackerhotel-2024-firmware-esp32c6"
+    },
+    "CVE-2024-33078": {
+        "commitId": "497ff2e16d25622f5c430568895b73ab4c37cc1a",
+        "repo": "https://github.com/Tencent/libpag"
+    },
+    "CVE-2024-5158": {
+        "commitId": "cc05792346fb017eaa961ee7d35cf1f9bb53bb0a",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-38520": {
+        "commitId": "c2a7aa548137dc80c6aafdc645cf4dc34e0dc764",
+        "repo": "https://github.com/SoftEtherVPN/SoftEtherVPN"
+    },
+    "CVE-2024-37407": {
+        "commitId": "b6a979481b7d77c12fa17bbed94576b63bbcb0c0",
+        "repo": "https://github.com/libarchive/libarchive"
+    },
+    "CVE-2024-25366": {
+        "commitId": "cf94d64206cf53298edf4799a75b31657bb7cbb3",
+        "repo": "https://github.com/mz-automation/libiec61850"
+    },
+    "CVE-2024-23839": {
+        "commitId": "cd731fcaf42e5f7078c9be643bfa0cee2ad53e8f",
+        "repo": "https://github.com/OISF/suricata"
+    },
+    "CVE-2024-30254": {
+        "commitId": "594b6334061371911cd59389124ab8af30ce0a3a",
+        "repo": "https://github.com/JCWasmx86/mesonlsp"
+    },
+    "CVE-2024-28319": {
+        "commitId": "cb3c29809bddfa32686e3deb231a76af67b68e1e",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-22749": {
+        "commitId": "7aef8038c6bdd310e65000704e39afaa0e721048",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-40129": {
+        "commitId": "2fbc445d32aa7749166396a9c055a199f90a1b01",
+        "repo": "https://github.com/open5gs/open5gs"
+    },
+    "CVE-2024-2214": {
+        "commitId": "39f3c86c61ec478720bac9fca8f17ccedb8f052b",
+        "repo": "https://github.com/eclipse-threadx/threadx"
+    },
+    "CVE-2024-5274": {
+        "commitId": "3e037e195e508dea045f5626862412e8f64fc919",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-2625": {
+        "commitId": "8f477f936c9b9e6b4c9f35a8ccc5e65bd4cb7f4e",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-38462": {
+        "commitId": "075ce0c4fb67374e3d99007609018ef4c0ebcde8",
+        "repo": "https://github.com/irods/irods"
+    },
+    "CVE-2024-24575": {
+        "commitId": "add2dabb3c16aa49b33904dcdc07cd915efc12fa",
+        "repo": "https://github.com/libgit2/libgit2"
+    },
+    "CVE-2024-27507": {
+        "commitId": "f1da55589ce568119a5b4cb5707af2ec403b3cd7",
+        "repo": "https://github.com/libLAS/libLAS"
+    },
+    "CVE-2024-4323": {
+        "commitId": "9311b43a258352797af40749ab31a63c32acfd04",
+        "repo": "https://github.com/fluent/fluent-bit"
+    },
+    "CVE-2024-33431": {
+        "commitId": "5902ff2ca953f2f9ce6b43547a0cd4e1f31d4e74",
+        "repo": "https://github.com/stsaz/phiola"
+    },
+    "CVE-2024-23638": {
+        "commitId": "290ae202883ac28a48867079c2fb34c40efd382b",
+        "repo": "https://github.com/squid-cache/squid"
+    },
+    "CVE-2024-31584": {
+        "commitId": "7c35874ad664e74c8e4252d67521f3986eadb0e6",
+        "repo": "https://github.com/pytorch/pytorch"
+    },
+    "CVE-2024-29460": {
+        "commitId": "37caddedbb8e8fd871ebbe942f03c257ae6a0012",
+        "repo": "https://github.com/PX4/PX4-Autopilot"
+    },
+    "CVE-2024-31755": {
+        "commitId": "7e4d5dabe7a9b754c601f214e65b544e67ba9f59",
+        "repo": "https://github.com/DaveGamble/cJSON"
+    },
+    "CVE-2024-2887": {
+        "commitId": "b852ad701db21d6db5b34e66f4ec1cdccd2ec4d4",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-22857": {
+        "commitId": "c47f781a9f1e9604f5201e27d046d925d0d48ac4",
+        "repo": "https://github.com/HardySimpson/zlog"
+    },
+    "CVE-2024-32660": {
+        "commitId": "5e5d27cf310e4c10b854be7667bfb7a5d774eb47",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    "CVE-2024-31226": {
+        "commitId": "93e622342c4f3e9b34f5f265039b6775b8e33a7a",
+        "repo": "https://github.com/LizardByte/Sunshine"
+    },
+    "CVE-2024-31041": {
+        "commitId": "f9ed3e32c063f2f3cdd58f50eb77738b53346b3f",
+        "repo": "https://github.com/nanomq/NanoNNG"
+    },
+    "CVE-2024-20696": {
+        "commitId": "eac15e252010c1189a5c0f461364dbe2cd2a68b1",
+        "repo": "https://github.com/libarchive/libarchive"
+    },
+    "CVE-2024-26256": {
+        "commitId": "eb7939b24a681a04648a59cdebd386b1e9dc9237",
+        "repo": "https://github.com/libarchive/libarchive"
+    },
+    "CVE-2024-39904": {
+        "commitId": "3477469b669708ff547037fda9fc2817870428aa",
+        "repo": "https://github.com/vnotex/vnote"
+    },
+    "CVE-2024-32659": {
+        "commitId": "6430945ce003a5e24d454d8566f54aae1b6b617b",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    "CVE-2024-29165": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-2397": {
+        "commitId": "b9811ef5bb1b7d45a90e042f81f3aaf233c8bcb2",
+        "repo": "https://github.com/the-tcpdump-group/tcpdump"
+    },
+    "CVE-2024-1931": {
+        "commitId": "5b37cd6e4cf1aafe0cce4de792c42bc5a0fcdf57",
+        "repo": "https://github.com/NLnetLabs/unbound"
+    },
+    "CVE-2024-28115": {
+        "commitId": "6b7d4cf41be3438177ae7104553f0c69d2f2d286",
+        "repo": "https://github.com/FreeRTOS/FreeRTOS-Kernel"
+    },
+    "CVE-2024-34408": {
+        "commitId": "497ff2e16d25622f5c430568895b73ab4c37cc1a",
+        "repo": "https://github.com/Tencent/libpag"
+    },
+    "CVE-2024-32615": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-1312": {
+        "commitId": "657b5146955eba331e01b9a6ae89ce2e716ba306",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-1930": {
+        "commitId": "c090ffeb79da57b88d51da6ee76f02f6512c7d91",
+        "repo": "https://github.com/rpm-software-management/dnf5"
+    },
+    "CVE-2024-33429": {
+        "commitId": "5902ff2ca953f2f9ce6b43547a0cd4e1f31d4e74",
+        "repo": "https://github.com/stsaz/phiola"
+    },
+    "CVE-2024-22365": {
+        "commitId": "031bb5a5d0d950253b68138b498dc93be69a64cb",
+        "repo": "https://github.com/linux-pam/linux-pam"
+    },
+    "CVE-2024-37310": {
+        "commitId": "f73620c4c0f626e1097068a47e10cc27b369ad8e",
+        "repo": "https://github.com/EVerest/everest-core"
+    },
+    "CVE-2024-35385": {
+        "commitId": "b1b6eac6b1e5b830a5cb14f8f4dc690ef3162551",
+        "repo": "https://github.com/cesanta/mjs"
+    },
+    "CVE-2024-25678": {
+        "commitId": "515f453556c99d27c4dddb5424898dc1a5537708",
+        "repo": "https://github.com/litespeedtech/lsquic"
+    },
+    "CVE-2024-1929": {
+        "commitId": "6e51bf2f0d585ab661806076c1e428c6482ddf86",
+        "repo": "https://github.com/rpm-software-management/dnf5"
+    },
+    "CVE-2024-2002": {
+        "commitId": "404e6b1b14f60c81388d50b4239f81d461b3c3ad",
+        "repo": "https://github.com/davea42/libdwarf-code"
+    },
+    "CVE-2024-30187": {
+        "commitId": "2b7872139c40ea5b0ca96c1d6595b7d5f9fa60a5",
+        "repo": "https://github.com/anope/anope"
+    },
+    "CVE-2024-37371": {
+        "commitId": "55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+        "repo": "https://github.com/krb5/krb5"
+    },
+    "CVE-2024-34403": {
+        "commitId": "bb6b9b3f25fbafeb12dac68574d9f677b09880e3",
+        "repo": "https://github.com/uriparser/uriparser"
+    },
+    "CVE-2024-35296": {
+        "commitId": "6052dba804c399aa1b46c454329a1100041b9c8c",
+        "repo": "https://github.com/apache/trafficserver"
+    },
+    "CVE-2024-32609": {
+        "commitId": "ce53bc020d37e10a06a59501c45f1ab82539f0c5",
+        "repo": "https://github.com/HDFGroup/hdf5"
+    },
+    "CVE-2024-25081": {
+        "commitId": "216eb14b558df344b206bf82e2bdaf03a1f2f429",
+        "repo": "https://github.com/fontforge/fontforge"
+    },
+    "CVE-2024-2174": {
+        "commitId": "955d1972ef0a32cf44fc27cd32d055a7ddc30fcf",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-32658": {
+        "commitId": "1a755d898ddc028cc818d0dd9d49d5acff4c44bf",
+        "repo": "https://github.com/FreeRDP/FreeRDP"
+    },
+    "CVE-2024-0321": {
+        "commitId": "d0ced41651b279bb054eb6390751e2d4eb84819a",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-6381": {
+        "commitId": "effd95c34ad421df94eec7c69236f0e4172552d0",
+        "repo": "https://github.com/mongodb/mongo-c-driver"
+    },
+    "CVE-2024-24855": {
+        "commitId": "0e881c0a4b6146b7e856735226208f48251facd8",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-25629": {
+        "commitId": "a804c04ddc8245fc8adf0e92368709639125e183",
+        "repo": "https://github.com/c-ares/c-ares"
+    },
+    "CVE-2024-23496": {
+        "commitId": "18c2e17",
+        "repo": "https://github.com/ggerganov/llama.cpp"
+    },
+    "CVE-2024-6779": {
+        "commitId": "bc545b15a0ee5dd3bea9f2bfb991b380f5f3659c",
+        "repo": "https://github.com/v8/v8"
+    },
+    "CVE-2024-0607": {
+        "commitId": "c301f0981fdd3fd1ffac6836b423c4d7a8e0eb63",
+        "repo": "https://github.com/torvalds/linux"
+    },
+    "CVE-2024-2314": {
+        "commitId": "008ea09e891194c072f2a9305a3c872a241dc342",
+        "repo": "https://github.com/iovisor/bcc"
+    },
+    "CVE-2024-31636": {
+        "commitId": "307e113f8e00b034f0a5f1baa33e54d636c52ea3",
+        "repo": "https://github.com/lief-project/LIEF"
+    },
+    "CVE-2024-24478": {
+        "commitId": "80a4dc55f4d2fa33c2b36a99406500726d3faaef",
+        "repo": "https://github.com/wireshark/wireshark"
+    },
+    "CVE-2024-37370": {
+        "commitId": "55fbf435edbe2e92dd8101669b1ce7144bc96fef",
+        "repo": "https://github.com/krb5/krb5"
+    },
+    "CVE-2024-0322": {
+        "commitId": "092904b80edbc4dce315684a59cc3184c45c1b70",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-34508": {
+        "commitId": "c78e434c0c5f9d932874f0b17a8b4ce305ca01f5",
+        "repo": "https://github.com/DCMTK/dcmtk"
+    },
+    "CVE-2024-3332": {
+        "commitId": "a64d20f6f08bd1293e21da5d11497c82fe10b638",
+        "repo": "https://github.com/zephyrproject-rtos/zephyr"
+    },
+    "CVE-2024-28318": {
+        "commitId": "ae831621a08a64e3325ce532f8b78811a1581716",
+        "repo": "https://github.com/gpac/gpac"
+    },
+    "CVE-2024-36405": {
+        "commitId": "9b8d30698a3e7449aeb34e62339d4176f11e3c6c",
+        "repo": "https://github.com/pq-crystals/kyber"
+    },
+    "CVE-2024-24334": {
+        "commitId": "74925f43eda4b09bfd26c38beaf366481d784505",
+        "repo": "https://github.com/RT-Thread/rt-thread"
+    },
+    "CVE-2024-29195": {
+        "commitId": "1129147c38ac02ad974c4c701a1e01b2141b9fe2",
+        "repo": "https://github.com/Azure/azure-c-shared-utility"
+    }
+}
