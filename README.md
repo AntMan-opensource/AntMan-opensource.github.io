@@ -10,15 +10,9 @@ With the rapid development of open-source software, code reuse has become a comm
 
 In this paper, we conduct a large-scale empirical study using a newly constructed RV dataset containing 4,569 RVs, achieving a 953% expansion over prior RV datasets. Our study analyzes the characteristics of RVs, evaluates the effectiveness of the state-of-the-art RVD approaches, and investigates the root causes of false positives and false negatives, yielding key insights. Inspired by these insights, we design AntMan, a novel RVD approach that identifies both explicit and implicit call relations with modified functions, then employs inter-procedural taint analysis and intra-procedural dependency slicing within those functions to generate comprehensive signatures, and finally incorporates a flexible matching to detect RVs. Our comprehensive evaluation has demonstrated the effectiveness, generality and practical usefulness in RVD. Notably, AntMan has successfully detected 4,593 recurring vulnerabilities, with 307 confirmed by developers, and identified 73 new 0-day vulnerabilities across 15 repositories, receiving 5 CVE identifiers.
 
-
-
 The paper has been submitted to ISSTA 2025.  
 
-
-
 This page lists the supplementary materials including the dataset, source code and reproducing scripts on our paper.
-
-
 
 # Empirical Study
 
@@ -122,31 +116,38 @@ To accurately assess the characteristics of RVs, follow these steps:
 
 ### RQ4 Effectiveness Evaluation
 
-We assessed AntMan using the ground truth and compared it to the five baselines. The results of AntMan is shown in [raw_results.json](evaluation/RQ4/raw_results.json) and you can just run the script `effectiveness.py` to get some [data](evaluation/RQ4/results_RQ4.json) shown Table 5 and the json format of the AntMan's [results](evaluation/RQ4/results_antman_effectiveness.json).
+- We assessed AntMan using the ground truth and compared it to the five baselines. The results of AntMan is shown in [raw_results.json](evaluation/RQ4/raw_results.json) and you can just run the script `effectiveness.py` to get some [data](evaluation/RQ4/results_RQ4.json) shown Table 5 and the json format of the AntMan's [results](evaluation/RQ4/results_antman_effectiveness.json).
 
-```
-python effectiveness.py
-```
-
-**Some description used in this script is as follows:**
-
-- `cve_lists.json`: the CVE list of original vulnerability used to construct our ground truth
-- `results_features.json`: the feature of RVs in our ground truth which is extracted in RQ1.
-- `results_other_tools.json`: the json format of our ground truth, splitting with the detected tools.
-- `ground truth.json`: the json format of our ground truth.
+    ```
+    python effectiveness.py
+    ```
+    
+    **Some description used in this script is as follows:**
+    
+    - `cve_lists.json`: the CVE list of original vulnerability used to construct our ground truth
+    
+    - `results_features.json`: the feature of RVs in our ground truth which is extracted in RQ1.
+    
+    - `results_other_tools.json`: the json format of our ground truth, splitting with the detected tools.
+    
+    - `ground truth.json`: the json format of our ground truth.
 
 ### RQ5 Ablation Study
 
-We created six ablated versions of AntMan (i.e., w/o *norm*, w/o p<sup>intra</sup>, w/o *p<sup>inter</sup>*,  w/o *abs*, w/o *w* and w/ *LD*). To get the ablation study results which is shown in Table 6 of our paper, just replace the corresponding scripts in AntMan with those in the directory [w_o_norm](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_norm), [w_o_pintra](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_pintra), [w_o_pinter](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_pinter), [w_o_abs](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_abs), [w_o_w](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_w), [w_o_unixcoder](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_unixcoder),  respectively, and following the usage instructions outlined above to detect all [repositories](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json). Then follow the steps shown in RQ4 to get all metrics. The final results is shown in [results_ablation.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/results_ablation.json).
+- We created six ablated versions of AntMan (i.e., w/o *norm*, w/o p<sup>intra</sup>, w/o *p<sup>inter</sup>*,  w/o *abs*, w/o *w* and w/ *LD*). To get the ablation study results which is shown in Table 6 of our paper, just replace the corresponding scripts in AntMan with those in the directory [w_o_norm](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_norm), [w_o_pintra](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_pintra), [w_o_pinter](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_pinter), [w_o_abs](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_abs), [w_o_w](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_w), [w_o_unixcoder](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/w_o_unixcoder),  respectively, and following the usage instructions outlined above to detect all [repositories](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json). Then follow the steps shown in RQ4 to get all metrics. The final results is shown in [results_ablation.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ5/results_ablation.json).
 
 ### RQ6 Parameter Sensitivity Analysis
 
-We conducted a sensitivity analysis to assess the impact of various thresholds (*th<sub>vul</sub>, th<sub>fix</sub>, pro<sub>vul</sub>, pro<sub>fix</sub>*) on AntMan’s performance. Just modify the corresponding configurations in the detection script [Detection.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/src/hungarian/Detection.py), and following the usage instructions outlined above to detect all [repositories](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json). To get the Figure 2 in our paper, you need to :
+- We conducted a sensitivity analysis to assess the impact of various thresholds (*th<sub>vul</sub>, th<sub>fix</sub>, pro<sub>vul</sub>, pro<sub>fix</sub>*) on AntMan’s performance. Just modify the corresponding configurations in the detection script [Detection.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/src/hungarian/Detection.py), and following the usage instructions outlined above to detect all [repositories](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json). To get the Figure 2 in our paper, you need to :
 
-- run `python sensitivity_icpcvul_draw.py` point Figure 2(a) in RQ6
-- run `python sensitivity_icpcfix_draw.py` point Figure 2(b) in RQ6
-- run `python sensitivity_ICPCVUL__draw.py` point Figure 2(c) in RQ6
-- run `python sensitivity_ICPCFIX__draw.py` point Figure 2(d) in RQ6
+  - run `python sensitivity_icpcvul_draw.py` point Figure 2(a) in RQ6
+
+  - run `python sensitivity_icpcfix_draw.py` point Figure 2(b) in RQ6
+
+  - run `python sensitivity_ICPCVUL__draw.py` point Figure 2(c) in RQ6
+
+  - run `python sensitivity_ICPCFIX__draw.py` point Figure 2(d) in RQ6
+
 
 ### RQ7 Generality Evaluation
 
@@ -175,12 +176,12 @@ We conducted a sensitivity analysis to assess the impact of various thresholds (
 
 ### RQ8 0-day Detection Capability
 
-To assess the 0-day vulnerability detection capability of AntMan, we compared AntMan with the five RVD approaches and the two learning-based approaches in terms of the pro-portion of detected 0-day vulnerabilities in our ground truth dataset and generality dataset. The results is shown in [results_0day.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ8/results_0day.json)
+- To assess the 0-day vulnerability detection capability of AntMan, we compared AntMan with the five RVD approaches and the two learning-based approaches in terms of the pro-portion of detected 0-day vulnerabilities in our ground truth dataset and generality dataset. The results is shown in [results_0day.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/evaluation/RQ8/results_0day.json)
 
 ### RQ9 Efficiency Evaluation
 
-We measured the average time taken to detect RVs in a single repository using all the original vulnerabilities collected in empirical study.  The results is shown in [results_efficiency.json](evaluation/RQ9/results_efficiency.json)
+- We measured the average time taken to detect RVs in a single repository using all the original vulnerabilities collected in empirical study.  The results is shown in [results_efficiency.json](evaluation/RQ9/results_efficiency.json)
 
 ### RQ10 Usefulness Evaluation
 
-AntMan notified target repositories of 274 1/N-day vulnerabilities with 188 of them confirmed, and notified target repositories of 73 0-day vulnerabilities with 67 of them confirmed. We reported 21 unique 0-day vulnerabilities to CVE with 5 CVE identifiers assigned.
+- AntMan notified target repositories of 274 1/N-day vulnerabilities with 188 of them confirmed, and notified target repositories of 73 0-day vulnerabilities with 67 of them confirmed. We reported 21 unique 0-day vulnerabilities to CVE with 5 CVE identifiers assigned.
