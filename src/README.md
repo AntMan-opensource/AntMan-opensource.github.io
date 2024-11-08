@@ -2,7 +2,7 @@
 
 This folder contains the implementation of `AntMan`. The system is organized into five main modules, each playing a critical role in recurring vulnerability detection.
 
-![approach](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/docs/approach.png)
+![approach](../docs/approach.png)
 
 ## Dependencies
 

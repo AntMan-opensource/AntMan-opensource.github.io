@@ -94,8 +94,6 @@ To accurately assess the characteristics of RVs, follow these steps:
 
 ## Environment Setup:
 
-- ***Linux***: MVP is designed to work on any of the operating systems. However, currently, this repository only focuses on the Linux environment.
-
 - ***Git***
 
 - ***Python 3***
@@ -108,7 +106,7 @@ To accurately assess the characteristics of RVs, follow these steps:
 
 ## Methodology Implementation
 
-![approach](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/docs/approach.png)
+![approach](./docs/approach.png)
 
 [The Prototype of AntMan](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/src).
 
