@@ -8,15 +8,15 @@ This folder contains the implementation of `AntMan`. The system is organized int
 
 To run this project, you will need the following dependencies:
 
-- ***python***: 3.11+
+- ***python***
 
 - ***[joern](https://docs.joern.io/installation)***
 
-- ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***: for function elemtents extraction.
+- ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***
 
 - ***[UniXcoder](https://github.com/microsoft/CodeBERT/tree/master/UniXcoder#2-similarity-between-code-and-nl)***
 
-  The more detailed dependencies are in `requirements.txt`
+  Our utilized versions: Python 3.12.3, joern 1.1.1377 and some other elevant dependent packages listed in [requirements.txt](./requirements.txt) on Ubuntu 18.04.
 
   To setup, just run:
 
@@ -46,7 +46,7 @@ To run this project, you will need the following dependencies:
     - `commit_id`: the commit_id corresponding to the CVE-ID
     - `repo_path`: the local path of the repository corresponding to the CVE.
   - Output:
-    - original abstracted ICPC stored in the ICPC storage path specified in `signatureGeneration.py`
+    - Original abstracted ICPC stored in the ICPC storage path specified in `signatureGeneration.py`
 
 - **Modules 3&4: Mapping & Target Normalized Call Graph Construction && Target Abstracted ICPC Construction**
   This module including the scripts:  `ast_parser.py`, `code_transformation.py`, `target_signatureGeneration.py` , `joern.py`, `project.py` and `target.py`.

@@ -8,11 +8,9 @@ We reproduced this tool as our baseline.
 ## How to use
 ### Requirements
 
-* ***Linux***: MVP is designed to work on any of the operating systems. However, currently, this repository only focuses on the Linux environment.
-* ***Git***
-* ***Python 3***
+* ***Python***
 * ***[joern](https://docs.joern.io/installation)***
-* ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***: for function elemtents extraction.
+* ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***
 
 Our utilized versions: Python 3.12.3, joern 1.1.1377 and some other elevant dependent packages listed in [requirements.txt](./requirements.txt) on Ubuntu 18.04.
 
