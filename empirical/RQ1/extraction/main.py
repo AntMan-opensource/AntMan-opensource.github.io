@@ -122,7 +122,6 @@ def get_modified_map(modified_file_code: str, modified_lines: list, filename: st
                         pure_del = True
                         for l in range(startline, endline + 1):
                             if l in delete_lines:
-                                # print(l, delete_lines)
                                 delete_lines.remove(l)
                             else:
                                 pure_del = False
@@ -623,37 +622,7 @@ def extract_commit_contents(repo_path: str, commit_id: str):
                     print(commit_id, "parse commit error!", e)
                     return []
     except Exception as e:
-        print(commit_id, "parse commit error!", e)
-        if "linux" in repo_path:
-            if os.path.exists(
-                "/home/cyh/llm4vuln/1.groundtruth/gitrepo/osm1019@@AmberKernel/.git/config"
-            ):
-                os.system(
-                    "rm -rf /home/cyh/llm4vuln/1.groundtruth/gitrepo/osm1019@@AmberKernel/.git/config"
-                )
-                os.system(
-                    "rm -rf /home/cyh/llm4vuln/1.groundtruth/gitrepo/osm1019@@AmberKernel/.git/config.lock"
-                )
-            method_info = extract_commit_contents(
-                "/home/cyh/llm4vuln/1.groundtruth/gitrepo/osm1019@@AmberKernel",
-                commit_id,
-            )
-        elif "AmberKernel" in repo_path:
-            if os.path.exists(
-                "/home/cyh/llm4vuln/1.groundtruth/gitrepo/mixtile-rockchip@@kernel/.git/config"
-            ):
-                os.system(
-                    "rm -rf /home/cyh/llm4vuln/1.groundtruth/gitrepo/mixtile-rockchip@@kernel/.git/config"
-                )
-                os.system(
-                    "rm -rf /home/cyh/llm4vuln/1.groundtruth/gitrepo/mixtile-rockchip@@kernel/.git/config.lock"
-                )
-            method_info = extract_commit_contents(
-                "/home/cyh/llm4vuln/1.groundtruth/gitrepo/mixtile-rockchip@@kernel",
-                commit_id,
-            )
-        else:
-            method_info = []
+        method_info = []
         return method_info
     return method_info
 
@@ -724,7 +693,7 @@ def build_dataset(raw_data_path: str, output_path: str):
         print(cveid)
         owner = info["repo"].split("/")[-2]
         repo = info["repo"].split("/")[-1]
-        repo_path = f"/home/cyh/llm4vuln/1.groundtruth/gitrepo/{owner}@@{repo}"
+        repo_path = f"。/gitrepo/{owner}@@{repo}"
         commit = info["commitId"]
 
         assert repo_path is not None
@@ -735,8 +704,6 @@ def build_dataset(raw_data_path: str, output_path: str):
 
     with open(output_path, "w") as f:
         json.dump(results, f, indent=4)
-    # with open("errors.json", "w") as f:
-    #     json.dump(list(errors), f, indent=4)
 
 
 if __name__ == "__main__":

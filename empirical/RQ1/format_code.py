@@ -72,7 +72,6 @@ def add_bracket(code: str, language: Language):
             and alternative_node.type != "compound_statement"
             and alternative_node.type != "if_statement"
         ):
-            # print(code_bytes[alternative_node.start_byte:alternative_node.end_byte+1])
             if (
                 alternative_node.start_byte,
                 alternative_node.end_byte,
@@ -276,7 +275,6 @@ def format_and_del_comment_c_cpp(code, del_macro=True, del_comments=True):
     if del_macro:
         code = del_macros(code)
     code = del_lineBreak_C(code)
-    # code = add_bracket(code, Language.C)
     code = remove_empty_lines(code)
     code = (
         subprocess.run(
@@ -312,7 +310,6 @@ def rewrite_macros(repoName, hash, filename):
                 and not lines[i].strip().replace(" ", "").endswith("\\")
                 and len(lines[i].lstrip().replace("\t", " ").split(" ")) <= 2
             ):
-                # print(lines[i])
                 lines[i] = "\n"
             relines.append(lines[i])
             i += 1
@@ -349,7 +346,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
     file_contents = code.split("\n")
     i = 0
     while i < len(file_contents):
-        ## 防止整个文件都被编译消失
         file_pure_contents = file_contents[i].strip().replace(" ", "")
         if file_pure_contents.startswith("#include") and "/" in file_pure_contents:
             file_contents[i] = ""
@@ -358,7 +354,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
             j = i
             while j < len(file_contents):
                 file_pure_contents_in = file_contents[j].strip().replace(" ", "")
-                # print(file_contents[j])
                 if file_pure_contents_in.startswith(
                     "#else"
                 ) or file_pure_contents_in.startswith("#endif"):
@@ -375,9 +370,7 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
             or file_pure_contents.startswith("#ifndef")
             or file_pure_contents.startswith("#endif")
         ):
-            # print(file_contents[i])
             if file_contents[i].strip().replace(" ", "").endswith("\\"):
-                # print(file_contents[i])
                 file_contents[i] = ""
                 j = i + 1
                 while j < len(file_contents):
@@ -407,7 +400,7 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
         temp_source_file_name = temp_source_file.name
         temp_source_file.write("\n".join(file_contents).encode())
         temp_source_file.flush()
-        temp_source_file.close()  # 确保文件正确关闭
+        temp_source_file.close()
     with open(temp_source_file_name, "rb") as f:
         file_contents = f.readlines()
     with tempfile.NamedTemporaryFile(delete=False, suffix=".c") as temp_output_file:
@@ -436,7 +429,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
                 file_contents = f.readlines()
                 print(file_contents)
         except subprocess.CalledProcessError as e:
-            # 如果命令执行失败，则可以在e.output中获取错误输出
             err_msg = e.output.decode()
             print(err_msg)
             if preMsg == err_msg:
@@ -585,7 +577,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
                 elif match4 or match5 or match6 or match7:
                     info = msg
                     fileName = info.split(":")[0].strip()
-                    # print(fileName)
                     if not (
                         (fileName.startswith("/home") or fileName.startswith("/nas"))
                         and (
@@ -628,14 +619,11 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
                 i += 1
     with open(temp_source_file_name, "w", encoding=encoding_format) as f:
         f.writelines(lines)
-    # 删除所有宏
     with open(temp_source_file_name, "r", encoding=encoding_format) as f:
         lines = f.readlines()
         i = 0
         while i < len(lines):
             if lines[i].startswith("# "):
-                # print(src)
-                # print(lines[i])
                 while temp_source_file_name not in lines[i]:
                     lines[i] = "\n"
                     i += 1
@@ -680,7 +668,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
                     )
                 )
             ):
-                # elif lines[i].strip().startswith("||") or lines[i].strip().startswith("&&") or lines[i].strip().startswith(")") or (lines[i].strip().startswith("(")):
                 lines[preTemp] = lines[preTemp].strip() + lines[i].lstrip()
                 lines[i] = "\n"
                 i = preTemp
@@ -706,7 +693,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
                         )
                     )
                     and not lines[i].strip().endswith("}")
-                    # and not lines[i].strip().endswith(":")
                     and not lines[i].strip().startswith("#")
                 ):
                     i += 1
@@ -734,7 +720,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
             lines[i] = lines[i].replace("!!", "")
             if temp_source_file_name in lines[i]:
                 j = lines[i].replace(" ", "").find(temp_source_file_name)
-                # print(lines[i].replace(" ","")[j + len(src)+2].isdigit(),j)
                 if (
                     lines[i].replace(" ", "")[j + len(temp_source_file_name) + 1] == ","
                     and lines[i]
@@ -765,7 +750,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
                             + 2
                             + k
                         ]
-                    # print(digit)
                     lines[i] = (
                         lines[i]
                         .replace(temp_source_file_name + ",", "")
@@ -795,7 +779,6 @@ def format_and_del_comment_c_cpp_with_gcc(code, repoName, hash, fileName):
             i += 1
     with open(temp_source_file_name, "w", encoding=encoding_format) as f:
         f.writelines(lines)
-    # 在需要的时候手动删除文件
     os.remove(temp_source_file_name)
     os.remove(temp_output_file_name)
     return "".join(lines)
@@ -827,7 +810,6 @@ def del_lineBreak(src):
         i += 1
 
         while (
-            ### 判断是否为for(;;);这种情况
             not (
                 line.replace(" ", "").rstrip().endswith(";")
                 and line.lstrip().startswith("for ")
@@ -868,7 +850,6 @@ def del_lineBreak(src):
             line += lines[i].lstrip()
             i += 1
 
-        # 防止x=(int)换行y这种情况产生
         if (
             line.replace(" ", "").rstrip().endswith(")")
             and "=" in line
@@ -916,7 +897,6 @@ def del_lineBreak(src):
             line += lines[i].lstrip()
             i += 1
 
-        # 判断初始化数组语句的大括号
         temp_lines = line.split(" ")
         if (
             "new" in temp_lines
@@ -1006,7 +986,6 @@ def del_lineBreak(src):
                 tmp = tmp.replace(placeholder, literal)
             line = tmp
 
-        # print(line)
         if line.replace(" ", "").lstrip().startswith("."):
             relines = relines[0:-1] + line.lstrip()
         elif line.replace(" ", "").lstrip().startswith("{"):
@@ -1067,7 +1046,6 @@ def del_lineBreak(src):
         elif line.replace(" ", "") != "\n":
             relines += line
     f.close()
-    # print(relines)
     outputf = open(src, "w")
     outputf.write(relines)
     outputf.close()
@@ -1081,9 +1059,6 @@ def addBracket(src):
     while i < len(lines):
         line = lines[i]
         i += 1
-        # print(line.replace(" ", "").strip(),
-        #       not line.replace(" ", "").strip().endswith("{"))
-        # print()
         if line.replace(" ", "").endswith(";\n"):
             relines += line
         elif (
@@ -1120,16 +1095,6 @@ def addBracket(src):
                 relines += temp + line
             else:
                 relines += temp
-            # while "{" in line:
-            #     j = line.find("}")
-            #     temp += line[0:j] + "\n}\n"
-            #     line = line[j+1:]
-            #     k = line.find("{")
-            #     temp += line[0:k+1] + "\n"
-            #     line = line[k+1:]
-            # j = line.find("}")
-            # temp += line[0:j] + "\n" + line[j:]
-            # relines += temp
         elif (
             (
                 line.lstrip().startswith("if ")
@@ -1408,7 +1373,6 @@ def addBracket(src):
                 if line.lstrip().startswith("else") and left != 0 and fl:
                     temp += "}\n"
                     left -= 1
-                # i += 1
                 first = False
             if left > 0:
                 temp += "}\n"
@@ -1455,8 +1419,6 @@ def addBracket(src):
     for i in range(len(lines)):
         line = lines[i]
         if lines[i].strip() in ["{", "}", ""]:
-            # print(lines[i])
-            # print(i+1-annotaionLines)
             empty_line.append(i + 1 - annotaionLines)
         lineContent = line.strip().split(" ")
         if (
@@ -1476,7 +1438,6 @@ def addBracket(src):
             newContent += "}\n"
             continue
         newContent += line + "\n"
-    # print(relines)
     outputf = open(src, "w")
     outputf.write(newContent)
     outputf.close()

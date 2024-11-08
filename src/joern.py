@@ -840,10 +840,4 @@ class PDG:
 
 
 if __name__ == "__main__":
-    export_with_preprocess_and_merge(
-        "/opt/ramdisk/cyh/cache/CVE-2022-33099/pre/code",
-        "/opt/ramdisk/cyh/cache/CVE-2022-33099/pre",
-        Language.C,
-        True,
-        True,
-    )
+    pass

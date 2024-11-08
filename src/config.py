@@ -1,11 +1,11 @@
 import platform
 
-version = "3.1.0"  # for use in IoTcube.
+version = "3.1.0"
 pf = platform.platform()
-if "Windows" in pf:  # Windows
+if "Windows" in pf:
     gitBinary = r"D:\Program Files\Git\bin\git.exe"
     diffBinary = r"D:\Program Files\Git\usr\bin\diff.exe"
-else:  # POSIX
+else:
     gitBinary = "git"
     diffBinary = "diff"
     javaBinary = "java"

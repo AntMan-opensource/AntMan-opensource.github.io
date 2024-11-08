@@ -29,18 +29,18 @@ pip install -r requirements.txt
 
 
  - After install the joern, specify the directory paths of joern in [config.py](./src/config.json).
- - Store the patch for the CVE that needs to be determined [CVEcommit](./src/commit_info), the path need to be the format as "CVE.txt". Clone the relevant repositories into the a diretory and record the related information which include **the CVE-ID corresponding to the patch file, the absolute path to the file storing GitHub commit content, the absolute path to the directory of the GitHub repository corresponding to the CVE and the absolute path to the directory of joern-cli** into the [CVEdataset.csv](./CVEdataset.csv) 
- The CVE patches involved in this experiment are stored in [CVEcommit](./src/CVEcommit), and you only need to clone the repositories listed in [CLONE_SAMPLE](./CLONE_SAMPLE).
+ - Store the patch for the CVE that needs to be determined [CVEcommit](./src/commit_info), the path need to be the format as "CVE.txt". Clone the relevant repositories into the a diretory and record the related information which include **the CVE-ID corresponding to the patch file, the absolute path to the file storing GitHub commit content, the absolute path to the directory of the GitHub repository corresponding to the CVE and the absolute path to the directory of joern-cli** into the [CVEdataset.csv](./src/CVEdataset.csv) 
+ The CVE patches involved in this experiment are stored in [CVEcommit](./src/CVEcommit), and you only need to clone the repositories listed in [repositories list](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/detected_repo_list.json).
  - Execute [gen_fingerprint_multi.py](./src/gen_fingerprint_multi.py) to generate the signatures of the patch which you collected.
 
  ```
  python gen_fingerprint_multi.py
  ```
- - Extract the modified file into the [vulFile](./vulFile) and record the starting and ending lines of the patch modification function, as well as the file information in [sagaMulti.json](./src/infoFile/sagaMulti.json)
+ - Extract the modified file into the [vulFile](./src/vulFile) and record the starting and ending lines of the patch modification function, as well as the file information in [sagaMulti.json](./src/infoFile/sagaMulti.json)
 
 ### Detection
 
- -  Record the related information which include **the absolute path of detected repository and the absolute path to the directory of joern-cli** into the [targetList.csv](./targetList.csv)
+ -  Record the related information which include **the absolute path of detected repository and the absolute path to the directory of joern-cli** into the [targetList.csv](./src/targetList.csv)
  - Execute [detection.py](./src/detection.py) to evaluate target vulnerable versions in open-source Java software, the result will be output to resultMultiSnippetVersion.txt.
  ```
  python detection.py

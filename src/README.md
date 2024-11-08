@@ -2,19 +2,19 @@
 
 This folder contains the implementation of `AntMan`. The system is organized into five main modules, each playing a critical role in recurring vulnerability detection.
 
-![approach](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/docs/approach.png)
+![approach](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/docs/approach.png)
 
 ## Dependencies
 
 To run this project, you will need the following dependencies:
 
-- python: 3.11+
+- ***python***: 3.11+
 
 - ***[joern](https://docs.joern.io/installation)***
 
 - ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***: for function elemtents extraction.
 
-- [UniXcoder](https://github.com/microsoft/CodeBERT/tree/master/UniXcoder#2-similarity-between-code-and-nl)
+- ***[UniXcoder](https://github.com/microsoft/CodeBERT/tree/master/UniXcoder#2-similarity-between-code-and-nl)***
 
   The more detailed dependencies are in `requirements.txt`
 

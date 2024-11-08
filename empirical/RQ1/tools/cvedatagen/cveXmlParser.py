@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-"""
-NVD's CVE xml data processor.
-xml data is downloaded from https://nvd.nist.gov/download.cfm
-This module should be run only once.
-or, if the pickle file has been corrupted, run this module again.
-Updates of the database is done in cvexmlupdater.py
-"""
-
 import os
 import common
 try:

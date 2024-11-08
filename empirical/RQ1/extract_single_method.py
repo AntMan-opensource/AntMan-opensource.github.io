@@ -4,9 +4,10 @@ import re
 import subprocess
 import sys
 
+from tqdm import tqdm
+
 import format_code
 from config import CTAGS_PATH
-from tqdm import tqdm
 
 
 def get_method_code(filename, method_name, key=""):
@@ -22,7 +23,6 @@ def get_method_code(filename, method_name, key=""):
         filepath = (
             key.replace("/", "_") + "." + filename.split(".")[-1].replace(" ", "")
         )
-    # print(filepath)
 
     fp = open(filepath, "w")
     fp.write(fmc)
@@ -41,8 +41,6 @@ def get_method_code(filename, method_name, key=""):
     for result in alllist.split("\n"):
         if result == "" or result == " " or result == "\n":
             continue
-        # print(result)
-
         if len(result.split("\t")) < 7:
             continue
 
@@ -59,7 +57,6 @@ def get_method_code(filename, method_name, key=""):
             endline = int(result.split("\t")[-1].replace("end:", ""))
             if funcname.replace(" ", "") == method_name.replace(" ", ""):
                 method_code = "\n".join(fmc.split("\n")[startline - 1 : endline])
-                # print(method_code)
                 break
         elif "function" in result.split("\t"):
             elemList = result.split("\t")
@@ -76,13 +73,9 @@ def get_method_code(filename, method_name, key=""):
                     break
                 j += 1
             if funcname.replace(" ", "") == method_name.replace(" ", ""):
-                # print(funcname, method_name)
                 method_code = "\n".join(fmc.split("\n")[startline - 1 : endline])
-                # print(method_code)
                 break
-    # print(filepath.replace(" ",""))
     os.system(f"rm {filepath.replace(' ','')}")
-    # print(method_code)
     return method_code
 
 
@@ -120,16 +113,10 @@ def parse_fixmorph(result_path, results_dir, output_path):
                 f"{results_dir}/{cve}#{id}/pc-patch.c", method_name
             )
             pe_code = get_method_code(f"{results_dir}/{cve}#{id}/pe.c", method_name)
-            # print(cve, id, pa_code)
-            # print(method)
+
             if pa_code == "" and pb_code == "":
                 print(method)
                 err.append(result)
-            # assert pa_code != ""
-            # assert pb_code != ""
-            # assert pc_code != ""
-            # assert pc_patch_code != ""
-            # assert pe_code != ""
 
             parsed_method[method]["pa"] = pa_code
             parsed_method[method]["pb"] = pb_code
@@ -147,7 +134,4 @@ def parse_fixmorph(result_path, results_dir, output_path):
 
 
 if __name__ == "__main__":
-    result_path = "./fixmorph.json"
-    results_dir = "../../4.Evaluation/results/fixmorph"
-    output_path = "parsed_results.json"
-    parse_fixmorph(result_path, results_dir, output_path)
+    pass

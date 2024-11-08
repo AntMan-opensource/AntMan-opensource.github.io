@@ -118,7 +118,7 @@ def filemapping_matching(repo_path):
             if "vulFile" in fileName:
                 file_hash = fileName.split("/")[-1]
                 file_hash_line_number_to_index_dict[
-                    file_hash + "__fdse__" + endLine.strip()
+                    file_hash + "__split__" + endLine.strip()
                 ] = id
             index_file_map[id] = [startLine, endLine]
 
@@ -133,12 +133,12 @@ def filemapping_matching(repo_path):
                 ):
                     continue
                 if (
-                    ele + "__fdse__" + str(CVE_dict[CVE][ele][name]["lineEnd"])
+                    ele + "__split__" + str(CVE_dict[CVE][ele][name]["lineEnd"])
                     in file_hash_line_number_to_index_dict.keys()
                 ):
                     CVE_dict_line_number[CVE].append(
                         file_hash_line_number_to_index_dict[
-                            ele + "__fdse__" + str(CVE_dict[CVE][ele][name]["lineEnd"])
+                            ele + "__split__" + str(CVE_dict[CVE][ele][name]["lineEnd"])
                         ]
                     )
     zero_CVE_set = set()
@@ -212,8 +212,8 @@ def filemapping_matching(repo_path):
                             repo_file_cve_map[cve][file_name] = {}
 
                         repo_file_cve_map[cve][file_name][
-                            f"{index_file_map[clone_id][0]}__fdse__{index_file_map[clone_id][1].strip()}"
-                        ] = f"{fileIndex[id]}__fdse__{index_file_map[id][0]}__fdse__{index_file_map[id][1].strip()}"
+                            f"{index_file_map[clone_id][0]}__split__{index_file_map[clone_id][1].strip()}"
+                        ] = f"{fileIndex[id]}__split__{index_file_map[id][0]}__split__{index_file_map[id][1].strip()}"
 
         if len(file_set) != 0:
             filtered_dict[cve] = list(file_set)
@@ -386,8 +386,8 @@ def worker_fn(cve, file, repo_file_mapping, repoName, CVE_dict):
     codefile = CodeFile(file, file_code, isformat=False)
     target_project = Project(f"target", [codefile], Language.CPP)
     for st_ed in repo_file_mapping[repoName][cve][file]:
-        st = int(st_ed.split("__fdse__")[0])
-        ed = int(st_ed.split("__fdse__")[1])
+        st = int(st_ed.split("__split__")[0])
+        ed = int(st_ed.split("__split__")[1])
         target_method = ""
         for method_signature in target_project.methods_signature_set:
             method = target_project.get_method(method_signature)
@@ -397,15 +397,18 @@ def worker_fn(cve, file, repo_file_mapping, repoName, CVE_dict):
                 target_method = method_signature
                 break
         if target_method == "":
-            # logging.info(f"这不是一个方法！！！{st},{ed}")
             continue
         vul_file = (
             repo_file_mapping[repoName][cve][file][st_ed]
-            .split("__fdse__")[0]
+            .split("__split__")[0]
             .split("/")[-1]
         )
-        vul_st = int(repo_file_mapping[repoName][cve][file][st_ed].split("__fdse__")[1])
-        vul_ed = int(repo_file_mapping[repoName][cve][file][st_ed].split("__fdse__")[2])
+        vul_st = int(
+            repo_file_mapping[repoName][cve][file][st_ed].split("__split__")[1]
+        )
+        vul_ed = int(
+            repo_file_mapping[repoName][cve][file][st_ed].split("__split__")[2]
+        )
         vul_method = ""
         for method in CVE_dict[cve][vul_file]:
             if (
@@ -415,7 +418,6 @@ def worker_fn(cve, file, repo_file_mapping, repoName, CVE_dict):
                 vul_method = method.split("(")[0]
                 break
         if vul_method == "":
-            # logging.info(f"找不到vul方法！！{vul_st},{vul_ed}")
             continue
         repo_method_mapping[cve][file][target_method] = vul_method
 

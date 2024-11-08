@@ -162,10 +162,6 @@ def extract_affected_version():
     json.dump(target_code, fp, indent=4)
     fp.close()
 
-    # fp = open("error_versions.json","w")
-    # json.dump(list(errors), fp, indent = 4)
-    # fp.close()
-
 
 if __name__ == "__main__":
     extract_affected_version()

@@ -36,8 +36,22 @@ class DelHunk(Hunk):
     a_code: str
 
 
-def git_diff_file(file1: str, file2: str, remove_diff_header: bool = False, algorithm: str = "histogram", context: str = "full") -> str:
-    git_diff_param = ["git", "--no-pager", "diff", "--no-index", "-w", "-b", f"--diff-algorithm={algorithm}"]
+def git_diff_file(
+    file1: str,
+    file2: str,
+    remove_diff_header: bool = False,
+    algorithm: str = "histogram",
+    context: str = "full",
+) -> str:
+    git_diff_param = [
+        "git",
+        "--no-pager",
+        "diff",
+        "--no-index",
+        "-w",
+        "-b",
+        f"--diff-algorithm={algorithm}",
+    ]
     if context == "full":
         git_diff_param.extend(["--unified=10000", "--function-context"])
     elif context == "function":
@@ -45,15 +59,20 @@ def git_diff_file(file1: str, file2: str, remove_diff_header: bool = False, algo
     else:
         git_diff_param.extend(["--unified=10"])
     git_diff_param.extend([file1, file2])
-    diff = subprocess.run(git_diff_param,
-                          stdout=subprocess.PIPE).stdout.decode()
+    diff = subprocess.run(git_diff_param, stdout=subprocess.PIPE).stdout.decode()
     if remove_diff_header:
         diff_lines = diff.splitlines()[4:]
         diff = "\n".join(diff_lines)
     return diff
 
 
-def git_diff_code(code1: str, code2: str, remove_diff_header: bool = False, language: Language = Language.C, context="full") -> str:
+def git_diff_code(
+    code1: str,
+    code2: str,
+    remove_diff_header: bool = False,
+    language: Language = Language.C,
+    context="full",
+) -> str:
     if not code1.endswith("\n"):
         code1 += "\n"
     if not code2.endswith("\n"):
@@ -69,16 +88,60 @@ def git_diff_code(code1: str, code2: str, remove_diff_header: bool = False, lang
     return diff
 
 
-def diff2html(diff: str, output_path: str, show_error: bool = True, title: str = "diff"):
+def diff2html(
+    diff: str, output_path: str, show_error: bool = True, title: str = "diff"
+):
     if show_error:
-        subprocess.run(["diff2html", "-f", "html", "-F", output_path, "--su", "-s", "side", "--lm",
-                        "lines", "-i", "stdin", "-t", title], input=bytes(diff, "utf-8"))
+        subprocess.run(
+            [
+                "diff2html",
+                "-f",
+                "html",
+                "-F",
+                output_path,
+                "--su",
+                "-s",
+                "side",
+                "--lm",
+                "lines",
+                "-i",
+                "stdin",
+                "-t",
+                title,
+            ],
+            input=bytes(diff, "utf-8"),
+        )
     else:
-        subprocess.run(["diff2html", "-f", "html", "-F", output_path, "--su", "-s", "side", "--lm",
-                        "lines", "-i", "stdin", "-t", title], input=bytes(diff, "utf-8"), stderr=subprocess.DEVNULL)
+        subprocess.run(
+            [
+                "diff2html",
+                "-f",
+                "html",
+                "-F",
+                output_path,
+                "--su",
+                "-s",
+                "side",
+                "--lm",
+                "lines",
+                "-i",
+                "stdin",
+                "-t",
+                title,
+            ],
+            input=bytes(diff, "utf-8"),
+            stderr=subprocess.DEVNULL,
+        )
 
 
-def diff2html_file(file1: str, file2: str, output_path: str, show_error: bool = True, title: str | None = None, context: str = "full"):
+def diff2html_file(
+    file1: str,
+    file2: str,
+    output_path: str,
+    show_error: bool = True,
+    title: str | None = None,
+    context: str = "full",
+):
     if not os.path.exists(file1):
         return
     if not os.path.exists(file2):
@@ -93,7 +156,14 @@ def diff2html_file(file1: str, file2: str, output_path: str, show_error: bool = 
     diff2html(diff, output_path, show_error, title)
 
 
-def diff2html_code(code1: str, code2: str, output_path: str, show_error: bool = True, title: str | None = None, context: str = "full"):
+def diff2html_code(
+    code1: str,
+    code2: str,
+    output_path: str,
+    show_error: bool = True,
+    title: str | None = None,
+    context: str = "full",
+):
     diff = git_diff_code(code1, code2, context=context)
     if diff == "":
         with open(output_path + ".same", "w") as f:
@@ -105,10 +175,7 @@ def diff2html_code(code1: str, code2: str, output_path: str, show_error: bool = 
 
 
 def parse_diff(diff: str) -> dict[str, list[int]]:
-    info = {
-        "add": [],
-        "delete": []
-    }
+    info = {"add": [], "delete": []}
     add_line = 0
     delete_line = 0
     lines = diff.split("\n")
@@ -155,14 +222,15 @@ def sourtarDiffMap(modifiedLines) -> tuple[list[list], list[list]]:
     def group_consecutive_ints(nums: list[int]):
         if not nums:
             return []
-        nums.sort()  # 先对列表进行排序
-        result = [[nums[0]]]  # 初始化结果列表，包含第一个元素
+        nums.sort()
+        result = [[nums[0]]]
         for num in nums[1:]:
             if num == result[-1][-1] + 1:
-                result[-1].append(num)  # 如果当前数字与上一个数字连续，则添加到当前组
+                result[-1].append(num)
             else:
-                result.append([num])  # 如果不连续，则创建新的组
+                result.append([num])
         return result
+
     delLinesGroup = group_consecutive_ints(modifiedLines["delete"])
     addLinesGroup = group_consecutive_ints(modifiedLines["add"])
     return delLinesGroup, addLinesGroup
@@ -177,7 +245,11 @@ def method_linemap(mapA, mapB) -> dict[int, int]:
     return map_result
 
 
-def method_hunkmap(delLinesGroup: list[list[int]], addLinesGroup: list[list[int]], line_map: dict[int, int]):
+def method_hunkmap(
+    delLinesGroup: list[list[int]],
+    addLinesGroup: list[list[int]],
+    line_map: dict[int, int],
+):
     hunk_map: dict[tuple[int, int], tuple[int, int]] = {}
     line_map[0] = 0
     for delLines in delLinesGroup:
@@ -186,8 +258,12 @@ def method_hunkmap(delLinesGroup: list[list[int]], addLinesGroup: list[list[int]
         for addLines in addLinesGroup:
             add_head = addLines[0] - 1
             add_tail = addLines[-1] + 1
-            if (del_head in line_map and del_tail in line_map and
-                    line_map[del_head] == add_head and line_map[del_tail] == add_tail):
+            if (
+                del_head in line_map
+                and del_tail in line_map
+                and line_map[del_head] == add_head
+                and line_map[del_tail] == add_tail
+            ):
                 hunk_map[(del_head + 1, del_tail - 1)] = (add_head + 1, add_tail - 1)
                 continue
     return hunk_map
@@ -205,23 +281,42 @@ def get_patch_hunks(code1: str, code2: str) -> list[Hunk]:
     r_line_map = {v: k for k, v in line_map.items()}
     hunk_list: list[Hunk] = []
     for a_hunk, b_hunk in modify_hunks_map.items():
-        hunk = ModHunk(HunkType.MOD, a_hunk[0], a_hunk[1], b_hunk[0], b_hunk[1], "\n".join(code1_lines[a_hunk[0] - 1:a_hunk[1]]),
-                       "\n".join(code2_lines[b_hunk[0] - 1:b_hunk[1]]))
+        hunk = ModHunk(
+            HunkType.MOD,
+            a_hunk[0],
+            a_hunk[1],
+            b_hunk[0],
+            b_hunk[1],
+            "\n".join(code1_lines[a_hunk[0] - 1 : a_hunk[1]]),
+            "\n".join(code2_lines[b_hunk[0] - 1 : b_hunk[1]]),
+        )
         hunk_list.append(hunk)
     for add_hunk in addLinesGroup:
         first_line, last_line = add_hunk[0], add_hunk[-1]
         if (first_line, last_line) not in modify_hunks_map.values():
             insert_line = r_line_map[first_line - 1]
-            hunk_list.append(AddHunk(HunkType.ADD, first_line, last_line,
-                             "\n".join(code2_lines[first_line - 1:last_line]), insert_line))
+            hunk_list.append(
+                AddHunk(
+                    HunkType.ADD,
+                    first_line,
+                    last_line,
+                    "\n".join(code2_lines[first_line - 1 : last_line]),
+                    insert_line,
+                )
+            )
     for del_hunk in delLinesGroup:
         first_line, last_line = del_hunk[0], del_hunk[-1]
         if (first_line, last_line) not in modify_hunks_map.keys():
-            hunk_list.append(DelHunk(HunkType.DEL, first_line, last_line,
-                             "\n".join(code1_lines[first_line - 1:last_line])))
+            hunk_list.append(
+                DelHunk(
+                    HunkType.DEL,
+                    first_line,
+                    last_line,
+                    "\n".join(code1_lines[first_line - 1 : last_line]),
+                )
+            )
     return hunk_list
 
 
 if __name__ == "__main__":
-    diff2html_file("/home/wrs/PatchBP/2.Method/patchbp/cache/CVE-2013-6368/x86.c#__vcpu_run/method#0/__vcpu_run#1#62#x86.c/1.pre.c",
-                   "/home/wrs/PatchBP/2.Method/patchbp/cache/CVE-2013-6368/x86.c#__vcpu_run/method#0/__vcpu_run#1#62#x86.c/3.target.c", "test.html")
+    pass

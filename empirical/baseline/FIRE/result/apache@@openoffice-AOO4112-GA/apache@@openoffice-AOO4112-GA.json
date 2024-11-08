@@ -7,14 +7,14 @@
             "id": 1,
             "dst": "./processed/apache@@openoffice-AOO4112-GA/ImpUpdateGraphicLink@@@main@#@svx@#@source@#@svdraw@#@svdograf.cxx",
             "sim": [
-                "/cpfs01/projects-SSD/cfff-4e0d1d50591a_SSD/cyh_23210240001/3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-47804_CWE-XXXX-XXXX_f8c074b1219af2a7160e5b8f8157fac1a2076a93_CVE-2023-47804_f8c074b1219af2a7160e5b8f8157fac1a2076a93_svdograf.cxx_1.1_SdrGrafObj :: ImpUpdateGraphicLink_OLD.vul"
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-47804_CWE-XXXX-XXXX_f8c074b1219af2a7160e5b8f8157fac1a2076a93_CVE-2023-47804_f8c074b1219af2a7160e5b8f8157fac1a2076a93_svdograf.cxx_1.1_SdrGrafObj :: ImpUpdateGraphicLink_OLD.vul"
             ]
         },
         {
             "id": 2,
             "dst": "./processed/apache@@openoffice-AOO4112-GA/PaintPicture@@@main@#@sw@#@source@#@core@#@doc@#@notxtfrm.cxx",
             "sim": [
-                "/cpfs01/projects-SSD/cfff-4e0d1d50591a_SSD/cyh_23210240001/3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-47804_CWE-XXXX-XXXX_f8c074b1219af2a7160e5b8f8157fac1a2076a93_CVE-2023-47804_f8c074b1219af2a7160e5b8f8157fac1a2076a93_notxtfrm.cxx_1.1_SwNoTxtFrm :: PaintPicture_OLD.vul"
+                ".//3.FIRE/cache/old_new_funcs/vul/sample/CVE-2023-47804_CWE-XXXX-XXXX_f8c074b1219af2a7160e5b8f8157fac1a2076a93_CVE-2023-47804_f8c074b1219af2a7160e5b8f8157fac1a2076a93_notxtfrm.cxx_1.1_SwNoTxtFrm :: PaintPicture_OLD.vul"
             ]
         }
     ]

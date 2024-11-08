@@ -13,7 +13,6 @@ originalDir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__
 
 
 def process():
-    # first download the modified cve data from NVD
     fileName = "nvdcve-1.1-modified.json.zip"
     url = "https://nvd.nist.gov/feeds/json/cve/1.1/" + fileName
 
@@ -21,7 +20,6 @@ def process():
     common.unzip(fileName)
     os.remove(fileName)
 
-    # load the pickled cve data
     print "Reading pickled data...",
     cveDict = pickle.load(open(os.path.join(originalDir, "data", "cvedata.pkl"), "rb"))
     print "[DONE]"

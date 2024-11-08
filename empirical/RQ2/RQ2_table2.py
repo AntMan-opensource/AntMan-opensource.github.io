@@ -97,9 +97,6 @@ def get_results_RQ2():
                 2,
             )
 
-    # fp = open("results_RQ2.json", "w")
-    # json.dump(results_RQ2, fp, indent=4)
-    # fp.close()
     return results_RQ2
 
 

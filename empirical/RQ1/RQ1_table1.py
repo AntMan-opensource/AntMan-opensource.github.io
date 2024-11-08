@@ -3,10 +3,11 @@ import os
 import sys
 
 import cpu_heater
-import format_code
 import pandas as pd
 import tools.parseutility as parser
 from tqdm import tqdm
+
+import format_code
 
 
 def exact_match(a: str, b: str) -> bool:
@@ -105,7 +106,6 @@ def worker_fn(transfer_func, dataset, transfer_code, cve, cve_method):
                 fp.close()
             else:
                 transfer_diff_method_type_34.add(transfer_func)
-                # break
     else:
         print(cve)
 

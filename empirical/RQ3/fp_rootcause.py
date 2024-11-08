@@ -10,22 +10,18 @@ tool_reasons = {each: [] for each in TOOLLIST}
 
 
 def fn_features_map():
-    # 文件路径
     file_path = "datas/FP_samples_per_tool.xlsx"
-    # 读取Excel文件，跳过表头
     df = pd.read_excel(file_path, header=0)
     results_reasons = {}
     fp = open("datas/reasons_map.json")
     reasons_map = json.load(fp)
     fp.close()
     for index, row in df.iterrows():
-        # 处理每一行数据
         data2review = row.to_dict()
         key = f"{data2review['CVE']}##{data2review['target_repo']}##{data2review['target_tag']}"
         if key not in results_reasons:
             results_reasons[key] = []
         for reason in ast.literal_eval(data2review["FP reasons"]):
-            # print(reason)
             new_reason = []
             for res in reason:
                 if res in reasons_map:
@@ -47,7 +43,6 @@ def fn_features_map():
     key_cnt = 0
 
     for key in results_features:
-        ## 未采样直接跳过
         if key not in results_reasons:
             continue
         key_cnt += 1
@@ -120,5 +115,4 @@ def fn_features_map():
 
 
 if __name__ == "__main__":
-    # fp_iterator()
     fn_features_map()

@@ -27,7 +27,6 @@ def download_url(url, fileName):
         status += "#" * (downloadedSize * barSize / fileSize)
         status += " " * (barSize - downloadedSize * barSize / fileSize)
         status += "%10d  [%3.2f%%]" % (downloadedSize, downloadedSize * 100. / fileSize)
-        # status += chr(8)*(len(status)+1)
         sys.stdout.write(status)
         sys.stdout.flush()
 

@@ -319,8 +319,4 @@ def get_patch_hunks(code1: str, code2: str) -> list[Hunk]:
 
 
 if __name__ == "__main__":
-    diff2html_file(
-        "/home/wrs/PatchBP/2.Method/patchbp/cache/CVE-2013-6368/x86.c#__vcpu_run/method#0/__vcpu_run#1#62#x86.c/1.pre.c",
-        "/home/wrs/PatchBP/2.Method/patchbp/cache/CVE-2013-6368/x86.c#__vcpu_run/method#0/__vcpu_run#1#62#x86.c/3.target.c",
-        "test.html",
-    )
+    pass

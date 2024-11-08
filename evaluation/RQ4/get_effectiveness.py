@@ -77,18 +77,18 @@ def get_results_effectiveness():
                 result_effectiveness[result_feature[cve_res]] = {}
             result_effectiveness[result_feature[cve_res]][results_antman[cve_res]] = 1
     types = {
-        "origin__fdse__type1__fdse__S",
-        "origin__fdse__type2__fdse__S",
-        "origin__fdse__type34__fdse__S",
-        "target__fdse__type1__fdse__S",
-        "target__fdse__type2__fdse__S",
-        "target__fdse__type34__fdse__S",
-        "origin__fdse__type1__fdse__M",
-        "origin__fdse__type2__fdse__M",
-        "origin__fdse__type34__fdse__M",
-        "target__fdse__type1__fdse__M",
-        "target__fdse__type2__fdse__M",
-        "target__fdse__type34__fdse__M",
+        "origin__split__type1__split__S",
+        "origin__split__type2__split__S",
+        "origin__split__type34__split__S",
+        "target__split__type1__split__S",
+        "target__split__type2__split__S",
+        "target__split__type34__split__S",
+        "origin__split__type1__split__M",
+        "origin__split__type2__split__M",
+        "origin__split__type34__split__M",
+        "target__split__type1__split__M",
+        "target__split__type2__split__M",
+        "target__split__type34__split__M",
     }
     for type in types:
         if type not in result_effectiveness:
@@ -141,434 +141,440 @@ def refine_results():
             raw_results[type]["FN"] = 0
 
     results = {}
-    results["type1__fdse__S"] = {}
-    results["type1__fdse__S"]["TP"] = (
-        raw_results["target__fdse__type1__fdse__S"]["TP"]
-        + raw_results["origin__fdse__type1__fdse__S"]["TP"]
+    results["type1__split__S"] = {}
+    results["type1__split__S"]["TP"] = (
+        raw_results["target__split__type1__split__S"]["TP"]
+        + raw_results["origin__split__type1__split__S"]["TP"]
     )
-    results["type1__fdse__S"]["FP"] = (
-        raw_results["target__fdse__type1__fdse__S"]["FP"]
-        + raw_results["origin__fdse__type1__fdse__S"]["FP"]
+    results["type1__split__S"]["FP"] = (
+        raw_results["target__split__type1__split__S"]["FP"]
+        + raw_results["origin__split__type1__split__S"]["FP"]
     )
-    results["type1__fdse__S"]["FN"] = (
-        raw_results["target__fdse__type1__fdse__S"]["FN"]
-        + raw_results["origin__fdse__type1__fdse__S"]["FN"]
+    results["type1__split__S"]["FN"] = (
+        raw_results["target__split__type1__split__S"]["FN"]
+        + raw_results["origin__split__type1__split__S"]["FN"]
     )
     try:
-        results["type1__fdse__S"]["prec."] = results["type1__fdse__S"]["TP"] / (
-            results["type1__fdse__S"]["TP"] + results["type1__fdse__S"]["FP"]
+        results["type1__split__S"]["prec."] = results["type1__split__S"]["TP"] / (
+            results["type1__split__S"]["TP"] + results["type1__split__S"]["FP"]
         )
     except:
-        results["type1__fdse__S"]["prec."] = 0.00
+        results["type1__split__S"]["prec."] = 0.00
     try:
-        results["type1__fdse__S"]["rec."] = results["type1__fdse__S"]["TP"] / (
-            results["type1__fdse__S"]["TP"] + results["type1__fdse__S"]["FN"]
+        results["type1__split__S"]["rec."] = results["type1__split__S"]["TP"] / (
+            results["type1__split__S"]["TP"] + results["type1__split__S"]["FN"]
         )
     except:
-        results["type1__fdse__S"]["rec."] = 0.00
+        results["type1__split__S"]["rec."] = 0.00
     try:
-        results["type1__fdse__S"]["f1."] = (
+        results["type1__split__S"]["f1."] = (
             2
-            * results["type1__fdse__S"]["prec."]
-            * results["type1__fdse__S"]["rec."]
-            / (results["type1__fdse__S"]["prec."] + results["type1__fdse__S"]["rec."])
+            * results["type1__split__S"]["prec."]
+            * results["type1__split__S"]["rec."]
+            / (results["type1__split__S"]["prec."] + results["type1__split__S"]["rec."])
         )
     except:
-        results["type1__fdse__S"]["f1."] = 0.00
+        results["type1__split__S"]["f1."] = 0.00
 
-    results["type2__fdse__S"] = {}
-    results["type2__fdse__S"]["TP"] = (
-        raw_results["target__fdse__type2__fdse__S"]["TP"]
-        + raw_results["origin__fdse__type2__fdse__S"]["TP"]
+    results["type2__split__S"] = {}
+    results["type2__split__S"]["TP"] = (
+        raw_results["target__split__type2__split__S"]["TP"]
+        + raw_results["origin__split__type2__split__S"]["TP"]
     )
-    results["type2__fdse__S"]["FP"] = (
-        raw_results["target__fdse__type2__fdse__S"]["FP"]
-        + raw_results["origin__fdse__type2__fdse__S"]["FP"]
+    results["type2__split__S"]["FP"] = (
+        raw_results["target__split__type2__split__S"]["FP"]
+        + raw_results["origin__split__type2__split__S"]["FP"]
     )
-    results["type2__fdse__S"]["FN"] = (
-        raw_results["target__fdse__type2__fdse__S"]["FN"]
-        + raw_results["origin__fdse__type2__fdse__S"]["FN"]
+    results["type2__split__S"]["FN"] = (
+        raw_results["target__split__type2__split__S"]["FN"]
+        + raw_results["origin__split__type2__split__S"]["FN"]
     )
     try:
-        results["type2__fdse__S"]["prec."] = results["type2__fdse__S"]["TP"] / (
-            results["type2__fdse__S"]["TP"] + results["type2__fdse__S"]["FP"]
+        results["type2__split__S"]["prec."] = results["type2__split__S"]["TP"] / (
+            results["type2__split__S"]["TP"] + results["type2__split__S"]["FP"]
         )
     except:
-        results["type2__fdse__S"]["prec."] = 0.00
+        results["type2__split__S"]["prec."] = 0.00
     try:
-        results["type2__fdse__S"]["rec."] = results["type2__fdse__S"]["TP"] / (
-            results["type2__fdse__S"]["TP"] + results["type2__fdse__S"]["FN"]
+        results["type2__split__S"]["rec."] = results["type2__split__S"]["TP"] / (
+            results["type2__split__S"]["TP"] + results["type2__split__S"]["FN"]
         )
     except:
-        results["type2__fdse__S"]["rec."] = 0.00
+        results["type2__split__S"]["rec."] = 0.00
     try:
-        results["type2__fdse__S"]["f1."] = (
+        results["type2__split__S"]["f1."] = (
             2
-            * results["type2__fdse__S"]["prec."]
-            * results["type2__fdse__S"]["rec."]
-            / (results["type2__fdse__S"]["prec."] + results["type2__fdse__S"]["rec."])
+            * results["type2__split__S"]["prec."]
+            * results["type2__split__S"]["rec."]
+            / (results["type2__split__S"]["prec."] + results["type2__split__S"]["rec."])
         )
     except:
-        results["type2__fdse__S"]["f1."] = 0.00
+        results["type2__split__S"]["f1."] = 0.00
 
-    results["type34__fdse__S"] = {}
-    results["type34__fdse__S"]["TP"] = (
-        raw_results["target__fdse__type34__fdse__S"]["TP"]
-        + raw_results["origin__fdse__type34__fdse__S"]["TP"]
+    results["type34__split__S"] = {}
+    results["type34__split__S"]["TP"] = (
+        raw_results["target__split__type34__split__S"]["TP"]
+        + raw_results["origin__split__type34__split__S"]["TP"]
     )
-    results["type34__fdse__S"]["FP"] = (
-        raw_results["target__fdse__type34__fdse__S"]["FP"]
-        + raw_results["origin__fdse__type34__fdse__S"]["FP"]
+    results["type34__split__S"]["FP"] = (
+        raw_results["target__split__type34__split__S"]["FP"]
+        + raw_results["origin__split__type34__split__S"]["FP"]
     )
-    results["type34__fdse__S"]["FN"] = (
-        raw_results["target__fdse__type34__fdse__S"]["FN"]
-        + raw_results["origin__fdse__type34__fdse__S"]["FN"]
+    results["type34__split__S"]["FN"] = (
+        raw_results["target__split__type34__split__S"]["FN"]
+        + raw_results["origin__split__type34__split__S"]["FN"]
     )
     try:
-        results["type34__fdse__S"]["prec."] = results["type34__fdse__S"]["TP"] / (
-            results["type34__fdse__S"]["TP"] + results["type34__fdse__S"]["FP"]
+        results["type34__split__S"]["prec."] = results["type34__split__S"]["TP"] / (
+            results["type34__split__S"]["TP"] + results["type34__split__S"]["FP"]
         )
     except:
-        results["type34__fdse__S"]["prec."] = 0.00
+        results["type34__split__S"]["prec."] = 0.00
     try:
-        results["type34__fdse__S"]["rec."] = results["type34__fdse__S"]["TP"] / (
-            results["type34__fdse__S"]["TP"] + results["type34__fdse__S"]["FN"]
+        results["type34__split__S"]["rec."] = results["type34__split__S"]["TP"] / (
+            results["type34__split__S"]["TP"] + results["type34__split__S"]["FN"]
         )
     except:
-        results["type34__fdse__S"]["rec."] = 0.00
+        results["type34__split__S"]["rec."] = 0.00
     try:
-        results["type34__fdse__S"]["f1."] = (
+        results["type34__split__S"]["f1."] = (
             2
-            * results["type34__fdse__S"]["prec."]
-            * results["type34__fdse__S"]["rec."]
-            / (results["type34__fdse__S"]["prec."] + results["type34__fdse__S"]["rec."])
-        )
-    except:
-        results["type34__fdse__S"]["f1."] = 0.00
-
-    results["type1__fdse__M"] = {}
-    results["type1__fdse__M"]["TP"] = (
-        raw_results["target__fdse__type1__fdse__M"]["TP"]
-        + raw_results["origin__fdse__type1__fdse__M"]["TP"]
-    )
-    results["type1__fdse__M"]["FP"] = (
-        raw_results["target__fdse__type1__fdse__M"]["FP"]
-        + raw_results["origin__fdse__type1__fdse__M"]["FP"]
-    )
-    results["type1__fdse__M"]["FN"] = (
-        raw_results["target__fdse__type1__fdse__M"]["FN"]
-        + raw_results["origin__fdse__type1__fdse__M"]["FN"]
-    )
-    try:
-        results["type1__fdse__M"]["prec."] = results["type1__fdse__M"]["TP"] / (
-            results["type1__fdse__M"]["TP"] + results["type1__fdse__M"]["FP"]
-        )
-    except:
-        results["type1__fdse__M"]["prec."] = 0.00
-    try:
-        results["type1__fdse__M"]["rec."] = results["type1__fdse__M"]["TP"] / (
-            results["type1__fdse__M"]["TP"] + results["type1__fdse__M"]["FN"]
-        )
-    except:
-        results["type1__fdse__M"]["rec."] = 0.00
-    try:
-        results["type1__fdse__M"]["f1."] = (
-            2
-            * results["type1__fdse__M"]["prec."]
-            * results["type1__fdse__M"]["rec."]
-            / (results["type1__fdse__M"]["prec."] + results["type1__fdse__M"]["rec."])
-        )
-    except:
-        results["type1__fdse__M"]["f1."] = 0.00
-
-    results["type2__fdse__M"] = {}
-    results["type2__fdse__M"]["TP"] = (
-        raw_results["target__fdse__type2__fdse__M"]["TP"]
-        + raw_results["origin__fdse__type2__fdse__M"]["TP"]
-    )
-    results["type2__fdse__M"]["FP"] = (
-        raw_results["target__fdse__type2__fdse__M"]["FP"]
-        + raw_results["origin__fdse__type2__fdse__M"]["FP"]
-    )
-    results["type2__fdse__M"]["FN"] = (
-        raw_results["target__fdse__type2__fdse__M"]["FN"]
-        + raw_results["origin__fdse__type2__fdse__M"]["FN"]
-    )
-    try:
-        results["type2__fdse__M"]["prec."] = results["type2__fdse__M"]["TP"] / (
-            results["type2__fdse__M"]["TP"] + results["type2__fdse__M"]["FP"]
-        )
-    except:
-        results["type2__fdse__M"]["prec."] = 0.00
-    try:
-        results["type2__fdse__M"]["rec."] = results["type2__fdse__M"]["TP"] / (
-            results["type2__fdse__M"]["TP"] + results["type2__fdse__M"]["FN"]
-        )
-    except:
-        results["type2__fdse__M"]["rec."] = 0.00
-    try:
-        results["type2__fdse__M"]["f1."] = (
-            2
-            * results["type2__fdse__M"]["prec."]
-            * results["type2__fdse__M"]["rec."]
-            / (results["type2__fdse__M"]["prec."] + results["type2__fdse__M"]["rec."])
-        )
-    except:
-        results["type2__fdse__M"]["f1."] = 0.00
-
-    results["type34__fdse__M"] = {}
-    results["type34__fdse__M"]["TP"] = (
-        raw_results["target__fdse__type34__fdse__M"]["TP"]
-        + raw_results["origin__fdse__type34__fdse__M"]["TP"]
-    )
-    results["type34__fdse__M"]["FP"] = (
-        raw_results["target__fdse__type34__fdse__M"]["FP"]
-        + raw_results["origin__fdse__type34__fdse__M"]["FP"]
-    )
-    results["type34__fdse__M"]["FN"] = (
-        raw_results["target__fdse__type34__fdse__M"]["FN"]
-        + raw_results["origin__fdse__type34__fdse__M"]["FN"]
-    )
-    try:
-        results["type34__fdse__M"]["prec."] = results["type34__fdse__M"]["TP"] / (
-            results["type34__fdse__M"]["TP"] + results["type34__fdse__M"]["FP"]
-        )
-    except:
-        results["type34__fdse__M"]["prec."] = 0.00
-    try:
-        results["type34__fdse__M"]["rec."] = results["type34__fdse__M"]["TP"] / (
-            results["type34__fdse__M"]["TP"] + results["type34__fdse__M"]["FN"]
-        )
-    except:
-        results["type34__fdse__M"]["rec."] = 0.00
-    try:
-        results["type34__fdse__M"]["f1."] = (
-            2
-            * results["type34__fdse__M"]["prec."]
-            * results["type34__fdse__M"]["rec."]
-            / (results["type34__fdse__M"]["prec."] + results["type34__fdse__M"]["rec."])
-        )
-    except:
-        results["type34__fdse__M"]["f1."] = 0.00
-
-    results["type1__fdse__all"] = {}
-    results["type1__fdse__all"]["TP"] = (
-        results["type1__fdse__S"]["TP"] + results["type1__fdse__M"]["TP"]
-    )
-    results["type1__fdse__all"]["FP"] = (
-        results["type1__fdse__S"]["FP"] + results["type1__fdse__M"]["FP"]
-    )
-    results["type1__fdse__all"]["FN"] = (
-        results["type1__fdse__S"]["FN"] + results["type1__fdse__M"]["FN"]
-    )
-    try:
-        results["type1__fdse__all"]["prec."] = results["type1__fdse__all"]["TP"] / (
-            results["type1__fdse__all"]["TP"] + results["type1__fdse__all"]["FP"]
-        )
-    except:
-        results["type1__fdse__all"]["prec."] = 0.00
-    try:
-        results["type1__fdse__all"]["rec."] = results["type1__fdse__all"]["TP"] / (
-            results["type1__fdse__all"]["TP"] + results["type1__fdse__all"]["FN"]
-        )
-    except:
-        results["type1__fdse__all"]["rec."] = 0.00
-    try:
-        results["type1__fdse__all"]["f1."] = (
-            2
-            * results["type1__fdse__all"]["prec."]
-            * results["type1__fdse__all"]["rec."]
+            * results["type34__split__S"]["prec."]
+            * results["type34__split__S"]["rec."]
             / (
-                results["type1__fdse__all"]["prec."]
-                + results["type1__fdse__all"]["rec."]
+                results["type34__split__S"]["prec."]
+                + results["type34__split__S"]["rec."]
             )
         )
     except:
-        results["type1__fdse__all"]["f1."] = 0.00
+        results["type34__split__S"]["f1."] = 0.00
 
-    results["type2__fdse__all"] = {}
-    results["type2__fdse__all"]["TP"] = (
-        results["type2__fdse__S"]["TP"] + results["type2__fdse__M"]["TP"]
+    results["type1__split__M"] = {}
+    results["type1__split__M"]["TP"] = (
+        raw_results["target__split__type1__split__M"]["TP"]
+        + raw_results["origin__split__type1__split__M"]["TP"]
     )
-    results["type2__fdse__all"]["FP"] = (
-        results["type2__fdse__S"]["FP"] + results["type2__fdse__M"]["FP"]
+    results["type1__split__M"]["FP"] = (
+        raw_results["target__split__type1__split__M"]["FP"]
+        + raw_results["origin__split__type1__split__M"]["FP"]
     )
-    results["type2__fdse__all"]["FN"] = (
-        results["type2__fdse__S"]["FN"] + results["type2__fdse__M"]["FN"]
+    results["type1__split__M"]["FN"] = (
+        raw_results["target__split__type1__split__M"]["FN"]
+        + raw_results["origin__split__type1__split__M"]["FN"]
     )
     try:
-        results["type2__fdse__all"]["prec."] = results["type2__fdse__all"]["TP"] / (
-            results["type2__fdse__all"]["TP"] + results["type2__fdse__all"]["FP"]
+        results["type1__split__M"]["prec."] = results["type1__split__M"]["TP"] / (
+            results["type1__split__M"]["TP"] + results["type1__split__M"]["FP"]
         )
     except:
-        results["type2__fdse__all"]["prec."] = 0.00
+        results["type1__split__M"]["prec."] = 0.00
     try:
-        results["type2__fdse__all"]["rec."] = results["type2__fdse__all"]["TP"] / (
-            results["type2__fdse__all"]["TP"] + results["type2__fdse__all"]["FN"]
+        results["type1__split__M"]["rec."] = results["type1__split__M"]["TP"] / (
+            results["type1__split__M"]["TP"] + results["type1__split__M"]["FN"]
         )
     except:
-        results["type2__fdse__all"]["rec."] = 0.00
+        results["type1__split__M"]["rec."] = 0.00
     try:
-        results["type2__fdse__all"]["f1."] = (
+        results["type1__split__M"]["f1."] = (
             2
-            * results["type2__fdse__all"]["prec."]
-            * results["type2__fdse__all"]["rec."]
+            * results["type1__split__M"]["prec."]
+            * results["type1__split__M"]["rec."]
+            / (results["type1__split__M"]["prec."] + results["type1__split__M"]["rec."])
+        )
+    except:
+        results["type1__split__M"]["f1."] = 0.00
+
+    results["type2__split__M"] = {}
+    results["type2__split__M"]["TP"] = (
+        raw_results["target__split__type2__split__M"]["TP"]
+        + raw_results["origin__split__type2__split__M"]["TP"]
+    )
+    results["type2__split__M"]["FP"] = (
+        raw_results["target__split__type2__split__M"]["FP"]
+        + raw_results["origin__split__type2__split__M"]["FP"]
+    )
+    results["type2__split__M"]["FN"] = (
+        raw_results["target__split__type2__split__M"]["FN"]
+        + raw_results["origin__split__type2__split__M"]["FN"]
+    )
+    try:
+        results["type2__split__M"]["prec."] = results["type2__split__M"]["TP"] / (
+            results["type2__split__M"]["TP"] + results["type2__split__M"]["FP"]
+        )
+    except:
+        results["type2__split__M"]["prec."] = 0.00
+    try:
+        results["type2__split__M"]["rec."] = results["type2__split__M"]["TP"] / (
+            results["type2__split__M"]["TP"] + results["type2__split__M"]["FN"]
+        )
+    except:
+        results["type2__split__M"]["rec."] = 0.00
+    try:
+        results["type2__split__M"]["f1."] = (
+            2
+            * results["type2__split__M"]["prec."]
+            * results["type2__split__M"]["rec."]
+            / (results["type2__split__M"]["prec."] + results["type2__split__M"]["rec."])
+        )
+    except:
+        results["type2__split__M"]["f1."] = 0.00
+
+    results["type34__split__M"] = {}
+    results["type34__split__M"]["TP"] = (
+        raw_results["target__split__type34__split__M"]["TP"]
+        + raw_results["origin__split__type34__split__M"]["TP"]
+    )
+    results["type34__split__M"]["FP"] = (
+        raw_results["target__split__type34__split__M"]["FP"]
+        + raw_results["origin__split__type34__split__M"]["FP"]
+    )
+    results["type34__split__M"]["FN"] = (
+        raw_results["target__split__type34__split__M"]["FN"]
+        + raw_results["origin__split__type34__split__M"]["FN"]
+    )
+    try:
+        results["type34__split__M"]["prec."] = results["type34__split__M"]["TP"] / (
+            results["type34__split__M"]["TP"] + results["type34__split__M"]["FP"]
+        )
+    except:
+        results["type34__split__M"]["prec."] = 0.00
+    try:
+        results["type34__split__M"]["rec."] = results["type34__split__M"]["TP"] / (
+            results["type34__split__M"]["TP"] + results["type34__split__M"]["FN"]
+        )
+    except:
+        results["type34__split__M"]["rec."] = 0.00
+    try:
+        results["type34__split__M"]["f1."] = (
+            2
+            * results["type34__split__M"]["prec."]
+            * results["type34__split__M"]["rec."]
             / (
-                results["type2__fdse__all"]["prec."]
-                + results["type2__fdse__all"]["rec."]
+                results["type34__split__M"]["prec."]
+                + results["type34__split__M"]["rec."]
             )
         )
     except:
-        results["type2__fdse__all"]["f1."] = 0.00
+        results["type34__split__M"]["f1."] = 0.00
 
-    results["type34__fdse__all"] = {}
-    results["type34__fdse__all"]["TP"] = (
-        results["type34__fdse__S"]["TP"] + results["type34__fdse__M"]["TP"]
+    results["type1__split__all"] = {}
+    results["type1__split__all"]["TP"] = (
+        results["type1__split__S"]["TP"] + results["type1__split__M"]["TP"]
     )
-    results["type34__fdse__all"]["FP"] = (
-        results["type34__fdse__S"]["FP"] + results["type34__fdse__M"]["FP"]
+    results["type1__split__all"]["FP"] = (
+        results["type1__split__S"]["FP"] + results["type1__split__M"]["FP"]
     )
-    results["type34__fdse__all"]["FN"] = (
-        results["type34__fdse__S"]["FN"] + results["type34__fdse__M"]["FN"]
+    results["type1__split__all"]["FN"] = (
+        results["type1__split__S"]["FN"] + results["type1__split__M"]["FN"]
     )
     try:
-        results["type34__fdse__all"]["prec."] = results["type34__fdse__all"]["TP"] / (
-            results["type34__fdse__all"]["TP"] + results["type34__fdse__all"]["FP"]
+        results["type1__split__all"]["prec."] = results["type1__split__all"]["TP"] / (
+            results["type1__split__all"]["TP"] + results["type1__split__all"]["FP"]
         )
     except:
-        results["type34__fdse__all"]["prec."] = 0.00
+        results["type1__split__all"]["prec."] = 0.00
     try:
-        results["type34__fdse__all"]["rec."] = results["type34__fdse__all"]["TP"] / (
-            results["type34__fdse__all"]["TP"] + results["type34__fdse__all"]["FN"]
+        results["type1__split__all"]["rec."] = results["type1__split__all"]["TP"] / (
+            results["type1__split__all"]["TP"] + results["type1__split__all"]["FN"]
         )
     except:
-        results["type34__fdse__all"]["rec."] = 0.00
+        results["type1__split__all"]["rec."] = 0.00
     try:
-        results["type34__fdse__all"]["f1."] = (
+        results["type1__split__all"]["f1."] = (
             2
-            * results["type34__fdse__all"]["prec."]
-            * results["type34__fdse__all"]["rec."]
+            * results["type1__split__all"]["prec."]
+            * results["type1__split__all"]["rec."]
             / (
-                results["type34__fdse__all"]["prec."]
-                + results["type34__fdse__all"]["rec."]
+                results["type1__split__all"]["prec."]
+                + results["type1__split__all"]["rec."]
             )
         )
     except:
-        results["type34__fdse__all"]["f1."] = 0.00
+        results["type1__split__all"]["f1."] = 0.00
 
-    results["all__fdse__S"] = {}
-    results["all__fdse__S"]["TP"] = (
-        results["type2__fdse__S"]["TP"]
-        + results["type34__fdse__S"]["TP"]
-        + results["type1__fdse__S"]["TP"]
+    results["type2__split__all"] = {}
+    results["type2__split__all"]["TP"] = (
+        results["type2__split__S"]["TP"] + results["type2__split__M"]["TP"]
     )
-    results["all__fdse__S"]["FP"] = (
-        results["type2__fdse__S"]["FP"]
-        + results["type34__fdse__S"]["FP"]
-        + results["type1__fdse__S"]["FP"]
+    results["type2__split__all"]["FP"] = (
+        results["type2__split__S"]["FP"] + results["type2__split__M"]["FP"]
     )
-    results["all__fdse__S"]["FN"] = (
-        results["type2__fdse__S"]["FN"]
-        + results["type34__fdse__S"]["FN"]
-        + results["type1__fdse__S"]["FN"]
+    results["type2__split__all"]["FN"] = (
+        results["type2__split__S"]["FN"] + results["type2__split__M"]["FN"]
     )
     try:
-        results["all__fdse__S"]["prec."] = results["all__fdse__S"]["TP"] / (
-            results["all__fdse__S"]["TP"] + results["all__fdse__S"]["FP"]
+        results["type2__split__all"]["prec."] = results["type2__split__all"]["TP"] / (
+            results["type2__split__all"]["TP"] + results["type2__split__all"]["FP"]
         )
     except:
-        results["all__fdse__S"]["prec."] = 0.00
+        results["type2__split__all"]["prec."] = 0.00
     try:
-        results["all__fdse__S"]["rec."] = results["all__fdse__S"]["TP"] / (
-            results["all__fdse__S"]["TP"] + results["all__fdse__S"]["FN"]
+        results["type2__split__all"]["rec."] = results["type2__split__all"]["TP"] / (
+            results["type2__split__all"]["TP"] + results["type2__split__all"]["FN"]
         )
     except:
-        results["all__fdse__S"]["rec."] = 0.00
+        results["type2__split__all"]["rec."] = 0.00
     try:
-        results["all__fdse__S"]["f1."] = (
+        results["type2__split__all"]["f1."] = (
             2
-            * results["all__fdse__S"]["prec."]
-            * results["all__fdse__S"]["rec."]
-            / (results["all__fdse__S"]["prec."] + results["all__fdse__S"]["rec."])
+            * results["type2__split__all"]["prec."]
+            * results["type2__split__all"]["rec."]
+            / (
+                results["type2__split__all"]["prec."]
+                + results["type2__split__all"]["rec."]
+            )
         )
     except:
-        results["all__fdse__S"]["f1."] = 0.00
+        results["type2__split__all"]["f1."] = 0.00
 
-    results["all__fdse__M"] = {}
-    results["all__fdse__M"]["TP"] = (
-        results["type2__fdse__M"]["TP"]
-        + results["type34__fdse__M"]["TP"]
-        + results["type1__fdse__M"]["TP"]
+    results["type34__split__all"] = {}
+    results["type34__split__all"]["TP"] = (
+        results["type34__split__S"]["TP"] + results["type34__split__M"]["TP"]
     )
-    results["all__fdse__M"]["FP"] = (
-        results["type2__fdse__M"]["FP"]
-        + results["type34__fdse__M"]["FP"]
-        + results["type1__fdse__M"]["FP"]
+    results["type34__split__all"]["FP"] = (
+        results["type34__split__S"]["FP"] + results["type34__split__M"]["FP"]
     )
-    results["all__fdse__M"]["FN"] = (
-        results["type2__fdse__M"]["FN"]
-        + results["type34__fdse__M"]["FN"]
-        + results["type1__fdse__M"]["FN"]
+    results["type34__split__all"]["FN"] = (
+        results["type34__split__S"]["FN"] + results["type34__split__M"]["FN"]
     )
     try:
-        results["all__fdse__M"]["prec."] = results["all__fdse__M"]["TP"] / (
-            results["all__fdse__M"]["TP"] + results["all__fdse__M"]["FP"]
+        results["type34__split__all"]["prec."] = results["type34__split__all"]["TP"] / (
+            results["type34__split__all"]["TP"] + results["type34__split__all"]["FP"]
         )
     except:
-        results["all__fdse__M"]["prec."] = 0.00
+        results["type34__split__all"]["prec."] = 0.00
     try:
-        results["all__fdse__M"]["rec."] = results["all__fdse__M"]["TP"] / (
-            results["all__fdse__M"]["TP"] + results["all__fdse__M"]["FN"]
+        results["type34__split__all"]["rec."] = results["type34__split__all"]["TP"] / (
+            results["type34__split__all"]["TP"] + results["type34__split__all"]["FN"]
         )
     except:
-        results["all__fdse__M"]["rec."] = 0.00
+        results["type34__split__all"]["rec."] = 0.00
     try:
-        results["all__fdse__M"]["f1."] = (
+        results["type34__split__all"]["f1."] = (
             2
-            * results["all__fdse__M"]["prec."]
-            * results["all__fdse__M"]["rec."]
-            / (results["all__fdse__M"]["prec."] + results["all__fdse__M"]["rec."])
+            * results["type34__split__all"]["prec."]
+            * results["type34__split__all"]["rec."]
+            / (
+                results["type34__split__all"]["prec."]
+                + results["type34__split__all"]["rec."]
+            )
         )
     except:
-        results["all__fdse__M"]["f1."] = 0.00
+        results["type34__split__all"]["f1."] = 0.00
 
-    results["all__fdse__all"] = {}
-    results["all__fdse__all"]["TP"] = (
-        results["type2__fdse__all"]["TP"]
-        + results["type34__fdse__all"]["TP"]
-        + results["type1__fdse__all"]["TP"]
+    results["all__split__S"] = {}
+    results["all__split__S"]["TP"] = (
+        results["type2__split__S"]["TP"]
+        + results["type34__split__S"]["TP"]
+        + results["type1__split__S"]["TP"]
     )
-    results["all__fdse__all"]["FP"] = (
-        results["type2__fdse__all"]["FP"]
-        + results["type34__fdse__all"]["FP"]
-        + results["type1__fdse__all"]["FP"]
+    results["all__split__S"]["FP"] = (
+        results["type2__split__S"]["FP"]
+        + results["type34__split__S"]["FP"]
+        + results["type1__split__S"]["FP"]
     )
-    results["all__fdse__all"]["FN"] = (
-        results["type2__fdse__all"]["FN"]
-        + results["type34__fdse__all"]["FN"]
-        + results["type1__fdse__all"]["FN"]
+    results["all__split__S"]["FN"] = (
+        results["type2__split__S"]["FN"]
+        + results["type34__split__S"]["FN"]
+        + results["type1__split__S"]["FN"]
     )
     try:
-        results["all__fdse__all"]["prec."] = results["all__fdse__all"]["TP"] / (
-            results["all__fdse__all"]["TP"] + results["all__fdse__all"]["FP"]
+        results["all__split__S"]["prec."] = results["all__split__S"]["TP"] / (
+            results["all__split__S"]["TP"] + results["all__split__S"]["FP"]
         )
     except:
-        results["all__fdse__all"]["prec."] = 0.00
+        results["all__split__S"]["prec."] = 0.00
     try:
-        results["all__fdse__all"]["rec."] = results["all__fdse__all"]["TP"] / (
-            results["all__fdse__all"]["TP"] + results["all__fdse__all"]["FN"]
+        results["all__split__S"]["rec."] = results["all__split__S"]["TP"] / (
+            results["all__split__S"]["TP"] + results["all__split__S"]["FN"]
         )
     except:
-        results["all__fdse__all"]["rec."] = 0.00
+        results["all__split__S"]["rec."] = 0.00
     try:
-        results["all__fdse__all"]["f1."] = (
+        results["all__split__S"]["f1."] = (
             2
-            * results["all__fdse__all"]["prec."]
-            * results["all__fdse__all"]["rec."]
-            / (results["all__fdse__all"]["prec."] + results["all__fdse__all"]["rec."])
+            * results["all__split__S"]["prec."]
+            * results["all__split__S"]["rec."]
+            / (results["all__split__S"]["prec."] + results["all__split__S"]["rec."])
         )
     except:
-        results["all__fdse__all"]["f1."] = 0.00
+        results["all__split__S"]["f1."] = 0.00
+
+    results["all__split__M"] = {}
+    results["all__split__M"]["TP"] = (
+        results["type2__split__M"]["TP"]
+        + results["type34__split__M"]["TP"]
+        + results["type1__split__M"]["TP"]
+    )
+    results["all__split__M"]["FP"] = (
+        results["type2__split__M"]["FP"]
+        + results["type34__split__M"]["FP"]
+        + results["type1__split__M"]["FP"]
+    )
+    results["all__split__M"]["FN"] = (
+        results["type2__split__M"]["FN"]
+        + results["type34__split__M"]["FN"]
+        + results["type1__split__M"]["FN"]
+    )
+    try:
+        results["all__split__M"]["prec."] = results["all__split__M"]["TP"] / (
+            results["all__split__M"]["TP"] + results["all__split__M"]["FP"]
+        )
+    except:
+        results["all__split__M"]["prec."] = 0.00
+    try:
+        results["all__split__M"]["rec."] = results["all__split__M"]["TP"] / (
+            results["all__split__M"]["TP"] + results["all__split__M"]["FN"]
+        )
+    except:
+        results["all__split__M"]["rec."] = 0.00
+    try:
+        results["all__split__M"]["f1."] = (
+            2
+            * results["all__split__M"]["prec."]
+            * results["all__split__M"]["rec."]
+            / (results["all__split__M"]["prec."] + results["all__split__M"]["rec."])
+        )
+    except:
+        results["all__split__M"]["f1."] = 0.00
+
+    results["all__split__all"] = {}
+    results["all__split__all"]["TP"] = (
+        results["type2__split__all"]["TP"]
+        + results["type34__split__all"]["TP"]
+        + results["type1__split__all"]["TP"]
+    )
+    results["all__split__all"]["FP"] = (
+        results["type2__split__all"]["FP"]
+        + results["type34__split__all"]["FP"]
+        + results["type1__split__all"]["FP"]
+    )
+    results["all__split__all"]["FN"] = (
+        results["type2__split__all"]["FN"]
+        + results["type34__split__all"]["FN"]
+        + results["type1__split__all"]["FN"]
+    )
+    try:
+        results["all__split__all"]["prec."] = results["all__split__all"]["TP"] / (
+            results["all__split__all"]["TP"] + results["all__split__all"]["FP"]
+        )
+    except:
+        results["all__split__all"]["prec."] = 0.00
+    try:
+        results["all__split__all"]["rec."] = results["all__split__all"]["TP"] / (
+            results["all__split__all"]["TP"] + results["all__split__all"]["FN"]
+        )
+    except:
+        results["all__split__all"]["rec."] = 0.00
+    try:
+        results["all__split__all"]["f1."] = (
+            2
+            * results["all__split__all"]["prec."]
+            * results["all__split__all"]["rec."]
+            / (results["all__split__all"]["prec."] + results["all__split__all"]["rec."])
+        )
+    except:
+        results["all__split__all"]["f1."] = 0.00
 
     fp = open("results_RQ4.json", "w")
     json.dump(results, fp, indent=4)

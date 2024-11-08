@@ -8,20 +8,16 @@ import pexpect
 
 
 def shesc(sometext):
-    """
-    Delete ANSI escape sequences from string
-    """
-    # 7-bit C1 ANSI sequences
     ansi_escape = re.compile(
         r"""
-        \x1B  # ESC
-        (?:   # 7-bit C1 Fe (except CSI)
+        \x1B  
+        (?:   
             [@-Z\\-_]
-        |     # or [ for CSI, followed by a control sequence
+        |     
             \[
-            [0-?]*  # Parameter bytes
-            [ -/]*  # Intermediate bytes
-            [@-~]   # Final byte
+            [0-?]*  
+            [ -/]*  
+            [@-~]   
         )
     """,
         re.VERBOSE,
@@ -69,7 +65,7 @@ class JoernSession:
 
     def send_line(self, cmd: str):
         self.proc.sendline(cmd)
-        self.read_until_prompt(zonk_line=True)  # Skip the echoed prompt "joern>"
+        self.read_until_prompt(zonk_line=True)
 
     """
     Joern commands
@@ -113,7 +109,6 @@ class JoernSession:
         return self.run_command('importCode("' + str(filepath) + '")')
 
     def import_cpg(self, cpgpath: str, filepath: str):
-        # cpgpath = filepath + ".cpg.bin"
         if Path(cpgpath).exists():
             return self.run_command('importCpg("' + cpgpath + '")')
         else:
@@ -124,15 +119,6 @@ class JoernSession:
             except Exception:
                 traceback.print_exc()
             return ret
-
-    # def export_cpg(self, filepath: str):
-    #     out1 = self.run_command(f"""importCode("{filepath}")""")
-    #     out2 = self.run_script("get_func_graph", params={
-    #         "filename": filepath,
-    #         "exportJson": False,
-    #         "exportCpg": True,
-    #     })
-    #     return out1 + "\n" + out2
 
     def delete(self):
         return self.run_command(f"delete")
@@ -146,12 +132,11 @@ class JoernSession:
         return cpg_path
 
 
-# @pytest.mark.skip
 def test_close():
     sess = JoernSession(logfile=sys.stdout.buffer)
     sess.send_line(
         """for (i <- 1 to 1000) {println(s"iteration $i"); Thread.sleep(1000);}"""
-    )  # this will time out ordinarily if it is not canceled
+    )
     sess.close()
 
 
@@ -192,4 +177,4 @@ def test_script():
 
 
 if __name__ == "__main__":
-    test_worker()
+    pass
