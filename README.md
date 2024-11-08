@@ -2,8 +2,6 @@
 
 | [2024-10-20] 🚀🚀🚀We have successfully detected 4,593 recurring vulnerabilities, with 307 confirmed by developers, and identified 73 new 0-day vulnerabilities across 15 repositories, receiving 5 CVE identifiers.
 
-| [2024-11-06] 📢📢📢We have released the supplementary materials of empirical study. The prototype of AntMan, along with additional evaluation materials, **is currently being organized and will be released by Sunday, November 10, 2024.**
-
 # AntMan
 
 With the rapid development of open-source software, code reuse has become a common practice to accelerate development. However, it leads to inheritance from the original vulnerability, which recurs at the reusing repositories, known as recurring vulnerabilities (RVs). Traditional general-purpose vulnerability detection approaches struggle with scalability and adaptability, while learning-based approaches are often constrained by limited training datasets and are less effective against unseen vulnerabilities. Though specific recurring vulnerability detection (RVD) approaches have been proposed, their effectiveness across various RV characteristics remains unclear.
