@@ -8,15 +8,23 @@ This folder contains the implementation of `AntMan`. The system is organized int
 
 To run this project, you will need the following dependencies:
 
-- ***python***
+- **python**: 3.11.8
 
-- ***[joern](https://docs.joern.io/installation)***
+- **joern**: 2.260
 
-- ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***
+  The installation process for Joern can be found at https://docs.joern.io/installation.
 
-- ***[UniXcoder](https://github.com/microsoft/CodeBERT/tree/master/UniXcoder#2-similarity-between-code-and-nl)***
+  To install and run Joern, JDK 11 environment is required.
 
-  Our utilized versions: Python 3.12.3, joern 1.1.1377 and some other elevant dependent packages listed in [requirements.txt](./requirements.txt) on Ubuntu 18.04.
+- **tree-sitter**: 0.22.6
+
+  The installation process for tree-sitter can be found at https://tree-sitter.github.io/tree-sitter/
+
+- **UniXcoder**
+
+  The instruction for UniXcoder can be found at https://github.com/microsoft/CodeBERT/tree/master/UniXcoder#2-similarity-between-code-and-nl
+
+- Other relevant dependent packages listed in [requirements.txt](./requirements.txt)
 
   To setup, just run:
 

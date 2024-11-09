@@ -1,12 +1,8 @@
-|**<font size=5>✨✨✨News :</font>**<br/><br/>[2024-09-21] 🚀🚀🚀We have released our ground truth and reproducing materials for our research questions of empirical study.<br/>[2024-10-08] 🚀🚀🚀We have released our tool, and welcome to share your feedback with us.<br/>[2024-10-15] 🚀🚀🚀We have notified developers of 274 1/N-day vulnerabilities, with 188 confirmed.<br/>[2024-10-15] 🚀🚀🚀We have notified developers of 73 0-day vulnerabilities, with 67 confirmed. <br/>[2024-10-20] 🚀🚀🚀We have reported 21 unique 0-day vulnerabilities to CVE, with 5 CVE identifiers assigned.<br/>[2024-11-01] 🚀🚀🚀Our paper is submitted to ISSTA 2025.  <br/>
+|**<font size=5>✨✨✨News :</font>**<br/><br/>[2024-03-21] 🚀🚀🚀We have released our ground truth and reproducing materials for our research questions of empirical study.<br/>[2024-09-25] 🚀🚀🚀We have released our tool, and welcome to share your feedback with us.<br/>[2024-10-15] 🚀🚀🚀We have notified developers of 274 1/N-day vulnerabilities, with 188 confirmed.<br/>[2024-10-15] 🚀🚀🚀We have notified developers of 73 0-day vulnerabilities, with 67 confirmed. <br/>[2024-10-20] 🚀🚀🚀We have reported 21 unique 0-day vulnerabilities to CVE, with 5 CVE identifiers assigned.<br/>[2024-11-01] 🚀🚀🚀Our paper is submitted to ISSTA 2025.  <br/>
 
-# AntMan
-
-With the rapid development of open-source software, code reuse has become a common practice to accelerate development. However, it leads to inheritance from the original vulnerability, which recurs at the reusing repositories, known as recurring vulnerabilities (RVs). Traditional general-purpose vulnerability detection approaches struggle with scalability and adaptability, while learning-based approaches are often constrained by limited training datasets and are less effective against unseen vulnerabilities. Though specific recurring vulnerability detection (RVD) approaches have been proposed, their effectiveness across various RV characteristics remains unclear.
+# Abstraction
 
 In this paper, we conduct a large-scale empirical study using a newly constructed RV dataset containing 4,569 RVs, achieving a 953% expansion over prior RV datasets. Our study analyzes the characteristics of RVs, evaluates the effectiveness of the state-of-the-art RVD approaches, and investigates the root causes of false positives and false negatives, yielding key insights. Inspired by these insights, we design AntMan, a novel RVD approach that identifies both explicit and implicit call relations with modified functions, then employs inter-procedural taint analysis and intra-procedural dependency slicing within those functions to generate comprehensive signatures, and finally incorporates a flexible matching to detect RVs. Our comprehensive evaluation has demonstrated the effectiveness, generality and practical usefulness in RVD. Notably, AntMan has successfully detected 4,593 recurring vulnerabilities, with 307 confirmed by developers, and identified 73 new 0-day vulnerabilities across 15 repositories, receiving 5 CVE identifiers.
-
-This page provides supplementary materials for our paper, including the dataset, reproduction scripts for the empirical study, and the source code of AntMan along with its reproduction scripts for evaluation.
 
 # Empirical Study
 
@@ -35,7 +31,7 @@ This page provides supplementary materials for our paper, including the dataset,
   - [Sample verification kappa: 0.934](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/empirical_confirmation_mark.xlsx)
     - We identified **3,834 positive samples** and **4,469 negative samples** after using these five RVD approaches to detect RVs, which is released in  [confirmation.xlsx](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/confirmation.xlsx)  
   - [Sample expansion kappa: 0.936](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/dataset/empirical_expansion_mark.xlsx)
-    - We extended the confirmation RVs  by recursively checking earlier and later versions of target repositories where no sample was identified by RVD, continuing until no further vulnerable versions were found. This process expands **735 positive samples**. Ultimately, we gathered **4,569 positive samples across 1,300 target repositories and 4,469 negative samples across 1,234 repositories **in our [ground truth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx).
+    - We extended the confirmation RVs  by recursively checking earlier and later versions of target repositories where no sample was identified by RVD, continuing until no further vulnerable versions were found. This process expands **735 positive samples**. Ultimately, we gathered **4,569 positive samples across 1,300 target repositories and 4,469 negative samples across 1,234 repositories**in our [ground truth](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/empirical/dataset/groundtruth.xlsx).
 
 ## RQ1 Characteristic Analysis of RVs.
 
@@ -75,6 +71,7 @@ To accurately assess the characteristics of RVs, follow these steps:
   ```
   python n-day_vulnerability_feature.py
   ```
+
 ## RQ2 Effectiveness Evaluation of RVD. 
 
 - To get the effectiveness of each RVD approach, just run [RQ2_table2.py](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ2/RQ2_table2.py) and get the results [results_RQ2.json](https://github.com/AntMan-opensource/AntMan-opensource.github.io/blob/main/empirical/RQ2/datas/results_RQ2.json), which is shown in Table 2.
@@ -97,19 +94,25 @@ To accurately assess the characteristics of RVs, follow these steps:
 
 ## Environment Setup:
 
-- ***python***
+- **python**: 3.11.8
 
-- ***[joern](https://docs.joern.io/installation)***
+- **joern**: 2.260
 
-- ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***
+  The installation process for Joern can be found at https://docs.joern.io/installation.
 
-  Our utilized versions: Python 3.11.8, joern 2.260 and some other relevant dependent packages listed in [requirements.txt](src/requirements.txt) on Ubuntu 18.04.
+  To install and run Joern, JDK 11 environment is required.
 
+- **tree-sitter**: 0.22.6
 
-## The framework of AntMan
+  The installation process for tree-sitter can be found at https://tree-sitter.github.io/tree-sitter/
+
+- Other relevant dependent packages listed in [requirements.txt](src/requirements.txt)
+
+## Methodology Implementation
+
+We have proposed AntMan to detect RVs more effectively, including five modules: original normalized call graph construction, original abstracted ICPC construction, mapping & target normalized call graph construction, target abstracted ICPC construction and RV similarity calculation. More details is shown in [the prototype of AntMan](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/src).
+
 ![approach](./docs/approach.png)
-
-## [The Prototype of AntMan](https://github.com/AntMan-opensource/AntMan-opensource.github.io/tree/main/src)
 
 ## Evaluation
 

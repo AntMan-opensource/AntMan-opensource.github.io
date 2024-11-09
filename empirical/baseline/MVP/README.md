@@ -5,14 +5,21 @@ Usenix Security Symposium (sec'20).
 
 We reproduced this tool as our baseline.
 
-## How to use
+## How to Use
 ### Requirements
 
-* ***Python***
-* ***[joern](https://docs.joern.io/installation)***
-* ***[tree-sitter](https://tree-sitter.github.io/tree-sitter/)***
+* **python**: 3.11.8
+* **joern**: 2.260
 
-Our utilized versions: Python 3.12.3, joern 1.1.1377 and some other elevant dependent packages listed in [requirements.txt](./requirements.txt) on Ubuntu 18.04.
+  The installation process for Joern can be found at https://docs.joern.io/installation.
+
+  To install and run Joern, JDK 11 environment is required.
+
+* **tree-sitter**: 0.22.6
+
+  The installation process for tree-sitter can be found at https://tree-sitter.github.io/tree-sitter/
+
+- Other relevant dependent packages listed in [requirements.txt](./requirements.txt)
 
 To setup, just run:
 ```
@@ -23,7 +30,7 @@ pip install -r requirements.txt
 
 ※ If you have problems related to path information, try testing with absolute paths.
 
-### Signature generation
+### Signature Generation
 
 
  - After install the joern, specify the directory paths of joern in [config.py](./src/config.json).
