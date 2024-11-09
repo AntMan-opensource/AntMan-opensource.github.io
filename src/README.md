@@ -14,8 +14,6 @@ To run this project, you will need the following dependencies:
 
   The installation process for Joern can be found at https://docs.joern.io/installation.
 
-  To install and run Joern, JDK 11 environment is required.
-
 - **tree-sitter**: 0.22.6
 
   The installation process for tree-sitter can be found at https://tree-sitter.github.io/tree-sitter/

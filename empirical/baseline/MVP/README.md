@@ -9,11 +9,10 @@ We reproduced this tool as our baseline.
 ### Requirements
 
 * **python**: 3.11.8
+
 * **joern**: 2.260
 
   The installation process for Joern can be found at https://docs.joern.io/installation.
-
-  To install and run Joern, JDK 11 environment is required.
 
 * **tree-sitter**: 0.22.6
 
