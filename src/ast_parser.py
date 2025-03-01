@@ -1,12 +1,12 @@
 from typing import Generator
 
-from httpx import codes
-
-import common
 import tree_sitter_c as tsc
 import tree_sitter_cpp as tscpp
 import tree_sitter_java as tsjava
+from httpx import codes
 from tree_sitter import Language, Node, Parser
+
+import common
 
 TS_JAVA_PACKAGE = "(package_declaration (scoped_identifier) @package)(package_declaration (identifier) @package)"
 TS_JAVA_IMPORT = "(import_declaration (scoped_identifier) @import)"
@@ -19,16 +19,20 @@ TS_ASSIGN_STAT = "(assignment_expression)@name"
 TS_JAVA_METHOD = "(method_declaration) @method (constructor_declaration) @method"
 TS_METHODNAME = "(method_declaration 	(identifier)@id)(constructor_declaration 	(identifier)@id)"
 TS_FPARAM = "(formal_parameters)@name"
-CPP_CALL = '''
+CPP_CALL = """
 (call_expression (identifier)@name)(call_expression (field_expression)@name)
-'''
-CPP_INCLUDE = '''
+"""
+JAVA_CALL = """
+(method_invocation (identifier)@name)
+"""
+CPP_INCLUDE = """
 (preproc_include
   path: (string_literal
     (string_content)@incude
   )
 )
-'''
+"""
+
 
 class ASTParser:
     def __init__(self, code: str | bytes, language: common.Language | int):
@@ -78,7 +82,9 @@ class ASTParser:
             elif not cursor.goto_parent():
                 break
 
-    def query(self, query_str: str, *, node: Node | None = None) -> dict[str, list[Node]]:
+    def query(
+        self, query_str: str, *, node: Node | None = None
+    ) -> dict[str, list[Node]]:
         query = self.LANGUAGE.query(query_str)
         if node is not None:
             captures = query.captures(node)
@@ -99,7 +105,9 @@ class ASTParser:
             results.extend(nodes)
         return results
 
-    def query_by_capture_name(self, query_str: str, capture_name: str, *, node: Node | None = None) -> list[Node]:
+    def query_by_capture_name(
+        self, query_str: str, capture_name: str, *, node: Node | None = None
+    ) -> list[Node]:
         captures = self.query(query_str, node=node)
         return captures.get(capture_name, [])
 
@@ -138,7 +146,9 @@ class ASTParser:
         return self.query_by_capture_name(query_str, "name")
 
     def get_all_includes(self) -> list[Node]:
-        if self.LANGUAGE == Language(tscpp.language()) or self.LANGUAGE == Language(tsc.language()):
+        if self.LANGUAGE == Language(tscpp.language()) or self.LANGUAGE == Language(
+            tsc.language()
+        ):
             query_str = """
             (preproc_include)@name
             """
@@ -147,9 +157,7 @@ class ASTParser:
             (import_declaration)@name
             """
         return self.query_by_capture_name(query_str, "name")
-    
 
-    
     def get_all_flow_control_goto(self) -> list[Node]:
         query_str = """
         (goto_statement)@label
@@ -168,10 +176,10 @@ class ASTParser:
             """
         return self.query_by_capture_name(query_str, "name")
 
-
     def get_root(self):
         print(self.root.children)
         return self.root
+
 
 if __name__ == "__main__":
     code = """

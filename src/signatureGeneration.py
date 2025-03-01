@@ -862,6 +862,169 @@ def generate_call(worker_id, cveid, commit_id, repo_path):
     return error_code, worker_id
 
 
+def generate_call_java(worker_id, cveid, commit_id, repo_path):
+    error_code = {}
+    error_code[cveid] = {}
+    try:
+        language = Language.JAVA
+        try:
+            patch = Patch(repo_path, commit_id, language)
+        except Exception as e:
+            os.system(f"git config --global --add safe.directory {repo_path}")
+            try:
+                patch = Patch(repo_path, commit_id, language)
+            except Exception as e:
+                error_code[cveid]["summary"] = "Patch generate error"
+                error_code[cveid]["detail"] = e
+                return error_code, worker_id
+        try:
+            pre_code_files = patch.pre_analysis_files
+            post_code_files = patch.post_analysis_files
+        except Exception as e:
+            error_code[cveid]["summary"] = "patch project generate error"
+            error_code[cveid]["detail"] = e
+            return error_code, worker_id
+
+        cache_dir = f"{CACHE_DIR}/{cveid}"
+        if os.path.exists(f"{cache_dir}/pre_sliced_wfg.json") and os.path.exists(
+            f"{cache_dir}/post_sliced_wfg.json"
+        ):
+            error_code[cveid]["summary"] = "already exists"
+            error_code[cveid]["detail"] = "already exists"
+            return error_code, worker_id
+        pre_dir = os.path.join(cache_dir, "pre")
+        post_dir = os.path.join(cache_dir, "post")
+        create_code_tree(pre_code_files, pre_dir)
+        create_code_tree(post_code_files, post_dir)
+        try:
+            export_joern_graph(
+                pre_dir,
+                post_dir,
+                need_cdg=True,
+                language=language,
+                overwrite=True,
+                multiprocess=True,
+            )
+        except Exception as e:
+            error_code[cveid]["summary"] = "PDG ERROR"
+            error_code[cveid]["detail"] = e
+            return error_code, worker_id
+
+        patch.pre_analysis_project.load_joern_graph(f"{pre_dir}/cpg", f"{pre_dir}/pdg")
+        patch.post_analysis_project.load_joern_graph(
+            f"{post_dir}/cpg", pdg_dir=f"{post_dir}/pdg"
+        )
+
+        pre_post_projects = (patch.pre_analysis_project, patch.post_analysis_project)
+
+        try:
+            callgraph = get_pre_post_call(patch, pre_post_projects, cache_dir)
+        except Exception as e:
+            error_code[cveid]["summary"] = "CALL GRAPH ERROR"
+            error_code[cveid]["detail"] = e
+            return error_code, worker_id
+
+        try:
+            if len(patch.changed_methods) == 1:
+                pre_slice_results, post_slice_results = slicing_single_method(
+                    patch, list(patch.changed_methods)[0], pre_post_projects, cache_dir
+                )
+                if pre_slice_results is None or post_slice_results is None:
+                    error_code[cveid]["summary"] = "single method failed"
+                    error_code[cveid]["detail"] = "single method failed"
+                    return error_code, worker_id
+                (
+                    pre_slice_result_lines,
+                    pre_slice_result_weight,
+                    pre_slice_result_edges,
+                    pre_lines,
+                    pre_abs_lines,
+                ) = (
+                    pre_slice_results[0],
+                    pre_slice_results[5],
+                    pre_slice_results[6],
+                    pre_slice_results[7],
+                    pre_slice_results[8],
+                )
+                (
+                    post_slice_result_lines,
+                    post_slice_result_weight,
+                    post_slice_result_edges,
+                    post_lines,
+                    post_abs_lines,
+                ) = (
+                    post_slice_results[0],
+                    post_slice_results[5],
+                    post_slice_results[6],
+                    post_slice_results[7],
+                    post_slice_results[8],
+                )
+                pre_sliced_graph = {}
+                pre_sliced_graph["nodes"] = list(pre_slice_result_lines)
+                pre_sliced_graph["edges"] = list(pre_slice_result_edges)
+                pre_sliced_graph["node_dicts"] = {}
+                for line in pre_slice_result_lines:
+                    pre_sliced_graph["node_dicts"][line] = {}
+                    pre_sliced_graph["node_dicts"][line]["weight"] = (
+                        pre_slice_result_weight[line]
+                    )
+                    pre_sliced_graph["node_dicts"][line]["node_string"] = pre_lines[
+                        line
+                    ]
+                    pre_sliced_graph["node_dicts"][line]["abs_node_string"] = (
+                        pre_abs_lines[line]
+                    )
+                post_sliced_graph = {}
+                post_sliced_graph["nodes"] = list(post_slice_result_lines)
+                post_sliced_graph["edges"] = list(post_slice_result_edges)
+                post_sliced_graph["node_dicts"] = {}
+                for line in post_slice_result_lines:
+                    post_sliced_graph["node_dicts"][line] = {}
+                    post_sliced_graph["node_dicts"][line]["weight"] = (
+                        post_slice_result_weight[line]
+                    )
+                    post_sliced_graph["node_dicts"][line]["node_string"] = post_lines[
+                        line
+                    ]
+                    post_sliced_graph["node_dicts"][line]["abs_node_string"] = (
+                        post_abs_lines[line]
+                    )
+
+                fp = open(f"{cache_dir}/pre_sliced_wfg.json", "w")
+                json.dump(pre_sliced_graph, fp, indent=4)
+                fp.close()
+                convert_to_dot(
+                    f"{cache_dir}/pre_sliced_wfg.json",
+                    f"{cache_dir}/pre_sliced_wfg.dot",
+                )
+
+                fp = open(f"{cache_dir}/post_sliced_wfg.json", "w")
+                json.dump(post_sliced_graph, fp, indent=4)
+                fp.close()
+                graph_cluster = {}
+                graph_cluster["pre"] = pre_sliced_graph
+                graph_cluster["post"] = post_sliced_graph
+                graph_clusters = [graph_cluster]
+                clusters = split_clusters(graph_clusters)
+                fp = open(f"{cache_dir}/graph_cluster.json", "w")
+                json.dump(clusters, fp, indent=4)
+                fp.close()
+            else:
+                slicing_multi_method(patch, pre_post_projects, cache_dir, callgraph)
+        except Exception as e:
+            error_code[cveid]["summary"] = "slicing error"
+            error_code[cveid]["detail"] = e
+            return error_code, worker_id
+    except Exception as e:
+        error_code[cveid]["summary"] = "overall failed"
+        error_code[cveid]["detail"] = e
+        return error_code, worker_id
+
+    error_code[cveid]["summary"] = "SUCCESS"
+    error_code[cveid]["detail"] = "SUCCESS"
+    return error_code, worker_id
+
+
 if __name__ == "__main__":
     joern.set_joern_env(JOERN_PATH)
 

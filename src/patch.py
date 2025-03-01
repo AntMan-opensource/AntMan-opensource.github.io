@@ -71,7 +71,7 @@ class Patch:
         self.add_files = []
         self.del_files = []
         for file in self.diffs:
-            if not Patch.is_patch_related_file(file):
+            if not Patch.is_patch_related_file(file, lanuage=language):
                 continue
             if file.change_type == ModificationType.ADD:
                 self.add_files.append(file)
@@ -79,25 +79,29 @@ class Patch:
                 self.del_files.append(file)
             elif file.change_type == ModificationType.MODIFY:
                 assert file.old_path is not None
-                extracted_macros_codes = code_transformation.extraction_macros(
-                    file.source_code_before,
-                    self.repo_path,
-                    file.old_path,
-                    self.commit_id + "~1",
-                    self.pre_files,
-                )
+                extracted_macros_codes = file.source_code_before
+                if language == Language.CPP:
+                    extracted_macros_codes = code_transformation.extraction_macros(
+                        file.source_code_before,
+                        self.repo_path,
+                        file.old_path,
+                        self.commit_id + "~1",
+                        self.pre_files,
+                    )
                 assert extracted_macros_codes is not None
                 source_code_before = code_transformation.code_transformation(
                     extracted_macros_codes, language
                 )
                 assert file.new_path is not None
-                extracted_macros_codes = code_transformation.extraction_macros(
-                    file.source_code,
-                    self.repo_path,
-                    file.new_path,
-                    self.commit_id,
-                    self.post_files,
-                )
+                extracted_macros_codes = file.source_code
+                if language == Language.CPP:
+                    extracted_macros_codes = code_transformation.extraction_macros(
+                        file.source_code,
+                        self.repo_path,
+                        file.new_path,
+                        self.commit_id,
+                        self.post_files,
+                    )
                 assert extracted_macros_codes is not None
                 source_code = code_transformation.code_transformation(
                     extracted_macros_codes, language
@@ -541,14 +545,22 @@ class Patch:
     def format(self, FilePath, ispre):
         if ispre:
             codes = self.pre_files[FilePath]
-            extracted_macros_codes = code_transformation.extraction_macros(
-                codes, self.repo_path, FilePath, self.commit_id + "~1", self.pre_files
-            )
+            extracted_macros_codes = codes
+            if self.language == Language.CPP:
+                extracted_macros_codes = code_transformation.extraction_macros(
+                    codes,
+                    self.repo_path,
+                    FilePath,
+                    self.commit_id + "~1",
+                    self.pre_files,
+                )
         else:
             codes = self.post_files[FilePath]
-            extracted_macros_codes = code_transformation.extraction_macros(
-                codes, self.repo_path, FilePath, self.commit_id, self.post_files
-            )
+            extracted_macros_codes = codes
+            if self.language == Language.CPP:
+                extracted_macros_codes = code_transformation.extraction_macros(
+                    codes, self.repo_path, FilePath, self.commit_id, self.post_files
+                )
 
         assert extracted_macros_codes is not None
         source_code_before = code_transformation.code_transformation(
@@ -560,9 +572,12 @@ class Patch:
 
     def get_callee(self, method_code):
         callees = set()
+        call = []
         ast = ASTParser(method_code, self.language)
-
-        call = ast.query_all(ast_parser.CPP_CALL)
+        if self.language == Language.CPP:
+            call = ast.query_all(ast_parser.CPP_CALL)
+        elif self.language == Language.JAVA:
+            call = ast.query_all(ast_parser.JAVA_CALL)
         if len(call) == 0:
             return None
 
@@ -574,60 +589,95 @@ class Patch:
     def get_file_content(self, include_code):
         methods = set()
         method_parser = ASTParser(include_code, self.language)
-        nodes = method_parser.query_all(ast_parser.TS_C_METHOD)
-        for node in nodes:
-            name_node = node.child_by_field_name("declarator")
-            while name_node is not None and name_node.type not in {
-                "identifier",
-                "operator_name",
-                "type_identifier",
-            }:
-                all_temp_name_node = name_node
-                if (
-                    name_node.child_by_field_name("declarator") is None
-                    and name_node.type == "reference_declarator"
-                ):
-                    for temp_node in name_node.children:
-                        if temp_node.type == "function_declarator":
-                            name_node = temp_node
+        if self.language == Language.CPP:
+            nodes = method_parser.query_all(ast_parser.TS_C_METHOD)
+            for node in nodes:
+                name_node = node.child_by_field_name("declarator")
+                while name_node is not None and name_node.type not in {
+                    "identifier",
+                    "operator_name",
+                    "type_identifier",
+                }:
+                    all_temp_name_node = name_node
+                    if (
+                        name_node.child_by_field_name("declarator") is None
+                        and name_node.type == "reference_declarator"
+                    ):
+                        for temp_node in name_node.children:
+                            if temp_node.type == "function_declarator":
+                                name_node = temp_node
+                                break
+                    if name_node.child_by_field_name("declarator") is not None:
+                        name_node = name_node.child_by_field_name("declarator")
+                    while name_node is not None and (
+                        name_node.type == "qualified_identifier"
+                        or name_node.type == "template_function"
+                    ):
+                        temp_name_node = name_node
+                        for temp_node in name_node.children:
+                            if temp_node.type in {
+                                "identifier",
+                                "destructor_name",
+                                "qualified_identifier",
+                                "operator_name",
+                                "type_identifier",
+                                "pointer_type_declarator",
+                            }:
+                                name_node = temp_node
+                                break
+                        if name_node == temp_name_node:
                             break
-                if name_node.child_by_field_name("declarator") is not None:
-                    name_node = name_node.child_by_field_name("declarator")
-                while name_node is not None and (
-                    name_node.type == "qualified_identifier"
-                    or name_node.type == "template_function"
-                ):
-                    temp_name_node = name_node
-                    for temp_node in name_node.children:
-                        if temp_node.type in {
-                            "identifier",
-                            "destructor_name",
-                            "qualified_identifier",
-                            "operator_name",
-                            "type_identifier",
-                            "pointer_type_declarator",
-                        }:
-                            name_node = temp_node
-                            break
-                    if name_node == temp_name_node:
+                    if name_node is not None and name_node.type == "destructor_name":
+                        for temp_node in name_node.children:
+                            if temp_node.type == "identifier":
+                                name_node = temp_node
+                                break
+
+                    if (
+                        name_node is not None
+                        and name_node.type == "field_identifier"
+                        and name_node.child_by_field_name("declarator") is None
+                    ):
                         break
-                if name_node is not None and name_node.type == "destructor_name":
-                    for temp_node in name_node.children:
-                        if temp_node.type == "identifier":
-                            name_node = temp_node
-                            break
+                    if name_node == all_temp_name_node:
+                        break
 
-                if (
-                    name_node is not None
-                    and name_node.type == "field_identifier"
-                    and name_node.child_by_field_name("declarator") is None
-                ):
-                    break
-                if name_node == all_temp_name_node:
-                    break
-
-            assert name_node is not None and name_node.text is not None
-            methods.add((name_node.text.decode(), node.text.decode()))
+                assert name_node is not None and name_node.text is not None
+                methods.add((name_node.text.decode(), node.text.decode()))
+        elif self.language == Language.JAVA:
+            nodes = method_parser.query_all(ast_parser.TS_JAVA_METHOD)
+            for node in nodes:
+                parameters_node = node.child_by_field_name("parameters")
+                if parameters_node is None:
+                    continue
+                parameters = ASTParser.children_by_type_name(
+                    parameters_node, "formal_parameter"
+                )
+                parameter_signature_list = []
+                for param in parameters:
+                    type_node = param.child_by_field_name("type")
+                    assert type_node is not None
+                    if type_node.type == "generic_type":
+                        type_identifier_node = ASTParser.child_by_type_name(
+                            type_node, "type_identifier"
+                        )
+                        if type_identifier_node is None:
+                            type_name = ""
+                        else:
+                            assert type_identifier_node.text is not None
+                            type_name = type_identifier_node.text.decode()
+                    else:
+                        assert type_node.text is not None
+                        type_name = type_node.text.decode()
+                    parameter_signature_list.append(type_name)
+                name_node = node.child_by_field_name("name")
+                assert name_node is not None and name_node.text is not None
+                methods.add(
+                    (
+                        f"{name_node.text.decode()}({','.join(parameter_signature_list)})",
+                        node.text.decode(),
+                    )
+                )
 
         return methods
 
@@ -654,186 +704,293 @@ class Patch:
                 callees.remove(method_name)
         if len(callees) == 0:
             return
-
         code = self.pre_files[filepath]
 
         parser = ASTParser(code, self.language)
-        includes = parser.query_all(ast_parser.CPP_INCLUDE)
-        suffix_list = [".c", ".cc", ".cxx", ".cpp"]
-        for include in includes:
-            include_name = include.text.decode()
-            prefix = os.path.dirname(filepath)
-            if os.path.join(prefix, include_name) in self.pre_files:
-                for suffix in suffix_list:
-                    if (
-                        os.path.join(prefix, include_name.replace(".h", suffix))
-                        in self.pre_files
-                    ):
-                        file_contents = self.get_file_content(
-                            self.pre_files[
-                                os.path.join(prefix, include_name.replace(".h", suffix))
-                            ]
-                        )
-                        for method_name, method_contents in file_contents:
-                            if method_name in callees:
-                                if (
+        if self.language == Language.CPP:
+            includes = parser.query_all(ast_parser.CPP_INCLUDE)
+            suffix_list = [".c", ".cc", ".cxx", ".cpp"]
+            for include in includes:
+                include_name = include.text.decode()
+                prefix = os.path.dirname(filepath)
+                if os.path.join(prefix, include_name) in self.pre_files:
+                    for suffix in suffix_list:
+                        if (
+                            os.path.join(prefix, include_name.replace(".h", suffix))
+                            in self.pre_files
+                        ):
+                            file_contents = self.get_file_content(
+                                self.pre_files[
                                     os.path.join(
                                         prefix, include_name.replace(".h", suffix)
                                     )
-                                    in self.pre_include_files
-                                ):
-                                    continue
-                                self.pre_include_files.add(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
+                                ]
+                            )
+                            for method_name, method_contents in file_contents:
+                                if method_name in callees:
+                                    if (
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
+                                        in self.pre_include_files
+                                    ):
+                                        continue
+                                    self.pre_include_files.add(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
                                     )
-                                )
-                                self.pre_include_methods.update(file_contents)
-                                self.pre_bfs_search_files(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    ),
-                                    method_name,
-                                    step + 1,
-                                )
-                                callees.remove(method_name)
+                                    self.pre_include_methods.update(file_contents)
+                                    self.pre_bfs_search_files(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        ),
+                                        method_name,
+                                        step + 1,
+                                    )
+                                    callees.remove(method_name)
 
-                                if len(callees) == 0:
-                                    break
+                                    if len(callees) == 0:
+                                        break
 
-                        if len(callees) == 0:
-                            break
-                if len(callees) == 0:
-                    break
-                file_contents = self.get_file_content(
-                    self.pre_files[os.path.join(prefix, include_name)]
-                )
-                for method_name, method_contents in file_contents:
-                    if method_name in callees:
-                        if os.path.join(prefix, include_name) in self.pre_include_files:
-                            continue
-                        self.pre_include_files.add(os.path.join(prefix, include_name))
-                        self.pre_include_methods.update(file_contents)
-                        self.pre_bfs_search_files(
-                            os.path.join(prefix, include_name), method_name, step + 1
-                        )
-                        callees.remove(method_name)
+                            if len(callees) == 0:
+                                break
+                    if len(callees) == 0:
+                        break
+                    file_contents = self.get_file_content(
+                        self.pre_files[os.path.join(prefix, include_name)]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(prefix, include_name)
+                                in self.pre_include_files
+                            ):
+                                continue
+                            self.pre_include_files.add(
+                                os.path.join(prefix, include_name)
+                            )
+                            self.pre_include_methods.update(file_contents)
+                            self.pre_bfs_search_files(
+                                os.path.join(prefix, include_name),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
 
-                        if len(callees) == 0:
-                            break
-
-                if len(callees) == 0:
-                    break
-            elif os.path.join(prefix, "include", include_name) in self.pre_files:
-                for suffix in suffix_list:
-                    if os.path.isfile(
-                        os.path.join(
-                            self.repo_path, prefix, include_name.replace(".h", suffix)
-                        )
-                    ) and not os.path.islink(
-                        os.path.join(
-                            self.repo_path, prefix, include_name.replace(".h", suffix)
-                        )
-                    ):
-                        file_contents = self.get_file_content(
-                            self.pre_files[
-                                os.path.join(prefix, include_name.replace(".h", suffix))
-                            ]
-                        )
-                        for method_name, method_contents in file_contents:
-                            if method_name in callees:
-                                if (
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    )
-                                    in self.pre_include_files
-                                ):
-                                    continue
-                                self.pre_include_files.add(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    )
-                                )
-                                self.pre_include_methods.update(file_contents)
-                                self.pre_bfs_search_files(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    ),
-                                    method_name,
-                                    step + 1,
-                                )
-                                callees.remove(method_name)
-                    elif (
-                        os.path.join(prefix, "src", include_name.replace(".h", suffix))
-                        in self.pre_files
-                    ):
-                        file_contents = self.get_file_content(
-                            self.pre_files[
-                                os.path.join(
-                                    prefix, "src", include_name.replace(".h", suffix)
-                                )
-                            ]
-                        )
-                        for method_name, method_contents in file_contents:
-                            if method_name in callees:
-                                if (
-                                    os.path.join(
-                                        prefix,
-                                        "src",
-                                        include_name.replace(".h", suffix),
-                                    )
-                                    in self.pre_include_files
-                                ):
-                                    continue
-                                self.pre_include_files.add(
-                                    os.path.join(
-                                        prefix,
-                                        "src",
-                                        include_name.replace(".h", suffix),
-                                    )
-                                )
-                                self.pre_include_methods.update(file_contents)
-                                self.pre_bfs_search_files(
-                                    os.path.join(
-                                        prefix,
-                                        "src",
-                                        include_name.replace(".h", suffix),
-                                    ),
-                                    method_name,
-                                    step + 1,
-                                )
-                                callees.remove(method_name)
-                                if len(callees) == 0:
-                                    break
+                            if len(callees) == 0:
+                                break
 
                     if len(callees) == 0:
                         break
-                file_contents = self.get_file_content(
-                    self.pre_files[os.path.join(prefix, "include", include_name)]
-                )
-                for method_name, method_contents in file_contents:
-                    if method_name in callees:
-                        if (
-                            os.path.join(prefix, "include", include_name)
-                            in self.pre_include_files
+                elif os.path.join(prefix, "include", include_name) in self.pre_files:
+                    for suffix in suffix_list:
+                        if os.path.isfile(
+                            os.path.join(
+                                self.repo_path,
+                                prefix,
+                                include_name.replace(".h", suffix),
+                            )
+                        ) and not os.path.islink(
+                            os.path.join(
+                                self.repo_path,
+                                prefix,
+                                include_name.replace(".h", suffix),
+                            )
                         ):
-                            continue
-                        self.pre_include_files.add(
-                            os.path.join(prefix, "include", include_name)
-                        )
-                        self.pre_include_methods.update(file_contents)
-                        self.pre_bfs_search_files(
-                            os.path.join(prefix, "include", include_name),
-                            method_name,
-                            step + 1,
-                        )
-                        callees.remove(method_name)
+                            file_contents = self.get_file_content(
+                                self.pre_files[
+                                    os.path.join(
+                                        prefix, include_name.replace(".h", suffix)
+                                    )
+                                ]
+                            )
+                            for method_name, method_contents in file_contents:
+                                if method_name in callees:
+                                    if (
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
+                                        in self.pre_include_files
+                                    ):
+                                        continue
+                                    self.pre_include_files.add(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
+                                    )
+                                    self.pre_include_methods.update(file_contents)
+                                    self.pre_bfs_search_files(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        ),
+                                        method_name,
+                                        step + 1,
+                                    )
+                                    callees.remove(method_name)
+                        elif (
+                            os.path.join(
+                                prefix, "src", include_name.replace(".h", suffix)
+                            )
+                            in self.pre_files
+                        ):
+                            file_contents = self.get_file_content(
+                                self.pre_files[
+                                    os.path.join(
+                                        prefix,
+                                        "src",
+                                        include_name.replace(".h", suffix),
+                                    )
+                                ]
+                            )
+                            for method_name, method_contents in file_contents:
+                                if method_name in callees:
+                                    if (
+                                        os.path.join(
+                                            prefix,
+                                            "src",
+                                            include_name.replace(".h", suffix),
+                                        )
+                                        in self.pre_include_files
+                                    ):
+                                        continue
+                                    self.pre_include_files.add(
+                                        os.path.join(
+                                            prefix,
+                                            "src",
+                                            include_name.replace(".h", suffix),
+                                        )
+                                    )
+                                    self.pre_include_methods.update(file_contents)
+                                    self.pre_bfs_search_files(
+                                        os.path.join(
+                                            prefix,
+                                            "src",
+                                            include_name.replace(".h", suffix),
+                                        ),
+                                        method_name,
+                                        step + 1,
+                                    )
+                                    callees.remove(method_name)
+                                    if len(callees) == 0:
+                                        break
 
                         if len(callees) == 0:
                             break
+                    file_contents = self.get_file_content(
+                        self.pre_files[os.path.join(prefix, "include", include_name)]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(prefix, "include", include_name)
+                                in self.pre_include_files
+                            ):
+                                continue
+                            self.pre_include_files.add(
+                                os.path.join(prefix, "include", include_name)
+                            )
+                            self.pre_include_methods.update(file_contents)
+                            self.pre_bfs_search_files(
+                                os.path.join(prefix, "include", include_name),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
 
-                if len(callees) == 0:
-                    break
+                            if len(callees) == 0:
+                                break
+
+                    if len(callees) == 0:
+                        break
+        elif self.language == Language.JAVA:
+            packages = parser.query_all(ast_parser.TS_JAVA_PACKAGE)
+            package_name = packages[0].text.decode().replace(".", "/")
+            includes = parser.query_all(ast_parser.TS_JAVA_IMPORT)
+            for include in includes:
+                include_name = include.text.decode()
+                prefix = os.path.dirname(filepath)
+                raw_dir = prefix.replace(package_name, "")
+                if (
+                    os.path.join(prefix, include_name.replace(".", "/") + ".java")
+                    in self.pre_files
+                ):
+                    file_contents = self.get_file_content(
+                        self.pre_files[
+                            os.path.join(
+                                prefix, include_name.replace(".", "/") + ".java"
+                            )
+                        ]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(
+                                    prefix, include_name.replace(".", "/") + ".java"
+                                )
+                                in self.pre_include_files
+                            ):
+                                continue
+                            self.pre_include_files.add(
+                                os.path.join(
+                                    prefix, include_name.replace(".", "/") + ".java"
+                                )
+                            )
+                            self.pre_include_methods.update(file_contents)
+                            self.pre_bfs_search_files(
+                                os.path.join(
+                                    prefix, include_name.replace(".", "/") + ".java"
+                                ),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
+
+                            if len(callees) == 0:
+                                break
+
+                    if len(callees) == 0:
+                        break
+                elif (
+                    os.path.join(raw_dir, include_name.replace(".", "/") + ".java")
+                    in self.pre_files
+                ):
+                    file_contents = self.get_file_content(
+                        self.pre_files[
+                            os.path.join(
+                                raw_dir, include_name.replace(".", "/") + ".java"
+                            )
+                        ]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(
+                                    raw_dir, include_name.replace(".", "/") + ".java"
+                                )
+                                in self.pre_include_files
+                            ):
+                                continue
+                            self.pre_include_files.add(
+                                os.path.join(
+                                    raw_dir, include_name.replace(".", "/") + ".java"
+                                )
+                            )
+                            self.pre_include_methods.update(file_contents)
+                            self.pre_bfs_search_files(
+                                os.path.join(
+                                    raw_dir, include_name.replace(".", "/") + ".java"
+                                ),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
+
+                            if len(callees) == 0:
+                                break
+
+                    if len(callees) == 0:
+                        break
 
     def post_bfs_search_files(self, filepath, methodname, step=0):
         if step >= 3:
@@ -860,193 +1017,303 @@ class Patch:
         code = self.post_files[filepath]
 
         parser = ASTParser(code, self.language)
-        includes = parser.query_all(ast_parser.CPP_INCLUDE)
-        suffix_list = [".c", ".cc", ".cxx", ".cpp"]
-        for include in includes:
-            include_name = include.text.decode()
-            prefix = os.path.dirname(filepath)
-            if os.path.join(prefix, include_name) in self.post_files:
-                for suffix in suffix_list:
-                    if (
-                        os.path.join(prefix, include_name.replace(".h", suffix))
-                        in self.post_files
-                    ):
-                        file_contents = self.get_file_content(
-                            self.post_files[
-                                os.path.join(prefix, include_name.replace(".h", suffix))
-                            ]
-                        )
-                        for method_name, method_contents in file_contents:
-                            if method_name in callees:
-                                if (
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    )
-                                    in self.post_include_files
-                                ):
-                                    continue
-                                self.post_include_files.add(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    )
-                                )
-                                self.post_include_methods.update(file_contents)
-                                self.post_bfs_search_files(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    ),
-                                    method_name,
-                                    step + 1,
-                                )
-                                callees.remove(method_name)
-
-                                if len(callees) == 0:
-                                    break
-
-                        if len(callees) == 0:
-                            break
-                if len(callees) == 0:
-                    break
-                file_contents = self.get_file_content(
-                    self.post_files[os.path.join(prefix, include_name)]
-                )
-                for method_name, method_contents in file_contents:
-                    if method_name in callees:
+        if self.language == Language.CPP:
+            includes = parser.query_all(ast_parser.CPP_INCLUDE)
+            suffix_list = [".c", ".cc", ".cxx", ".cpp"]
+            for include in includes:
+                include_name = include.text.decode()
+                prefix = os.path.dirname(filepath)
+                if os.path.join(prefix, include_name) in self.post_files:
+                    for suffix in suffix_list:
                         if (
-                            os.path.join(prefix, include_name)
-                            in self.post_include_files
+                            os.path.join(prefix, include_name.replace(".h", suffix))
+                            in self.post_files
                         ):
-                            continue
-                        self.post_include_files.add(os.path.join(prefix, include_name))
-                        self.post_include_methods.update(file_contents)
-                        self.post_bfs_search_files(
-                            os.path.join(prefix, include_name), method_name, step + 1
-                        )
-                        callees.remove(method_name)
+                            file_contents = self.get_file_content(
+                                self.post_files[
+                                    os.path.join(
+                                        prefix, include_name.replace(".h", suffix)
+                                    )
+                                ]
+                            )
+                            for method_name, method_contents in file_contents:
+                                if method_name in callees:
+                                    if (
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
+                                        in self.post_include_files
+                                    ):
+                                        continue
+                                    self.post_include_files.add(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
+                                    )
+                                    self.post_include_methods.update(file_contents)
+                                    self.post_bfs_search_files(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        ),
+                                        method_name,
+                                        step + 1,
+                                    )
+                                    callees.remove(method_name)
 
-                        if len(callees) == 0:
-                            break
+                                    if len(callees) == 0:
+                                        break
 
-                if len(callees) == 0:
-                    break
-            elif os.path.join(prefix, "include", include_name) in self.post_files:
-                for suffix in suffix_list:
-                    if os.path.isfile(
-                        os.path.join(
-                            self.repo_path, prefix, include_name.replace(".h", suffix)
-                        )
-                    ) and not os.path.islink(
-                        os.path.join(
-                            self.repo_path, prefix, include_name.replace(".h", suffix)
-                        )
-                    ):
-                        file_contents = self.get_file_content(
-                            self.post_files[
-                                os.path.join(prefix, include_name.replace(".h", suffix))
-                            ]
-                        )
-                        for method_name, method_contents in file_contents:
-                            if method_name in callees:
-                                if (
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    )
-                                    in self.post_include_files
-                                ):
-                                    continue
-                                self.post_include_files.add(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    )
-                                )
-                                self.post_include_methods.update(file_contents)
-                                self.post_bfs_search_files(
-                                    os.path.join(
-                                        prefix, include_name.replace(".h", suffix)
-                                    ),
-                                    method_name,
-                                    step + 1,
-                                )
-                                callees.remove(method_name)
-                    elif (
-                        os.path.join(prefix, "src", include_name.replace(".h", suffix))
-                        in self.post_files
-                    ):
-                        file_contents = self.get_file_content(
-                            self.post_files[
-                                os.path.join(
-                                    prefix, "src", include_name.replace(".h", suffix)
-                                )
-                            ]
-                        )
-                        for method_name, method_contents in file_contents:
-                            if method_name in callees:
-                                if (
-                                    os.path.join(
-                                        prefix,
-                                        "src",
-                                        include_name.replace(".h", suffix),
-                                    )
-                                    in self.post_include_files
-                                ):
-                                    continue
-                                self.post_include_files.add(
-                                    os.path.join(
-                                        prefix,
-                                        "src",
-                                        include_name.replace(".h", suffix),
-                                    )
-                                )
-                                self.post_include_methods.update(file_contents)
-                                self.post_bfs_search_files(
-                                    os.path.join(
-                                        prefix,
-                                        "src",
-                                        include_name.replace(".h", suffix),
-                                    ),
-                                    method_name,
-                                    step + 1,
-                                )
-                                callees.remove(method_name)
-                                if len(callees) == 0:
-                                    break
+                            if len(callees) == 0:
+                                break
+                    if len(callees) == 0:
+                        break
+                    file_contents = self.get_file_content(
+                        self.post_files[os.path.join(prefix, include_name)]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(prefix, include_name)
+                                in self.post_include_files
+                            ):
+                                continue
+                            self.post_include_files.add(
+                                os.path.join(prefix, include_name)
+                            )
+                            self.post_include_methods.update(file_contents)
+                            self.post_bfs_search_files(
+                                os.path.join(prefix, include_name),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
+
+                            if len(callees) == 0:
+                                break
 
                     if len(callees) == 0:
                         break
-                file_contents = self.get_file_content(
-                    self.post_files[os.path.join(prefix, "include", include_name)]
-                )
-                for method_name, method_contents in file_contents:
-                    if method_name in callees:
-                        if (
-                            os.path.join(prefix, "include", include_name)
-                            in self.post_include_files
+                elif os.path.join(prefix, "include", include_name) in self.post_files:
+                    for suffix in suffix_list:
+                        if os.path.isfile(
+                            os.path.join(
+                                self.repo_path,
+                                prefix,
+                                include_name.replace(".h", suffix),
+                            )
+                        ) and not os.path.islink(
+                            os.path.join(
+                                self.repo_path,
+                                prefix,
+                                include_name.replace(".h", suffix),
+                            )
                         ):
-                            continue
-                        self.post_include_files.add(
-                            os.path.join(prefix, "include", include_name)
-                        )
-                        self.post_include_methods.update(file_contents)
-                        self.post_bfs_search_files(
-                            os.path.join(prefix, "include", include_name),
-                            method_name,
-                            step + 1,
-                        )
-                        callees.remove(method_name)
+                            file_contents = self.get_file_content(
+                                self.post_files[
+                                    os.path.join(
+                                        prefix, include_name.replace(".h", suffix)
+                                    )
+                                ]
+                            )
+                            for method_name, method_contents in file_contents:
+                                if method_name in callees:
+                                    if (
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
+                                        in self.post_include_files
+                                    ):
+                                        continue
+                                    self.post_include_files.add(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        )
+                                    )
+                                    self.post_include_methods.update(file_contents)
+                                    self.post_bfs_search_files(
+                                        os.path.join(
+                                            prefix, include_name.replace(".h", suffix)
+                                        ),
+                                        method_name,
+                                        step + 1,
+                                    )
+                                    callees.remove(method_name)
+                        elif (
+                            os.path.join(
+                                prefix, "src", include_name.replace(".h", suffix)
+                            )
+                            in self.post_files
+                        ):
+                            file_contents = self.get_file_content(
+                                self.post_files[
+                                    os.path.join(
+                                        prefix,
+                                        "src",
+                                        include_name.replace(".h", suffix),
+                                    )
+                                ]
+                            )
+                            for method_name, method_contents in file_contents:
+                                if method_name in callees:
+                                    if (
+                                        os.path.join(
+                                            prefix,
+                                            "src",
+                                            include_name.replace(".h", suffix),
+                                        )
+                                        in self.post_include_files
+                                    ):
+                                        continue
+                                    self.post_include_files.add(
+                                        os.path.join(
+                                            prefix,
+                                            "src",
+                                            include_name.replace(".h", suffix),
+                                        )
+                                    )
+                                    self.post_include_methods.update(file_contents)
+                                    self.post_bfs_search_files(
+                                        os.path.join(
+                                            prefix,
+                                            "src",
+                                            include_name.replace(".h", suffix),
+                                        ),
+                                        method_name,
+                                        step + 1,
+                                    )
+                                    callees.remove(method_name)
+                                    if len(callees) == 0:
+                                        break
 
                         if len(callees) == 0:
                             break
+                    file_contents = self.get_file_content(
+                        self.post_files[os.path.join(prefix, "include", include_name)]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(prefix, "include", include_name)
+                                in self.post_include_files
+                            ):
+                                continue
+                            self.post_include_files.add(
+                                os.path.join(prefix, "include", include_name)
+                            )
+                            self.post_include_methods.update(file_contents)
+                            self.post_bfs_search_files(
+                                os.path.join(prefix, "include", include_name),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
 
-                if len(callees) == 0:
-                    break
+                            if len(callees) == 0:
+                                break
+
+                    if len(callees) == 0:
+                        break
+        elif self.language == Language.JAVA:
+            packages = parser.query_all(ast_parser.TS_JAVA_PACKAGE)
+            package_name = packages[0].text.decode().replace(".", "/")
+            includes = parser.query_all(ast_parser.TS_JAVA_IMPORT)
+            for include in includes:
+                include_name = include.text.decode()
+                prefix = os.path.dirname(filepath)
+                raw_dir = prefix.replace(package_name, "")
+                if (
+                    os.path.join(prefix, include_name.replace(".", "/") + ".java")
+                    in self.pre_files
+                ):
+                    file_contents = self.get_file_content(
+                        self.pre_files[
+                            os.path.join(
+                                prefix, include_name.replace(".", "/") + ".java"
+                            )
+                        ]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(
+                                    prefix, include_name.replace(".", "/") + ".java"
+                                )
+                                in self.pre_include_files
+                            ):
+                                continue
+                            self.pre_include_files.add(
+                                os.path.join(
+                                    prefix, include_name.replace(".", "/") + ".java"
+                                )
+                            )
+                            self.pre_include_methods.update(file_contents)
+                            self.pre_bfs_search_files(
+                                os.path.join(
+                                    prefix, include_name.replace(".", "/") + ".java"
+                                ),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
+
+                            if len(callees) == 0:
+                                break
+
+                    if len(callees) == 0:
+                        break
+                elif (
+                    os.path.join(raw_dir, include_name.replace(".", "/") + ".java")
+                    in self.pre_files
+                ):
+                    file_contents = self.get_file_content(
+                        self.pre_files[
+                            os.path.join(
+                                raw_dir, include_name.replace(".", "/") + ".java"
+                            )
+                        ]
+                    )
+                    for method_name, method_contents in file_contents:
+                        if method_name in callees:
+                            if (
+                                os.path.join(
+                                    raw_dir, include_name.replace(".", "/") + ".java"
+                                )
+                                in self.pre_include_files
+                            ):
+                                continue
+                            self.pre_include_files.add(
+                                os.path.join(
+                                    raw_dir, include_name.replace(".", "/") + ".java"
+                                )
+                            )
+                            self.pre_include_methods.update(file_contents)
+                            self.pre_bfs_search_files(
+                                os.path.join(
+                                    raw_dir, include_name.replace(".", "/") + ".java"
+                                ),
+                                method_name,
+                                step + 1,
+                            )
+                            callees.remove(method_name)
+
+                            if len(callees) == 0:
+                                break
+
+                    if len(callees) == 0:
+                        break
 
     @cached_property
     def pre_analysis_files(self):
         results = []
         for method_sig in self.changed_methods:
-            self.pre_bfs_search_files(
-                method_sig.split("#")[0], method_sig.split("#")[1]
-            )
+            if self.language == Language.JAVA:
+                self.pre_bfs_search_files(
+                    method_sig.split("#")[0], method_sig.split("#")[1]
+                )
+            else:
+                self.pre_bfs_search_files(
+                    method_sig.split("#")[0], method_sig.split("#")[1]
+                )
 
         worker_list = []
         for file in self.pre_include_files:
@@ -1154,8 +1421,11 @@ class Patch:
         return result
 
     @staticmethod
-    def is_patch_related_file(file: str | Modification) -> bool:
-        extension = ["c", "cpp", "c++", "cc", "C", "cxx", "h"]
+    def is_patch_related_file(file: str | Modification, lanuage: Language) -> bool:
+        if language == Language.CPP:
+            extension = ["c", "cpp", "c++", "cc", "C", "cxx", "h"]
+        elif language == Language.JAVA:
+            extension = ["java"]
         if isinstance(file, str):
             return file.split(".")[-1] in extension and "test/" not in file
         if isinstance(file, Modification):

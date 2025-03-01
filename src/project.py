@@ -648,7 +648,7 @@ class Method:
     def signature(self) -> str:
         if self.language == Language.JAVA:
             assert self.clazz is not None
-            return f"{self.clazz.fullname}.{self.name}({self.parameter_signature})"
+            return f"{self.file.path}#{self.name}({self.parameter_signature})"
         else:
             return f"{self.file.path}#{self.name}"
 

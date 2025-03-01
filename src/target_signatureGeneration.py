@@ -4,6 +4,7 @@ import os
 import subprocess
 import sys
 import time
+from re import L
 
 import cpu_heater
 from tqdm import tqdm
@@ -55,7 +56,7 @@ def levenshtein_distance(str1, str2):
     return similarity
 
 
-def filemapping_matching(repo_path):
+def filemapping_matching(repo_path, language):
     repoName = repo_path.split("/")[-1]
     cache_exists = False
     repo_file_cve_map = {}
@@ -66,18 +67,25 @@ def filemapping_matching(repo_path):
             cache_exists = False
 
     if not cache_exists:
-        if os.path.exists(f'cache/{repo_path.split("/")[-1]}'):
+        if os.path.exists(f"cache/{repo_path.split('/')[-1]}"):
             os.system(f"rm -r cache/{repo_path.split('/')[-1]}")
         result = subprocess.check_output(
             f"mkdir -pv cache/{repo_path.split('/')[-1]}",
             stderr=subprocess.STDOUT,
             shell=True,
         ).decode("utf-8", errors="replace")
-        result = subprocess.check_output(
-            f"cp -r saga cache/{repo_path.split('/')[-1]}",
-            stderr=subprocess.STDOUT,
-            shell=True,
-        ).decode("utf-8", errors="replace")
+        if language == Language.CPP:
+            result = subprocess.check_output(
+                f"cp -r saga cache/{repo_path.split('/')[-1]}",
+                stderr=subprocess.STDOUT,
+                shell=True,
+            ).decode("utf-8", errors="replace")
+        elif language == Language.JAVA:
+            result = subprocess.check_output(
+                f"cp -r saga-java cache/{repo_path.split('/')[-1]}",
+                stderr=subprocess.STDOUT,
+                shell=True,
+            ).decode("utf-8", errors="replace")
 
         os.chdir(f"{SAGA_CACHE_DIR}/{repo_path.split('/')[-1]}/saga")
         os.system("rm -r ./logs")
@@ -221,10 +229,10 @@ def filemapping_matching(repo_path):
     return repo_file_cve_map
 
 
-def get_repo_file_mapping(tar):
+def get_repo_file_mapping(tar, language):
     repo_file_mapping = {}
     repo_path = f"{REPO_PATH}/{tar}"
-    repo_file_mapping[tar] = filemapping_matching(repo_path)
+    repo_file_mapping[tar] = filemapping_matching(repo_path, language)
     fp = open(f"{FILE_MAPPING}/repo_file_mapping_{tar}.json", "w")
     json.dump(repo_file_mapping, fp, indent=4)
     fp.close()
@@ -249,7 +257,7 @@ def get_pre_post_methods(
     return pre_method, post_method
 
 
-def extract_cve_patch_info(worker_id, cve, dataset):
+def extract_cve_patch_info(worker_id, cve, dataset, language):
     error_code = {}
     error_code[cve] = {}
     patch_info = {}
@@ -262,7 +270,7 @@ def extract_cve_patch_info(worker_id, cve, dataset):
             + cve,
         )
         try:
-            patch = Patch(f"{repo}", dataset[cve]["commitId"], Language.CPP)
+            patch = Patch(f"{repo}", dataset[cve]["commitId"], language)
         except Exception as e:
             error_code[cve]["summary"] = "Patch failed"
             error_code[cve]["detail"] = str(e)
@@ -333,8 +341,12 @@ def extract_cve_patch_info(worker_id, cve, dataset):
     return error_code, worker_id, patch_info
 
 
-def get_cve_patch_info():
-    fp = open("empirical/dataset/emperical_cve_list.json")
+def get_cve_patch_info(language):
+    if language == Language.CPP:
+        file_path = "empirical/dataset/emperical_cve_list.json"
+    elif language == Language.JAVA:
+        file_path = "empirical/dataset/dataset_java.json"
+    fp = open(file_path)
     dataset = json.load(fp)
     fp.close()
 
@@ -349,7 +361,7 @@ def get_cve_patch_info():
 
     errors = {}
     for cve in tqdm(dataset):
-        worker_list.append((cve, cve, dataset))
+        worker_list.append((cve, cve, dataset, language))
 
     results = cpu_heater.multiprocess(
         extract_cve_patch_info,
@@ -376,7 +388,7 @@ def get_cve_patch_info():
     fp.close()
 
 
-def worker_fn(cve, file, repo_file_mapping, repoName, CVE_dict):
+def worker_fn(cve, file, repo_file_mapping, repoName, CVE_dict, language):
     repo_method_mapping = {}
     repo_method_mapping[cve] = {}
     repo_method_mapping[cve][file] = {}
@@ -384,7 +396,7 @@ def worker_fn(cve, file, repo_file_mapping, repoName, CVE_dict):
     file_code = fp.read()
     fp.close()
     codefile = CodeFile(file, file_code, isformat=False)
-    target_project = Project(f"target", [codefile], Language.CPP)
+    target_project = Project(f"target", [codefile], language)
     for st_ed in repo_file_mapping[repoName][cve][file]:
         st = int(st_ed.split("__split__")[0])
         ed = int(st_ed.split("__split__")[1])
@@ -424,7 +436,7 @@ def worker_fn(cve, file, repo_file_mapping, repoName, CVE_dict):
     return repo_method_mapping
 
 
-def method_mapping_matching(repo_path):
+def method_mapping_matching(repo_path, language):
     repoName = repo_path.split("/")[-1]
 
     fp = open(f"{FILE_MAPPING}/repo_file_mapping_{repoName}.json", "w")
@@ -449,7 +461,9 @@ def method_mapping_matching(repo_path):
     for cve in repo_file_mapping[repoName]:
         repo_method_mapping[cve] = {}
         for file in repo_file_mapping[repoName][cve]:
-            worker_list.append((cve, file, repo_file_mapping, repoName, CVE_dict))
+            worker_list.append(
+                (cve, file, repo_file_mapping, repoName, CVE_dict, language)
+            )
 
     results = cpu_heater.multiprocess(worker_fn, worker_list, show_progress=True)
     for res in results:
@@ -458,10 +472,10 @@ def method_mapping_matching(repo_path):
     return repo_method_mapping
 
 
-def get_repo_method_mapping(tar):
+def get_repo_method_mapping(tar, language):
     repo_path = f"{REPO_PATH}/{tar}"
     repo_method_mapping = {}
-    method_mapping = method_mapping_matching(repo_path)
+    method_mapping = method_mapping_matching(repo_path, language)
     repo_method_mapping[tar] = method_mapping
 
     fp = open(f"{METHOD_MAPPING}/repo_method_mapping_{tar}.json", "w")
@@ -469,7 +483,7 @@ def get_repo_method_mapping(tar):
     fp.close()
 
 
-def line_mapping_matching(repo_path):
+def line_mapping_matching(repo_path, language):
     repoName = repo_path.split("/")[-1]
     error_code = {}
     error_code[repo_path] = {}
@@ -521,13 +535,13 @@ def line_mapping_matching(repo_path):
                 )
                 assert extracted_macros_codes is not None
                 source_code_before = code_transformation.code_transformation(
-                    extracted_macros_codes, Language.CPP
+                    extracted_macros_codes, language
                 )
                 source_code_before = extracted_macros_codes
                 codefile = CodeFile(file, source_code_before, isformat=False)
                 codefiles.append(codefile)
                 try:
-                    target_project = Project(f"target", codefiles, Language.CPP)
+                    target_project = Project(f"target", codefiles, language)
                 except Exception as e:
                     error_code[repo_path][cve][origin_method]["summary"] = (
                         "target_project error"
@@ -557,14 +571,14 @@ def line_mapping_matching(repo_path):
                         )
                         assert extracted_macros_codes is not None
                         source_code_before = code_transformation.code_transformation(
-                            extracted_macros_codes, Language.CPP
+                            extracted_macros_codes, language
                         )
                         codefile = CodeFile(
                             file, extracted_macros_codes, isformat=False
                         )
                         codefiles.append(codefile)
                         try:
-                            target_project = Project(f"target", codefiles, Language.CPP)
+                            target_project = Project(f"target", codefiles, language)
                         except Exception as e:
                             error_code[repo_path][cve][origin_method]["summary"] = (
                                 "target_project error"
@@ -587,14 +601,14 @@ def line_mapping_matching(repo_path):
                         )
                         assert extracted_macros_codes is not None
                         source_code_before = code_transformation.code_transformation(
-                            extracted_macros_codes, Language.CPP
+                            extracted_macros_codes, language
                         )
                         codefile = CodeFile(
                             file, extracted_macros_codes, isformat=False
                         )
                         codefiles.append(codefile)
                     try:
-                        target_project = Project(f"target", codefiles, Language.CPP)
+                        target_project = Project(f"target", codefiles, language)
                     except Exception as e:
                         error_code[repo_path][cve][origin_method]["summary"] = (
                             "target_project error"
@@ -978,20 +992,21 @@ def line_mapping_matching(repo_path):
     return repo_line_mapping, error_code
 
 
-def repo_line_mapping_work_fn(worker_id, tar):
+def repo_line_mapping_work_fn(worker_id, tar, language):
     repo_line_mapping = {}
     repo_path = f"{REPO_PATH}/{tar}"
-    line_mapping, error_code = line_mapping_matching(repo_path)
+    line_mapping, error_code = line_mapping_matching(repo_path, language)
     if line_mapping is None:
         return None, error_code, worker_id
     repo_line_mapping[tar] = line_mapping
     return repo_line_mapping, error_code, worker_id
 
 
-def get_repo_line_mapping(tar):
+def get_repo_line_mapping(tar, language):
     repo_line_mapping = {}
-    res, error_code, worker_id = repo_line_mapping_work_fn(tar, tar)
-    repo_line_mapping.update(res)
+    res, error_code, worker_id = repo_line_mapping_work_fn(tar, tar, language)
+    if res is not None:
+        repo_line_mapping.update(res)
 
     fp = open(f"{LINE_MAPPING}/repo_line_mapping_{tar}.json", "w")
     json.dump(repo_line_mapping, fp, indent=4)
@@ -1112,6 +1127,7 @@ def slice_per_callee(
     visited,
     level,
     is_pre,
+    language,
 ):
     sliced_graph = {}
     sliced_graph["nodes"] = []
@@ -1325,7 +1341,7 @@ def slice_per_callee(
             if callee_method is None:
                 continue
             logging.info(call_edge[1])
-            parser = ASTParser(lines[int(call_edge[2])], Language.CPP)
+            parser = ASTParser(lines[int(call_edge[2])], language)
             nodes = parser.query_all("(call_expression)@name")
             for node in nodes:
                 child = node.child_by_field_name("function")
@@ -1582,7 +1598,7 @@ def slicing_multi_method(
     fp.close()
 
 
-def target_slicing(worker_id, tar, repo_line_mapping):
+def target_slicing(worker_id, tar, repo_line_mapping, language):
     repo_path = f"{REPO_PATH}/{tar}"
     cache_dir = f"{TARGET_SLICING}/{tar}"
     error_code = {}
@@ -1629,7 +1645,7 @@ def target_slicing(worker_id, tar, repo_line_mapping):
                 repo_path,
                 fileList,
                 matching_method,
-                Language.CPP,
+                language,
                 add_line_map,
                 del_line_map,
             )
@@ -1643,7 +1659,7 @@ def target_slicing(worker_id, tar, repo_line_mapping):
             continue
         try:
             joern.export_with_preprocess_and_merge(
-                f"{detect_dir}/code", detect_dir, Language.CPP, False, True
+                f"{detect_dir}/code", detect_dir, language, False, True
             )
 
         except Exception as e:
@@ -1766,8 +1782,9 @@ if __name__ == "__main__":
     joern.set_joern_env(JOERN_PATH)
 
     tar = sys.argv[1]
-    get_cve_patch_info()
-    get_repo_file_mapping(tar)
-    get_repo_method_mapping(tar)
-    repo_line_mapping = get_repo_line_mapping(tar)
-    target_slicing(tar, tar, repo_line_mapping)
+    language = sys.argv[2]
+    get_cve_patch_info(language)
+    get_repo_file_mapping(tar, language)
+    get_repo_method_mapping(tar, language)
+    repo_line_mapping = get_repo_line_mapping(tar, language)
+    target_slicing(tar, tar, repo_line_mapping, language)

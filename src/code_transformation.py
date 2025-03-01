@@ -1197,9 +1197,9 @@ def extraction_macros(
 
 
 def abstraction(code: str, language: Language):
-    codes = code_transformation(code, Language.CPP)
+    codes = code_transformation(code, language)
 
-    return abstract(codes, Language.CPP)
+    return abstract(codes, language)
 
 
 if __name__ == "__main__":

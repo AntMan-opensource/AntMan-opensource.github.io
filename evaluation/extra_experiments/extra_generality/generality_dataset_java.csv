@@ -1,0 +1,2202 @@
+CVE,target_repo,target_tag,TOOL,TP/FP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.6.7.4,AntMan,FP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.17.2,MVP,FP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,AntMan,TP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.13.4,MVP,FP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.13.2,MVP,FP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.10.5,"MVP, AntMan",TP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.9.10.4,"MVP, AntMan",TP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.6.7.5,MVP,FP
+CVE-2020-10672,FasterXML@@jackson-databind,jackson-databind-2.15.0,MVP,FP
+CVE-2020-10968,FasterXML@@jackson-databind,jackson-databind-2.13.2,AntMan,FP
+CVE-2020-10968,FasterXML@@jackson-databind,jackson-databind-2.15.0,AntMan,FP
+CVE-2020-10968,FasterXML@@jackson-databind,jackson-databind-2.17.2,MVP,FP
+CVE-2020-10968,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,AntMan,TP
+CVE-2020-10968,FasterXML@@jackson-databind,jackson-databind-2.13.5,MVP,FP
+CVE-2020-11007,shopizer-ecommerce@@shopizer,v2.14.0,AntMan,FP
+CVE-2020-11007,shopizer-ecommerce@@shopizer,v3.2.5,AntMan,FP
+CVE-2020-11007,shopizer-ecommerce@@shopizer,3.1.0,MVP,FP
+CVE-2020-11007,shopizer-ecommerce@@shopizer,3.0.0,MVP,FP
+CVE-2020-11111,FasterXML@@jackson-databind,jackson-databind-2.18.1,"MVP, AntMan",FP
+CVE-2020-11111,FasterXML@@jackson-databind,jackson-databind-2.13.5,MVP,FP
+CVE-2020-11111,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,AntMan,TP
+CVE-2020-11111,FasterXML@@jackson-databind,jackson-databind-2.15.3,MVP,FP
+CVE-2020-11111,FasterXML@@jackson-databind,jackson-databind-2.15.4,MVP,FP
+CVE-2020-11113,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,"MVP, AntMan",TP
+CVE-2020-11113,FasterXML@@jackson-databind,jackson-databind-2.12.2,MVP,FP
+CVE-2020-11113,FasterXML@@jackson-databind,jackson-databind-2.13.2,MVP,FP
+CVE-2020-11612,netty@@netty,netty-4.1.94.Final,AntMan,FP
+CVE-2020-11612,netty@@netty,netty-4.1.45.Final,AntMan,TP
+CVE-2020-11612,netty@@netty,netty-5.0.0.Alpha2,"MVP, AntMan",FP
+CVE-2020-11612,netty@@netty,netty-4.1.90.Final,AntMan,FP
+CVE-2020-11612,netty@@netty,netty-4.1.105.Final,MVP,FP
+CVE-2020-11612,netty@@netty,netty-4.1.60.Final,MVP,FP
+CVE-2020-11612,netty@@netty,netty-4.2.0.RC1,MVP,FP
+CVE-2020-11612,netty@@netty,netty-4.1.49.Final,MVP,FP
+CVE-2020-11612,netty@@netty,netty-4.1.66.Final,MVP,FP
+CVE-2020-11612,netty@@netty,netty-4.1.74.Final,MVP,FP
+CVE-2020-11620,FasterXML@@jackson-databind,jackson-databind-2.15.4,AntMan,FP
+CVE-2020-11620,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,AntMan,TP
+CVE-2020-11620,FasterXML@@jackson-databind,jackson-databind-2.17.2,MVP,FP
+CVE-2020-11620,FasterXML@@jackson-databind,jackson-databind-2.9.10.4,AntMan,TP
+CVE-2020-11620,FasterXML@@jackson-databind,jackson-databind-2.10.5,"MVP, AntMan",TP
+CVE-2020-11620,FasterXML@@jackson-databind,jackson-databind-2.6.7.4,MVP,FP
+CVE-2020-11620,FasterXML@@jackson-databind,jackson-databind-2.18.1,MVP,FP
+CVE-2020-13921,apache@@skywalking,v10.1.0,AntMan,FP
+CVE-2020-13921,apache@@skywalking,v8.7.0,AntMan,FP
+CVE-2020-13921,apache@@skywalking,v7.0.0,"MVP, AntMan",FP
+CVE-2020-13921,apache@@skywalking,v9.3.0,AntMan,FP
+CVE-2020-13921,apache@@skywalking,v7.0.0,"VUDDY, AntMan",TP
+CVE-2020-13921,apache@@skywalking,v8.3.0,MVP,FP
+CVE-2020-13921,apache@@skywalking,v9.4.0,MVP,FP
+CVE-2020-13925,apache@@kylin,kylin-4.0.0-beta,MVP,FP
+CVE-2020-13925,apache@@kylin,kylin-5.0.0-alpha,MVP,FP
+CVE-2020-13925,apache@@kylin,kylin-4.0.0-beta,AntMan,TP
+CVE-2020-13925,apache@@kylin,kylin-3.1.3,MVP,FP
+CVE-2020-13925,apache@@kylin,kylin-3.0.1,AntMan,TP
+CVE-2020-13925,apache@@kylin,kylin-5.0.0-beta,MVP,FP
+CVE-2020-13925,apache@@kylin,kylin-3.1.1,MVP,FP
+CVE-2020-13929,apache@@zeppelin,v0.10.0,"VUDDY, MVP, AntMan",TP
+CVE-2020-13929,apache@@zeppelin,v0.11.2-rc1,AntMan,FP
+CVE-2020-13929,apache@@zeppelin,v0.9.0-preview1,"VUDDY, AntMan",TP
+CVE-2020-13929,apache@@zeppelin,v0.9.0-docker,AntMan,TP
+CVE-2020-13929,apache@@zeppelin,v0.11.2-rc1,VUDDY,FP
+CVE-2020-13929,apache@@zeppelin,v0.11.1-rc1,"VUDDY, MVP",FP
+CVE-2020-13929,apache@@zeppelin,v0.10.1-rc2,VUDDY,FP
+CVE-2020-13929,apache@@zeppelin,v0.10.0,MVP,FP
+CVE-2020-13933,apache@@shiro,shiro-root-1.5.0,"MVP, AntMan",TP
+CVE-2020-13933,apache@@shiro,shiro-root-2.0.1,MVP,FP
+CVE-2020-13955,apache@@calcite,calcite-1.38.0-rc0,AntMan,FP
+CVE-2020-13955,apache@@calcite,calcite-1.35.0-rc0,MVP,FP
+CVE-2020-13955,apache@@calcite,calcite-1.22.0,"VUDDY, MVP, AntMan",TP
+CVE-2020-14062,FasterXML@@jackson-databind,jackson-databind-2.9.10.4,AntMan,TP
+CVE-2020-14062,FasterXML@@jackson-databind,jackson-databind-2.13.2,AntMan,FP
+CVE-2020-14062,FasterXML@@jackson-databind,jackson-databind-2.17.2,MVP,FP
+CVE-2020-14062,FasterXML@@jackson-databind,jackson-databind-2.15.4,MVP,FP
+CVE-2020-14062,FasterXML@@jackson-databind,jackson-databind-2.13.5,MVP,FP
+CVE-2020-14062,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,"MVP, AntMan",TP
+CVE-2020-14062,FasterXML@@jackson-databind,jackson-databind-2.12.2,MVP,FP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.12.2,AntMan,FP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.13.4,AntMan,FP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.13.5,AntMan,FP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.15.3,MVP,FP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.9.10.4,AntMan,TP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,AntMan,TP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.18.1,MVP,FP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.13.2,MVP,FP
+CVE-2020-14195,FasterXML@@jackson-databind,jackson-databind-2.13.0,MVP,FP
+CVE-2020-14366,keycloak@@keycloak,20.0.3,AntMan,FP
+CVE-2020-14366,keycloak@@keycloak,24.0.6,"MVP, AntMan",FP
+CVE-2020-14366,keycloak@@keycloak,11.0.1,AntMan,TP
+CVE-2020-14366,keycloak@@keycloak,10.0.1,AntMan,TP
+CVE-2020-14366,keycloak@@keycloak,19.0.3,MVP,FP
+CVE-2020-14366,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2020-15250,junit-team@@junit4,r4.13.2,"MVP, AntMan",FP
+CVE-2020-15250,junit-team@@junit4,r4.13.1,MVP,FP
+CVE-2020-1698,keycloak@@keycloak,10.0.1,AntMan,FP
+CVE-2020-1698,keycloak@@keycloak,20.0.3,AntMan,FP
+CVE-2020-1698,keycloak@@keycloak,15.1.0,"MVP, AntMan",FP
+CVE-2020-1698,keycloak@@keycloak,13.0.0,MVP,FP
+CVE-2020-1698,keycloak@@keycloak,8.0.2,"VUDDY, MVP, AntMan",TP
+CVE-2020-1698,keycloak@@keycloak,12.0.0,MVP,FP
+CVE-2020-1744,keycloak@@keycloak,8.0.2,"VUDDY, AntMan",TP
+CVE-2020-1744,keycloak@@keycloak,24.0.2,MVP,FP
+CVE-2020-1744,keycloak@@keycloak,15.0.1,MVP,FP
+CVE-2020-17518,apache@@flink,release-1.15.0-rc0,AntMan,FP
+CVE-2020-17518,apache@@flink,release-1.10.0-rc1,"VUDDY, MVP, AntMan",TP
+CVE-2020-17518,apache@@flink,release-1.19.0-rc1,MVP,FP
+CVE-2020-17518,apache@@flink,release-1.18.0-rc0,MVP,FP
+CVE-2020-17518,apache@@flink,release-1.10.1-rc2,"VUDDY, AntMan",TP
+CVE-2020-17518,apache@@flink,release-1.10.2-rc1,AntMan,TP
+CVE-2020-17518,apache@@flink,release-1.12.5-rc2,MVP,FP
+CVE-2020-17519,apache@@flink,release-1.12.0-rc2,AntMan,FP
+CVE-2020-17519,apache@@flink,release-1.10.2-rc1,AntMan,TP
+CVE-2020-17519,apache@@flink,release-1.15.4-rc1,AntMan,FP
+CVE-2020-17519,apache@@flink,release-1.10.1-rc2,"MVP, AntMan",TP
+CVE-2020-17519,apache@@flink,release-1.14.6-rc1,MVP,FP
+CVE-2020-17519,apache@@flink,release-1.20.0-rc0,MVP,FP
+CVE-2020-17519,apache@@flink,release-1.18.0-rc0,MVP,FP
+CVE-2020-17519,apache@@flink,release-1.10.0-rc1,AntMan,TP
+CVE-2020-17521,apache@@groovy,GROOVY_2_5_20,AntMan,FP
+CVE-2020-17521,apache@@groovy,GROOVY_4_0_24,MVP,FP
+CVE-2020-17521,apache@@groovy,GROOVY_3_0_9,MVP,FP
+CVE-2020-17521,apache@@groovy,GROOVY_3_0_4,"MVP, AntMan",TP
+CVE-2020-17521,apache@@groovy,GROOVY_3_0_8,MVP,FP
+CVE-2020-17521,apache@@groovy,GROOVY_2_4_18,MVP,TP
+CVE-2020-17521,apache@@groovy,GROOVY_3_0_6,MVP,TP
+CVE-2020-1758,keycloak@@keycloak,19.0.3,MVP,FP
+CVE-2020-1758,keycloak@@keycloak,15.0.1,MVP,FP
+CVE-2020-1758,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2020-1758,keycloak@@keycloak,24.0.6,MVP,FP
+CVE-2020-1758,keycloak@@keycloak,24.0.2,MVP,FP
+CVE-2020-1928,apache@@nifi,nifi-1.27.0-RC1,AntMan,FP
+CVE-2020-1928,apache@@nifi,nifi-2.0.0-M1-RC1,AntMan,FP
+CVE-2020-1928,apache@@nifi,nifi-1.21.0-RC1,MVP,FP
+CVE-2020-1928,apache@@nifi,nifi-1.23.0-RC1,MVP,FP
+CVE-2020-1928,apache@@nifi,nifi-1.12.1-RC1,MVP,FP
+CVE-2020-1929,apache@@beam,sdks/v2.52.0-RC1,MVP,FP
+CVE-2020-1937,apache@@kylin,kylin-5.0.0-alpha,AntMan,FP
+CVE-2020-1937,apache@@kylin,kylin-3.0.1,AntMan,TP
+CVE-2020-1937,apache@@kylin,kylin-4.0.4,MVP,FP
+CVE-2020-1937,apache@@kylin,kylin-3.1.3,MVP,FP
+CVE-2020-1947,apache@@shardingsphere,5.0.0-alpha,"VUDDY, AntMan",FP
+CVE-2020-1947,apache@@shardingsphere,4.1.1,VUDDY,FP
+CVE-2020-1947,apache@@shardingsphere,5.0.0-RC1,MVP,FP
+CVE-2020-1957,apache@@shiro,shiro-root-2.0.0-alpha-1,AntMan,FP
+CVE-2020-1957,apache@@shiro,shiro-root-1.9.1,AntMan,FP
+CVE-2020-1957,apache@@shiro,shiro-root-1.13.0-vote-1,MVP,FP
+CVE-2020-1957,apache@@shiro,shiro-root-1.5.0,AntMan,TP
+CVE-2020-1957,apache@@shiro,shiro-root-1.9.0-release-vote1,MVP,FP
+CVE-2020-1963,apache@@ignite,2.10.0-rc1,MVP,FP
+CVE-2020-1963,apache@@ignite,2.11.1-rc1,MVP,FP
+CVE-2020-1963,apache@@ignite,2.13.0-rc1,VUDDY,FP
+CVE-2020-1963,apache@@ignite,2.11.0-rc1,"VUDDY, MVP",FP
+CVE-2020-1963,apache@@ignite,2.9.0-rc0,VUDDY,FP
+CVE-2020-1963,apache@@ignite,2.11.1-rc1,"VUDDY, MVP",FP
+CVE-2020-1963,apache@@ignite,2.10.0-rc1,VUDDY,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.263.2,AntMan,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.440.3,AntMan,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.375.1,"MVP, AntMan",FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.222.4,"MVP, AntMan",FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.414.2,MVP,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.249.1,MVP,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.452.4,MVP,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.426.3-rc,MVP,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.346.1-rc,MVP,FP
+CVE-2020-2100,jenkinsci@@jenkins,jenkins-2.277.3,MVP,FP
+CVE-2020-2102,jenkinsci@@jenkins,jenkins-2.452.4,"MVP, AntMan",FP
+CVE-2020-2102,jenkinsci@@jenkins,jenkins-2.249.1,AntMan,FP
+CVE-2020-2102,jenkinsci@@jenkins,jenkins-2.204.2,AntMan,FP
+CVE-2020-2102,jenkinsci@@jenkins,jenkins-2.479.2-rc,AntMan,FP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.426.3-rc,AntMan,FP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.249.1,AntMan,TP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.204.2,AntMan,TP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.375.1,MVP,FP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.263.2,"MVP, AntMan",TP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.452.4,MVP,FP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2020-2104,jenkinsci@@jenkins,jenkins-2.346.1-rc,MVP,FP
+CVE-2020-2105,jenkinsci@@jenkins,jenkins-2.375.1,MVP,FP
+CVE-2020-2105,jenkinsci@@jenkins,jenkins-2.375.4,MVP,FP
+CVE-2020-2105,jenkinsci@@jenkins,jenkins-2.440.3,MVP,FP
+CVE-2020-2105,jenkinsci@@jenkins,jenkins-2.204.2,MVP,FP
+CVE-2020-2105,jenkinsci@@jenkins,jenkins-2.289.3,MVP,FP
+CVE-2020-2105,jenkinsci@@jenkins,jenkins-2.414.2,MVP,FP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,FP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.440.3,MVP,FP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.277.3,MVP,FP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.479.2-rc,MVP,FP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.375.1,MVP,FP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.289.3,MVP,FP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.204.2,"VUDDY, AntMan",TP
+CVE-2020-2160,jenkinsci@@jenkins,jenkins-2.401.2-rc,MVP,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.222.4,"VUDDY, AntMan",TP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.263.2,AntMan,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.375.1,AntMan,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.289.3,AntMan,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,FP
+CVE-2020-2223,jenkinsci@@jenkins,2.361.1-rc,"MVP, AntMan",FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.452.4,MVP,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.375.4,MVP,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.426.3-rc,MVP,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.319.3,MVP,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.277.3,MVP,FP
+CVE-2020-2223,jenkinsci@@jenkins,jenkins-2.204.2,"VUDDY, MVP",TP
+CVE-2020-27223,jetty@@jetty.project,jetty-11.0.0-alpha0,"VUDDY, MVP, AntMan",TP
+CVE-2020-27223,jetty@@jetty.project,jetty-10.0.0,AntMan,TP
+CVE-2020-27782,undertow-io@@undertow,2.3.14.Final,AntMan,FP
+CVE-2020-27782,undertow-io@@undertow,2.3.4.Final,AntMan,FP
+CVE-2020-27782,undertow-io@@undertow,2.0.29.Final,"MVP, AntMan",TP
+CVE-2020-27782,undertow-io@@undertow,2.2.9.Final,MVP,FP
+CVE-2020-27782,undertow-io@@undertow,2.3.6.Final,MVP,FP
+CVE-2020-27782,undertow-io@@undertow,2.0.31.Final,"VUDDY, AntMan",TP
+CVE-2020-27782,undertow-io@@undertow,2.1.0.Final,"MVP, AntMan",TP
+CVE-2020-27782,undertow-io@@undertow,2.2.13.Final,MVP,FP
+CVE-2020-27782,undertow-io@@undertow,2.3.0.Alpha2,MVP,FP
+CVE-2020-27782,undertow-io@@undertow,2.2.3.Final,,TP
+CVE-2020-27838,keycloak@@keycloak,11.0.1,"MVP, AntMan",FP
+CVE-2020-27838,keycloak@@keycloak,15.0.1,MVP,FP
+CVE-2020-27838,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2020-27838,keycloak@@keycloak,18.0.1,MVP,FP
+CVE-2020-27838,keycloak@@keycloak,12.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2020-27838,keycloak@@keycloak,11.0.1,AntMan,TP
+CVE-2020-27838,keycloak@@keycloak,13.0.0,MVP,FP
+CVE-2020-27838,keycloak@@keycloak,10.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2020-27838,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2020-27838,keycloak@@keycloak,19.0.3,MVP,FP
+CVE-2020-27838,keycloak@@keycloak,21.1.0,MVP,FP
+CVE-2020-27838,keycloak@@keycloak,23.0.2,MVP,FP
+CVE-2020-28865,PowerJob@@PowerJob,v1.0.0,AntMan,TP
+CVE-2020-28865,PowerJob@@PowerJob,v3.4.6,MVP,FP
+CVE-2020-28865,PowerJob@@PowerJob,v3.3.2,"VUDDY, AntMan",TP
+CVE-2020-28865,PowerJob@@PowerJob,v4.2.1,MVP,FP
+CVE-2020-28865,PowerJob@@PowerJob,v3.2.1,"VUDDY, AntMan",TP
+CVE-2020-35509,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2020-35509,keycloak@@keycloak,15.1.0,"MVP, AntMan",FP
+CVE-2020-35509,keycloak@@keycloak,17.0.0,MVP,FP
+CVE-2020-35509,keycloak@@keycloak,15.0.1,MVP,FP
+CVE-2020-35509,keycloak@@keycloak,26.0.1,MVP,FP
+CVE-2020-35509,keycloak@@keycloak,10.0.1,MVP,FP
+CVE-2020-35509,keycloak@@keycloak,13.0.0,"VUDDY, AntMan",TP
+CVE-2020-35509,keycloak@@keycloak,8.0.2,MVP,FP
+CVE-2020-35509,keycloak@@keycloak,23.0.2,MVP,FP
+CVE-2020-5397,spring-projects@@spring-framework,v5.3.14,AntMan,FP
+CVE-2020-5397,spring-projects@@spring-framework,v6.0.5,AntMan,FP
+CVE-2020-5397,spring-projects@@spring-framework,v5.3.10,MVP,FP
+CVE-2020-5397,spring-projects@@spring-framework,v6.1.4,MVP,FP
+CVE-2020-5397,spring-projects@@spring-framework,v6.0.0-RC2,MVP,FP
+CVE-2020-5398,spring-projects@@spring-framework,v5.3.0-M1,AntMan,FP
+CVE-2020-5398,spring-projects@@spring-framework,v5.3.4,AntMan,FP
+CVE-2020-5398,spring-projects@@spring-framework,v6.1.4,AntMan,TP
+CVE-2020-5398,spring-projects@@spring-framework,v5.3.10,MVP,FP
+CVE-2020-5398,spring-projects@@spring-framework,v6.0.13,"MVP, AntMan",TP
+CVE-2020-5398,spring-projects@@spring-framework,v5.3.35,MVP,FP
+CVE-2020-5398,spring-projects@@spring-framework,v6.0.0-RC2,MVP,FP
+CVE-2020-5398,spring-projects@@spring-framework,v5.3.28,MVP,FP
+CVE-2020-5398,spring-projects@@spring-framework,v6.0.0-M5,MVP,FP
+CVE-2020-5407,spring-projects@@spring-security,6.0.2,"MVP, AntMan",FP
+CVE-2020-5407,spring-projects@@spring-security,6.2.0-M3,"MVP, AntMan",FP
+CVE-2020-5407,spring-projects@@spring-security,5.4.10,MVP,FP
+CVE-2020-5407,spring-projects@@spring-security,5.5.0-M2,MVP,FP
+CVE-2020-5407,spring-projects@@spring-security,5.4.0-M1,AntMan,TP
+CVE-2020-5407,spring-projects@@spring-security,6.3.0-M1,MVP,FP
+CVE-2020-5408,spring-projects@@spring-security,5.4.0-M1,AntMan,FP
+CVE-2020-5408,spring-projects@@spring-security,5.7.5,AntMan,FP
+CVE-2020-5408,spring-projects@@spring-security,5.7.0-M3,AntMan,FP
+CVE-2020-5408,spring-projects@@spring-security,5.5.0-M2,MVP,FP
+CVE-2020-5408,linlinjava@@litemall,v1.8.0,VUDDY,FP
+CVE-2020-5408,spring-projects@@spring-security,6.2.0-M3,MVP,FP
+CVE-2020-5408,linlinjava@@litemall,v1.6.1,VUDDY,FP
+CVE-2020-7019,elastic@@elasticsearch,v8.12.2,MVP,FP
+CVE-2020-7019,elastic@@elasticsearch,v6.8.9,"VUDDY, MVP, AntMan",TP
+CVE-2020-7019,elastic@@elasticsearch,v7.17.2,MVP,FP
+CVE-2020-7019,elastic@@elasticsearch,v7.9.0,"MVP, AntMan",TP
+CVE-2020-7019,elastic@@elasticsearch,v7.14.2,MVP,FP
+CVE-2020-7019,elastic@@elasticsearch,v8.7.1,MVP,FP
+CVE-2020-7019,elastic@@elasticsearch,v7.17.24,MVP,FP
+CVE-2020-7019,elastic@@elasticsearch,v7.5.2,"VUDDY, MVP",TP
+CVE-2020-7020,elastic@@elasticsearch,v7.16.2,AntMan,FP
+CVE-2020-7020,elastic@@elasticsearch,v7.9.0,AntMan,TP
+CVE-2020-7020,elastic@@elasticsearch,v8.12.2,"MVP, AntMan",FP
+CVE-2020-7020,opensearch-project@@OpenSearch,2.6.0,"VUDDY, AntMan",TP
+CVE-2020-7020,opensearch-project@@OpenSearch,2.2.0,"MVP, AntMan",TP
+CVE-2020-7020,elastic@@elasticsearch,v7.5.2,AntMan,TP
+CVE-2020-7020,opensearch-project@@OpenSearch,2.12.0,"VUDDY, AntMan",TP
+CVE-2020-7020,elastic@@elasticsearch,v8.17.0,MVP,FP
+CVE-2020-7020,opensearch-project@@OpenSearch,1.3.17,"VUDDY, AntMan",TP
+CVE-2020-7020,opensearch-project@@OpenSearch,2.0.0-rc1,"MVP, AntMan",TP
+CVE-2020-7020,elastic@@elasticsearch,v6.8.9,AntMan,TP
+CVE-2020-7020,opensearch-project@@OpenSearch,1.2.4,"VUDDY, AntMan",TP
+CVE-2020-7020,opensearch-project@@OpenSearch,2.4.0,"VUDDY, AntMan",TP
+CVE-2020-7020,elastic@@elasticsearch,v8.14.0,MVP,FP
+CVE-2020-7020,opensearch-project@@OpenSearch,2.8.0,AntMan,TP
+CVE-2020-7020,elastic@@elasticsearch,v7.17.7,MVP,FP
+CVE-2020-7020,elastic@@elasticsearch,v8.3.1,MVP,FP
+CVE-2020-7020,opensearch-project@@OpenSearch,2.17.0,"VUDDY, AntMan",TP
+CVE-2020-7020,elastic@@elasticsearch,v7.17.15,MVP,FP
+CVE-2020-7020,opensearch-project@@OpenSearch,1.1.0,"VUDDY, AntMan",TP
+CVE-2020-7020,opensearch-project@@OpenSearch,1.3.13,AntMan,TP
+CVE-2020-7020,elastic@@elasticsearch,v7.10.1,,TP
+CVE-2020-7020,opensearch-project@@OpenSearch,1.0.0-alpha1,VUDDY,TP
+CVE-2020-7238,netty@@netty,netty-4.1.98.Final,MVP,FP
+CVE-2020-7238,netty@@netty,netty-4.1.90.Final,MVP,FP
+CVE-2020-7238,netty@@netty,netty-4.1.70.Final,MVP,FP
+CVE-2020-7238,netty@@netty,netty-5.0.0.Alpha2,MVP,FP
+CVE-2020-8908,google@@guava,v32.1.3,"MVP, AntMan",FP
+CVE-2020-8908,google@@guava,v33.1.0,AntMan,FP
+CVE-2020-8908,google@@guava,v31.0.1,"MVP, AntMan",TP
+CVE-2020-8908,google@@guava,v30.1.1,,TP
+CVE-2020-9483,apache@@skywalking,v9.7.0,AntMan,FP
+CVE-2020-9483,apache@@skywalking,v8.7.0,AntMan,FP
+CVE-2020-9483,apache@@skywalking,v7.0.0,AntMan,TP
+CVE-2020-9483,apache@@skywalking,v10.1.0,MVP,FP
+CVE-2020-9483,apache@@skywalking,v9.4.0,MVP,FP
+CVE-2020-9492,apache@@hadoop,release-3.4.1-RC1,MVP,FP
+CVE-2020-9492,apache@@hadoop,release-3.3.4-RC0,MVP,FP
+CVE-2020-9492,apache@@hadoop,release-3.3.5-RC0,MVP,FP
+CVE-2020-9492,apache@@hadoop,release-3.3.6-RC0,MVP,FP
+CVE-2020-9492,apache@@hadoop,release-3.2.2-RC0,MVP,FP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.18.1,"MVP, AntMan",FP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.13.2,AntMan,FP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.6.7.4,MVP,FP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.9.10.4,"MVP, AntMan",TP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,"MVP, AntMan",TP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.15.0,MVP,FP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.17.2,MVP,FP
+CVE-2021-20190,FasterXML@@jackson-databind,jackson-databind-2.10.5,AntMan,TP
+CVE-2021-20202,keycloak@@keycloak,11.0.1,"VUDDY, AntMan",TP
+CVE-2021-20202,keycloak@@keycloak,21.1.0,AntMan,FP
+CVE-2021-20202,keycloak@@keycloak,13.0.0,MVP,FP
+CVE-2021-20202,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2021-20202,keycloak@@keycloak,12.0.0,"VUDDY, AntMan",TP
+CVE-2021-20202,keycloak@@keycloak,24.0.2,MVP,FP
+CVE-2021-20202,keycloak@@keycloak,18.0.1,MVP,FP
+CVE-2021-20202,keycloak@@keycloak,10.0.1,"VUDDY, AntMan",TP
+CVE-2021-20202,keycloak@@keycloak,20.0.3,MVP,FP
+CVE-2021-20220,undertow-io@@undertow,2.3.8.Final,AntMan,FP
+CVE-2021-20220,undertow-io@@undertow,2.2.3.Final,AntMan,FP
+CVE-2021-20220,undertow-io@@undertow,2.0.29.Final,AntMan,TP
+CVE-2021-20220,undertow-io@@undertow,2.0.31.Final,AntMan,TP
+CVE-2021-20220,undertow-io@@undertow,2.2.13.Final,MVP,FP
+CVE-2021-20220,undertow-io@@undertow,2.2.36.Final,MVP,FP
+CVE-2021-20220,undertow-io@@undertow,2.2.6.Final,MVP,FP
+CVE-2021-20220,undertow-io@@undertow,2.1.0.Final,"MVP, AntMan",TP
+CVE-2021-20323,keycloak@@keycloak,11.0.1,AntMan,FP
+CVE-2021-20323,keycloak@@keycloak,18.0.1,AntMan,FP
+CVE-2021-20323,keycloak@@keycloak,23.0.2,AntMan,FP
+CVE-2021-20323,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2021-20323,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2021-20323,keycloak@@keycloak,15.0.1,"VUDDY, AntMan",TP
+CVE-2021-20323,keycloak@@keycloak,20.0.3,MVP,FP
+CVE-2021-20323,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2021-20323,keycloak@@keycloak,10.0.1,"MVP, AntMan",TP
+CVE-2021-20323,keycloak@@keycloak,13.0.0,,TP
+CVE-2021-20323,keycloak@@keycloak,15.1.0,MVP,TP
+CVE-2021-21290,netty@@netty,netty-4.1.110.Final,"MVP, AntMan",FP
+CVE-2021-21290,netty@@netty,netty-4.1.66.Final,MVP,FP
+CVE-2021-21290,netty@@netty,netty-4.1.45.Final,AntMan,TP
+CVE-2021-21290,netty@@netty,netty-4.1.105.Final,MVP,FP
+CVE-2021-21290,netty@@netty,netty-4.1.52.Final,AntMan,TP
+CVE-2021-21290,netty@@netty,netty-4.1.55.Final,AntMan,TP
+CVE-2021-21290,netty@@netty,netty-4.1.49.Final,"MVP, AntMan",TP
+CVE-2021-21290,netty@@netty,netty-4.1.90.Final,MVP,FP
+CVE-2021-21292,traccar@@traccar,v5.9,AntMan,FP
+CVE-2021-21292,traccar@@traccar,v4.7,AntMan,TP
+CVE-2021-21292,traccar@@traccar,v5.11,MVP,FP
+CVE-2021-21292,traccar@@traccar,v4.11,AntMan,TP
+CVE-2021-21292,traccar@@traccar,v5.4,MVP,FP
+CVE-2021-21292,traccar@@traccar,v4.13,MVP,FP
+CVE-2021-21292,traccar@@traccar,v4.9,,TP
+CVE-2021-21295,netty@@netty,netty-4.1.98.Final,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.98.Final,"MVP, AntMan",FP
+CVE-2021-21295,netty@@netty,netty-4.1.49.Final,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.94.Final,MVP,FP
+CVE-2021-21295,netty@@netty,netty-4.2.0.RC1,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.110.Final,MVP,FP
+CVE-2021-21295,netty@@netty,netty-4.1.66.Final,AntMan,TP
+CVE-2021-21295,netty@@netty,netty-4.1.94.Final,"VUDDY, MVP, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.90.Final,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.110.Final,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.60.Final,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.55.Final,AntMan,TP
+CVE-2021-21295,netty@@netty,netty-4.1.52.Final,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.66.Final,MVP,FP
+CVE-2021-21295,netty@@netty,netty-4.1.105.Final,"VUDDY, MVP, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.74.Final,AntMan,TP
+CVE-2021-21295,netty@@netty,netty-4.1.80.Final,"VUDDY, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.70.Final,AntMan,TP
+CVE-2021-21295,netty@@netty,netty-4.1.86.Final,"VUDDY, MVP, AntMan",TP
+CVE-2021-21295,netty@@netty,netty-4.1.45.Final,MVP,TP
+CVE-2021-21295,netty@@netty,netty-4.2.0.Alpha3,,TP
+CVE-2021-21409,netty@@netty,netty-4.1.94.Final,AntMan,FP
+CVE-2021-21409,netty@@netty,netty-4.1.86.Final,AntMan,FP
+CVE-2021-21409,netty@@netty,netty-4.1.80.Final,"MVP, AntMan",FP
+CVE-2021-21409,netty@@netty,netty-4.1.55.Final,"MVP, AntMan",TP
+CVE-2021-21409,netty@@netty,netty-4.1.60.Final,"MVP, AntMan",TP
+CVE-2021-21409,netty@@netty,netty-4.1.49.Final,"MVP, AntMan",TP
+CVE-2021-21409,netty@@netty,netty-4.1.45.Final,"MVP, AntMan",TP
+CVE-2021-21409,netty@@netty,netty-5.0.0.Alpha2,MVP,FP
+CVE-2021-21409,netty@@netty,netty-4.1.74.Final,MVP,FP
+CVE-2021-21409,netty@@netty,netty-4.1.110.Final,MVP,FP
+CVE-2021-21409,netty@@netty,netty-4.1.52.Final,,TP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v6.3.0,"MVP, AntMan",FP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v7.5.0,AntMan,FP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v6.0.0-beta,MVP,FP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v6.1.0,MVP,FP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v5.0.0,"VUDDY, AntMan",TP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v5.0.0-beta2,"MVP, AntMan",TP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v6.6.0,MVP,FP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v4.2.3,"MVP, AntMan",TP
+CVE-2021-21429,OpenAPITools@@openapi-generator,v4.3.1,"VUDDY, AntMan",TP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.414.2,"MVP, AntMan",FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.375.4,AntMan,FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.401.2-rc,AntMan,FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.346.1-rc,AntMan,FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.263.2,MVP,FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.222.4,"MVP, AntMan",TP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.319.3,MVP,FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.426.3-rc,MVP,FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.204.2,"MVP, AntMan",TP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.479.2-rc,MVP,FP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.249.1,AntMan,TP
+CVE-2021-21604,jenkinsci@@jenkins,jenkins-2.277.3,MVP,FP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.277.3,AntMan,FP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.426.3-rc,"MVP, AntMan",FP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.375.4,"MVP, AntMan",FP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.414.2,MVP,FP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.289.3,MVP,FP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.319.3,MVP,FP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.222.4,"MVP, AntMan",TP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.204.2,AntMan,TP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.249.1,AntMan,TP
+CVE-2021-21606,jenkinsci@@jenkins,jenkins-2.401.2-rc,MVP,FP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.426.3-rc,MVP,FP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.401.2-rc,MVP,FP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.440.3,MVP,FP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.303.3,MVP,FP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.249.1,"MVP, AntMan",TP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.263.2,AntMan,TP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.204.2,"VUDDY, AntMan",TP
+CVE-2021-21607,jenkinsci@@jenkins,jenkins-2.414.2,MVP,FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.346.1-rc,AntMan,FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.440.3,"MVP, AntMan",FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.414.2,AntMan,FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.277.3,MVP,FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.426.3-rc,MVP,FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.204.2,"VUDDY, MVP, AntMan",TP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.375.4,MVP,FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.479.2-rc,MVP,FP
+CVE-2021-21610,jenkinsci@@jenkins,jenkins-2.249.1,VUDDY,TP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.440.3,AntMan,FP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.289.3,AntMan,FP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.204.2,"MVP, AntMan",TP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.319.3,MVP,FP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.426.3-rc,MVP,FP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.401.2-rc,MVP,FP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.263.2,"VUDDY, MVP, AntMan",TP
+CVE-2021-21639,jenkinsci@@jenkins,jenkins-2.249.1,"VUDDY, AntMan",TP
+CVE-2021-21640,jenkinsci@@jenkins,2.361.1-rc,AntMan,FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.479.2-rc,"MVP, AntMan",FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.375.1,"MVP, AntMan",FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.414.2,AntMan,FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.249.1,"VUDDY, AntMan",TP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.426.3-rc,AntMan,FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.204.2,"VUDDY, AntMan",TP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.375.4,"MVP, AntMan",FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.263.2,AntMan,TP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.346.1-rc,MVP,FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.440.3,MVP,FP
+CVE-2021-21640,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.401.2-rc,AntMan,FP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,FP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.204.2,AntMan,TP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.319.3,AntMan,FP
+CVE-2021-21671,jenkinsci@@jenkins,2.361.1-rc,AntMan,FP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.263.2,AntMan,TP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.222.4,"MVP, AntMan",TP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.249.1,"MVP, AntMan",TP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.479.2-rc,MVP,FP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.277.3,VUDDY,TP
+CVE-2021-21671,jenkinsci@@jenkins,jenkins-2.346.1-rc,MVP,FP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v3.0.0-M4,"MVP, AntMan",TP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v4.1.0-RC1,MVP,FP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v3.0.3,"MVP, AntMan",TP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v4.1.3,MVP,FP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v3.0.1,"MVP, AntMan",TP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v4.0.0,MVP,FP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v3.0.4,"MVP, AntMan",TP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v3.0.0-M2,AntMan,TP
+CVE-2021-22053,spring-cloud@@spring-cloud-netflix,v3.1.3,MVP,FP
+CVE-2021-22112,spring-projects@@spring-security,5.5.0,AntMan,FP
+CVE-2021-22112,spring-projects@@spring-security,5.5.0-M2,AntMan,FP
+CVE-2021-22112,spring-projects@@spring-security,6.2.0-M3,AntMan,FP
+CVE-2021-22112,spring-projects@@spring-security,5.5.0-M2,VUDDY,FP
+CVE-2021-22112,spring-projects@@spring-security,5.4.0,"MVP, AntMan",TP
+CVE-2021-22112,spring-projects@@spring-security,5.7.0-M3,MVP,FP
+CVE-2021-22112,spring-projects@@spring-security,6.4.0-M1,MVP,FP
+CVE-2021-22112,spring-projects@@spring-security,6.1.1,MVP,FP
+CVE-2021-22112,spring-projects@@spring-security,5.7.5,MVP,FP
+CVE-2021-22112,spring-projects@@spring-security,6.3.0-M1,MVP,FP
+CVE-2021-22113,spring-cloud@@spring-cloud-netflix,v4.2.0-RC1,"MVP, AntMan",FP
+CVE-2021-22113,spring-cloud@@spring-cloud-netflix,v3.1.3,MVP,FP
+CVE-2021-22113,spring-cloud@@spring-cloud-netflix,v3.1.4,MVP,FP
+CVE-2021-22113,spring-cloud@@spring-cloud-netflix,v3.0.0-M4,MVP,FP
+CVE-2021-22132,ReactiveX@@RxJava,v3.1.9,"VUDDY, AntMan",FP
+CVE-2021-22132,opensearch-project@@OpenSearch,1.2.4,"VUDDY, AntMan",TP
+CVE-2021-22132,crate@@crate,4.1.5,"VUDDY, AntMan",FP
+CVE-2021-22132,elastic@@elasticsearch,v8.3.1,"VUDDY, MVP, AntMan",FP
+CVE-2021-22132,opensearch-project@@OpenSearch,1.3.17,"VUDDY, MVP, AntMan",TP
+CVE-2021-22132,ReactiveX@@RxJava,v3.1.7,"VUDDY, MVP, AntMan",FP
+CVE-2021-22132,apache@@storm,v2.3.1,"VUDDY, MVP, AntMan",FP
+CVE-2021-22132,apache@@storm,v2.3.0,"VUDDY, AntMan",FP
+CVE-2021-22132,elastic@@elasticsearch,v7.17.15,"VUDDY, MVP, AntMan",FP
+CVE-2021-22132,elastic@@elasticsearch,v8.9.1,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v8.6.1,"VUDDY, MVP",FP
+CVE-2021-22132,ReactiveX@@RxJava,v2.2.17,"VUDDY, MVP",FP
+CVE-2021-22132,crate@@crate,4.0.11,"VUDDY, MVP",FP
+CVE-2021-22132,opensearch-project@@OpenSearch,2.8.0,"VUDDY, AntMan",TP
+CVE-2021-22132,opensearch-project@@OpenSearch,2.2.0,"VUDDY, AntMan",TP
+CVE-2021-22132,elastic@@elasticsearch,v8.7.1,MVP,FP
+CVE-2021-22132,opensearch-project@@OpenSearch,1.1.0,"VUDDY, AntMan",TP
+CVE-2021-22132,ReactiveX@@RxJava,v3.1.10,"VUDDY, MVP",FP
+CVE-2021-22132,ReactiveX@@RxJava,v3.1.0,VUDDY,FP
+CVE-2021-22132,ReactiveX@@RxJava,v3.0.3,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v8.12.2,MVP,FP
+CVE-2021-22132,elastic@@elasticsearch,v8.17.0,MVP,FP
+CVE-2021-22132,opensearch-project@@OpenSearch,2.6.0,AntMan,TP
+CVE-2021-22132,apache@@storm,v2.6.3,VUDDY,FP
+CVE-2021-22132,apache@@storm,v2.6.0,"VUDDY, MVP",FP
+CVE-2021-22132,elastic@@elasticsearch,v7.17.2,"VUDDY, MVP",FP
+CVE-2021-22132,elastic@@elasticsearch,v7.10.1,"VUDDY, AntMan",TP
+CVE-2021-22132,crate@@crate,4.2.2,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.17.15,MVP,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.17.24,"VUDDY, MVP",FP
+CVE-2021-22132,elastic@@elasticsearch,v8.6.1,MVP,FP
+CVE-2021-22132,elastic@@elasticsearch,v6.8.15,"VUDDY, MVP",FP
+CVE-2021-22132,elastic@@elasticsearch,v8.3.1,MVP,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.16.2,"VUDDY, MVP",FP
+CVE-2021-22132,apache@@storm,v2.5.0,"VUDDY, MVP",FP
+CVE-2021-22132,opensearch-project@@OpenSearch,2.12.0,"VUDDY, AntMan",TP
+CVE-2021-22132,elastic@@elasticsearch,v8.12.2,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.5.2,"MVP, AntMan",TP
+CVE-2021-22132,elastic@@elasticsearch,v8.7.1,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.17.7,MVP,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.9.0,"VUDDY, MVP",FP
+CVE-2021-22132,elastic@@elasticsearch,v7.14.2,MVP,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.13.2,VUDDY,FP
+CVE-2021-22132,opensearch-project@@OpenSearch,1.3.13,"VUDDY, AntMan",TP
+CVE-2021-22132,opensearch-project@@OpenSearch,2.4.0,"VUDDY, AntMan",TP
+CVE-2021-22132,opensearch-project@@OpenSearch,1.0.0-alpha1,"VUDDY, MVP, AntMan",TP
+CVE-2021-22132,elastic@@elasticsearch,v8.14.0,VUDDY,FP
+CVE-2021-22132,ReactiveX@@RxJava,v3.0.5,VUDDY,FP
+CVE-2021-22132,opensearch-project@@OpenSearch,2.17.0,"VUDDY, AntMan",TP
+CVE-2021-22132,ReactiveX@@RxJava,v3.1.4,"VUDDY, MVP",FP
+CVE-2021-22132,ReactiveX@@RxJava,v3.1.3,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.17.7,VUDDY,FP
+CVE-2021-22132,apache@@storm,v2.7.1,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v7.14.2,"VUDDY, MVP",FP
+CVE-2021-22132,elastic@@elasticsearch,v7.5.2,VUDDY,FP
+CVE-2021-22132,ReactiveX@@RxJava,v3.0.8-RC1,VUDDY,FP
+CVE-2021-22132,apache@@storm,v2.6.2,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v8.17.0,VUDDY,FP
+CVE-2021-22132,elastic@@elasticsearch,v6.8.9,VUDDY,FP
+CVE-2021-22132,apache@@storm,v2.2.0,"VUDDY, MVP",FP
+CVE-2021-22132,opensearch-project@@OpenSearch,2.0.0-rc1,MVP,TP
+CVE-2021-22132,elastic@@elasticsearch,v6.8.9,,TP
+CVE-2021-22132,elastic@@elasticsearch,v7.9.0,,TP
+CVE-2021-22132,ReactiveX@@RxJava,v3.0.11,"VUDDY, MVP",FP
+CVE-2021-22132,elastic@@elasticsearch,v7.17.24,MVP,FP
+CVE-2021-22144,elastic@@elasticsearch,v8.3.1,"MVP, AntMan",FP
+CVE-2021-22144,elastic@@elasticsearch,v6.8.9,"VUDDY, AntMan",TP
+CVE-2021-22144,elastic@@elasticsearch,v8.14.0,AntMan,FP
+CVE-2021-22144,elastic@@elasticsearch,v7.5.2,"VUDDY, MVP, AntMan",TP
+CVE-2021-22144,elastic@@elasticsearch,v8.6.1,MVP,FP
+CVE-2021-22144,elastic@@elasticsearch,v7.10.1,AntMan,TP
+CVE-2021-22144,elastic@@elasticsearch,v6.8.15,"MVP, AntMan",TP
+CVE-2021-22144,elastic@@elasticsearch,v7.16.2,MVP,FP
+CVE-2021-22144,opensearch-project@@OpenSearch,1.0.0-alpha1,"VUDDY, AntMan",TP
+CVE-2021-22144,elastic@@elasticsearch,v7.13.2,"VUDDY, AntMan",TP
+CVE-2021-22144,elastic@@elasticsearch,v7.9.0,MVP,TP
+CVE-2021-22572,dtinit@@data-transfer-project,v0.3.39,AntMan,TP
+CVE-2021-22572,dtinit@@data-transfer-project,v0.3.42,AntMan,TP
+CVE-2021-22572,dtinit@@data-transfer-project,v0.3.49,"VUDDY, AntMan",TP
+CVE-2021-22572,dtinit@@data-transfer-project,v0.3.23,VUDDY,TP
+CVE-2021-25640,apache@@dubbo,dubbo-3.1.6,"MVP, AntMan",FP
+CVE-2021-25640,apache@@dubbo,dubbo-2.7.9,AntMan,TP
+CVE-2021-25640,apache@@dubbo,dubbo-3.2.10,MVP,FP
+CVE-2021-25640,apache@@dubbo,dubbo-2.6.8,AntMan,TP
+CVE-2021-25640,apache@@dubbo,dubbo-3.2.6,MVP,FP
+CVE-2021-25640,apache@@dubbo,dubbo-2.6.9,AntMan,TP
+CVE-2021-25640,apache@@dubbo,dubbo-3.2.1,MVP,FP
+CVE-2021-25646,apache@@druid,druid-0.21.1-rc1,"MVP, AntMan",FP
+CVE-2021-25646,apache@@druid,druid-31.0.0-rc1,"MVP, AntMan",FP
+CVE-2021-25646,apache@@druid,druid-0.20.0-rc1,AntMan,TP
+CVE-2021-25646,apache@@druid,druid-24.0.0-rc1,MVP,FP
+CVE-2021-25646,apache@@druid,druid-0.17.1,"VUDDY, AntMan",TP
+CVE-2021-25646,apache@@druid,druid-0.22.1-rc1,MVP,FP
+CVE-2021-25924,gocd@@gocd,22.1.0,AntMan,FP
+CVE-2021-25924,gocd@@gocd,23.2.0,AntMan,FP
+CVE-2021-25924,gocd@@gocd,21.1.0,"VUDDY, AntMan",TP
+CVE-2021-25924,gocd@@gocd,20.1.0,"VUDDY, AntMan",TP
+CVE-2021-25924,gocd@@gocd,20.4.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-25924,gocd@@gocd,24.1.0,MVP,FP
+CVE-2021-25924,gocd@@gocd,20.8.0,"VUDDY, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.15,"VUDDY, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.10,"MVP, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.0,"VUDDY, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-11.0.0-alpha0,"VUDDY, MVP, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.8,"MVP, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.7,AntMan,TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.6,"VUDDY, MVP, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.13,"VUDDY, AntMan",TP
+CVE-2021-28163,jetty@@jetty.project,jetty-10.0.2,"VUDDY, MVP",TP
+CVE-2021-31522,apache@@kylin,kylin-3.1.0,"MVP, AntMan",TP
+CVE-2021-31522,apache@@kylin,kylin-5.0.0-alpha,AntMan,FP
+CVE-2021-31522,apache@@kylin,kylin-4.0.0,AntMan,TP
+CVE-2021-31522,apache@@kylin,kylin-3.1.1,"VUDDY, MVP, AntMan",TP
+CVE-2021-31522,apache@@kylin,kylin-4.0.3,MVP,FP
+CVE-2021-31522,apache@@kylin,kylin-3.0.1,"MVP, AntMan",TP
+CVE-2021-31522,apache@@kylin,kylin-5.0.0-beta,MVP,FP
+CVE-2021-31522,apache@@kylin,kylin-4.0.0-beta,VUDDY,TP
+CVE-2021-32824,apache@@dubbo,dubbo-2.6.10,AntMan,FP
+CVE-2021-32824,apache@@dubbo,dubbo-2.6.8,"VUDDY, AntMan",TP
+CVE-2021-32824,apache@@dubbo,dubbo-2.6.10,"VUDDY, MVP, AntMan",TP
+CVE-2021-32824,apache@@dubbo,dubbo-2.6.9,"VUDDY, MVP, AntMan",TP
+CVE-2021-32824,apache@@dubbo,dubbo-3.2.10,MVP,FP
+CVE-2021-32824,apache@@dubbo,dubbo-2.7.9,"VUDDY, AntMan",TP
+CVE-2021-32824,apache@@dubbo,dubbo-3.2.6,MVP,FP
+CVE-2021-33800,alibaba@@druid,1.2.16,AntMan,TP
+CVE-2021-33800,alibaba@@druid,1.2.19,AntMan,TP
+CVE-2021-33800,alibaba@@druid,1.2.22,AntMan,TP
+CVE-2021-33800,alibaba@@druid,1.2.13,"VUDDY, AntMan",TP
+CVE-2021-33800,alibaba@@druid,1.2.7,AntMan,TP
+CVE-2021-33800,alibaba@@druid,1.2.24,"VUDDY, MVP, AntMan",TP
+CVE-2021-33800,alibaba@@druid,1.2.11,AntMan,TP
+CVE-2021-33800,alibaba@@druid,1.1.23,"VUDDY, AntMan",TP
+CVE-2021-33800,alibaba@@druid,1.2.5,"VUDDY, MVP, AntMan",TP
+CVE-2021-33800,alibaba@@druid,1.2.0,"VUDDY, MVP",TP
+CVE-2021-33813,JetBrains@@intellij-community,pycharm_222.3739.30,AntMan,TP
+CVE-2021-33813,JetBrains@@intellij-community,pycharm_231.7515.12,"VUDDY, AntMan",TP
+CVE-2021-33813,JetBrains@@intellij-community,pycharm_241.18034.82,"MVP, AntMan",TP
+CVE-2021-33813,JetBrains@@intellij-community,pycharm_232.6734.4,"VUDDY, AntMan",TP
+CVE-2021-33813,JetBrains@@intellij-community,pycharm_233.13135.26,"VUDDY, MVP, AntMan",TP
+CVE-2021-33813,JetBrains@@intellij-community,idea_232.9921.28,"VUDDY, AntMan",TP
+CVE-2021-33813,JetBrains@@intellij-community,idea_242.23726.16,"VUDDY, AntMan",TP
+CVE-2021-33813,JetBrains@@intellij-community,idea_241.14494.158,"MVP, AntMan",TP
+CVE-2021-33813,JetBrains@@intellij-community,idea_223.7571.4,"VUDDY, MVP, AntMan",TP
+CVE-2021-34538,apache@@hive,rel_release-4.0.0-alpha-2,"VUDDY, MVP, AntMan",TP
+CVE-2021-34538,apache@@hive,rel_release-4.0.0,"VUDDY, AntMan",TP
+CVE-2021-34538,apache@@hive,rel/release-4.0.0,MVP,FP
+CVE-2021-34538,apache@@hive,release-3.1.3-rc0,MVP,FP
+CVE-2021-34538,apache@@hive,storage-release-2.7.3-rc0,"VUDDY, AntMan",TP
+CVE-2021-34538,apache@@hive,rel_release-4.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2021-34538,apache@@hive,branch-3.1.2-rc0,"VUDDY, AntMan",TP
+CVE-2021-34538,apache@@hive,rel/release-4.0.0-alpha-2,MVP,FP
+CVE-2021-34538,apache@@hive,release-2.3.8-rc0,"MVP, AntMan",TP
+CVE-2021-3513,keycloak@@keycloak,17.0.0,"VUDDY, MVP, AntMan",FP
+CVE-2021-3513,keycloak@@keycloak,15.1.0,"VUDDY, MVP, AntMan",FP
+CVE-2021-3513,keycloak@@keycloak,21.1.0,"MVP, AntMan",FP
+CVE-2021-3513,keycloak@@keycloak,24.0.6,AntMan,FP
+CVE-2021-3513,keycloak@@keycloak,17.0.0,"MVP, AntMan",FP
+CVE-2021-3513,keycloak@@keycloak,11.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2021-3513,keycloak@@keycloak,11.0.1,AntMan,FP
+CVE-2021-3513,keycloak@@keycloak,20.0.3,AntMan,FP
+CVE-2021-3513,keycloak@@keycloak,10.0.1,"VUDDY, AntMan",TP
+CVE-2021-3513,keycloak@@keycloak,13.0.0,"VUDDY, AntMan",TP
+CVE-2021-3513,keycloak@@keycloak,19.0.3,MVP,FP
+CVE-2021-3513,keycloak@@keycloak,15.0.1,VUDDY,FP
+CVE-2021-3513,keycloak@@keycloak,18.0.1,VUDDY,FP
+CVE-2021-3513,keycloak@@keycloak,12.0.0,,TP
+CVE-2021-3513,keycloak@@keycloak,8.0.2,VUDDY,TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v2.6.2,"MVP, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v4.0.0-alpha02,"VUDDY, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v4.0.0-beta02,"VUDDY, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v3.1.1,"VUDDY, MVP, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v2.6.5,"VUDDY, MVP, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v3.0.0-rc04,"VUDDY, MVP, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v3.0.3,AntMan,TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v4.0.0-beta01,"VUDDY, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v3.0.0-alpha02,"VUDDY, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v3.1.4,"VUDDY, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,v3.1.0-beta01,"VUDDY, AntMan",TP
+CVE-2021-35515,MuntashirAkon@@AppManager,pre-v2.5.24,"MVP, AntMan",TP
+CVE-2021-35516,TeamAmaze@@AmazeFileManager,v3.4.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-35516,TeamAmaze@@AmazeFileManager,v3.8.1,"VUDDY, AntMan",TP
+CVE-2021-35516,TeamAmaze@@AmazeFileManager,v.3.5.0-beta1,"VUDDY, AntMan",TP
+CVE-2021-35516,TeamAmaze@@AmazeFileManager,v3.7.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-35516,TeamAmaze@@AmazeFileManager,v3.6.0,AntMan,TP
+CVE-2021-36161,apache@@dubbo,dubbo-3.1.6,AntMan,FP
+CVE-2021-36161,apache@@dubbo,dubbo-2.7.15,"VUDDY, AntMan",FP
+CVE-2021-36161,apache@@dubbo,dubbo-3.2.10,AntMan,FP
+CVE-2021-36161,apache@@dubbo,dubbo-2.7.9,AntMan,TP
+CVE-2021-36161,apache@@dubbo,dubbo-2.6.10,AntMan,FP
+CVE-2021-36161,apache@@dubbo,dubbo-2.7.16,VUDDY,FP
+CVE-2021-36161,apache@@dubbo,dubbo-3.0.7,"VUDDY, MVP",FP
+CVE-2021-36161,apache@@dubbo,dubbo-3.0.2,VUDDY,FP
+CVE-2021-36161,apache@@dubbo,dubbo-2.7.16,MVP,FP
+CVE-2021-36161,apache@@dubbo,dubbo-3.2.1,MVP,FP
+CVE-2021-36161,apache@@dubbo,dubbo-3.2.6,MVP,FP
+CVE-2021-36161,apache@@dubbo,dubbo-2.7.15,MVP,FP
+CVE-2021-36161,apache@@dubbo,dubbo-3.2.0-beta.1,MVP,FP
+CVE-2021-3632,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2021-3632,keycloak@@keycloak,24.0.6,MVP,FP
+CVE-2021-3632,keycloak@@keycloak,13.0.0,"MVP, AntMan",TP
+CVE-2021-3632,keycloak@@keycloak,10.0.1,AntMan,TP
+CVE-2021-3632,keycloak@@keycloak,18.0.1,MVP,FP
+CVE-2021-3632,keycloak@@keycloak,15.0.1,AntMan,TP
+CVE-2021-3632,keycloak@@keycloak,23.0.2,MVP,FP
+CVE-2021-3632,keycloak@@keycloak,19.0.3,MVP,FP
+CVE-2021-3632,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2021-3632,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2021-36774,apache@@kylin,kylin-4.0.2,"MVP, AntMan",FP
+CVE-2021-36774,apache@@kylin,kylin-4.0.0-beta,"VUDDY, AntMan",TP
+CVE-2021-36774,apache@@kylin,kylin-4.0.0,"VUDDY, AntMan",TP
+CVE-2021-36774,apache@@kylin,kylin-5.0.0,MVP,FP
+CVE-2021-36774,apache@@kylin,kylin-3.0.1,"VUDDY, AntMan",TP
+CVE-2021-36774,apache@@kylin,kylin-3.1.1,"VUDDY, MVP",TP
+CVE-2021-36774,apache@@kylin,kylin-3.1.0,"VUDDY, MVP",TP
+CVE-2021-3690,undertow-io@@undertow,2.2.6.Final,AntMan,TP
+CVE-2021-3690,undertow-io@@undertow,2.3.6.Final,MVP,FP
+CVE-2021-3690,undertow-io@@undertow,2.0.29.Final,MVP,FP
+CVE-2021-3690,undertow-io@@undertow,2.1.0.Final,AntMan,TP
+CVE-2021-3690,undertow-io@@undertow,2.0.31.Final,"VUDDY, MVP, AntMan",TP
+CVE-2021-3690,undertow-io@@undertow,2.2.17.Final,MVP,FP
+CVE-2021-3690,undertow-io@@undertow,2.2.3.Final,AntMan,TP
+CVE-2021-3690,undertow-io@@undertow,2.2.9.Final,VUDDY,TP
+CVE-2021-3754,keycloak@@keycloak,26.0.1,AntMan,FP
+CVE-2021-3754,keycloak@@keycloak,19.0.3,"VUDDY, AntMan",TP
+CVE-2021-3754,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2021-3754,keycloak@@keycloak,13.0.0,"MVP, AntMan",TP
+CVE-2021-3754,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2021-3754,keycloak@@keycloak,21.1.0,AntMan,TP
+CVE-2021-3754,keycloak@@keycloak,18.0.1,"VUDDY, AntMan",TP
+CVE-2021-3754,keycloak@@keycloak,17.0.0,AntMan,TP
+CVE-2021-3754,keycloak@@keycloak,10.0.1,AntMan,TP
+CVE-2021-3754,keycloak@@keycloak,22.0.2,"VUDDY, MVP, AntMan",TP
+CVE-2021-3754,keycloak@@keycloak,20.0.3,AntMan,TP
+CVE-2021-3754,keycloak@@keycloak,23.0.2,AntMan,TP
+CVE-2021-3754,keycloak@@keycloak,15.1.0,"VUDDY, AntMan",TP
+CVE-2021-3754,keycloak@@keycloak,15.0.1,,TP
+CVE-2021-3754,keycloak@@keycloak,11.0.1,MVP,TP
+CVE-2021-38294,apache@@storm,v2.3.0,AntMan,FP
+CVE-2021-38294,apache@@storm,v2.7.1,MVP,FP
+CVE-2021-38294,apache@@storm,v2.6.2,MVP,FP
+CVE-2021-38294,apache@@storm,v2.2.0,AntMan,TP
+CVE-2021-3856,keycloak@@keycloak,10.0.1,AntMan,TP
+CVE-2021-3856,keycloak@@keycloak,24.0.6,"MVP, AntMan",FP
+CVE-2021-3856,keycloak@@keycloak,13.0.0,"MVP, AntMan",TP
+CVE-2021-3856,keycloak@@keycloak,15.1.0,MVP,FP
+CVE-2021-3856,keycloak@@keycloak,11.0.1,MVP,FP
+CVE-2021-3856,keycloak@@keycloak,26.0.1,MVP,FP
+CVE-2021-3856,keycloak@@keycloak,15.0.1,AntMan,TP
+CVE-2021-3856,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2021-3856,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2021-3856,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2021-3856,keycloak@@keycloak,21.1.0,MVP,FP
+CVE-2021-3878,stanfordnlp@@CoreNLP,v4.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-3878,stanfordnlp@@CoreNLP,v4.2.0,"MVP, AntMan",TP
+CVE-2021-3878,stanfordnlp@@CoreNLP,v4.5.2,MVP,FP
+CVE-2021-3878,stanfordnlp@@CoreNLP,v4.5.5,MVP,FP
+CVE-2021-3878,stanfordnlp@@CoreNLP,v4.0.0,"MVP, AntMan",TP
+CVE-2021-3878,stanfordnlp@@CoreNLP,v4.2.1,"VUDDY, MVP, AntMan",TP
+CVE-2021-3878,stanfordnlp@@CoreNLP,v4.3.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-4178,fabric8io@@kubernetes-client,v5.0.0-alpha-3,AntMan,FP
+CVE-2021-4178,fabric8io@@kubernetes-client,v6.8.1,AntMan,FP
+CVE-2021-4178,fabric8io@@kubernetes-client,v4.9.1,MVP,FP
+CVE-2021-4178,fabric8io@@kubernetes-client,v6.10.0,MVP,FP
+CVE-2021-4178,fabric8io@@kubernetes-client,v5.9.0,AntMan,TP
+CVE-2021-4178,fabric8io@@kubernetes-client,v4.11.0,MVP,FP
+CVE-2021-4178,fabric8io@@kubernetes-client,v5.2.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-4178,fabric8io@@kubernetes-client,v5.5.0,VUDDY,TP
+CVE-2021-4178,fabric8io@@kubernetes-client,v6.12.0,MVP,FP
+CVE-2021-4178,fabric8io@@kubernetes-client,v6.6.0,MVP,FP
+CVE-2021-43795,line@@armeria,armeria-1.6.0,AntMan,TP
+CVE-2021-43795,line@@armeria,armeria-1.20.1,MVP,FP
+CVE-2021-43795,line@@armeria,armeria-0.98.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-43795,line@@armeria,armeria-1.10.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-43795,line@@armeria,armeria-1.13.3,AntMan,TP
+CVE-2021-43795,line@@armeria,armeria-1.15.0,MVP,FP
+CVE-2021-43795,line@@armeria,armeria-1.0.0,AntMan,TP
+CVE-2021-43795,line@@armeria,armeria-0.99.5,MVP,TP
+CVE-2021-43795,line@@armeria,armeria-1.3.0,VUDDY,TP
+CVE-2021-43797,netty@@netty,netty-4.1.55.Final,"VUDDY, AntMan",TP
+CVE-2021-43797,netty@@netty,netty-4.1.70.Final,"VUDDY, AntMan",TP
+CVE-2021-43797,netty@@netty,netty-4.1.45.Final,"VUDDY, AntMan",TP
+CVE-2021-43797,netty@@netty,netty-5.0.0.Alpha2,"MVP, AntMan",FP
+CVE-2021-43797,netty@@netty,netty-4.2.0.RC1,MVP,FP
+CVE-2021-43797,netty@@netty,netty-4.1.52.Final,"VUDDY, AntMan",TP
+CVE-2021-43797,netty@@netty,netty-4.1.49.Final,"VUDDY, MVP, AntMan",TP
+CVE-2021-43797,netty@@netty,netty-4.1.66.Final,"VUDDY, MVP, AntMan",TP
+CVE-2021-43797,netty@@netty,netty-4.1.60.Final,"VUDDY, AntMan",TP
+CVE-2021-44139,alibaba@@Sentinel,1.7.2,AntMan,FP
+CVE-2021-44139,alibaba@@Sentinel,1.8.4,MVP,FP
+CVE-2021-44139,alibaba@@Sentinel,2.0.0-alpha,MVP,FP
+CVE-2021-44139,alibaba@@Sentinel,1.8.2,"VUDDY, AntMan",TP
+CVE-2021-44521,apache@@cassandra,cassandra-4.0.5,AntMan,FP
+CVE-2021-44521,apache@@cassandra,cassandra-2.2.17,MVP,FP
+CVE-2021-44521,apache@@cassandra,cassandra-3.0.24,"VUDDY, AntMan",TP
+CVE-2021-44521,apache@@cassandra,cassandra-2.2.16,MVP,FP
+CVE-2021-44521,apache@@cassandra,cassandra-4.0.12,MVP,FP
+CVE-2021-44521,apache@@cassandra,cassandra-3.0.26,MVP,FP
+CVE-2021-44521,apache@@cassandra,cassandra-4.0.0,,TP
+CVE-2021-44521,apache@@cassandra,cassandra-3.0.28,MVP,FP
+CVE-2021-44550,stanfordnlp@@CoreNLP,v4.5.6,AntMan,FP
+CVE-2021-44550,stanfordnlp@@CoreNLP,v4.0.0,"MVP, AntMan",TP
+CVE-2021-44550,stanfordnlp@@CoreNLP,v4.2.1,"VUDDY, MVP, AntMan",TP
+CVE-2021-44550,stanfordnlp@@CoreNLP,v4.5.0,MVP,FP
+CVE-2021-44550,stanfordnlp@@CoreNLP,v4.1.0,"VUDDY, AntMan",TP
+CVE-2021-44550,stanfordnlp@@CoreNLP,v4.2.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-44550,stanfordnlp@@CoreNLP,v4.3.0,"VUDDY, MVP, AntMan",TP
+CVE-2021-44667,alibaba@@nacos,2.0.2,"MVP, AntMan",FP
+CVE-2021-44667,alibaba@@nacos,1.4.0-BETA,AntMan,FP
+CVE-2021-44667,alibaba@@nacos,2.0.0-BETA,MVP,FP
+CVE-2021-44667,alibaba@@nacos,1.4.5,MVP,FP
+CVE-2021-44667,alibaba@@nacos,2.0.4,MVP,FP
+CVE-2021-44791,apache@@druid,druid-26.0.0-rc1,AntMan,FP
+CVE-2021-44791,apache@@druid,druid-0.22.1-rc1,"VUDDY, AntMan",TP
+CVE-2021-44791,apache@@druid,druid-0.20.0-rc1,"VUDDY, AntMan",TP
+CVE-2021-44791,apache@@druid,druid-0.17.1,AntMan,TP
+CVE-2021-44791,apache@@druid,druid-0.21.1-rc1,,TP
+CVE-2021-45458,apache@@kylin,kylin-4.0.2,"MVP, AntMan",FP
+CVE-2021-45458,apache@@kylin,kylin-4.0.4,AntMan,FP
+CVE-2021-45458,apache@@kylin,kylin-3.0.1,"MVP, AntMan",TP
+CVE-2021-45458,apache@@kylin,kylin-4.0.0-beta,MVP,FP
+CVE-2021-45458,apache@@kylin,kylin-4.0.3,MVP,FP
+CVE-2021-45458,apache@@kylin,kylin-5.0.0-alpha,VUDDY,FP
+CVE-2021-45458,apache@@kylin,kylin-3.1.0,"MVP, AntMan",TP
+CVE-2021-45458,apache@@kylin,kylin-3.1.1,"MVP, AntMan",TP
+CVE-2021-45458,apache@@kylin,kylin-5.0.0-beta,VUDDY,FP
+CVE-2022-0198,stanfordnlp@@CoreNLP,v4.2.1,AntMan,TP
+CVE-2022-0198,stanfordnlp@@CoreNLP,v4.5.6,MVP,FP
+CVE-2022-0198,stanfordnlp@@CoreNLP,v4.2.0,AntMan,TP
+CVE-2022-0198,stanfordnlp@@CoreNLP,v4.3.0,"VUDDY, AntMan",TP
+CVE-2022-0198,stanfordnlp@@CoreNLP,v4.0.0,"VUDDY, MVP",TP
+CVE-2022-0198,stanfordnlp@@CoreNLP,v4.1.0,"VUDDY, MVP",TP
+CVE-2022-0198,stanfordnlp@@CoreNLP,v4.5.0,MVP,FP
+CVE-2022-0219,skylot@@jadx,v1.4.6,MVP,FP
+CVE-2022-0265,hazelcast@@hazelcast,v5.1.4,MVP,FP
+CVE-2022-0265,hazelcast@@hazelcast,v4.1.4,MVP,FP
+CVE-2022-0265,hazelcast@@hazelcast,v5.1.6,MVP,FP
+CVE-2022-0265,hazelcast@@hazelcast,v5.3.7,MVP,FP
+CVE-2022-0265,hazelcast@@hazelcast,v4.0.6,"VUDDY, AntMan",TP
+CVE-2022-0265,hazelcast@@hazelcast,v4.1.4,"VUDDY, MVP, AntMan",TP
+CVE-2022-0265,hazelcast@@hazelcast,v3.12.11,"VUDDY, AntMan",TP
+CVE-2022-0265,hazelcast@@hazelcast,v4.1.6,AntMan,TP
+CVE-2022-0265,hazelcast@@hazelcast,v4.1.2,,TP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.426.3-rc,AntMan,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.440.3,AntMan,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.289.3,"VUDDY, AntMan",TP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.204.2,AntMan,TP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.479.2-rc,MVP,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.375.4,MVP,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.277.3,"VUDDY, AntMan",TP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.249.1,"VUDDY, MVP, AntMan",TP
+CVE-2022-0538,jenkinsci@@jenkins,2.361.1-rc,MVP,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.303.3,"VUDDY, AntMan",TP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.414.2,MVP,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.346.1-rc,MVP,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.263.2,"VUDDY, AntMan",TP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.452.4,MVP,FP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2022-0538,jenkinsci@@jenkins,jenkins-2.319.3,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,liquibase-bigquery-4.5.0,"MVP, AntMan",TP
+CVE-2022-0839,liquibase@@liquibase,v3.8.5,AntMan,TP
+CVE-2022-0839,liquibase@@liquibase,v4.0.0-beta1,"MVP, AntMan",TP
+CVE-2022-0839,liquibase@@liquibase,v4.26.0,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,v4.28.0,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,v4.24.0,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,v4.29.2,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,v3.10.2,AntMan,TP
+CVE-2022-0839,liquibase@@liquibase,v4.3.1,AntMan,TP
+CVE-2022-0839,liquibase@@liquibase,v4.23.0,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,v4.15.0,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,v4.7.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-0839,liquibase@@liquibase,v4.2.0,"VUDDY, AntMan",TP
+CVE-2022-0839,liquibase@@liquibase,v4.18.0,MVP,FP
+CVE-2022-0839,liquibase@@liquibase,v4.4.0,VUDDY,TP
+CVE-2022-0981,quarkusio@@quarkus,3.17.1,AntMan,FP
+CVE-2022-0981,quarkusio@@quarkus,3.8.6,AntMan,FP
+CVE-2022-0981,quarkusio@@quarkus,3.7.4,MVP,FP
+CVE-2022-1231,plantuml@@plantuml,v1.2021.12,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2020.0,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2020.21,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2021.8,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2020.7,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2024.5,MVP,FP
+CVE-2022-1231,plantuml@@plantuml,v1.2020.16,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2023.3,MVP,FP
+CVE-2022-1231,plantuml@@plantuml,v1.2021.2,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2022.0,AntMan,TP
+CVE-2022-1231,plantuml@@plantuml,v1.2022.7,MVP,FP
+CVE-2022-1245,keycloak@@keycloak,22.0.2,AntMan,FP
+CVE-2022-1245,keycloak@@keycloak,8.0.2,"VUDDY, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,20.0.3,"MVP, AntMan",FP
+CVE-2022-1245,keycloak@@keycloak,15.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,13.0.0,"VUDDY, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,15.0.1,"VUDDY, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,17.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,11.0.1,"VUDDY, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,18.0.1,MVP,FP
+CVE-2022-1245,keycloak@@keycloak,10.0.1,"MVP, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,12.0.0,"VUDDY, AntMan",TP
+CVE-2022-1245,keycloak@@keycloak,21.1.0,MVP,FP
+CVE-2022-1259,undertow-io@@undertow,2.0.31.Final,"MVP, AntMan",TP
+CVE-2022-1259,undertow-io@@undertow,2.0.29.Final,AntMan,TP
+CVE-2022-1259,undertow-io@@undertow,2.3.14.Final,MVP,FP
+CVE-2022-1259,undertow-io@@undertow,2.2.13.Final,AntMan,TP
+CVE-2022-1259,undertow-io@@undertow,2.2.3.Final,AntMan,TP
+CVE-2022-1259,undertow-io@@undertow,2.2.17.Final,AntMan,TP
+CVE-2022-1259,undertow-io@@undertow,2.3.8.Final,MVP,FP
+CVE-2022-1259,undertow-io@@undertow,2.2.9.Final,AntMan,TP
+CVE-2022-1259,undertow-io@@undertow,2.1.0.Final,,TP
+CVE-2022-1259,undertow-io@@undertow,2.2.6.Final,,TP
+CVE-2022-1438,keycloak@@keycloak,22.0.2,AntMan,FP
+CVE-2022-1438,keycloak@@keycloak,24.0.2,AntMan,FP
+CVE-2022-1438,keycloak@@keycloak,24.0.6,"MVP, AntMan",FP
+CVE-2022-1438,keycloak@@keycloak,23.0.2,MVP,FP
+CVE-2022-1438,keycloak@@keycloak,10.0.1,"MVP, AntMan",TP
+CVE-2022-1438,keycloak@@keycloak,15.0.1,AntMan,TP
+CVE-2022-1438,keycloak@@keycloak,13.0.0,AntMan,TP
+CVE-2022-1438,keycloak@@keycloak,11.0.1,"MVP, AntMan",TP
+CVE-2022-1438,keycloak@@keycloak,15.1.0,MVP,FP
+CVE-2022-1438,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2022-1438,keycloak@@keycloak,19.0.3,MVP,FP
+CVE-2022-1438,keycloak@@keycloak,12.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-1438,keycloak@@keycloak,26.0.1,MVP,FP
+CVE-2022-1466,keycloak@@keycloak,10.0.1,"MVP, AntMan",TP
+CVE-2022-1466,keycloak@@keycloak,23.0.2,"MVP, AntMan",FP
+CVE-2022-1466,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2022-1466,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2022-1466,keycloak@@keycloak,15.0.1,"VUDDY, AntMan",TP
+CVE-2022-1466,keycloak@@keycloak,17.0.0,AntMan,TP
+CVE-2022-1466,keycloak@@keycloak,15.1.0,"VUDDY, AntMan",TP
+CVE-2022-1466,keycloak@@keycloak,13.0.0,"VUDDY, AntMan",TP
+CVE-2022-1466,keycloak@@keycloak,19.0.3,MVP,FP
+CVE-2022-1466,keycloak@@keycloak,24.0.2,MVP,FP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.440.3,AntMan,FP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.204.2,"VUDDY, MVP, AntMan",TP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.452.4,"MVP, AntMan",FP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.277.3,"MVP, AntMan",TP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.263.2,AntMan,TP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.319.3,MVP,FP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.249.1,"VUDDY, AntMan",TP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.289.3,"VUDDY, AntMan",TP
+CVE-2022-20612,jenkinsci@@jenkins,jenkins-2.303.3,"MVP, AntMan",TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v4.7.8,"MVP, AntMan",FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v4.6.5,"MVP, AntMan",FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v1.3.5,AntMan,TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v2.5.8,"VUDDY, AntMan",TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v1.2.9,AntMan,TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.8.5,MVP,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.8.5,VUDDY,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.7.4,MVP,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.5.4,VUDDY,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.1.1,"VUDDY, MVP, AntMan",TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v2.2.2,"MVP, AntMan",TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.7.4,"VUDDY, MVP",FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v4.1.2,MVP,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v2.4.2,"VUDDY, AntMan",TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v2.0.2,"MVP, AntMan",TP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v4.0.0-M4,VUDDY,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v4.2.1,MVP,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.4.3,VUDDY,FP
+CVE-2022-21700,micronaut-projects@@micronaut-core,v3.3.0-M1,"VUDDY, MVP",FP
+CVE-2022-2191,jetty@@jetty.project,jetty-12.0.16,"MVP, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-12.0.7,"VUDDY, MVP, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.6,"VUDDY, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-12.0.10,AntMan,TP
+CVE-2022-2191,jetty@@jetty.project,jetty-12.0.4,"VUDDY, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-12.0.13,"VUDDY, MVP, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.15,"MVP, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.2,"VUDDY, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.10,"VUDDY, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.7,"VUDDY, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.8,"VUDDY, AntMan",TP
+CVE-2022-2191,jetty@@jetty.project,jetty-11.0.0-alpha0,VUDDY,TP
+CVE-2022-2191,jetty@@jetty.project,jetty-10.0.13,,TP
+CVE-2022-2191,jetty@@jetty.project,jetty-12.0.0,,TP
+CVE-2022-2232,keycloak@@keycloak,17.0.0,"MVP, AntMan",TP
+CVE-2022-2232,keycloak@@keycloak,20.0.3,"VUDDY, AntMan",TP
+CVE-2022-2232,keycloak@@keycloak,10.0.1,AntMan,TP
+CVE-2022-2232,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2022-2232,keycloak@@keycloak,19.0.3,AntMan,TP
+CVE-2022-2232,keycloak@@keycloak,15.0.1,"MVP, AntMan",TP
+CVE-2022-2232,keycloak@@keycloak,24.0.6,MVP,FP
+CVE-2022-2232,keycloak@@keycloak,18.0.1,"MVP, AntMan",TP
+CVE-2022-2232,keycloak@@keycloak,13.0.0,"MVP, AntMan",TP
+CVE-2022-2232,keycloak@@keycloak,26.0.1,MVP,FP
+CVE-2022-2232,keycloak@@keycloak,11.0.1,AntMan,TP
+CVE-2022-2232,keycloak@@keycloak,21.1.0,"VUDDY, AntMan",TP
+CVE-2022-2232,keycloak@@keycloak,22.0.2,"MVP, AntMan",TP
+CVE-2022-2232,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2022-2232,keycloak@@keycloak,15.1.0,,TP
+CVE-2022-22946,spring-cloud@@spring-cloud-gateway,v4.0.4,"MVP, AntMan",FP
+CVE-2022-22946,spring-cloud@@spring-cloud-gateway,v4.1.5,"MVP, AntMan",FP
+CVE-2022-22946,spring-cloud@@spring-cloud-gateway,v4.0.0-M1,"VUDDY, MVP, AntMan",FP
+CVE-2022-22946,spring-cloud@@spring-cloud-gateway,v3.1.3,MVP,FP
+CVE-2022-22946,spring-cloud@@spring-cloud-gateway,v4.0.0,MVP,FP
+CVE-2022-22946,spring-cloud@@spring-cloud-gateway,v4.0.0-M1,MVP,FP
+CVE-2022-22946,spring-cloud@@spring-cloud-gateway,v3.0.0-M2,MVP,FP
+CVE-2022-22965,spring-projects@@spring-framework,v5.3.14,AntMan,TP
+CVE-2022-22965,spring-projects@@spring-framework,v5.3.0-RC2,"VUDDY, AntMan",TP
+CVE-2022-22965,spring-projects@@spring-framework,v6.1.13,MVP,FP
+CVE-2022-22965,spring-projects@@spring-framework,v6.0.0-M3,AntMan,TP
+CVE-2022-22965,spring-projects@@spring-framework,v5.3.4,"VUDDY, AntMan",TP
+CVE-2022-22965,spring-projects@@spring-framework,v5.3.8,"VUDDY, AntMan",TP
+CVE-2022-22965,spring-projects@@spring-framework,v6.0.0-M3,MVP,FP
+CVE-2022-22965,spring-projects@@spring-framework,v5.3.0-M1,AntMan,TP
+CVE-2022-22965,spring-projects@@spring-framework,v5.3.10,"VUDDY, AntMan",TP
+CVE-2022-24697,apache@@kylin,kylin-5.0.0,AntMan,FP
+CVE-2022-24697,apache@@kylin,kylin-5.0.0-beta,AntMan,FP
+CVE-2022-24697,apache@@kylin,kylin-3.1.1,AntMan,TP
+CVE-2022-24697,apache@@kylin,kylin-3.1.3,MVP,FP
+CVE-2022-24697,apache@@kylin,kylin-3.1.0,"MVP, AntMan",TP
+CVE-2022-24697,apache@@kylin,kylin-4.0.0-beta,AntMan,TP
+CVE-2022-24697,apache@@kylin,kylin-4.0.0,"VUDDY, AntMan",TP
+CVE-2022-24697,apache@@kylin,kylin-3.0.1,"MVP, AntMan",TP
+CVE-2022-24823,netty@@netty,netty-4.1.105.Final,AntMan,FP
+CVE-2022-24823,netty@@netty,netty-4.1.80.Final,AntMan,FP
+CVE-2022-24823,netty@@netty,netty-4.1.52.Final,AntMan,TP
+CVE-2022-24823,netty@@netty,netty-4.2.0.Alpha3,MVP,FP
+CVE-2022-24823,netty@@netty,netty-4.1.49.Final,AntMan,TP
+CVE-2022-24823,netty@@netty,netty-4.1.66.Final,"VUDDY, AntMan",TP
+CVE-2022-24823,netty@@netty,netty-4.1.70.Final,"VUDDY, MVP, AntMan",TP
+CVE-2022-24823,netty@@netty,netty-4.1.74.Final,"VUDDY, AntMan",TP
+CVE-2022-24823,netty@@netty,netty-4.1.45.Final,"MVP, AntMan",TP
+CVE-2022-24823,netty@@netty,netty-4.1.60.Final,"VUDDY, AntMan",TP
+CVE-2022-24823,netty@@netty,netty-4.1.55.Final,MVP,TP
+CVE-2022-25517,baomidou@@mybatis-plus,v3.4.1,"MVP, AntMan",TP
+CVE-2022-25517,baomidou@@mybatis-plus,v3.5.3.2,AntMan,FP
+CVE-2022-25517,baomidou@@mybatis-plus,v3.3.1,"VUDDY, MVP, AntMan",TP
+CVE-2022-25517,baomidou@@mybatis-plus,v3.3.2,AntMan,TP
+CVE-2022-25517,baomidou@@mybatis-plus,v3.4.3,AntMan,TP
+CVE-2022-25647,google@@gson,gson-parent-2.9.0,MVP,FP
+CVE-2022-25647,google@@gson,gson-parent-2.8.7,AntMan,TP
+CVE-2022-25647,google@@gson,gson-parent-2.8.9,MVP,FP
+CVE-2022-25647,google@@gson,gson-parent-2.10.1,MVP,FP
+CVE-2022-26650,apache@@shenyu,v2.4.0,AntMan,TP
+CVE-2022-26650,apache@@shenyu,v2.4.2,AntMan,TP
+CVE-2022-26884,apache@@dolphinscheduler,3.1.7,AntMan,FP
+CVE-2022-26884,apache@@dolphinscheduler,3.0.0-alpha,"MVP, AntMan",FP
+CVE-2022-26884,apache@@dolphinscheduler,1.3.5,MVP,FP
+CVE-2022-26884,apache@@dolphinscheduler,1.3.3,"MVP, AntMan",TP
+CVE-2022-26884,apache@@dolphinscheduler,1.3.0,"MVP, AntMan",TP
+CVE-2022-26884,apache@@dolphinscheduler,3.2.2,MVP,FP
+CVE-2022-26884,apache@@dolphinscheduler,2.0.1,"MVP, AntMan",TP
+CVE-2022-26884,apache@@dolphinscheduler,1.3.8,AntMan,TP
+CVE-2022-26884,apache@@dolphinscheduler,1.2.1,AntMan,TP
+CVE-2022-27772,spring-projects@@spring-boot,v2.7.13,AntMan,FP
+CVE-2022-27772,spring-projects@@spring-boot,v3.0.0-RC2,"MVP, AntMan",FP
+CVE-2022-27772,spring-projects@@spring-boot,v3.3.7,MVP,FP
+CVE-2022-27772,spring-projects@@spring-boot,v2.4.0-M1,AntMan,TP
+CVE-2022-27772,spring-projects@@spring-boot,v2.5.0-M1,MVP,FP
+CVE-2022-33140,apache@@nifi,nifi-1.12.1-RC1,AntMan,TP
+CVE-2022-33140,apache@@nifi,nifi-1.11.0-RC1,"MVP, AntMan",TP
+CVE-2022-33140,apache@@nifi,nifi-2.0.0-M1-RC1,MVP,FP
+CVE-2022-33140,apache@@nifi,nifi-1.28.1-RC1,MVP,FP
+CVE-2022-33140,apache@@nifi,nifi-1.13.0-RC1,"VUDDY, MVP, AntMan",TP
+CVE-2022-33140,apache@@nifi,nifi-1.27.0-RC1,MVP,FP
+CVE-2022-33140,apache@@nifi,nifi-1.16.0-RC1,"VUDDY, AntMan",TP
+CVE-2022-33140,apache@@nifi,nifi-1.14.0-RC1,"VUDDY, MVP, AntMan",TP
+CVE-2022-33140,apache@@nifi,nifi-1.15.0-RC1,"VUDDY, AntMan",TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.440.3,AntMan,FP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.375.1,"MVP, AntMan",FP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.452.4,MVP,FP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.277.3,AntMan,TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.263.2,AntMan,TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.249.1,AntMan,TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.204.2,"MVP, AntMan",TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.479.2-rc,MVP,FP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.289.3,"VUDDY, AntMan",TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.319.3,AntMan,TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.346.1-rc,"VUDDY, AntMan",TP
+CVE-2022-34174,jenkinsci@@jenkins,jenkins-2.222.4,"MVP, AntMan",TP
+CVE-2022-34174,jenkinsci@@jenkins,2.361.1-rc,MVP,FP
+CVE-2022-34917,apache@@kafka,3.9.0-rc0,"MVP, AntMan",FP
+CVE-2022-34917,apache@@kafka,3.2.1-rc2,AntMan,TP
+CVE-2022-34917,apache@@kafka,2.6.2-rc0,MVP,FP
+CVE-2022-34917,apache@@kafka,3.1.1-rc0,AntMan,TP
+CVE-2022-34917,apache@@kafka,3.0.0-rc0,AntMan,TP
+CVE-2022-34917,apache@@kafka,3.1.0-rc0,"MVP, AntMan",TP
+CVE-2022-34917,apache@@kafka,2.6.0-rc0,MVP,FP
+CVE-2022-36033,jhy@@jsoup,jsoup-1.18.2,AntMan,FP
+CVE-2022-36033,jhy@@jsoup,jsoup-1.15.1,AntMan,TP
+CVE-2022-36033,jhy@@jsoup,jsoup-1.14.1,"MVP, AntMan",TP
+CVE-2022-36033,jhy@@jsoup,jsoup-1.13.1,AntMan,TP
+CVE-2022-36033,jhy@@jsoup,jsoup-1.18.1,MVP,FP
+CVE-2022-37435,apache@@shenyu,v2.4.0,AntMan,TP
+CVE-2022-37435,apache@@shenyu,v2.4.2,AntMan,TP
+CVE-2022-3782,keycloak@@keycloak,13.0.0,"VUDDY, AntMan",TP
+CVE-2022-3782,keycloak@@keycloak,18.0.1,"VUDDY, AntMan",TP
+CVE-2022-3782,keycloak@@keycloak,24.0.2,MVP,FP
+CVE-2022-3782,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2022-3782,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2022-3782,keycloak@@keycloak,23.0.2,MVP,FP
+CVE-2022-3782,keycloak@@keycloak,10.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2022-3782,keycloak@@keycloak,17.0.0,"VUDDY, AntMan",TP
+CVE-2022-3782,keycloak@@keycloak,15.1.0,AntMan,TP
+CVE-2022-3782,keycloak@@keycloak,24.0.6,MVP,FP
+CVE-2022-3782,keycloak@@keycloak,12.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-3782,keycloak@@keycloak,11.0.1,"VUDDY, AntMan",TP
+CVE-2022-3782,keycloak@@keycloak,15.0.1,VUDDY,TP
+CVE-2022-3782,keycloak@@keycloak,19.0.3,,TP
+CVE-2022-38369,apache@@iotdb,v0.13.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2022-38369,apache@@iotdb,v1.3.3,"MVP, AntMan",FP
+CVE-2022-38369,apache@@iotdb,v0.14.0-preview3,MVP,FP
+CVE-2022-38369,apache@@iotdb,v0.11.3,MVP,FP
+CVE-2022-38369,apache@@iotdb,v1.3.1,MVP,FP
+CVE-2022-38369,apache@@iotdb,v0.13.4,MVP,FP
+CVE-2022-38370,apache@@iotdb,v0.13.4,AntMan,FP
+CVE-2022-38370,apache@@iotdb,v0.14.0-preview3,AntMan,FP
+CVE-2022-38370,apache@@iotdb,release/0.11.0,MVP,FP
+CVE-2022-38370,apache@@iotdb,v1.3.3,MVP,FP
+CVE-2022-38370,apache@@iotdb,v1.1.1,MVP,FP
+CVE-2022-38370,apache@@iotdb,v0.13.0.1,MVP,FP
+CVE-2022-38370,apache@@iotdb,v0.12.4,MVP,FP
+CVE-2022-39135,apache@@calcite,calcite-1.30.0-rc2,"VUDDY, AntMan",TP
+CVE-2022-39135,apache@@calcite,calcite-1.22.0,AntMan,TP
+CVE-2022-39135,apache@@calcite,calcite-1.31.0-rc0,AntMan,TP
+CVE-2022-39135,apache@@calcite,calcite-1.37.0-rc0,MVP,FP
+CVE-2022-3916,keycloak@@keycloak,13.0.0,AntMan,TP
+CVE-2022-3916,keycloak@@keycloak,15.0.1,AntMan,TP
+CVE-2022-3916,keycloak@@keycloak,10.0.1,"MVP, AntMan",TP
+CVE-2022-3916,keycloak@@keycloak,18.0.1,"MVP, AntMan",TP
+CVE-2022-3916,keycloak@@keycloak,24.0.6,MVP,FP
+CVE-2022-3916,keycloak@@keycloak,15.1.0,AntMan,TP
+CVE-2022-3916,keycloak@@keycloak,17.0.0,"MVP, AntMan",TP
+CVE-2022-3916,keycloak@@keycloak,23.0.2,MVP,FP
+CVE-2022-3916,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2022-3916,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2022-39259,skylot@@jadx,v1.2.0,"MVP, AntMan",FP
+CVE-2022-39259,skylot@@jadx,v1.4.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-39259,skylot@@jadx,v1.4.5,"VUDDY, AntMan",FP
+CVE-2022-39259,skylot@@jadx,v1.3.0,AntMan,FP
+CVE-2022-39259,skylot@@jadx,v1.4.6,VUDDY,FP
+CVE-2022-39259,JetBrains@@intellij-community,idea_193.6015.22,"VUDDY, MVP",FP
+CVE-2022-39259,skylot@@jadx,v1.5.0,VUDDY,FP
+CVE-2022-39259,skylot@@jadx,v1.2.0,"VUDDY, AntMan",TP
+CVE-2022-39259,skylot@@jadx,v1.4.5,MVP,FP
+CVE-2022-39259,skylot@@jadx,v1.5.1,VUDDY,FP
+CVE-2022-39259,skylot@@jadx,v1.3.0,"MVP, AntMan",TP
+CVE-2022-39259,skylot@@jadx,v1.3.3,MVP,FP
+CVE-2022-39259,skylot@@jadx,v1.3.3,"VUDDY, AntMan",TP
+CVE-2022-39259,JetBrains@@intellij-community,idea_201.7223.18,"VUDDY, MVP",FP
+CVE-2022-39259,JetBrains@@intellij-community,idea_201.8743.12,VUDDY,FP
+CVE-2022-39259,skylot@@jadx,v1.5.1,MVP,FP
+CVE-2022-39312,dataease@@dataease,v1.18.21,"VUDDY, MVP, AntMan",FP
+CVE-2022-39312,dataease@@dataease,v1.0.0-rc1,"MVP, AntMan",TP
+CVE-2022-39312,dataease@@dataease,v1.18.8,MVP,FP
+CVE-2022-39312,dataease@@dataease,v1.17.1,MVP,FP
+CVE-2022-39312,dataease@@dataease,v1.11.0,"MVP, AntMan",TP
+CVE-2022-39312,dataease@@dataease,v1.14.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-39312,dataease@@dataease,v1.7.0,"VUDDY, AntMan",TP
+CVE-2022-39312,dataease@@dataease,v1.18.21,MVP,FP
+CVE-2022-39312,dataease@@dataease,v1.3.0,AntMan,TP
+CVE-2022-39312,dataease@@dataease,v2.0.0,MVP,FP
+CVE-2022-39312,dataease@@dataease,v1.18.16,VUDDY,FP
+CVE-2022-39366,datahub-project@@datahub,v0.8.42,AntMan,TP
+CVE-2022-39366,datahub-project@@datahub,v0.7.0,AntMan,TP
+CVE-2022-39366,datahub-project@@datahub,v0.13.1,AntMan,FP
+CVE-2022-39366,datahub-project@@datahub,v0.4.0,AntMan,TP
+CVE-2022-39366,datahub-project@@datahub,v0.8.4,"MVP, AntMan",TP
+CVE-2022-39366,datahub-project@@datahub,v0.8.15,AntMan,TP
+CVE-2022-39366,datahub-project@@datahub,v0.3.0,"MVP, AntMan",TP
+CVE-2022-39366,datahub-project@@datahub,v0.10.3,MVP,FP
+CVE-2022-39366,datahub-project@@datahub,v0.8.33,"MVP, AntMan",TP
+CVE-2022-39366,datahub-project@@datahub,v0.8.22,"MVP, AntMan",TP
+CVE-2022-39366,datahub-project@@datahub,v0.5.0,AntMan,TP
+CVE-2022-39366,datahub-project@@datahub,v0.11.0,MVP,FP
+CVE-2022-40664,apache@@shiro,shiro-root-2.0.0-alpha-1,AntMan,FP
+CVE-2022-40664,apache@@shiro,shiro-root-2.0.1,AntMan,FP
+CVE-2022-40664,apache@@shiro,shiro-root-2.0.2,"VUDDY, MVP, AntMan",TP
+CVE-2022-40664,apache@@shiro,shiro-root-1.5.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-40664,apache@@shiro,shiro-root-2.0.2,MVP,FP
+CVE-2022-40664,apache@@shiro,shiro-root-1.9.0-release-vote1,AntMan,TP
+CVE-2022-40664,apache@@shiro,shiro-root-1.7.1,"VUDDY, AntMan",TP
+CVE-2022-40664,apache@@shiro,shiro-root-1.6.0,"MVP, AntMan",TP
+CVE-2022-40664,apache@@shiro,shiro-root-1.8.0,"VUDDY, AntMan",TP
+CVE-2022-40664,apache@@shiro,shiro-root-2.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2022-40664,apache@@shiro,shiro-root-2.0.0-alpha-1,,TP
+CVE-2022-40664,apache@@shiro,shiro-root-2.0.1,,TP
+CVE-2022-40664,apache@@shiro,shiro-root-1.9.1,"VUDDY, MVP",TP
+CVE-2022-41401,OpenRefine@@OpenRefine,3.5.0,AntMan,TP
+CVE-2022-41401,OpenRefine@@OpenRefine,3.7.8,MVP,FP
+CVE-2022-41881,netty@@netty,netty-4.1.52.Final,"MVP, AntMan",TP
+CVE-2022-41881,netty@@netty,netty-4.1.70.Final,AntMan,TP
+CVE-2022-41881,netty@@netty,netty-4.1.55.Final,"VUDDY, AntMan",TP
+CVE-2022-41881,netty@@netty,netty-4.1.45.Final,"VUDDY, AntMan",TP
+CVE-2022-41881,netty@@netty,netty-5.0.0.Alpha2,AntMan,TP
+CVE-2022-41881,netty@@netty,netty-4.1.60.Final,"VUDDY, AntMan",TP
+CVE-2022-41881,netty@@netty,netty-4.1.90.Final,MVP,FP
+CVE-2022-41881,netty@@netty,netty-4.1.80.Final,"VUDDY, AntMan",TP
+CVE-2022-41881,netty@@netty,netty-4.1.98.Final,MVP,FP
+CVE-2022-41881,netty@@netty,netty-4.1.49.Final,"VUDDY, AntMan",TP
+CVE-2022-41881,netty@@netty,netty-4.1.66.Final,"MVP, AntMan",TP
+CVE-2022-41881,netty@@netty,netty-4.1.110.Final,MVP,FP
+CVE-2022-41881,netty@@netty,netty-4.1.74.Final,AntMan,TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.15.0,AntMan,FP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.12.2,AntMan,TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.13.2,AntMan,TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.6.7.4,AntMan,TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.13.0,AntMan,TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.9.10.4,AntMan,TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.13.5,MVP,FP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.15.4,MVP,FP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.9.10.2,AntMan,TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.6.7.5,"MVP, AntMan",TP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.15.3,MVP,FP
+CVE-2022-42004,FasterXML@@jackson-databind,jackson-databind-2.10.5,,TP
+CVE-2022-43396,apache@@kylin,kylin-4.0.3,AntMan,FP
+CVE-2022-43396,apache@@kylin,kylin-4.0.0,"MVP, AntMan",TP
+CVE-2022-43396,apache@@kylin,kylin-3.1.3,"VUDDY, MVP, AntMan",TP
+CVE-2022-43396,apache@@kylin,kylin-5.0.0-beta,MVP,FP
+CVE-2022-43396,apache@@kylin,kylin-4.0.4,MVP,FP
+CVE-2022-43396,apache@@kylin,kylin-4.0.2,AntMan,TP
+CVE-2022-43396,apache@@kylin,kylin-4.0.0-beta,"VUDDY, MVP, AntMan",TP
+CVE-2022-43396,apache@@kylin,kylin-3.0.1,AntMan,TP
+CVE-2022-43396,apache@@kylin,kylin-3.1.0,,TP
+CVE-2022-43396,apache@@kylin,kylin-5.0.0,MVP,FP
+CVE-2022-43396,apache@@kylin,kylin-3.1.1,MVP,TP
+CVE-2022-44621,apache@@kylin,kylin-4.0.2,"MVP, AntMan",TP
+CVE-2022-44621,apache@@kylin,kylin-4.0.0-beta,AntMan,TP
+CVE-2022-44621,apache@@kylin,kylin-3.1.3,"MVP, AntMan",TP
+CVE-2022-44621,apache@@kylin,kylin-3.1.0,AntMan,TP
+CVE-2022-44621,apache@@kylin,kylin-3.0.1,AntMan,TP
+CVE-2022-44621,apache@@kylin,kylin-4.0.0,"MVP, AntMan",TP
+CVE-2022-44621,apache@@kylin,kylin-3.1.1,MVP,TP
+CVE-2022-44644,apache@@linkis,0.9.3,AntMan,TP
+CVE-2022-44644,apache@@linkis,1.0.1,AntMan,TP
+CVE-2022-44644,apache@@linkis,0.9.4,"MVP, AntMan",TP
+CVE-2022-44644,apache@@linkis,0.11.0,MVP,TP
+CVE-2022-45206,jeecgboot@@JeecgBoot,v3.5.0,VUDDY,FP
+CVE-2022-45206,jeecgboot@@JeecgBoot,v3.4.4,"VUDDY, MVP",FP
+CVE-2022-45206,jeecgboot@@JeecgBoot,v3.3.0,AntMan,TP
+CVE-2022-45206,jeecgboot@@JeecgBoot,v3.5.3,"VUDDY, MVP",FP
+CVE-2022-45347,apache@@shardingsphere,5.0.0-RC1,AntMan,FP
+CVE-2022-45347,apache@@shardingsphere,5.5.1,AntMan,FP
+CVE-2022-45347,apache@@shardingsphere,5.4.1,"MVP, AntMan",FP
+CVE-2022-45347,apache@@shardingsphere,5.2.1,"VUDDY, MVP, AntMan",TP
+CVE-2022-45347,apache@@shardingsphere,5.1.2,AntMan,TP
+CVE-2022-45347,apache@@shardingsphere,5.0.0-alpha,MVP,FP
+CVE-2022-45347,apache@@shardingsphere,5.1.0,AntMan,TP
+CVE-2022-45462,apache@@dolphinscheduler,1.3.5,"MVP, AntMan",FP
+CVE-2022-45462,apache@@dolphinscheduler,3.0.0,AntMan,FP
+CVE-2022-45462,apache@@dolphinscheduler,1.2.1,"MVP, AntMan",TP
+CVE-2022-45462,apache@@dolphinscheduler,3.2.0,AntMan,FP
+CVE-2022-45462,apache@@dolphinscheduler,1.3.3,"MVP, AntMan",TP
+CVE-2022-45462,apache@@dolphinscheduler,3.1.7,MVP,FP
+CVE-2022-45462,apache@@dolphinscheduler,1.3.8,"MVP, AntMan",TP
+CVE-2022-45462,apache@@dolphinscheduler,3.1.1,MVP,FP
+CVE-2022-45462,apache@@dolphinscheduler,2.0.1,AntMan,TP
+CVE-2022-45462,apache@@dolphinscheduler,1.3.0,"MVP, AntMan",TP
+CVE-2022-45693,Activiti@@Activiti,7.5.0-alpha.32,"VUDDY, AntMan",FP
+CVE-2022-45693,Activiti@@Activiti,7.1.0-M17,"VUDDY, AntMan",FP
+CVE-2022-45693,Activiti@@Activiti,7.3.0-alpha.7,"VUDDY, AntMan",FP
+CVE-2022-45693,Activiti@@Activiti,7.9.0-rc.23,"VUDDY, MVP",FP
+CVE-2022-45693,Activiti@@Activiti,7.11.1-alpha.6,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,7.1.0-M11,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,7.1.0-M9,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,8.3.0-mock,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,7.11.0-rc.9,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,7.1.0-M12,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,7.7.0-rc.25,"VUDDY, MVP",FP
+CVE-2022-45693,Activiti@@Activiti,7.12.0-rc.94,"VUDDY, MVP",FP
+CVE-2022-45693,Activiti@@Activiti,7.1.0-M14,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,8.7.1-mock,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,7.1.0-M7,VUDDY,FP
+CVE-2022-45693,Activiti@@Activiti,8.6.0-alpha.4,VUDDY,FP
+CVE-2022-47105,jeecgboot@@JeecgBoot,v3.4.4,"VUDDY, AntMan",TP
+CVE-2022-47894,apache@@zeppelin,v0.11.1-rc1,"MVP, AntMan",FP
+CVE-2022-47894,apache@@zeppelin,v0.9.0-preview1,"VUDDY, AntMan",TP
+CVE-2022-47894,apache@@zeppelin,v0.10.1-rc2,"VUDDY, MVP, AntMan",TP
+CVE-2022-47894,apache@@zeppelin,v0.10.0,"VUDDY, AntMan",TP
+CVE-2022-47894,apache@@zeppelin,v0.11.2-rc1,MVP,FP
+CVE-2022-47894,apache@@zeppelin,v0.9.0-docker,"VUDDY, MVP, AntMan",TP
+CVE-2023-0044,quarkusio@@quarkus,3.3.0,MVP,FP
+CVE-2023-0044,quarkusio@@quarkus,3.5.3,MVP,FP
+CVE-2023-0091,keycloak@@keycloak,24.0.2,"VUDDY, MVP, AntMan",FP
+CVE-2023-0091,keycloak@@keycloak,12.0.0,"VUDDY, AntMan",TP
+CVE-2023-0091,keycloak@@keycloak,24.0.2,MVP,FP
+CVE-2023-0091,keycloak@@keycloak,19.0.3,AntMan,TP
+CVE-2023-0091,keycloak@@keycloak,20.0.3,"VUDDY, MVP",FP
+CVE-2023-0091,keycloak@@keycloak,23.0.2,"VUDDY, MVP",FP
+CVE-2023-0091,keycloak@@keycloak,17.0.0,AntMan,TP
+CVE-2023-0091,keycloak@@keycloak,15.0.1,AntMan,TP
+CVE-2023-0091,keycloak@@keycloak,10.0.1,"VUDDY, AntMan",TP
+CVE-2023-0091,keycloak@@keycloak,15.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-0091,keycloak@@keycloak,24.0.6,"VUDDY, MVP",FP
+CVE-2023-0091,keycloak@@keycloak,18.0.1,"VUDDY, AntMan",TP
+CVE-2023-0091,keycloak@@keycloak,11.0.1,"MVP, AntMan",TP
+CVE-2023-0091,keycloak@@keycloak,13.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-0091,keycloak@@keycloak,26.0.1,VUDDY,FP
+CVE-2023-0091,keycloak@@keycloak,22.0.2,VUDDY,FP
+CVE-2023-0091,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2023-0091,keycloak@@keycloak,8.0.2,"VUDDY, AntMan",TP
+CVE-2023-0091,keycloak@@keycloak,21.1.0,"VUDDY, MVP",FP
+CVE-2023-0105,keycloak@@keycloak,20.0.3,"VUDDY, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,17.0.0,AntMan,TP
+CVE-2023-0105,keycloak@@keycloak,10.0.1,"MVP, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,15.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,11.0.1,"MVP, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,26.0.1,MVP,FP
+CVE-2023-0105,keycloak@@keycloak,13.0.0,"VUDDY, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,18.0.1,AntMan,TP
+CVE-2023-0105,keycloak@@keycloak,23.0.2,MVP,FP
+CVE-2023-0105,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2023-0105,keycloak@@keycloak,21.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,15.1.0,"VUDDY, AntMan",TP
+CVE-2023-0105,keycloak@@keycloak,19.0.3,"VUDDY, MVP",TP
+CVE-2023-0264,keycloak@@keycloak,19.0.3,"VUDDY, AntMan",TP
+CVE-2023-0264,keycloak@@keycloak,11.0.1,AntMan,FP
+CVE-2023-0264,keycloak@@keycloak,10.0.1,"VUDDY, AntMan",TP
+CVE-2023-0264,keycloak@@keycloak,17.0.0,"MVP, AntMan",TP
+CVE-2023-0264,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2023-0264,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2023-0264,keycloak@@keycloak,13.0.0,AntMan,TP
+CVE-2023-0264,keycloak@@keycloak,15.0.1,AntMan,TP
+CVE-2023-0264,keycloak@@keycloak,18.0.1,"MVP, AntMan",TP
+CVE-2023-0264,keycloak@@keycloak,20.0.3,AntMan,TP
+CVE-2023-0264,keycloak@@keycloak,15.1.0,"VUDDY, AntMan",TP
+CVE-2023-0264,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2023-0264,keycloak@@keycloak,11.0.1,AntMan,TP
+CVE-2023-0264,keycloak@@keycloak,20.0.3,MVP,FP
+CVE-2023-1428,grpc@@grpc-java,v1.30.0,AntMan,FP
+CVE-2023-1428,grpc@@grpc-java,v1.52.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.32.0,"VUDDY, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.59.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.36.1,AntMan,TP
+CVE-2023-1428,grpc@@grpc-java,v1.63.0,VUDDY,FP
+CVE-2023-1428,grpc@@grpc-java,v1.39.0,"VUDDY, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.47.0,"VUDDY, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.57.0,AntMan,TP
+CVE-2023-1428,grpc@@grpc-java,v1.34.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.57.0,MVP,FP
+CVE-2023-1428,grpc@@grpc-java,v1.50.3,"MVP, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.49.1,"MVP, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.42.0,"VUDDY, AntMan",TP
+CVE-2023-1428,grpc@@grpc-java,v1.49.1,MVP,FP
+CVE-2023-1428,grpc@@grpc-java,v1.30.0,VUDDY,TP
+CVE-2023-1428,grpc@@grpc-java,v1.44.1,"VUDDY, MVP",TP
+CVE-2023-1664,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2023-1664,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2023-1664,keycloak@@keycloak,20.0.3,"VUDDY, AntMan",TP
+CVE-2023-1664,keycloak@@keycloak,17.0.0,AntMan,TP
+CVE-2023-1664,keycloak@@keycloak,11.0.1,AntMan,TP
+CVE-2023-1664,keycloak@@keycloak,22.0.2,MVP,FP
+CVE-2023-1664,keycloak@@keycloak,19.0.3,"MVP, AntMan",TP
+CVE-2023-1664,keycloak@@keycloak,13.0.0,"MVP, AntMan",TP
+CVE-2023-1664,keycloak@@keycloak,21.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-1664,keycloak@@keycloak,10.0.1,"MVP, AntMan",TP
+CVE-2023-1664,keycloak@@keycloak,15.1.0,"VUDDY, AntMan",TP
+CVE-2023-1664,keycloak@@keycloak,15.0.1,,TP
+CVE-2023-1664,keycloak@@keycloak,18.0.1,,TP
+CVE-2023-20862,spring-projects@@spring-security,6.1.1,AntMan,FP
+CVE-2023-20862,spring-projects@@spring-security,5.4.0,MVP,FP
+CVE-2023-20862,spring-projects@@spring-security,5.5.0-M2,MVP,FP
+CVE-2023-20862,spring-projects@@spring-security,6.3.0-M1,MVP,FP
+CVE-2023-20862,spring-projects@@spring-security,6.0.2,"MVP, AntMan",TP
+CVE-2023-20862,spring-projects@@spring-security,5.7.5,AntMan,TP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.17.0,AntMan,FP
+CVE-2023-23612,crate@@crate,4.8.3,"VUDDY, AntMan",FP
+CVE-2023-23612,orientechnologies@@orientdb,3.2.33,"VUDDY, AntMan",FP
+CVE-2023-23612,apache@@beam,v2.29.0,"VUDDY, AntMan",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,1.2.4,AntMan,TP
+CVE-2023-23612,apache@@beam,v2.23.0-RC1,"VUDDY, AntMan",FP
+CVE-2023-23612,AutoMQ@@automq,kafka-connect-1.0.0,"VUDDY, AntMan",FP
+CVE-2023-23612,crate@@crate,5.9.5,"VUDDY, AntMan",FP
+CVE-2023-23612,elastic@@elasticsearch,v7.9.0,"VUDDY, AntMan",FP
+CVE-2023-23612,elastic@@elasticsearch,v7.17.24,"VUDDY, MVP, AntMan",FP
+CVE-2023-23612,elastic@@elasticsearch,v7.5.2,"VUDDY, MVP, AntMan",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.8.0,"VUDDY, AntMan",FP
+CVE-2023-23612,apache@@flink,release-1.15.4-rc1,"VUDDY, AntMan",FP
+CVE-2023-23612,apache@@kafka,2.5.0-rc0,"VUDDY, AntMan",FP
+CVE-2023-23612,apache@@beam,v2.33.0-RC1,"VUDDY, AntMan",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.6.0,"MVP, AntMan",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.4.0,"MVP, AntMan",TP
+CVE-2023-23612,elastic@@elasticsearch,v7.17.2,VUDDY,FP
+CVE-2023-23612,crate@@crate,5.2.4,"VUDDY, MVP",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.0.0-rc1,MVP,FP
+CVE-2023-23612,apache@@pulsar,v2.6.2-candidate-1,VUDDY,FP
+CVE-2023-23612,apache@@flink,release-1.13.0-rc0,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@kafka,3.7.1-rc1,"VUDDY, MVP",FP
+CVE-2023-23612,crate@@crate,5.3.3,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@beam,v2.48.0,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.2.0,AntMan,TP
+CVE-2023-23612,elastic@@elasticsearch,v8.12.2,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@flink,release-1.12.5-rc2,"VUDDY, MVP",FP
+CVE-2023-23612,crate@@crate,5.1.2,"VUDDY, MVP",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.12.0,"VUDDY, MVP",FP
+CVE-2023-23612,line@@armeria,armeria-1.31.0,"VUDDY, MVP",FP
+CVE-2023-23612,AutoMQ@@automq,1.0.0-rc7,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@kafka,3.1.0-rc0,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@beam,sdks_v2.52.0-RC1,VUDDY,FP
+CVE-2023-23612,apache@@kafka,3.3.2-rc0,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,1.2.4,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v8.9.1,"VUDDY, MVP",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.0.0-rc1,"VUDDY, MVP",FP
+CVE-2023-23612,elastic@@elasticsearch,v7.16.2,VUDDY,FP
+CVE-2023-23612,apache@@pulsar,v2.7.5-candidate-2,"VUDDY, MVP",FP
+CVE-2023-23612,crate@@crate,5.2.10,VUDDY,FP
+CVE-2023-23612,crate@@crate,4.6.7,VUDDY,FP
+CVE-2023-23612,crate@@crate,4.4.1,VUDDY,FP
+CVE-2023-23612,apache@@flink,release-1.15.0-rc0,VUDDY,FP
+CVE-2023-23612,apache@@kafka,2.7.0-rc0,"VUDDY, MVP",FP
+CVE-2023-23612,elastic@@elasticsearch,v7.13.2,VUDDY,FP
+CVE-2023-23612,apache@@flink,release-1.14.6-rc1,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.2.0,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v6.8.9,VUDDY,FP
+CVE-2023-23612,apache@@kafka,3.2.1-rc2,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@beam,v2.25.0-RC1,VUDDY,FP
+CVE-2023-23612,crate@@crate,5.8.2,VUDDY,FP
+CVE-2023-23612,apache@@kafka,3.7.0-rc0,"VUDDY, MVP",FP
+CVE-2023-23612,orientechnologies@@orientdb,3.2.26,"VUDDY, MVP",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,1.3.17,VUDDY,FP
+CVE-2023-23612,crate@@crate,5.6.5,VUDDY,FP
+CVE-2023-23612,apache@@kafka,2.6.0-rc0,VUDDY,FP
+CVE-2023-23612,crate@@crate,4.5.2,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v8.3.1,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@pulsar,v2.7.5-candidate-1,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@kafka,3.9.0-rc0,VUDDY,FP
+CVE-2023-23612,neo4j@@neo4j,5.26.0,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v7.17.15,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v6.8.15,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@kafka,3.6.0-rc0,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,1.3.13,VUDDY,FP
+CVE-2023-23612,apache@@kafka,3.4.1-rc0,VUDDY,FP
+CVE-2023-23612,apache@@beam,jupyterlab-sidepanel-v3.0.0,VUDDY,FP
+CVE-2023-23612,apache@@flink,release-1.19.0-rc1,VUDDY,FP
+CVE-2023-23612,AutoMQ@@automq,1.3.0-rc2,"VUDDY, MVP",FP
+CVE-2023-23612,AutoMQ@@automq,0.6.6,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,1.0.0-alpha1,"VUDDY, MVP",FP
+CVE-2023-23612,crate@@crate,4.6.4,VUDDY,FP
+CVE-2023-23612,line@@armeria,armeria-1.29.0,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v7.17.7,VUDDY,FP
+CVE-2023-23612,orientechnologies@@orientdb,3.2.23,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.4.0,VUDDY,FP
+CVE-2023-23612,neo4j@@neo4j,5.1.0,VUDDY,FP
+CVE-2023-23612,apache@@flink,release-1.18.0-rc0,VUDDY,FP
+CVE-2023-23612,crate@@crate,5.5.3,VUDDY,FP
+CVE-2023-23612,AutoMQ@@automq,1.1.2-rc1,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.17.0,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,2.6.0,VUDDY,FP
+CVE-2023-23612,apache@@kafka,2.6.2-rc0,VUDDY,FP
+CVE-2023-23612,apache@@pulsar,v2.5.1-candidate-1,"VUDDY, MVP",FP
+CVE-2023-23612,orientechnologies@@orientdb,3.2.20,"VUDDY, MVP",FP
+CVE-2023-23612,opensearch-project@@OpenSearch,1.1.0,AntMan,TP
+CVE-2023-23612,crate@@crate,4.7.2,VUDDY,FP
+CVE-2023-23612,trinodb@@trino,newest,VUDDY,FP
+CVE-2023-23612,orientechnologies@@orientdb,3.2.30,VUDDY,FP
+CVE-2023-23612,xpipe-io@@xpipe,1.5.0,VUDDY,FP
+CVE-2023-23612,apache@@kafka,3.1.1-rc0,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v8.6.1,"VUDDY, MVP",FP
+CVE-2023-23612,elastic@@elasticsearch,v7.10.1,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@kafka,3.0.0-rc0,"VUDDY, MVP",FP
+CVE-2023-23612,elastic@@elasticsearch,v8.17.0,VUDDY,FP
+CVE-2023-23612,opensearch-project@@OpenSearch,1.1.0,"VUDDY, MVP",FP
+CVE-2023-23612,elastic@@elasticsearch,v8.7.1,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v8.14.0,VUDDY,FP
+CVE-2023-23612,apache@@flink,release-1.20.0-rc0,"VUDDY, MVP",FP
+CVE-2023-23612,apache@@beam,v2.20.0-RC1,VUDDY,FP
+CVE-2023-23612,elastic@@elasticsearch,v7.14.2,VUDDY,FP
+CVE-2023-23612,crate@@crate,4.3.1,VUDDY,FP
+CVE-2023-23613,opensearch-project@@OpenSearch,2.2.0,"MVP, AntMan",TP
+CVE-2023-23613,opensearch-project@@OpenSearch,2.4.0,AntMan,TP
+CVE-2023-23613,opensearch-project@@OpenSearch,2.0.0-rc1,MVP,FP
+CVE-2023-23613,opensearch-project@@OpenSearch,1.1.0,AntMan,TP
+CVE-2023-23613,opensearch-project@@OpenSearch,1.2.4,AntMan,TP
+CVE-2023-23613,opensearch-project@@OpenSearch,2.12.0,MVP,FP
+CVE-2023-23933,JetBrains@@intellij-community,pycharm_233.13135.26,"VUDDY, AntMan",FP
+CVE-2023-23933,JetBrains@@intellij-community,pycharm_222.3739.30,"VUDDY, MVP, AntMan",FP
+CVE-2023-23933,elastic@@elasticsearch,v7.17.24,"VUDDY, AntMan",FP
+CVE-2023-23933,crate@@crate,5.6.5,"VUDDY, AntMan",FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_201.7223.18,"VUDDY, AntMan",FP
+CVE-2023-23933,crate@@crate,5.3.3,"VUDDY, AntMan",FP
+CVE-2023-23933,elastic@@elasticsearch,v7.17.15,"VUDDY, AntMan",FP
+CVE-2023-23933,opensearch-project@@OpenSearch,2.4.0,"VUDDY, AntMan",FP
+CVE-2023-23933,elastic@@elasticsearch,v6.8.15,"VUDDY, AntMan",FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.4.9,"VUDDY, MVP",FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.4.4,"VUDDY, MVP",FP
+CVE-2023-23933,elastic@@elasticsearch,v8.17.0,"VUDDY, MVP",FP
+CVE-2023-23933,crate@@crate,4.6.4,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.8.7,"VUDDY, MVP",FP
+CVE-2023-23933,elastic@@elasticsearch,v7.16.2,"VUDDY, MVP",FP
+CVE-2023-23933,JetBrains@@intellij-community,pycharm_241.18034.82,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.8.0.2,VUDDY,FP
+CVE-2023-23933,crate@@crate,4.5.2,VUDDY,FP
+CVE-2023-23933,crate@@crate,5.5.3,"VUDDY, MVP",FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_201.8743.12,VUDDY,FP
+CVE-2023-23933,crate@@crate,4.8.3,VUDDY,FP
+CVE-2023-23933,crate@@crate,5.1.2,"VUDDY, MVP",FP
+CVE-2023-23933,opensearch-project@@OpenSearch,1.2.4,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v7.10.1,"VUDDY, MVP",FP
+CVE-2023-23933,opensearch-project@@OpenSearch,1.3.17,VUDDY,FP
+CVE-2023-23933,apache@@linkis,1.3.0-rc1,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.7.9.2,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v8.7.1,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,pycharm_221.5591.37,VUDDY,FP
+CVE-2023-23933,opensearch-project@@OpenSearch,2.0.0-rc1,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.2.0,"VUDDY, MVP",FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.1.1,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_213.5449.25,"VUDDY, MVP",FP
+CVE-2023-23933,crate@@crate,4.6.7,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.7.6.10,VUDDY,FP
+CVE-2023-23933,xuexiangjys@@XUI,1.1.6,VUDDY,FP
+CVE-2023-23933,opensearch-project@@OpenSearch,2.2.0,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.6.6,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.8.8.0,VUDDY,FP
+CVE-2023-23933,crate@@crate,4.0.11,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v7.5.2,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v8.14.0,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_241.14494.158,VUDDY,FP
+CVE-2023-23933,crate@@crate,4.2.2,"VUDDY, MVP",FP
+CVE-2023-23933,crate@@crate,5.8.2,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v7.13.2,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_242.23726.16,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v7.14.2,"VUDDY, MVP",FP
+CVE-2023-23933,xuexiangjys@@XUI,1.1.4,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v8.6.1,"VUDDY, MVP",FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_193.6015.22,"VUDDY, MVP",FP
+CVE-2023-23933,langchain4j@@langchain4j,0.23.0,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v8.9.1,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.8.1,"VUDDY, MVP",FP
+CVE-2023-23933,JetBrains@@intellij-community,pycharm_231.7515.12,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v7.9.0,VUDDY,FP
+CVE-2023-23933,opensearch-project@@OpenSearch,2.8.0,VUDDY,FP
+CVE-2023-23933,crate@@crate,5.2.10,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_203.7148.57,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v7.17.2,"VUDDY, MVP",FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_212.4746.92,VUDDY,FP
+CVE-2023-23933,langchain4j@@langchain4j,0.31.0,"VUDDY, MVP",FP
+CVE-2023-23933,opensearch-project@@OpenSearch,1.1.0,VUDDY,FP
+CVE-2023-23933,langchain4j@@langchain4j,0.34.0,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v7.17.7,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v8.3.1,VUDDY,FP
+CVE-2023-23933,crate@@crate,5.2.4,VUDDY,FP
+CVE-2023-23933,crate@@crate,5.9.5,"VUDDY, MVP",FP
+CVE-2023-23933,opensearch-project@@OpenSearch,1.0.0-alpha1,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.8.11.3,VUDDY,FP
+CVE-2023-23933,crate@@crate,4.7.2,VUDDY,FP
+CVE-2023-23933,langchain4j@@langchain4j,0.26.0,"VUDDY, MVP",FP
+CVE-2023-23933,crate@@crate,4.4.1,VUDDY,FP
+CVE-2023-23933,xuexiangjys@@XUI,1.1.7,"VUDDY, MVP",FP
+CVE-2023-23933,opensearch-project@@OpenSearch,2.17.0,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v8.12.2,VUDDY,FP
+CVE-2023-23933,opensearch-project@@OpenSearch,2.12.0,"VUDDY, MVP",FP
+CVE-2023-23933,xuexiangjys@@XUI,1.2.0,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.5.6,VUDDY,FP
+CVE-2023-23933,xuexiangjys@@XUI,1.1.9,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_223.7571.4,VUDDY,FP
+CVE-2023-23933,xiaojieonly@@Ehviewer_CN_SXJ,1.9.7.3,"VUDDY, MVP",FP
+CVE-2023-23933,JetBrains@@intellij-community,pycharm_221.3427.93,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_203.8084.24,VUDDY,FP
+CVE-2023-23933,apache@@linkis,1.3.2,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_232.9921.28,VUDDY,FP
+CVE-2023-23933,crate@@crate,4.1.5,VUDDY,FP
+CVE-2023-23933,opensearch-project@@OpenSearch,2.6.0,"VUDDY, MVP",FP
+CVE-2023-23933,xuexiangjys@@XUI,1.1.2,VUDDY,FP
+CVE-2023-23933,elastic@@elasticsearch,v6.8.9,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,idea_203.5251.39,VUDDY,FP
+CVE-2023-23933,opensearch-project@@OpenSearch,1.3.13,VUDDY,FP
+CVE-2023-23933,crate@@crate,4.3.1,VUDDY,FP
+CVE-2023-23933,JetBrains@@intellij-community,pycharm_232.6734.4,"VUDDY, MVP",FP
+CVE-2023-2422,keycloak@@keycloak,22.0.2,AntMan,FP
+CVE-2023-2422,keycloak@@keycloak,17.0.0,"MVP, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,13.0.0,"VUDDY, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,19.0.3,"VUDDY, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,20.0.3,"VUDDY, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,10.0.1,"VUDDY, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,8.0.2,"VUDDY, MVP, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,21.1.0,AntMan,TP
+CVE-2023-2422,keycloak@@keycloak,11.0.1,"VUDDY, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2023-2422,keycloak@@keycloak,15.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-2422,keycloak@@keycloak,18.0.1,VUDDY,TP
+CVE-2023-2422,keycloak@@keycloak,15.1.0,MVP,TP
+CVE-2023-24830,apache@@iotdb,release/0.9.2,MVP,FP
+CVE-2023-24830,apache@@iotdb,v0.12.4,MVP,FP
+CVE-2023-24830,apache@@iotdb,v0.13.0.1,"VUDDY, AntMan",TP
+CVE-2023-24830,apache@@iotdb,v0.14.0-preview3,MVP,FP
+CVE-2023-24998,apache@@tomcat,11.0.0-M10,AntMan,FP
+CVE-2023-24998,apache@@tomcat,11.0.0-M21,"MVP, AntMan",FP
+CVE-2023-24998,apache@@tomcat,10.1.0-M9,"MVP, AntMan",TP
+CVE-2023-24998,apache@@tomcat,10.1.0-M18,AntMan,TP
+CVE-2023-24998,apache@@tomcat,11.0.0-M2,AntMan,TP
+CVE-2023-24998,apache@@tomcat,10.0.1,AntMan,TP
+CVE-2023-24998,apache@@tomcat,10.0.6,AntMan,TP
+CVE-2023-24998,apache@@tomcat,10.1.0-M15,AntMan,TP
+CVE-2023-24998,apache@@tomcat,10.0.0.0-M1,"MVP, AntMan",TP
+CVE-2023-24998,apache@@tomcat,10.0.0-M5,"MVP, AntMan",TP
+CVE-2023-24998,apache@@tomcat,11.0.0-M17,MVP,FP
+CVE-2023-24998,apache@@tomcat,10.1.0-M5,AntMan,TP
+CVE-2023-24998,apache@@tomcat,10.0.0-M8,"MVP, AntMan",TP
+CVE-2023-24998,apache@@tomcat,11.0.0,MVP,FP
+CVE-2023-25194,apache@@kafka,3.0.0-rc0,"VUDDY, MVP, AntMan",TP
+CVE-2023-25194,apache@@kafka,3.3.2-rc0,"VUDDY, AntMan",TP
+CVE-2023-25194,apache@@kafka,2.6.0-rc0,"MVP, AntMan",TP
+CVE-2023-25194,apache@@kafka,3.1.1-rc0,"VUDDY, AntMan",TP
+CVE-2023-25194,apache@@kafka,2.5.0-rc0,AntMan,TP
+CVE-2023-25194,apache@@kafka,3.2.1-rc2,"VUDDY, MVP, AntMan",TP
+CVE-2023-25194,apache@@kafka,2.6.2-rc0,"MVP, AntMan",TP
+CVE-2023-25194,apache@@kafka,3.1.0-rc0,AntMan,TP
+CVE-2023-25194,apache@@kafka,2.7.0-rc0,"VUDDY, AntMan",TP
+CVE-2023-25753,apache@@shenyu,v2.6.0,AntMan,FP
+CVE-2023-25753,apache@@shenyu,v2.5.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-25826,OpenTSDB@@opentsdb,v2.4.1,AntMan,TP
+CVE-2023-25827,OpenTSDB@@opentsdb,v2.4.1,"VUDDY, MVP",TP
+CVE-2023-2585,keycloak@@keycloak,13.0.0,"MVP, AntMan",TP
+CVE-2023-2585,keycloak@@keycloak,15.1.0,AntMan,TP
+CVE-2023-2585,keycloak@@keycloak,15.0.1,AntMan,TP
+CVE-2023-2585,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2023-2585,keycloak@@keycloak,17.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-2585,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2023-2585,keycloak@@keycloak,19.0.3,"MVP, AntMan",TP
+CVE-2023-2585,keycloak@@keycloak,21.1.0,"VUDDY, AntMan",TP
+CVE-2023-2585,keycloak@@keycloak,24.0.2,MVP,FP
+CVE-2023-2585,keycloak@@keycloak,11.0.1,"MVP, AntMan",TP
+CVE-2023-2585,keycloak@@keycloak,24.0.6,MVP,FP
+CVE-2023-2585,keycloak@@keycloak,20.0.3,"VUDDY, AntMan",TP
+CVE-2023-2585,keycloak@@keycloak,10.0.1,,TP
+CVE-2023-2585,keycloak@@keycloak,18.0.1,,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.375.1,AntMan,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.249.1,"MVP, AntMan",TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.277.3,"MVP, AntMan",TP
+CVE-2023-27899,jenkinsci@@jenkins,2.361.1-rc,AntMan,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.401.2-rc,MVP,FP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.346.1-rc,AntMan,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.303.3,"MVP, AntMan",TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.375.4,AntMan,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.263.2,"MVP, AntMan",TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.204.2,,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.289.3,,TP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.414.2,MVP,FP
+CVE-2023-27899,jenkinsci@@jenkins,jenkins-2.319.3,,TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.277.3,"VUDDY, MVP, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.319.3,"VUDDY, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.289.3,"VUDDY, MVP, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.375.4,MVP,FP
+CVE-2023-27903,jenkinsci@@jenkins,2.361.1-rc,AntMan,TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.249.1,"VUDDY, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.263.2,"VUDDY, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.346.1-rc,"VUDDY, MVP, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.222.4,"VUDDY, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.204.2,"MVP, AntMan",TP
+CVE-2023-27903,jenkinsci@@jenkins,jenkins-2.375.1,VUDDY,TP
+CVE-2023-28708,apache@@tomcat,10.1.0-M18,AntMan,FP
+CVE-2023-28708,apache@@tomcat,10.0.0.0-M1,"VUDDY, AntMan",FP
+CVE-2023-28708,apache@@tomcat,11.0.0,AntMan,TP
+CVE-2023-28708,apache@@tomcat,10.1.0-M9,MVP,FP
+CVE-2023-28708,apache@@tomcat,10.0.6,VUDDY,FP
+CVE-2023-28708,apache@@tomcat,10.0.0-M5,VUDDY,FP
+CVE-2023-28708,apache@@tomcat,11.0.0-M17,MVP,FP
+CVE-2023-28708,apache@@tomcat,10.0.0-M8,MVP,FP
+CVE-2023-28708,apache@@tomcat,11.0.0,"MVP, AntMan",TP
+CVE-2023-28708,apache@@tomcat,10.1.0-M18,"MVP, AntMan",TP
+CVE-2023-28708,apache@@tomcat,11.0.0-M2,"VUDDY, AntMan",TP
+CVE-2023-28708,apache@@tomcat,11.0.0-M14,MVP,FP
+CVE-2023-28708,apache@@tomcat,11.0.0-M2,MVP,FP
+CVE-2023-28708,apache@@tomcat,10.0.0-M8,VUDDY,FP
+CVE-2023-28708,apache@@tomcat,10.0.1,VUDDY,FP
+CVE-2023-28708,apache@@tomcat,10.1.0-M15,,TP
+CVE-2023-28708,apache@@tomcat,10.1.0-M9,VUDDY,TP
+CVE-2023-28708,apache@@tomcat,10.1.0-M5,,TP
+CVE-2023-28857,apereo@@cas,v6.3.7,AntMan,FP
+CVE-2023-28857,apereo@@cas,v6.2.0-RC5,"VUDDY, AntMan",FP
+CVE-2023-28857,apereo@@cas,v7.0.0-RC8,MVP,FP
+CVE-2023-28857,apereo@@cas,v6.4.0-RC5,VUDDY,FP
+CVE-2023-28857,apereo@@cas,v6.1.4,"VUDDY, MVP",FP
+CVE-2023-28857,apereo@@cas,v7.0.1,MVP,FP
+CVE-2023-28857,apereo@@cas,v7.0.0-RC3,"VUDDY, MVP",FP
+CVE-2023-28857,apereo@@cas,v6.3.7,"VUDDY, MVP",FP
+CVE-2023-28857,apereo@@cas,v7.0.0-RC3,MVP,FP
+CVE-2023-28857,apereo@@cas,v6.1.4,MVP,FP
+CVE-2023-28857,apereo@@cas,v6.5.9,"MVP, AntMan",TP
+CVE-2023-28857,apereo@@cas,v6.3.0-RC2,VUDDY,FP
+CVE-2023-28857,apereo@@cas,v6.4.0-RC2,MVP,FP
+CVE-2023-28857,apereo@@cas,v6.4.0-RC2,"VUDDY, MVP",FP
+CVE-2023-28857,apereo@@cas,v6.2.6,VUDDY,FP
+CVE-2023-28857,apereo@@cas,v6.2.6,MVP,FP
+CVE-2023-28857,apereo@@cas,v6.5.4,"VUDDY, MVP, AntMan",TP
+CVE-2023-28857,apereo@@cas,v6.4.5,"VUDDY, MVP",FP
+CVE-2023-29055,apache@@kylin,kylin-4.0.2,AntMan,TP
+CVE-2023-29055,apache@@kylin,kylin-3.1.3,AntMan,TP
+CVE-2023-29055,apache@@kylin,kylin-4.0.3,"MVP, AntMan",TP
+CVE-2023-29055,apache@@kylin,kylin-4.0.0-beta,AntMan,TP
+CVE-2023-29055,apache@@kylin,kylin-5.0.0,MVP,FP
+CVE-2023-29055,apache@@kylin,kylin-3.0.1,AntMan,TP
+CVE-2023-29055,apache@@kylin,kylin-3.1.1,AntMan,TP
+CVE-2023-29055,apache@@kylin,kylin-4.0.0,"MVP, AntMan",TP
+CVE-2023-29055,apache@@kylin,kylin-3.1.0,AntMan,TP
+CVE-2023-29215,apache@@linkis,0.9.3,AntMan,TP
+CVE-2023-29215,apache@@linkis,1.3.2,AntMan,FP
+CVE-2023-29215,apache@@linkis,release-1.1.0-rc1,AntMan,FP
+CVE-2023-29215,apache@@linkis,0.9.4,AntMan,TP
+CVE-2023-29215,apache@@linkis,1.0.1,AntMan,TP
+CVE-2023-29215,apache@@linkis,0.11.0,AntMan,TP
+CVE-2023-29215,apache@@linkis,1.3.0-rc1,"VUDDY, MVP",TP
+CVE-2023-29216,apache@@linkis,0.9.4,AntMan,TP
+CVE-2023-29216,apache@@linkis,0.11.0,AntMan,TP
+CVE-2023-29216,apache@@linkis,0.9.3,"MVP, AntMan",TP
+CVE-2023-29216,apache@@linkis,1.0.1,MVP,TP
+CVE-2023-30601,apache@@cassandra,cassandra-4.0.13,AntMan,FP
+CVE-2023-30601,apache@@cassandra,cassandra-4.0.0,"MVP, AntMan",TP
+CVE-2023-30601,apache@@cassandra,cassandra-4.0.8,AntMan,TP
+CVE-2023-30601,apache@@cassandra,cassandra-3.0.28,MVP,FP
+CVE-2023-30601,apache@@cassandra,cassandra-3.0.26,MVP,FP
+CVE-2023-30601,apache@@cassandra,cassandra-4.0.10,MVP,FP
+CVE-2023-30601,apache@@cassandra,cassandra-4.0.5,MVP,TP
+CVE-2023-30601,apache@@cassandra,cassandra-4.0.12,MVP,FP
+CVE-2023-31141,opensearch-project@@OpenSearch,2.0.0-rc1,MVP,FP
+CVE-2023-31141,opensearch-project@@OpenSearch,1.1.0,"MVP, AntMan",TP
+CVE-2023-31141,opensearch-project@@OpenSearch,2.2.0,"MVP, AntMan",TP
+CVE-2023-31141,opensearch-project@@OpenSearch,2.6.0,"VUDDY, AntMan",TP
+CVE-2023-31141,opensearch-project@@OpenSearch,1.2.4,AntMan,TP
+CVE-2023-31141,opensearch-project@@OpenSearch,2.4.0,AntMan,TP
+CVE-2023-31141,opensearch-project@@OpenSearch,1.3.17,MVP,FP
+CVE-2023-32310,dataease@@dataease,v1.11.0,AntMan,TP
+CVE-2023-32310,dataease@@dataease,v1.18.21,"MVP, AntMan",FP
+CVE-2023-32310,dataease@@dataease,v1.17.1,"VUDDY, AntMan",TP
+CVE-2023-32310,dataease@@dataease,v1.14.0,AntMan,TP
+CVE-2023-32310,dataease@@dataease,v1.3.0,"MVP, AntMan",TP
+CVE-2023-32310,dataease@@dataease,v1.18.8,MVP,FP
+CVE-2023-32310,dataease@@dataease,v1.7.0,AntMan,TP
+CVE-2023-32310,dataease@@dataease,v1.18.5,"VUDDY, AntMan",TP
+CVE-2023-32310,dataease@@dataease,v2.0.0,MVP,FP
+CVE-2023-32310,dataease@@dataease,v1.0.0-rc1,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.32.0,"MVP, AntMan",TP
+CVE-2023-32731,grpc@@grpc-java,v1.68.1,AntMan,FP
+CVE-2023-32731,grpc@@grpc-java,v1.36.1,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.44.1,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.42.0,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.49.1,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.39.0,"MVP, AntMan",TP
+CVE-2023-32731,grpc@@grpc-java,v1.34.1,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.47.0,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.52.0,AntMan,TP
+CVE-2023-32731,grpc@@grpc-java,v1.30.0,,TP
+CVE-2023-32731,grpc@@grpc-java,v1.27.0,,TP
+CVE-2023-32732,grpc@@grpc-java,v1.42.0,"MVP, AntMan",TP
+CVE-2023-32732,grpc@@grpc-java,v1.39.0,AntMan,TP
+CVE-2023-32732,grpc@@grpc-java,v1.36.1,AntMan,TP
+CVE-2023-32732,grpc@@grpc-java,v1.34.1,"MVP, AntMan",TP
+CVE-2023-32732,grpc@@grpc-java,v1.52.0,"MVP, AntMan",TP
+CVE-2023-32732,grpc@@grpc-java,v1.32.0,AntMan,TP
+CVE-2023-32732,grpc@@grpc-java,v1.47.0,AntMan,TP
+CVE-2023-32732,grpc@@grpc-java,v1.30.0,"MVP, AntMan",TP
+CVE-2023-32732,grpc@@grpc-java,v1.65.1,MVP,FP
+CVE-2023-32732,grpc@@grpc-java,v1.27.0,"MVP, AntMan",TP
+CVE-2023-32732,grpc@@grpc-java,v1.49.1,MVP,TP
+CVE-2023-32732,grpc@@grpc-java,v1.44.1,,TP
+CVE-2023-34034,spring-projects@@spring-security,5.8.0-M1,AntMan,FP
+CVE-2023-34034,spring-projects@@spring-security,5.4.10,"VUDDY, MVP, AntMan",FP
+CVE-2023-34034,spring-projects@@spring-security,5.5.0-M2,"VUDDY, AntMan",FP
+CVE-2023-34034,spring-projects@@spring-security,5.5.0,"VUDDY, MVP",FP
+CVE-2023-34034,spring-projects@@spring-security,6.2.7,MVP,FP
+CVE-2023-34034,spring-projects@@spring-security,5.6.0-M3,"VUDDY, AntMan",TP
+CVE-2023-34034,spring-projects@@spring-security,5.8.0-M1,AntMan,TP
+CVE-2023-34034,spring-projects@@spring-security,6.1.1,"MVP, AntMan",TP
+CVE-2023-34034,spring-projects@@spring-security,6.0.2,"VUDDY, AntMan",TP
+CVE-2023-34034,spring-projects@@spring-security,6.4.0-M1,MVP,FP
+CVE-2023-34034,spring-projects@@spring-security,5.4.0,MVP,FP
+CVE-2023-34034,spring-projects@@spring-security,5.4.0-M1,VUDDY,FP
+CVE-2023-34034,spring-projects@@spring-security,5.4.0,VUDDY,FP
+CVE-2023-34034,spring-projects@@spring-security,5.4.10,MVP,FP
+CVE-2023-34034,spring-projects@@spring-security,5.7.0-M3,"MVP, AntMan",TP
+CVE-2023-34034,spring-projects@@spring-security,5.7.0-M3,MVP,FP
+CVE-2023-34034,spring-projects@@spring-security,5.7.5,MVP,TP
+CVE-2023-34034,spring-projects@@spring-security,5.5.0-M2,MVP,FP
+CVE-2023-34055,spring-projects@@spring-boot,v2.4.0-M4,AntMan,FP
+CVE-2023-34055,spring-projects@@spring-boot,v2.7.17,AntMan,TP
+CVE-2023-34055,spring-projects@@spring-boot,v3.2.10,MVP,FP
+CVE-2023-34055,spring-projects@@spring-boot,v3.0.0-RC2,AntMan,TP
+CVE-2023-34055,spring-projects@@spring-boot,v2.7.9,"MVP, AntMan",TP
+CVE-2023-34055,spring-projects@@spring-boot,v2.7.13,,TP
+CVE-2023-34462,netty@@netty,netty-4.1.98.Final,AntMan,FP
+CVE-2023-34462,netty@@netty,netty-4.1.110.Final,AntMan,FP
+CVE-2023-34462,netty@@netty,netty-4.1.94.Final,AntMan,FP
+CVE-2023-34462,netty@@netty,netty-4.1.86.Final,AntMan,TP
+CVE-2023-34462,netty@@netty,netty-4.1.55.Final,AntMan,TP
+CVE-2023-34462,netty@@netty,netty-4.1.70.Final,AntMan,TP
+CVE-2023-34462,netty@@netty,netty-4.1.49.Final,"VUDDY, AntMan",TP
+CVE-2023-34462,netty@@netty,netty-4.1.66.Final,"VUDDY, AntMan",TP
+CVE-2023-34462,netty@@netty,netty-4.1.60.Final,"VUDDY, MVP, AntMan",TP
+CVE-2023-34462,netty@@netty,netty-4.1.90.Final,"VUDDY, AntMan",TP
+CVE-2023-34462,netty@@netty,netty-4.1.80.Final,"VUDDY, AntMan",TP
+CVE-2023-34462,netty@@netty,netty-4.1.52.Final,"MVP, AntMan",TP
+CVE-2023-34462,netty@@netty,netty-4.2.0.RC1,MVP,FP
+CVE-2023-34462,netty@@netty,netty-5.0.0.Alpha2,AntMan,TP
+CVE-2023-34462,netty@@netty,netty-4.1.45.Final,,TP
+CVE-2023-34462,netty@@netty,netty-4.1.74.Final,VUDDY,TP
+CVE-2023-34602,jeecgboot@@JeecgBoot,v3.4.4,AntMan,TP
+CVE-2023-34602,jeecgboot@@JeecgBoot,v3.5.0,VUDDY,TP
+CVE-2023-35701,apache@@hive,rel/release-4.0.1,"MVP, AntMan",FP
+CVE-2023-35701,apache@@hive,release-3.1.3-rc0,AntMan,TP
+CVE-2023-35701,apache@@hive,rel_release-4.0.0-alpha-2,VUDDY,FP
+CVE-2023-35701,apache@@hive,rel/release-4.0.0-alpha-2,AntMan,TP
+CVE-2023-35701,apache@@hive,storage-release-2.7.3-rc0,"MVP, AntMan",TP
+CVE-2023-35701,apache@@hive,release-2.3.8-rc0,AntMan,TP
+CVE-2023-35701,apache@@hive,branch-3.1.2-rc0,AntMan,TP
+CVE-2023-38905,jeecgboot@@JeecgBoot,v3.5.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-38905,jeecgboot@@JeecgBoot,v3.6.1,VUDDY,FP
+CVE-2023-38905,jeecgboot@@JeecgBoot,v3.4.4,"MVP, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.7,"VUDDY, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.6,"MVP, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.2,AntMan,TP
+CVE-2023-40167,jetty@@jetty.project,jetty-12.0.10,MVP,FP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.8,"VUDDY, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.13,"VUDDY, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-12.0.7,MVP,FP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.10,"VUDDY, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-11.0.0-alpha0,"VUDDY, MVP, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.0,"MVP, AntMan",TP
+CVE-2023-40167,jetty@@jetty.project,jetty-10.0.15,"VUDDY, AntMan",TP
+CVE-2023-41329,wiremock@@wiremock,2.32.0,"VUDDY, AntMan",TP
+CVE-2023-41329,wiremock@@wiremock,2.28.0,"MVP, AntMan",TP
+CVE-2023-41329,wiremock@@wiremock,3.0.0-beta-13,"VUDDY, MVP, AntMan",TP
+CVE-2023-41329,wiremock@@wiremock,3.3.0,MVP,FP
+CVE-2023-41329,wiremock@@wiremock,2.34.0,"VUDDY, AntMan",TP
+CVE-2023-41329,wiremock@@wiremock,3.4.0,MVP,FP
+CVE-2023-41329,wiremock@@wiremock,3.0.0-beta-8,AntMan,TP
+CVE-2023-41329,wiremock@@wiremock,2.26.0,"MVP, AntMan",TP
+CVE-2023-41329,wiremock@@wiremock,3.0.0-beta-1,MVP,FP
+CVE-2023-41329,wiremock@@wiremock,2.33.0,AntMan,TP
+CVE-2023-41329,wiremock@@wiremock,3.0.0-beta-8,MVP,FP
+CVE-2023-41329,wiremock@@wiremock,3.0.0-beta-1,"VUDDY, AntMan",TP
+CVE-2023-41329,wiremock@@wiremock,2.27.0,AntMan,TP
+CVE-2023-41329,wiremock@@wiremock,2.30.1,,TP
+CVE-2023-41886,OpenRefine@@OpenRefine,3.6.0,AntMan,TP
+CVE-2023-41886,OpenRefine@@OpenRefine,3.8.3,"MVP, AntMan",FP
+CVE-2023-41886,OpenRefine@@OpenRefine,3.7.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-41886,OpenRefine@@OpenRefine,3.7.3,"VUDDY, AntMan",TP
+CVE-2023-41886,OpenRefine@@OpenRefine,3.5.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-41887,OpenRefine@@OpenRefine,3.8.3,AntMan,FP
+CVE-2023-41887,OpenRefine@@OpenRefine,3.5.0,AntMan,TP
+CVE-2023-41887,OpenRefine@@OpenRefine,3.7.0,AntMan,TP
+CVE-2023-41887,OpenRefine@@OpenRefine,3.7.3,AntMan,TP
+CVE-2023-41887,OpenRefine@@OpenRefine,3.6.0,"MVP, AntMan",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.20.0,"VUDDY, AntMan",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.23.5,AntMan,FP
+CVE-2023-42809,redisson@@redisson,redisson-3.22.0,AntMan,FP
+CVE-2023-42809,redisson@@redisson,redisson-3.13.4,"VUDDY, MVP, AntMan",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.17.0,"MVP, AntMan",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.16.1,AntMan,TP
+CVE-2023-42809,redisson@@redisson,redisson-3.16.4,AntMan,TP
+CVE-2023-42809,redisson@@redisson,redisson-3.33.0,MVP,FP
+CVE-2023-42809,redisson@@redisson,redisson-3.12.1,"MVP, AntMan",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.18.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.15.3,"VUDDY, AntMan",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.17.5,"VUDDY, MVP",TP
+CVE-2023-42809,redisson@@redisson,redisson-3.14.1,MVP,TP
+CVE-2023-42809,redisson@@redisson,redisson-3.38.0,MVP,FP
+CVE-2023-42809,redisson@@redisson,redisson-3.13.0,"VUDDY, MVP",TP
+CVE-2023-43123,apache@@storm,v2.6.0,"MVP, AntMan",FP
+CVE-2023-43123,apache@@storm,v2.5.0,"VUDDY, AntMan",TP
+CVE-2023-43123,apache@@storm,v2.3.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-43123,apache@@storm,v2.6.3,MVP,FP
+CVE-2023-43123,apache@@storm,v2.2.0,"VUDDY, AntMan",TP
+CVE-2023-43123,apache@@storm,v2.3.0,"VUDDY, MVP",TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.289.3,"MVP, AntMan",TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.263.2,"MVP, AntMan",TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.426.3-rc,"MVP, AntMan",FP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.319.3,AntMan,TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.346.1-rc,"MVP, AntMan",TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.375.4,AntMan,TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.401.2-rc,"VUDDY, AntMan",TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.204.2,"MVP, AntMan",TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.277.3,AntMan,TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.375.1,"VUDDY, AntMan",TP
+CVE-2023-43496,jenkinsci@@jenkins,jenkins-2.249.1,AntMan,TP
+CVE-2023-43496,jenkinsci@@jenkins,2.361.1-rc,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.375.1,"MVP, AntMan",TP
+CVE-2023-43498,jenkinsci@@jenkins,2.361.1-rc,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.222.4,"MVP, AntMan",TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.303.3,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.346.1-rc,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.249.1,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.204.2,"MVP, AntMan",TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.319.3,"MVP, AntMan",TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.222.4,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.479.2-rc,MVP,FP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.277.3,"MVP, AntMan",TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.204.2,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.401.2-rc,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.289.3,AntMan,TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.263.2,"MVP, AntMan",TP
+CVE-2023-43498,jenkinsci@@jenkins,jenkins-2.375.4,,TP
+CVE-2023-44487,netty@@netty,netty-4.1.70.Final,AntMan,TP
+CVE-2023-44487,netty@@netty,netty-4.1.74.Final,"VUDDY, MVP, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.86.Final,"VUDDY, MVP, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.94.Final,"VUDDY, MVP, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.45.Final,"VUDDY, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.66.Final,"VUDDY, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.52.Final,"VUDDY, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.110.Final,MVP,FP
+CVE-2023-44487,netty@@netty,netty-5.0.0.Alpha2,"VUDDY, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.80.Final,"VUDDY, MVP, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.90.Final,"VUDDY, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.60.Final,AntMan,TP
+CVE-2023-44487,netty@@netty,netty-4.1.55.Final,"VUDDY, MVP, AntMan",TP
+CVE-2023-44487,netty@@netty,netty-4.1.49.Final,MVP,TP
+CVE-2023-44487,netty@@netty,netty-4.1.98.Final,"VUDDY, MVP",TP
+CVE-2023-45859,hazelcast@@hazelcast,v4.1.2,"VUDDY, MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v4.1.6,AntMan,FP
+CVE-2023-45859,hazelcast@@hazelcast,v4.2.7,AntMan,FP
+CVE-2023-45859,hazelcast@@hazelcast,v5.1.2,AntMan,TP
+CVE-2023-45859,hazelcast@@hazelcast,v3.12.11,AntMan,TP
+CVE-2023-45859,hazelcast@@hazelcast,v5.3.2,"VUDDY, MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v4.2.7,"MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v5.1.4,"VUDDY, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v3.12.5-dominos,"VUDDY, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v4.0.1,MVP,FP
+CVE-2023-45859,hazelcast@@hazelcast,v5.1.4,MVP,FP
+CVE-2023-45859,hazelcast@@hazelcast,v4.0.6,"VUDDY, MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v5.1.6,"VUDDY, MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v4.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v4.1.4,"MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v3.12.9,"MVP, AntMan",TP
+CVE-2023-45859,hazelcast@@hazelcast,v4.1.6,"VUDDY, MVP",TP
+CVE-2023-46243,facebook@@fresco,v2.2.0,"VUDDY, MVP, AntMan",FP
+CVE-2023-46243,netty@@netty,netty-4.1.55.Final,"VUDDY, AntMan",FP
+CVE-2023-46243,netty@@netty,netty-4.1.80.Final,"VUDDY, MVP, AntMan",FP
+CVE-2023-46243,facebook@@fresco,v2.3.0,"VUDDY, AntMan",FP
+CVE-2023-46243,netty@@netty,netty-4.1.66.Final,"VUDDY, MVP, AntMan",FP
+CVE-2023-46243,netty@@netty,netty-4.1.70.Final,"VUDDY, MVP, AntMan",FP
+CVE-2023-46243,facebook@@fresco,v2.6.0,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.105.Final,VUDDY,FP
+CVE-2023-46243,facebook@@fresco,v3.3.0,VUDDY,FP
+CVE-2023-46243,apache@@hbase,rel_3.0.0-alpha-1,"VUDDY, MVP",FP
+CVE-2023-46243,facebook@@fresco,v3.2.0,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.86.Final,"VUDDY, MVP",FP
+CVE-2023-46243,netty@@netty,netty-4.1.52.Final,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.49.Final,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.74.Final,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.2.0.Alpha3,VUDDY,FP
+CVE-2023-46243,apache@@hbase,rel_2.5.0,"VUDDY, MVP",FP
+CVE-2023-46243,apache@@hbase,3.0.0-alpha-2RC0,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.98.Final,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.94.Final,"VUDDY, MVP",FP
+CVE-2023-46243,facebook@@fresco,v3.1.0,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.2.0.RC1,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.110.Final,"VUDDY, MVP",FP
+CVE-2023-46243,netty@@netty,netty-4.1.60.Final,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.90.Final,VUDDY,FP
+CVE-2023-46243,facebook@@fresco,v3.0.0,VUDDY,FP
+CVE-2023-46243,netty@@netty,netty-4.1.45.Final,VUDDY,FP
+CVE-2023-46243,facebook@@fresco,v2.4.0,VUDDY,FP
+CVE-2023-46243,facebook@@fresco,v2.5.0,VUDDY,FP
+CVE-2023-46589,apache@@tomcat,10.1.0-M5,AntMan,FP
+CVE-2023-46589,apache@@tomcat,11.0.0-M2,"MVP, AntMan",FP
+CVE-2023-46589,apache@@tomcat,10.1.0-M9,"MVP, AntMan",FP
+CVE-2023-46589,apache@@tomcat,11.0.0,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,11.0.0,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,11.0.0,AntMan,TP
+CVE-2023-46589,apache@@tomcat,10.1.0-M9,"VUDDY, AntMan",TP
+CVE-2023-46589,apache@@tomcat,11.0.0-M2,AntMan,TP
+CVE-2023-46589,apache@@tomcat,11.0.0,AntMan,TP
+CVE-2023-46589,apache@@tomcat,10.1.0-M15,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,11.0.0,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,11.0.0,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,10.1.0-M5,AntMan,TP
+CVE-2023-46589,apache@@tomcat,10.1.0-M18,AntMan,TP
+CVE-2023-46589,apache@@tomcat,11.0.0-M10,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,11.0.0,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,10.0.0.0-M1,MVP,FP
+CVE-2023-46589,apache@@tomcat,11.0.0,"MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,11.0.0-M21,MVP,FP
+CVE-2023-46589,apache@@tomcat,10.0.6,"VUDDY, MVP",FP
+CVE-2023-46589,apache@@tomcat,10.0.0-M5,MVP,FP
+CVE-2023-46589,apache@@tomcat,10.0.0-M8,VUDDY,FP
+CVE-2023-46589,apache@@tomcat,10.0.0-M5,VUDDY,FP
+CVE-2023-46589,apache@@tomcat,11.0.0-M5,"VUDDY, MVP, AntMan",TP
+CVE-2023-46589,apache@@tomcat,10.0.1,VUDDY,FP
+CVE-2023-46589,apache@@tomcat,11.0.0,MVP,TP
+CVE-2023-46589,apache@@tomcat,11.0.0,,TP
+CVE-2023-46589,apache@@tomcat,10.0.0.0-M1,VUDDY,FP
+CVE-2023-46673,opensearch-project@@OpenSearch,1.3.13,"VUDDY, MVP, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.17.2,AntMan,TP
+CVE-2023-46673,elastic@@elasticsearch,v8.6.1,AntMan,TP
+CVE-2023-46673,opensearch-project@@OpenSearch,2.12.0,"MVP, AntMan",TP
+CVE-2023-46673,opensearch-project@@OpenSearch,2.4.0,"VUDDY, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.10.1,"VUDDY, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v8.3.1,"MVP, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v6.8.9,"VUDDY, MVP, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.9.0,AntMan,TP
+CVE-2023-46673,elastic@@elasticsearch,v8.9.1,AntMan,TP
+CVE-2023-46673,elastic@@elasticsearch,v6.8.15,"MVP, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v8.7.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.14.2,"VUDDY, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.5.2,"VUDDY, AntMan",TP
+CVE-2023-46673,opensearch-project@@OpenSearch,1.3.17,"VUDDY, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.13.2,"VUDDY, MVP, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.16.2,"VUDDY, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.17.24,MVP,FP
+CVE-2023-46673,opensearch-project@@OpenSearch,2.0.0-rc1,"MVP, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v7.17.7,"VUDDY, AntMan",TP
+CVE-2023-46673,elastic@@elasticsearch,v8.12.2,MVP,FP
+CVE-2023-46673,opensearch-project@@OpenSearch,2.8.0,"VUDDY, AntMan",TP
+CVE-2023-46673,opensearch-project@@OpenSearch,2.17.0,"MVP, AntMan",TP
+CVE-2023-46673,opensearch-project@@OpenSearch,1.0.0-alpha1,"VUDDY, MVP, AntMan",TP
+CVE-2023-46673,opensearch-project@@OpenSearch,1.2.4,,TP
+CVE-2023-46673,opensearch-project@@OpenSearch,2.6.0,VUDDY,TP
+CVE-2023-46673,opensearch-project@@OpenSearch,2.2.0,VUDDY,TP
+CVE-2023-46673,opensearch-project@@OpenSearch,1.1.0,"VUDDY, MVP",TP
+CVE-2023-48795,JetBrains@@intellij-community,idea_201.8743.12,"VUDDY, MVP",FP
+CVE-2023-48795,JetBrains@@intellij-community,idea_201.7223.18,"VUDDY, MVP",FP
+CVE-2023-48795,JetBrains@@intellij-community,idea_193.6015.22,"VUDDY, MVP",FP
+CVE-2023-49068,apache@@dolphinscheduler,3.0.0,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,3.1.7,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,2.0.1,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,3.0.0,AntMan,TP
+CVE-2023-49068,apache@@dolphinscheduler,1.3.8,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,3.1.4,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,3.0.0,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,3.1.1,AntMan,TP
+CVE-2023-49068,apache@@dolphinscheduler,3.0.0,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,1.3.0,AntMan,TP
+CVE-2023-49068,apache@@dolphinscheduler,1.3.3,"MVP, AntMan",TP
+CVE-2023-49068,apache@@dolphinscheduler,3.2.0,,TP
+CVE-2023-49068,apache@@dolphinscheduler,1.2.1,,TP
+CVE-2023-49068,apache@@dolphinscheduler,3.2.1,MVP,FP
+CVE-2023-49250,apache@@dolphinscheduler,3.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,3.2.1,AntMan,FP
+CVE-2023-49250,apache@@dolphinscheduler,1.2.1,"MVP, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,3.0.0-alpha,"VUDDY, MVP, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,3.1.4,"VUDDY, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,1.3.3,"MVP, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,3.1.7,"VUDDY, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,1.3.8,"MVP, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,3.2.0,"VUDDY, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,1.3.0,AntMan,TP
+CVE-2023-49250,apache@@dolphinscheduler,2.0.1,"MVP, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,3.1.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-49250,apache@@dolphinscheduler,1.3.5,,TP
+CVE-2023-49299,apache@@dolphinscheduler,1.3.3,AntMan,TP
+CVE-2023-49299,apache@@dolphinscheduler,3.0.0,AntMan,TP
+CVE-2023-49299,apache@@dolphinscheduler,1.2.1,"MVP, AntMan",TP
+CVE-2023-49299,apache@@dolphinscheduler,3.1.7,AntMan,TP
+CVE-2023-49299,apache@@dolphinscheduler,3.2.0,VUDDY,FP
+CVE-2023-49299,apache@@dolphinscheduler,3.0.0,AntMan,TP
+CVE-2023-49299,apache@@dolphinscheduler,1.3.8,"MVP, AntMan",TP
+CVE-2023-49299,apache@@dolphinscheduler,1.3.0,AntMan,TP
+CVE-2023-49299,apache@@dolphinscheduler,3.2.0,MVP,FP
+CVE-2023-49299,apache@@dolphinscheduler,2.0.1,"MVP, AntMan",TP
+CVE-2023-49299,apache@@dolphinscheduler,3.0.0,AntMan,TP
+CVE-2023-49299,apache@@dolphinscheduler,3.0.0,AntMan,TP
+CVE-2023-49299,apache@@dolphinscheduler,3.1.1,"MVP, AntMan",TP
+CVE-2023-49299,apache@@dolphinscheduler,3.1.4,MVP,TP
+CVE-2023-49921,elastic@@elasticsearch,v7.16.2,AntMan,TP
+CVE-2023-49921,elastic@@elasticsearch,v7.5.2,AntMan,TP
+CVE-2023-49921,elastic@@elasticsearch,v6.8.15,"MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v8.17.0,AntMan,FP
+CVE-2023-49921,elastic@@elasticsearch,v8.9.1,"MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v8.6.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v7.13.2,"MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v7.9.0,AntMan,TP
+CVE-2023-49921,elastic@@elasticsearch,v7.17.2,"VUDDY, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v6.8.9,"MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v8.3.1,"VUDDY, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v7.10.1,"MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v7.17.15,"VUDDY, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v7.17.7,"MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v7.14.2,"MVP, AntMan",TP
+CVE-2023-49921,elastic@@elasticsearch,v8.7.1,VUDDY,TP
+CVE-2023-5072,stleary@@JSON-java,20201115,"MVP, AntMan",TP
+CVE-2023-5072,stleary@@JSON-java,20241224,MVP,FP
+CVE-2023-5072,stleary@@JSON-java,20200518,AntMan,TP
+CVE-2023-5072,stleary@@JSON-java,20230618,AntMan,TP
+CVE-2023-5072,stleary@@JSON-java,20211205,"MVP, AntMan",TP
+CVE-2023-5072,stleary@@JSON-java,20210307,"MVP, AntMan",TP
+CVE-2023-5072,stleary@@JSON-java,20220320,AntMan,TP
+CVE-2023-5072,stleary@@JSON-java,20220924,"MVP, AntMan",TP
+CVE-2023-5072,stleary@@JSON-java,20230227,"MVP, AntMan",TP
+CVE-2023-51074,json-path@@JsonPath,json-path-2.8.0,"MVP, AntMan",TP
+CVE-2023-51074,json-path@@JsonPath,json-path-2.9.0,MVP,FP
+CVE-2023-51445,geoserver@@geoserver,2.25.5,AntMan,FP
+CVE-2023-51445,geoserver@@geoserver,2.24.5,AntMan,FP
+CVE-2023-51445,geoserver@@geoserver,2.18.0,"MVP, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.23.4,MVP,FP
+CVE-2023-51445,geoserver@@geoserver,2.22.3,"VUDDY, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.22.5,"VUDDY, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.18.5,"VUDDY, MVP, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.20.5,"VUDDY, MVP, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.18.3,"VUDDY, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.22.1,"VUDDY, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.20.3,"VUDDY, AntMan",TP
+CVE-2023-51445,geoserver@@geoserver,2.20.1,,TP
+CVE-2023-51445,geoserver@@geoserver,2.18.2,VUDDY,TP
+CVE-2023-51445,geoserver@@geoserver,2.21.2,"VUDDY, MVP",TP
+CVE-2023-51445,geoserver@@geoserver,2.16.3,VUDDY,TP
+CVE-2023-51445,geoserver@@geoserver,2.16.2,VUDDY,TP
+CVE-2023-51656,apache@@iotdb,release/0.10.1,"MVP, AntMan",FP
+CVE-2023-51656,apache@@iotdb,v0.12.2,VUDDY,FP
+CVE-2023-51656,apache@@iotdb,v0.13.4,AntMan,TP
+CVE-2023-51656,apache@@iotdb,v0.14.0-preview3,MVP,FP
+CVE-2023-51656,apache@@iotdb,release/0.11.0,MVP,FP
+CVE-2023-51656,apache@@iotdb,v0.13.0.1,"VUDDY, AntMan",TP
+CVE-2023-51656,apache@@iotdb,v1.3.0,MVP,FP
+CVE-2023-51656,apache@@iotdb,v0.12.4,VUDDY,FP
+CVE-2023-51656,apache@@iotdb,release/0.9.2,MVP,FP
+CVE-2023-51656,apache@@iotdb,v1.3.1,MVP,FP
+CVE-2023-51770,apache@@dolphinscheduler,3.1.7,"MVP, AntMan",TP
+CVE-2023-51770,apache@@dolphinscheduler,1.3.8,"MVP, AntMan",TP
+CVE-2023-51770,apache@@dolphinscheduler,1.3.3,AntMan,TP
+CVE-2023-51770,apache@@dolphinscheduler,3.1.1,"VUDDY, AntMan",TP
+CVE-2023-51770,apache@@dolphinscheduler,3.2.1,"VUDDY, MVP",FP
+CVE-2023-51770,apache@@dolphinscheduler,1.3.0,"MVP, AntMan",TP
+CVE-2023-51770,apache@@dolphinscheduler,3.2.0,"VUDDY, AntMan",TP
+CVE-2023-51770,apache@@dolphinscheduler,3.0.0,"MVP, AntMan",TP
+CVE-2023-51770,apache@@dolphinscheduler,3.2.2,VUDDY,FP
+CVE-2023-51770,apache@@dolphinscheduler,3.1.4,"VUDDY, MVP, AntMan",TP
+CVE-2023-51770,apache@@dolphinscheduler,2.0.1,AntMan,TP
+CVE-2023-51770,apache@@dolphinscheduler,1.2.1,,TP
+CVE-2023-51770,apache@@dolphinscheduler,3.0.0-alpha,"VUDDY, MVP",TP
+CVE-2023-51770,apache@@dolphinscheduler,3.0.0-alpha,MVP,FP
+CVE-2023-5379,undertow-io@@undertow,2.3.6.Final,"VUDDY, AntMan",TP
+CVE-2023-5379,undertow-io@@undertow,2.2.13.Final,"MVP, AntMan",TP
+CVE-2023-5379,undertow-io@@undertow,2.3.11.Final,"VUDDY, AntMan",TP
+CVE-2023-5379,undertow-io@@undertow,2.2.9.Final,AntMan,TP
+CVE-2023-5379,undertow-io@@undertow,2.3.0.Alpha2,AntMan,TP
+CVE-2023-5379,undertow-io@@undertow,2.0.31.Final,AntMan,TP
+CVE-2023-5379,undertow-io@@undertow,2.2.21.Final,"MVP, AntMan",TP
+CVE-2023-5379,undertow-io@@undertow,2.3.4.Final,"VUDDY, MVP, AntMan",TP
+CVE-2023-5379,undertow-io@@undertow,2.3.8.Final,"VUDDY, AntMan",TP
+CVE-2023-5379,undertow-io@@undertow,2.0.29.Final,"MVP, AntMan",TP
+CVE-2023-5379,undertow-io@@undertow,2.2.3.Final,AntMan,TP
+CVE-2023-5379,undertow-io@@undertow,2.2.6.Final,AntMan,TP
+CVE-2023-5379,undertow-io@@undertow,2.1.0.Final,MVP,TP
+CVE-2023-5379,undertow-io@@undertow,2.2.17.Final,MVP,TP
+CVE-2023-6267,quarkusio@@quarkus,3.8.6,"VUDDY, MVP, AntMan",TP
+CVE-2023-6267,quarkusio@@quarkus,3.8.6,MVP,FP
+CVE-2023-6267,quarkusio@@quarkus,3.10.2,VUDDY,FP
+CVE-2023-6267,quarkusio@@quarkus,3.10.2,MVP,FP
+CVE-2023-6267,quarkusio@@quarkus,3.5.3,"MVP, AntMan",TP
+CVE-2023-6267,quarkusio@@quarkus,3.7.4,"VUDDY, AntMan",TP
+CVE-2023-6267,quarkusio@@quarkus,3.3.0,"VUDDY, MVP",TP
+CVE-2023-6484,keycloak@@keycloak,15.0.1,"VUDDY, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,15.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,18.0.1,AntMan,TP
+CVE-2023-6484,keycloak@@keycloak,20.0.3,"VUDDY, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,11.0.1,AntMan,TP
+CVE-2023-6484,keycloak@@keycloak,22.0.2,"VUDDY, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,10.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,12.0.0,"VUDDY, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,19.0.3,AntMan,TP
+CVE-2023-6484,keycloak@@keycloak,23.0.2,"VUDDY, MVP, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,17.0.0,"MVP, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,13.0.0,AntMan,TP
+CVE-2023-6484,keycloak@@keycloak,21.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-6484,keycloak@@keycloak,8.0.2,MVP,TP
+CVE-2023-6563,keycloak@@keycloak,12.0.0,"MVP, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,10.0.1,AntMan,TP
+CVE-2023-6563,keycloak@@keycloak,13.0.0,"MVP, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,19.0.3,"MVP, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,26.0.1,MVP,FP
+CVE-2023-6563,keycloak@@keycloak,17.0.0,"VUDDY, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,20.0.3,"VUDDY, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,18.0.1,"VUDDY, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,15.1.0,"VUDDY, AntMan",TP
+CVE-2023-6563,keycloak@@keycloak,15.0.1,,TP
+CVE-2023-6787,keycloak@@keycloak,24.0.2,"VUDDY, MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,24.0.2,"MVP, AntMan",FP
+CVE-2023-6787,keycloak@@keycloak,15.1.0,"MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,8.0.2,"MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,10.0.1,AntMan,TP
+CVE-2023-6787,keycloak@@keycloak,12.0.0,AntMan,TP
+CVE-2023-6787,keycloak@@keycloak,23.0.2,"VUDDY, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,13.0.0,AntMan,TP
+CVE-2023-6787,keycloak@@keycloak,18.0.1,AntMan,TP
+CVE-2023-6787,keycloak@@keycloak,19.0.3,"MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,11.0.1,"MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,15.0.1,"MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,21.1.0,AntMan,TP
+CVE-2023-6787,keycloak@@keycloak,22.0.2,"MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,20.0.3,"MVP, AntMan",TP
+CVE-2023-6787,keycloak@@keycloak,17.0.0,"MVP, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,24.0.2,"MVP, AntMan",FP
+CVE-2023-6927,keycloak@@keycloak,15.0.1,"VUDDY, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,20.0.3,AntMan,TP
+CVE-2023-6927,keycloak@@keycloak,23.0.2,"MVP, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,13.0.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,17.0.0,AntMan,TP
+CVE-2023-6927,keycloak@@keycloak,8.0.2,AntMan,TP
+CVE-2023-6927,keycloak@@keycloak,10.0.1,"VUDDY, MVP, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,19.0.3,"VUDDY, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,21.1.0,"VUDDY, MVP, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,22.0.2,AntMan,TP
+CVE-2023-6927,keycloak@@keycloak,18.0.1,"VUDDY, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,15.1.0,"MVP, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,12.0.0,"VUDDY, AntMan",TP
+CVE-2023-6927,keycloak@@keycloak,11.0.1,"VUDDY, MVP",TP
